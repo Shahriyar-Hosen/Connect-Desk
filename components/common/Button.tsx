@@ -16,12 +16,14 @@ export const Button = ({
       className={`${
         (variant === "secondary" && secondary) ||
         (variant === "primary" && primary)
-      } ${(text === "14" && "text-sm") || (text === "16" && "text-base")} ${
-        rounded ? "rounded-full" : "rounded-[4px]"
-      } ${
-        (size === "md" && "px-[49px] py-[9px]") ||
-        (size === "sm" && "px-[15px] py-[6px]")
-      } border font-medium border-primary ${width === "full" && "w-full"}`}
+      } 
+        ${(text === "14" && "text-sm") || (text === "16" && "text-base")} 
+        ${rounded ? "rounded-full" : "rounded-[4px]"} 
+        ${
+          (size === "sm" && "px-[15px] py-[6px]") ||
+          (size === "md" && "px-[49px] py-[9px]")
+        } 
+        ${width === "full" && "w-full"} border font-medium border-primary`}
     >
       {children}
     </button>
