@@ -1,5 +1,5 @@
 import { IChildren } from "@Interface";
 
-export const CommonText = (props: IChildren) => (
-  <div className="text-sm font-normal">{props.children}</div>
+export const CommonText = ({ children }: IChildren) => (
+  <p className="text-sm font-normal">{children}</p>
 );

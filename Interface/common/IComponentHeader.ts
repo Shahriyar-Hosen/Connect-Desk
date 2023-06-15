@@ -1,6 +1,5 @@
 export interface IComponentHeader {
-  children?: React.ReactNode;
-  position: string;
+  position: "start" | "center" | "end";
   title: string | JSX.Element;
   subTitle?: string | JSX.Element;
 }
