@@ -1,10 +1,7 @@
+import { IChildren } from '@Interface';
 import React from 'react';
 
-interface CommonTextProps {
-    children: React.ReactNode
-}
-
-const CommonText = (props: CommonTextProps) => {
+const CommonText = (props: IChildren) => {
     return (
         <div className='text-sm font-normal'>
             {props.children}

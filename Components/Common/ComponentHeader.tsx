@@ -1,6 +1,9 @@
+import { IComponentHeader } from '@Interface';
 import React from 'react';
 
-const ComponentHeader = ({ children, position, title, subTitle }: { children?: React.ReactNode, position: string, title: string | JSX.Element, subTitle?: string | JSX.Element }) => {
+
+
+const ComponentHeader = ({ title, position, children, subTitle }: IComponentHeader) => {
     return (
         <div className={`text-xl font-semibold text-${position}`}>
             <h3>{title}
