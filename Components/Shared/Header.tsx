@@ -1,6 +1,4 @@
-import { Button } from "@Components/Common";
-import { fullLogo } from "@public/assets";
-import Image from "next/image";
+import { Button, Logo } from "@Components/Common";
 import Link from "next/link";
 import React from "react";
 
@@ -59,9 +57,7 @@ export const Header = () => {
               {menuItems}
             </ul>
           </div>
-          <Link href="/" className="text-xl w-24">
-            <Image src={fullLogo} alt="logo" />
-          </Link>
+          <Logo />
         </div>
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>

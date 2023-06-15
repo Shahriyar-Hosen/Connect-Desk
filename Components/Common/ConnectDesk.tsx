@@ -6,7 +6,8 @@ export const ConnectDesk = ({
 }: IConnectDesk) => (
   <span
     className={`${
-      (text === "md" && "text-xl") || (text === "xl" && "text-[32px]")
+      (text === "md" && "text-xl") ||
+      (text === "xl" && "sm:text-[32px] text-2xl")
     } 
       ${
         (font === "Poppins" && "font-[Poppins]") ||
