@@ -1,8 +1,8 @@
-import { CommonText, ComponentHeader, ConnectDesk } from "@components/common";
+import { CommonText, ComponentHeader, ConnectDesk } from "@Components/Common";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen flex-col gap-5">
+    <div className="flex justify-center items-center w-screen h-screen flex-col gap-5">
       <h1 className="text-accent text-xl font-bold">Connect Desk</h1>
       <button className="btn">Started</button>
       <ComponentHeader
