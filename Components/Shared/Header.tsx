@@ -1,22 +1,21 @@
 import React from 'react';
-// import Logo from "@/assets/logo-light.png";
-import Logo from "../../assets/logo.png";
+import Logo from "../../public/assets/logo.png";
 import Link from 'next/link';
 import Image from 'next/image';
 
 const Header = () => {
     const menuItems = <React.Fragment>
-        <li className='text-white'><Link href="/about" >Home</Link></li>
-        <li className='text-white'><Link href="/appointment">Features</Link></li>
-        <li className='text-white'><Link href="/">Package</Link></li>
-        <li className='text-white'><Link href="/">Service</Link></li>
-        <li className='text-white'><Link href="/">Blog</Link></li>
-        <li className='text-white'><Link href="/">Support</Link></li>
-        <li className='text-white'><Link href="/">More</Link></li>
+        <li className='text-black'><Link href="/about" >Home</Link></li>
+        <li className='text-black'><Link href="/appointment">Features</Link></li>
+        <li className='text-black'><Link href="/">Package</Link></li>
+        <li className='text-black'><Link href="/">Service</Link></li>
+        <li className='text-black'><Link href="/">Blog</Link></li>
+        <li className='text-black'><Link href="/">Support</Link></li>
+        <li className='text-black'><Link href="/">More</Link></li>
     </React.Fragment>
     return (
-        <div className=' bg-black'>
-            <div className="navbar lg:w-4/5 mx-auto">
+        <div className=' bg-white'>
+            <div className="navbar lg:w-[90%] mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden text-white">
