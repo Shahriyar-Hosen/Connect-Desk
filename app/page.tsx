@@ -1,7 +1,4 @@
-// import CommonText from "@components/common/CommonText";
-import { CommonText } from "@components/common/CommonText";
-import ComponentHeader from "@components/common/ComponentHeader";
-import ConnectDesk from "@components/common/ConnectDesk";
+import { CommonText, ComponentHeader, ConnectDesk } from "@components/common";
 
 const Home = () => {
   return (

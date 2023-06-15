@@ -1,7 +1,6 @@
 import { IComponentHeader } from "@Interface";
-import React from "react";
 
-const ComponentHeader = ({
+export const ComponentHeader = ({
   title,
   position,
   children,
@@ -18,5 +17,3 @@ const ComponentHeader = ({
     </div>
   );
 };
-
-export default ComponentHeader;

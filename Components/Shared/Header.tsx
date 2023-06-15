@@ -1,7 +1,7 @@
+import { logo } from "@public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Logo from "../../public/assets/logo.png";
 
 export const Header = () => {
   const menuItems = (
@@ -59,7 +59,7 @@ export const Header = () => {
             </ul>
           </div>
           <Link href="/" className="text-xl w-24">
-            <Image src={Logo} alt="logo" />
+            <Image src={logo} alt="logo" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex ">
