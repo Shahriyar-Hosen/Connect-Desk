@@ -2,8 +2,9 @@ import Header from "../Components/Shared/Header";
 
 const Home = () => {
   return (
-    <div className="">
-      <p>Hello world</p>
+    <div className="flex justify-center items-center w-screen h-screen flex-col gap-5">
+      <h1 className="text-accent text-xl font-bold">Connect Desk</h1>
+      <button className="btn">Started</button>
     </div>
   );
 };
