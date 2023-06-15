@@ -1,5 +1,5 @@
 import { Button } from "@Components/Common";
-import { logo } from "@public/assets";
+import { fullLogo } from "@public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -60,7 +60,7 @@ export const Header = () => {
             </ul>
           </div>
           <Link href="/" className="text-xl w-24">
-            <Image src={logo} alt="logo" />
+            <Image src={fullLogo} alt="logo" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex ">

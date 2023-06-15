@@ -1,3 +1,4 @@
-import logo from "./logo.png";
+import fullLogo from "./logo.png";
+import logo from "./main-logo.png";
 
-export { logo };
+export { fullLogo, logo };

@@ -1,14 +1,20 @@
-import { CommonText, ComponentHeader, ConnectDesk } from "@Components/Common";
+import {
+  CommonText,
+  ComponentHeader,
+  ConnectDesk,
+  Logo,
+} from "@Components/Common";
 
 const Home = () => {
   return (
     <div className="flex justify-center items-center w-screen h-screen flex-col gap-5">
+      <Logo />
       <ComponentHeader
         position="center"
         title="Check Out All The Important Features Of"
         subTitle={
           <span>
-            <ConnectDesk /> Software
+            <ConnectDesk font="sans" /> Software
           </span>
         }
       ></ComponentHeader>
