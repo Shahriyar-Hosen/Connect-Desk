@@ -1,3 +1,4 @@
+import { Button } from "@Components/Common";
 import { logo } from "@public/assets";
 import Image from "next/image";
 import Link from "next/link";
@@ -66,8 +67,11 @@ export const Header = () => {
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
         <div className="navbar-end">
-          <Link href="/postcss.config.js" className="btn">
-            Login
+          <Link href="/postcss.config.js">
+            <Button variant="secondary">Login</Button>
+          </Link>
+          <Link href="/postcss.config.js">
+            <Button variant="primary">Sign Up</Button>
           </Link>
         </div>
       </div>
