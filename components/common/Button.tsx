@@ -5,6 +5,7 @@ export const Button = ({
   variant,
   text = "14",
   width = "auto",
+  size = "md",
   rounded,
 }: IButton) => {
   const primary = "bg-primary text-white";
@@ -17,9 +18,10 @@ export const Button = ({
         (variant === "primary" && primary)
       } ${(text === "14" && "text-sm") || (text === "16" && "text-base")} ${
         rounded ? "rounded-full" : "rounded-[4px]"
-      } border font-medium border-primary  px-[49px] py-[9px] ${
-        width === "full" && "w-full"
-      }`}
+      } ${
+        (size === "md" && "px-[49px] py-[9px]") ||
+        (size === "sm" && "px-[15px] py-[6px]")
+      } border font-medium border-primary ${width === "full" && "w-full"}`}
     >
       {children}
     </button>

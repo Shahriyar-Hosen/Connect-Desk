@@ -68,10 +68,14 @@ export const Header = () => {
         </div>
         <div className="navbar-end">
           <Link href="/postcss.config.js">
-            <Button variant="secondary">Login</Button>
+            <Button variant="secondary" size="sm">
+              Login
+            </Button>
           </Link>
           <Link href="/postcss.config.js">
-            <Button variant="primary">Sign Up</Button>
+            <Button size="sm" variant="primary">
+              Sign Up
+            </Button>
           </Link>
         </div>
       </div>
