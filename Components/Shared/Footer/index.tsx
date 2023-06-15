@@ -1,7 +1,5 @@
-export const Footer = () => {
-  return (
-    <div>
-      <h1>This is Footer</h1>
-    </div>
-  );
-};
+export const Footer = () => (
+  <div>
+    <h1>This is Footer StaticData</h1>
+  </div>
+);
