@@ -12,7 +12,7 @@ const ImportantFeatures = () => {
       <Container>
         <ComponentHeader
           title="Important Features Of"
-          subTitle={<ConnectDesk />}
+          subTitle={<ConnectDesk text="lg" />}
         />
       </Container>
     </MainContainer>
