@@ -1,7 +1,7 @@
 import appStore from "./appStore.svg";
-import playStore from "./playStore.svg";
-import heroLaptop from "./heroLaptop.png";
 import heroBg from "./heroBg.png";
+import heroLaptop from "./heroLaptop.png";
+import playStore from "./playStore.svg";
 import mackbook from "./mackbook.png";
 
-export { appStore, playStore, heroLaptop, heroBg, mackbook };
+export { appStore, heroBg, heroLaptop, playStore, mackbook };
