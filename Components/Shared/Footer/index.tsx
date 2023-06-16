@@ -4,7 +4,7 @@ import { CommonText, Container } from "@Components/Common";
 import MainContainer from "./MainContainer";
 
 export const Footer = () => (
-  <footer className="bg-gradient-to-t to-[#fbf5f3] from-[#cbe0da] pt-[60px]">
+  <footer className="bg-gradient-to-t to-base-200 from-base-100 pt-[60px]">
     <MainContainer />
 
     <div className="border-t border-primary">
