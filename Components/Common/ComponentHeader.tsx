@@ -6,9 +6,14 @@ export const ComponentHeader = ({
   title,
   position = "center",
   subTitle,
+  text = "md",
 }: IComponentHeader) => (
   <div
-    className={`text-[28px] font-semibold ${
+    className={`${
+      (text === "sm" && "lg:text-[24px] md:text-[20px] ") ||
+      (text === "md" && "lg:text-[28px] md:text-[24px]") ||
+      (text === "lg" && "lg:text-[32px] md:text-[28px]")
+    } font-semibold ${
       (position === "center" && "text-center") ||
       (position === "start" && "text-start") ||
       (position === "end" && "text-end")
