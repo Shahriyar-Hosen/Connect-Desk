@@ -1,7 +1,8 @@
 "use client";
 import { Button, CommonText, ConnectDesk } from "@Components/Common";
+import { IHeroSection } from "@Interface/common/IHeroSection";
 
-export const HeroLeft = () => {
+export const HeroLeft = ({ mainText, subText, button }: IHeroSection) => {
   return (
     <>
       <h1 className="text-3xl font-semibold">
