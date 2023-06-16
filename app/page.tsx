@@ -7,7 +7,7 @@ import {
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center w-screen h-[85vh] flex-col gap-5">
+    <div className="flex justify-center items-center w-full h-[85vh] flex-col gap-5">
       <Logo />
       <ComponentHeader
         position="center"
