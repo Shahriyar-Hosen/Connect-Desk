@@ -1,8 +1,12 @@
+"use client";
+
+import { MainContainer } from "@Components/Common";
+
 const PerfectSolution = () => {
   return (
-    <main>
+    <MainContainer bg="secondary">
       <h1>PerfectSolution</h1>
-    </main>
+    </MainContainer>
   );
 };
 
