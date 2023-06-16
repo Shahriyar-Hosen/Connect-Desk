@@ -1,16 +1,22 @@
-import { IChildren } from "@Interface";
+"use client";
 
-interface ICommonText extends IChildren {
+import { IChildrenWithClass } from "@Interface";
+
+interface ICommonText extends IChildrenWithClass {
   size?: "sm" | "md" | "lg";
 }
 
-export const CommonText = ({ children, size = "md" }: ICommonText) => (
+export const CommonText = ({
+  className,
+  children,
+  size = "md",
+}: ICommonText) => (
   <p
     className={`font-normal ${
       (size === "sm" && "text-xs") ||
       (size === "md" && "text-sm") ||
       (size === "lg" && "text-base")
-    }`}
+    } ${className}`}
   >
     {children}
   </p>

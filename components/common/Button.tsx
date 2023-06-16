@@ -1,3 +1,5 @@
+"use client";
+
 import { IButton } from "@Interface";
 
 export const Button = ({

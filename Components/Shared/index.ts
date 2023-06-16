@@ -1,2 +1,4 @@
-export * from "./Header";
+"use client";
+
 export * from "./Footer";
+export * from "./Header";

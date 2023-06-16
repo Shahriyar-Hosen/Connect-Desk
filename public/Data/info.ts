@@ -30,7 +30,7 @@ export const contactInfo: IContactInfo[] = [
 
 export const location: string = "Dhanmondi 32, Dhaka - 1200, Bangldesh";
 
-export const info: IInfo[] = [
+export const infoData: IInfo[] = [
   {
     name: "Company",
     option: [
