@@ -1,12 +1,13 @@
 "use client";
 
 import HeroSection from "@Components/HeroSection";
-import PerfectSolution from "@Components/PerfectSolution";
+import { AboutHome, PerfectSolution } from "@Components/Home";
 
 const Home = () => {
   return (
     <main>
       <HeroSection />
+      <AboutHome />
       <PerfectSolution />
     </main>
   );
