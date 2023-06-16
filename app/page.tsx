@@ -1,11 +1,11 @@
 "use client";
 
+import PerfectSolution from "@Components/PerfectSolution";
+
 const Home = () => {
   return (
     <main>
-      {/* All components */}
-      {/*Components 1 */}
-      {/*Components 2 */}
+      <PerfectSolution />
     </main>
   );
 };
