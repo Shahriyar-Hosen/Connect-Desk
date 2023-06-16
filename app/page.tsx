@@ -10,6 +10,7 @@ import {
 const Home = () => {
   return (
     <div className="flex justify-center items-center w-full h-[85vh] flex-col gap-5">
+      <div className="bgImg h-96"></div>
       <Logo />
       <ComponentHeader
         position="center"
