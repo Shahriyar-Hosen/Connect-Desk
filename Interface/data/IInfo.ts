@@ -14,3 +14,9 @@ export interface IInfo {
     link: string;
   }[];
 }
+
+export interface IFeatures {
+  icon: StaticImageData;
+  title: string;
+  des: string;
+}
