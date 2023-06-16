@@ -9,6 +9,7 @@ export const ConnectDesk = ({
   <span
     className={`${
       (text === "md" && "text-xl") ||
+      (text === "lg" && "text-[28px]") ||
       (text === "xl" && "sm:text-[32px] text-2xl")
     } 
       ${
