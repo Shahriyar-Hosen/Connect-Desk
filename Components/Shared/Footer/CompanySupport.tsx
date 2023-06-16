@@ -6,7 +6,7 @@ import { infoData } from "@public/Data";
 import { FooterTitle } from ".";
 
 export const CompanySupport = () => (
-  <div className="grid grid-cols-2 mt-0 xl:mt-10 w-auto">
+  <div className="grid grid-cols-2 mt-0 xl:mt-10 w-auto gap-[10%]">
     {infoData.map(({ name, option }, i) => (
       <div key={i}>
         <FooterTitle className="mb-6">{name}</FooterTitle>
