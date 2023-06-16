@@ -14,8 +14,8 @@ export const ComponentHeader = ({
       (position === "end" && "text-end")
     }`}
   >
-    <h3>{title}</h3>
-    <h3>{subTitle}</h3>
+    <h3 className="text-[28px] mb-1">{title}</h3>
+    <h3 className="text-[28px]">{subTitle}</h3>
 
     <div
       className={`w-full flex pt-2.5 ${

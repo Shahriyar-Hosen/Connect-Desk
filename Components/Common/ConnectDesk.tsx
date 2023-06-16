@@ -1,11 +1,11 @@
 "use client";
 
-import { IConnectDesk } from "@Interface";
+import { ITextAndFont } from "@Interface";
 
 export const ConnectDesk = ({
   text = "md",
   font = "Poppins",
-}: IConnectDesk) => (
+}: ITextAndFont) => (
   <span
     className={`${
       (text === "md" && "text-xl") ||
