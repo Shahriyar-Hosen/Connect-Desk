@@ -1,3 +1,5 @@
+"use client";
+
 import {
   CommonText,
   ComponentHeader,
@@ -6,6 +8,7 @@ import {
 } from "@Components/Common";
 
 const Home = () => {
+  console.log({});
   return (
     <div className="flex justify-center items-center w-full h-[85vh] flex-col gap-5">
       <Logo />

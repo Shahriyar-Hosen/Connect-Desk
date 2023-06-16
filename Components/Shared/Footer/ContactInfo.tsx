@@ -1,3 +1,5 @@
+"use client";
+
 import { CommonText } from "@Components/Common";
 import { contactInfo } from "@public/Data";
 import Image from "next/image";

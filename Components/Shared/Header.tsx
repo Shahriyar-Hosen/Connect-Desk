@@ -1,3 +1,5 @@
+"use client";
+
 import { Button, Logo } from "@Components/Common";
 import Link from "next/link";
 import React from "react";

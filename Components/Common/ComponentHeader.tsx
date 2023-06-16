@@ -1,3 +1,5 @@
+"use client";
+
 import { IComponentHeader } from "@Interface";
 
 export const ComponentHeader = ({

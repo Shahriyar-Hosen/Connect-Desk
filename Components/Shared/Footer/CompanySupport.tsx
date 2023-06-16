@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 import { infoData } from "@public/Data";

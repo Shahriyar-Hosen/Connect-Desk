@@ -1,3 +1,5 @@
+"use client";
+
 import { IConnectDesk } from "@Interface";
 
 export const ConnectDesk = ({

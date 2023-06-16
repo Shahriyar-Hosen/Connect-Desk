@@ -1,3 +1,5 @@
+"use client";
+
 import { CommonText, Container } from "@Components/Common";
 import MainContainer from "./MainContainer";
 

@@ -1,3 +1,5 @@
+"use client";
+
 import { Container } from "@Components/Common";
 import { CompanySupport, ContactDetails, DownloadApp } from ".";
 

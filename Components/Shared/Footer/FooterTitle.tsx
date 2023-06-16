@@ -1,3 +1,5 @@
+"use client";
+
 import { IChildrenWithClass } from "@Interface";
 
 export interface IFooterTitle extends IChildrenWithClass {
