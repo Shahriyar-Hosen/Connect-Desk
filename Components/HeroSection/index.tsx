@@ -5,7 +5,8 @@ import { HeroLeft } from "./HeroLeft";
 import { HeroRight } from "./HeroRight";
 import { heroBg } from "@public/assets/images";
 import Image from "next/image";
-const HeroSection = () => {
+import { IHeroSection } from "@Interface/common/IHeroSection";
+const HeroSection = ({ image, mainText, subText, button }: IHeroSection) => {
   return (
     <div className={` relative h-screen `}>
       <div className="absolute inset-0 ">
@@ -13,7 +14,7 @@ const HeroSection = () => {
       </div>
       <div className="relative z-10 flex flex-col lg:flex-row items-center h-full lg:w-[70%] lg:m-auto">
         <div className="lg:w-[80%] w-[100%]">
-          <HeroLeft />
+          <HeroLeft mainText={mainText} subText={subText} button={button} />
         </div>
         <div className=" w-[100%] flex justify-center">
           <HeroRight />

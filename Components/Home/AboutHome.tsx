@@ -18,7 +18,7 @@ const AboutHome = () => {
           position="center"
           title={
             <span>
-              About <ConnectDesk />
+              About <ConnectDesk text="xl" />
             </span>
           }
           subTitle="Software"
