@@ -10,7 +10,7 @@ import HeroSection from "@Components/HeroSection";
 
 const Home = () => {
   return (
-    <div className="flex justify-center  w-full  flex-col gap-5">
+    <div className="flex  w-full  flex-col gap-5">
       <HeroSection />
       <Logo />
       <ComponentHeader
