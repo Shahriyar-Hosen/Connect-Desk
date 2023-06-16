@@ -62,7 +62,7 @@ export const Header = () => {
         <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end gap-2">
           <Link href="/postcss.config.js">
             <Button variant="secondary" size="sm">
               Login

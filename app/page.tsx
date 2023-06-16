@@ -4,10 +4,12 @@ import {
   ConnectDesk,
   Logo,
 } from "@Components/Common";
+// import HeroSection from "@Components/HeroSection";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center w-full h-[85vh] flex-col gap-5">
+    <div className="flex justify-center  w-full  flex-col gap-5">
+      {/* <HeroSection /> */}
       <Logo />
       <ComponentHeader
         position="center"
