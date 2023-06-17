@@ -1,4 +1,4 @@
-import { IFeatures } from "@Interface";
+import { IFeatures, IPackages } from "@Interface";
 import {
   POSSoftware,
   accounting,
@@ -97,5 +97,45 @@ export const featuresData: IFeatures[] = [
     icon: support,
     title: "Corporate Support",
     des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+  },
+];
+
+export const packagesData: IPackages[] = [
+  {
+    title: "Business Package",
+    duration: "Per business / 12 months",
+    price: "7,500",
+    features: [
+      "Online Software and Mobile Apps",
+      "Product, Sales, Purchase, Expenses, Quotations",
+      "Online Order",
+      "Service Sale",
+      "Staff Salary",
+      "Voucher, User, Settings",
+      "Setting, 50+ Reports",
+      "User Manual, Video, Tutorial",
+      "100+ Business Reports + Daily Email + SMS Reports",
+      "Online Store",
+      "Data Security and Help Menu Professional Support",
+    ],
+  },
+  {
+    title: "Corporate Package",
+    duration: "Per business / 12 months",
+    price: "19,999",
+    features: [
+      "Account Management",
+      "Inventory Management",
+      "Office HR and Payroll",
+      "Attendance",
+      "CRM",
+      "Employee Management",
+      "Setting, 100+ Reports",
+      "Daily Reports by Email and Message",
+      "100+ Business Reports + Daily Email + SMS Reports",
+      "24/7 Corporate Support Online",
+      "Data Security and Auto Backup Daily",
+      "Corporate Package",
+    ],
   },
 ];
