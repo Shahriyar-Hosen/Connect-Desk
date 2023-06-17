@@ -4,6 +4,6 @@ export interface IButton extends IChildren {
   variant: "primary" | "secondary";
   rounded?: boolean;
   width?: "full" | "auto";
-  text?: "14" | "16";
+  text?: "14" | "16" | "18";
   size?: "sm" | "md" | "lg";
 }

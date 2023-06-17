@@ -11,6 +11,7 @@ import report from "./report.svg";
 import sell from "./sell.svg";
 import stock from "./stock.svg";
 import support from "./support.svg";
+import tick from "./tick.svg";
 import twitter from "./twitter.svg";
 import web from "./web.svg";
 import youtube from "./youtube.svg";
@@ -29,6 +30,7 @@ export {
   sell,
   stock,
   support,
+  tick,
   twitter,
   web,
   youtube,
