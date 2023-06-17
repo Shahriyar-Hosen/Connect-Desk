@@ -20,3 +20,10 @@ export interface IFeatures {
   title: string;
   des: string;
 }
+
+export interface IPackages {
+  title: string;
+  duration: string;
+  price: string;
+  features: string[];
+}
