@@ -2,10 +2,15 @@
 
 import { ITextAndFont } from "@Interface";
 
+export interface IConnectDesk extends ITextAndFont {
+  logo?: boolean;
+}
+
 export const ConnectDesk = ({
   text = "md",
   font = "Poppins",
-}: ITextAndFont) => (
+  logo,
+}: IConnectDesk) => (
   <span
     className={`${
       (text === "md" && "text-xl") ||
@@ -17,6 +22,7 @@ export const ConnectDesk = ({
         (font === "Exo" && "font-[Exo]") ||
         (font === "sans" && "font-sans")
       }
+      ${logo && "italic"}
     text-secondary font-semibold`}
   >
     Connect<span className="text-primary ">Desk</span>

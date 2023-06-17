@@ -135,7 +135,6 @@ export const packagesData: IPackages[] = [
       "100+ Business Reports + Daily Email + SMS Reports",
       "24/7 Corporate Support Online",
       "Data Security and Auto Backup Daily",
-      "Corporate Package",
     ],
   },
 ];
