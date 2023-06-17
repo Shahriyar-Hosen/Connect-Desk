@@ -12,7 +12,7 @@ export const ComponentHeader = ({
     className={`${
       (text === "sm" && "lg:text-[24px] md:text-[20px] ") ||
       (text === "md" && "lg:text-[28px] md:text-[24px]") ||
-      (text === "lg" && "lg:text-[32px] md:text-[28px]")
+      (text === "lg" && "text-[28px] lg:text-[32px]")
     } font-semibold ${
       (position === "center" && "text-center") ||
       (position === "start" && "text-start") ||

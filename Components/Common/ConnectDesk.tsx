@@ -10,7 +10,7 @@ export const ConnectDesk = ({
     className={`${
       (text === "md" && "text-xl") ||
       (text === "lg" && "text-[28px]") ||
-      (text === "xl" && "sm:text-[32px] text-2xl")
+      (text === "xl" && "text-[28px] lg:text-[32px]")
     } 
       ${
         (font === "Poppins" && "font-[Poppins]") ||

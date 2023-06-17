@@ -1,16 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { heroLaptop } from "@public/assets/images";
+import { IHeroSection } from "@Interface/common/IHeroSection";
 
-export const HeroRight = () => {
+export const HeroRight = ({ image }: IHeroSection) => {
   return (
     <>
-      <Image
-        src={heroLaptop}
-        className="lg:w-[662px] lg:h-[420px]  w-[330px]"
-        alt=""
-      />
+      <Image src={image || ""} className="lg:w-[862px] lg:h-[620px]" alt="" />
     </>
   );
 };
