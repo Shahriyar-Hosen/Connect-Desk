@@ -1,12 +1,14 @@
 "use client";
 
 import {
+  Button,
   CommonText,
   ComponentHeader,
   Container,
   MainContainer,
 } from "@Components/Common";
 import { takaLogo } from "@public/assets";
+import { tick } from "@public/assets/icon";
 import { rectangle } from "@public/assets/shape";
 import Image from "next/image";
 
@@ -29,24 +31,89 @@ const Packages = () => {
 
         {/* Package Card */}
         <section className="flex justify-center items-center mt-[30px] md:mt-[60px]">
-          <div className="w-full sm:w-[499px] max-w-[499px] h-[762px] bg-[#02684833] rounded-[25px] relative">
-            <div className="absolute top-0 z-10 overflow-hidden">
+          <div className="w-full sm:w-[499px] max-w-[499px] h-[590px] sm:h-[730px] md:h-[750px] bg-[#02684833] rounded-[25px] relative">
+            <div className="absolute top-0 z-10">
               <Image src={rectangle} alt="" />
             </div>
 
-            <div className="absolute w-full z-10 overflow-hidden rounded-t-[25px] flex flex-col items-center">
-              <div className="w-full h-20 bg-primary flex justify-center items-center">
-                <h5 className="font-semibold text-2xl sm:text-3xl text-white">
+            <div className="absolute w-full z-10 rounded-t-[25px] flex flex-col items-center">
+              <div className="w-full h-16 sm:h-20 bg-primary flex justify-center items-center rounded-t-[25px]">
+                <h5 className="font-semibold text-xl sm:text-3xl text-white">
                   Corporate Package
                 </h5>
               </div>
-              <CommonText text="lg" className="text-[#1B253F] mt-[18px]">
+
+              <CommonText
+                text="lg"
+                className="text-[#1B253F] mt-3 sm:mt-[18px]"
+              >
                 Per business / 12 months
               </CommonText>
 
-              <h6 className="font-semibold text-[52px] mt-[10px] flex justify-center items-center gap-1">
+              <h6 className="font-semibold text-3xl sm:text-5xl md:text-[52px] mt-[10px] flex justify-center items-center gap-1">
                 <Image src={takaLogo} width={21} alt="" /> 19,999
               </h6>
+
+              <div className="mt-3 sm:mt-6 w-[85%] h-auto rounded-[25px]  bg-white relative pb-6">
+                <div className="rounded-t-[25px] w-full h-[50px] sm:h-[55px] md:h-[60px] bg-primary flex justify-center items-center ">
+                  <h5 className="font-semibold text-lg sm:text-2xl text-white">
+                    Features
+                  </h5>
+                </div>
+
+                <div className="flex flex-col items-start justify-center m-4 sm:my-6 sm:mx-5 gap-[5px] sm:gap-3">
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                  <div className="flex justify-start items-center gap-[10px]">
+                    <Image src={tick} alt="package" />
+                    <CommonText>Account Management</CommonText>
+                  </div>
+                </div>
+
+                <div className="flex justify-center items-center absolute -bottom-[25px] w-full">
+                  <Button variant="primary" rounded text="18" size="lg">
+                    Purchase Package
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
