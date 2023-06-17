@@ -31,7 +31,7 @@ const Packages = () => {
 
         {/* Package Card */}
         <section className="flex justify-center items-center mt-[30px] md:mt-[60px]">
-          <div className="w-full sm:w-[499px] max-w-[499px] h-[590px] sm:h-[730px] md:h-[750px] bg-[#02684833] rounded-[25px] relative">
+          <div className="w-full sm:w-[499px] max-w-[499px] h-[585px] sm:h-[730px] md:h-[735px] bg-[#02684833] rounded-[25px] relative">
             <div className="absolute top-0 z-10">
               <Image src={rectangle} alt="" />
             </div>
