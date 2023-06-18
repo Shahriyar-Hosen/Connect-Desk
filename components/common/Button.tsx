@@ -22,8 +22,8 @@ export const Button = ({
         ${(text === "14" && "text-sm") || (text === "16" && "text-base")} 
         ${rounded ? "rounded-full" : "rounded-[4px]"} 
         ${
-          (size === "sm" && "px-[15px] py-[6px]") ||
-          (size === "md" && "px-[49px] py-[9px]")
+          (size === "sm" && "px-[7px] md:px-[15px] py-[6px]") ||
+          (size === "md" && "px-[20px] md:px-[49px] py-[9px]")
         } 
         ${width === "full" && "w-full"} border font-medium border-primary`}
     >

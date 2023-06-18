@@ -13,8 +13,8 @@ const HeroSection = ({
   button,
 }: IHeroSection) => {
   return (
-    <div className={` relative h-screen `}>
-      <div className="absolute w-full inset-0 ">
+    <div className={` relative h-[80vh] md:h-[90vh]  `}>
+      <div className="absolute w-full lg:inset-0 -z-20">
         <Image src={heroBg} alt="background image" fill />
       </div>
       <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center lg:h-full lg:w-[980px] lg:m-auto">

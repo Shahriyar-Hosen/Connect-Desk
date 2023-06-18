@@ -6,6 +6,7 @@ import phone from "./phone.svg";
 import twitter from "./twitter.svg";
 import web from "./web.svg";
 import youtube from "./youtube.svg";
+import profile from "./profile.svg";
 
 export {
   checkPrimary,
@@ -16,4 +17,5 @@ export {
   twitter,
   web,
   youtube,
+  profile,
 };

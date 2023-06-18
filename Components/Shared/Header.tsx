@@ -1,6 +1,8 @@
 "use client";
 
 import { Button, Logo } from "@Components/Common";
+import { profile } from "@public/assets/icon";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -31,51 +33,69 @@ export const Header = () => {
     </React.Fragment>
   );
 
+  const LoginAndSignUpButton = (
+    <div className="navbar-end gap-2 d-none hidden md:flex">
+      <Link href="/postcss.config.js">
+        <Button variant="secondary" size="sm">
+          <div className="flex gap-2">
+            <Image src={profile} alt="" />
+            <div className="h-[20px] w-[2px] bg-primary"></div>
+            Login
+          </div>
+        </Button>
+      </Link>
+      <Link href="/postcss.config.js">
+        <Button size="sm" variant="primary">
+          Sign Up
+        </Button>
+      </Link>
+    </div>
+  );
+  const mobileLoginAndSignUpButton = (
+    <div className="flex gap-2 md:hidden">
+      <Link href="/postcss.config.js">
+        <Button variant="secondary" size="sm">
+          <div className="flex gap-2">
+            <Image src={profile} alt="" />
+            <div className="h-[20px] w-[2px] bg-primary"></div>
+            Login
+          </div>
+        </Button>
+      </Link>
+      <Link href="/postcss.config.js">
+        <Button size="sm" variant="primary">
+          <div className="flex px-3">
+            <div>Sign up</div>
+          </div>
+        </Button>
+      </Link>
+    </div>
+  );
+
   return (
     <div className=" bg-white">
       <div className="navbar lg:w-[90%] mx-auto">
-        <div className="navbar-start ">
+        <div className="navbar-start relative ">
+          {/* Mobile */}
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+              <button className="text-red-400">HB</button>
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-red-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow-md bg-white absolute z-[100] rounded-box w-52"
             >
               {menuItems}
+              {mobileLoginAndSignUpButton}
             </ul>
           </div>
           <Logo />
         </div>
-        <div className="navbar-center hidden lg:flex ">
-          <ul className="menu menu-horizontal px-1">{menuItems}</ul>
+        {/* For desktop */}
+        <div className="navbar-center  hidden lg:flex">
+          <ul className="menu menu-horizontal px-1 ">{menuItems}</ul>
         </div>
-        <div className="navbar-end gap-2">
-          <Link href="/postcss.config.js">
-            <Button variant="secondary" size="sm">
-              Login
-            </Button>
-          </Link>
-          <Link href="/postcss.config.js">
-            <Button size="sm" variant="primary">
-              Sign Up
-            </Button>
-          </Link>
-        </div>
+        {LoginAndSignUpButton}
       </div>
     </div>
   );
