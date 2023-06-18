@@ -5,6 +5,7 @@ import { HeroRight } from "./HeroRight";
 import { heroBg } from "@public/assets/images";
 import Image from "next/image";
 import { IHeroSection } from "@Interface/common/IHeroSection";
+import { Container } from "@Components/Common";
 const HeroSection = ({
   image,
   mainText,
@@ -13,23 +14,22 @@ const HeroSection = ({
   button,
 }: IHeroSection) => {
   return (
-    <div className={` relative h-[80vh] md:h-[90vh]  `}>
-      <div className="absolute w-full lg:inset-0 -z-20">
+    <div className={` relative min-h-[100%]`}>
+      <div className="absolute w-full lg:inset-0">
         <Image src={heroBg} alt="background image" fill />
       </div>
-      <div className="relative z-10 flex flex-col-reverse lg:flex-row items-center lg:h-full lg:w-[980px] lg:m-auto">
-        <div className=" w-[100%]">
-          <HeroLeft
-            mainText={mainText}
-            subText={subText}
-            paragraph={paragraph}
-            button={button}
-          />
-        </div>
-        <div className=" w-[100%] flex justify-center">
-          <HeroRight image={image} />
-        </div>
-      </div>
+      <Container className="relative z-10 flex flex-col-reverse lg:flex-row items-center justify-center h-[80%]">
+        {/* <div className="w-full"> */}
+        <HeroLeft
+          mainText={mainText}
+          subText={subText}
+          paragraph={paragraph}
+          button={button}
+        />
+        {/* </div>
+        <div className="w-full"> */}
+        <HeroRight image={image} />
+      </Container>
     </div>
   );
 };
