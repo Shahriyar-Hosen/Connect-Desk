@@ -5,6 +5,7 @@ import HeroSection from "@Components/HeroSection";
 import {
   AboutHome,
   ImportantFeatures,
+  Packages,
   PerfectSolution,
 } from "@Components/Home";
 import { heroLaptop } from "@public/assets/images";
@@ -28,6 +29,7 @@ const Home = () => {
       <AboutHome />
       <PerfectSolution />
       <ImportantFeatures />
+      <Packages />
     </main>
   );
 };

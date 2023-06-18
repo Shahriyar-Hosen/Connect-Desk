@@ -1,21 +1,20 @@
 "use client";
 
-import { IChildrenWithClass } from "@Interface";
+import { IChildrenWithClass, ITextAndFont } from "@Interface";
 
-interface ICommonText extends IChildrenWithClass {
-  size?: "sm" | "md" | "lg";
-}
+interface ICommonText extends IChildrenWithClass, ITextAndFont {}
 
 export const CommonText = ({
   className,
   children,
-  size = "md",
+  text = "md",
 }: ICommonText) => (
   <p
-    className={`font-normal ${
-      (size === "sm" && "text-xs") ||
-      (size === "md" && "text-sm") ||
-      (size === "lg" && "text-base")
+    className={`${
+      (text === "sm" && "text-xs") ||
+      (text === "md" && "text-sm") ||
+      (text === "lg" && "text-base") ||
+      (text === "xl" && "text-lg")
     } ${className}`}
   >
     {children}

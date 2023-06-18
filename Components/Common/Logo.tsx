@@ -15,7 +15,7 @@ export const Logo = () => (
           alt=""
         />
       </div>
-      <ConnectDesk text="xl" font="Exo" />
+      <ConnectDesk text="xl" font="Exo" logo />
       <p className="text-primary italic sm:text-[70%] text-[53%] font-sans tracking-widest sm:-mt-[5px] -mt-[5px] font-semibold">
         Business Management Software
       </p>
