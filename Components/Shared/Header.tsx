@@ -1,7 +1,7 @@
 "use client";
 
 import { Button, Logo } from "@Components/Common";
-import { profile } from "@public/assets/icon";
+import { profile, downArrow } from "@public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -49,6 +49,12 @@ export const Header = () => {
           Sign Up
         </Button>
       </Link>
+      <Button variant="secondary" size="sm">
+        <div className="flex gap-1">
+          EN
+          <Image src={downArrow} alt="" />
+        </div>
+      </Button>
     </div>
   );
   const mobileLoginAndSignUpButton = (
