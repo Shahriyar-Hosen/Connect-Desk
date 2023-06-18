@@ -6,7 +6,11 @@ import { IHeroSection } from "@Interface/common/IHeroSection";
 export const HeroRight = ({ image }: IHeroSection) => {
   return (
     <>
-      <Image src={image || ""} className="lg:w-[862px] lg:h-[620px]" alt="" />
+      <Image
+        src={image || ""}
+        alt=""
+        className="w-[90%] md:w-[70%] lg:w-full "
+      />
     </>
   );
 };

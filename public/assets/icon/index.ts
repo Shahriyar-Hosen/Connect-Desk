@@ -15,6 +15,8 @@ import tick from "./tick.svg";
 import twitter from "./twitter.svg";
 import web from "./web.svg";
 import youtube from "./youtube.svg";
+import profile from "./profile.svg";
+import downArrow from "./downArrow.svg";
 
 export {
   POSSoftware,
@@ -34,4 +36,6 @@ export {
   twitter,
   web,
   youtube,
+  profile,
+  downArrow,
 };
