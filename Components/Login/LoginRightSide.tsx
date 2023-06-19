@@ -24,19 +24,12 @@ export const LoginRightSide = () => {
           label="Email or Mobile No"
           placeholder="Enter your email or mobile number"
         />
-        <div className="md:flex gap-5">
-          <InputField
-            handleOnChange={handleOnChange}
-            label="Email"
-            placeholder="Enter your email"
-          />
-          <InputField
-            handleOnChange={handleOnChange}
-            type="password"
-            label="Password"
-            placeholder="Enter your password"
-          />
-        </div>
+        <InputField
+          handleOnChange={handleOnChange}
+          type="password"
+          label="Password"
+          placeholder="Enter your password"
+        />
       </div>
       <div className="flex justify-between">
         <div className="flex my-3 gap-2 text-base font-medium">
