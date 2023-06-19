@@ -26,8 +26,8 @@ export const Button = ({
         } 
         ${rounded ? "rounded-full" : "rounded-[4px]"} 
         ${
-          (size === "sm" && "px-[15px] py-[6px]") ||
-          (size === "md" && "px-[49px] py-[9px]") ||
+          (size === "sm" && "px-[7px] md:px-[15px] py-[6px]") ||
+          (size === "md" && "px-[20px] md:px-[49px] py-[9px]") ||
           (size === "lg" &&
             "px-[35px] sm:px-[40px] md:px-[48px] py-[10px] sm:py-[13px] md:py-[16px]")
         } 
