@@ -6,17 +6,19 @@ import Link from "next/link";
 import { ConnectDesk } from "./ConnectDesk";
 
 export const Logo = () => (
-  <div className="w-fit">
+  <div className="w-fit max-w-[168px]">
     <Link href="/">
-      <div className="sm:-mb-[9px] -mb-[9px] mr-[10%] flex justify-end items-end">
+      <div className="-mb-[12px] mr-[9%] flex justify-end items-end">
         <Image
           src={logo}
-          className="w-[22px] h-[22px] sm:w-[30px] sm:h-[30px]"
+          className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px]"
           alt=""
         />
       </div>
-      <ConnectDesk text="xl" font="Exo" logo />
-      <p className="text-primary italic sm:text-[70%] text-[53%] font-sans tracking-widest sm:-mt-[5px] -mt-[5px] font-semibold">
+
+      <ConnectDesk text="lg" font="Exo" logo />
+
+      <p className="text-primary italic sm:text-[55%] text-[53%] font-sans tracking-widest sm:-mt-[5px] -mt-[5px] font-semibold">
         Business Management Software
       </p>
     </Link>
