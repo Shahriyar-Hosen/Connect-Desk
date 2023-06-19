@@ -4,7 +4,7 @@ import { downArrow, profile } from "@public/assets/icon";
 import Image from "next/image";
 
 const LoginAndSign = () => (
-  <div className="navbar-end gap-2 hidden md:flex w-fit">
+  <div className="hidden md:flex w-fit gap-2">
     <LinkButton link="/" variant="secondary" size="sm">
       <div className="flex gap-2">
         <Image src={profile} alt="" />
