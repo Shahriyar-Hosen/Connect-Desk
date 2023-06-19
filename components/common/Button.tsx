@@ -29,7 +29,7 @@ export const Button = ({
         ${
           (size === "sm" && "px-[7px] md:px-[15px] py-[6px]") ||
           (size === "md" && "px-[20px] md:px-[49px] py-[9px]") ||
-          (size === "lg" && "px-8 sm:px-9 md:px-11 py-0.5 sm:py-1.5 md:py-2.5")
+          (size === "lg" && "px-9 md:px-10 py-1 sm:py-2 md:py-2.5")
         } 
         ${width === "full" && "w-full"} border font-medium border-primary
         
