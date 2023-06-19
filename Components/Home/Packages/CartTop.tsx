@@ -1,3 +1,5 @@
+"use client";
+
 const CartTop = ({
   title,
   height,
