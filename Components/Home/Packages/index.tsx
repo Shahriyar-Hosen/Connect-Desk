@@ -1,8 +1,14 @@
 "use client";
 
+export * from "./CartTop";
+export * from "./FeaturesCard";
+export * from "./FeaturesItem";
+export * from "./PackageCard";
+export * from "./Prices";
+
 import { ComponentHeader, Container, MainContainer } from "@Components/Common";
 import { packagesData } from "@public/Data";
-import PackageCard from "./PackageCard";
+import { PackageCard } from "./PackageCard";
 
 const Packages = () => (
   <MainContainer>

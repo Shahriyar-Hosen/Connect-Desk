@@ -3,15 +3,13 @@
 import { BackgroundImage, Button, CommonText } from "@Components/Common";
 import { IPackages } from "@Interface";
 import { packageBg, packageBgLite } from "@public/assets/images";
-import CartTop from "./CartTop";
-import FeaturesCard from "./FeaturesCard";
-import Prices from "./Prices";
+import { CartTop, FeaturesCard, Prices } from ".";
 
 interface IPackageCard extends IPackages {
   index: number;
 }
 
-const PackageCard = ({
+export const PackageCard = ({
   index,
   duration,
   features,
@@ -45,5 +43,3 @@ const PackageCard = ({
     </div>
   </BackgroundImage>
 );
-
-export default PackageCard;
