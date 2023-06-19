@@ -4,5 +4,14 @@ import heroLaptop from "./heroLaptop.png";
 import playStore from "./playStore.svg";
 import mackbook from "./mackbook.png";
 import arrowHero from "./arrowHero.svg";
+import loginLeftImg from "./loginLeftImg.png";
 
-export { appStore, heroBg, heroLaptop, playStore, mackbook, arrowHero };
+export {
+  appStore,
+  heroBg,
+  heroLaptop,
+  playStore,
+  mackbook,
+  arrowHero,
+  loginLeftImg,
+};
