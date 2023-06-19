@@ -14,7 +14,7 @@ const PackageCard = (
   <BackgroundImage
     key={i}
     img={i % 2 === 0 ? packageBgLite : packageBg}
-    className="sm:w-[400px] shadow-lg rounded-[21px]"
+    className="sm:w-[400px] shadow-lg rounded-[21px] max-w-[390px] sm:max-w-full"
   >
     <div className="flex justify-center items-center flex-col pb-7">
       <CartTop title={title} height="h-12 sm:h-14" text="lg" />
