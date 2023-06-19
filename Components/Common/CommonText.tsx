@@ -11,7 +11,7 @@ export const CommonText = ({
 }: ICommonText) => (
   <p
     className={`${
-      (text === "sm" && "text-xs") ||
+      (text === "sm" && "text-xs lg:text-[13px]") ||
       (text === "md" && "text-sm") ||
       (text === "lg" && "text-base") ||
       (text === "xl" && "text-lg")
