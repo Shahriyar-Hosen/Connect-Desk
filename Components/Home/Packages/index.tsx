@@ -1,8 +1,14 @@
 "use client";
 
+export * from "./CartTop";
+export * from "./FeaturesCard";
+export * from "./FeaturesItem";
+export * from "./PackageCard";
+export * from "./Prices";
+
 import { ComponentHeader, Container, MainContainer } from "@Components/Common";
 import { packagesData } from "@public/Data";
-import PackageCard from "./PackageCard";
+import { PackageCard } from "./PackageCard";
 
 const Packages = () => (
   <MainContainer>
@@ -23,7 +29,7 @@ const Packages = () => (
       {/* Package Card */}
       <section className="flex justify-center items-start flex-wrap gap-[30px] md:gap-[60px] mt-[30px] md:mt-[60px]">
         {packagesData.map((props, i) => (
-          <PackageCard {...props} key={i} />
+          <PackageCard {...props} index={i} key={i} />
         ))}
       </section>
     </Container>

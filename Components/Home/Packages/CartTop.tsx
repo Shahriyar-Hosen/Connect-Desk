@@ -1,6 +1,6 @@
 "use client";
 
-const CartTop = ({
+export const CartTop = ({
   title,
   height,
   text,
@@ -21,5 +21,3 @@ const CartTop = ({
     </h5>
   </div>
 );
-
-export default CartTop;

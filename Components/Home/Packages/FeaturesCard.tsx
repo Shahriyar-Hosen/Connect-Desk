@@ -1,9 +1,8 @@
 "use client";
 
-import CartTop from "./CartTop";
-import FeaturesItem from "./FeaturesItem";
+import { CartTop, FeaturesItem } from ".";
 
-const FeaturesCard = ({ features }: { features: string[] }) => (
+export const FeaturesCard = ({ features }: { features: string[] }) => (
   <div className="mt-3 sm:mt-6 w-[85%] h-auto rounded-[25px]  bg-white pb-6">
     <CartTop title="Features" height="h-[45px] sm:h-[50px]" text="md" />
 
@@ -15,5 +14,3 @@ const FeaturesCard = ({ features }: { features: string[] }) => (
     </div>
   </div>
 );
-
-export default FeaturesCard;
