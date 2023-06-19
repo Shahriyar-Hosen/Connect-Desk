@@ -18,7 +18,7 @@ export const InputField = ({
   handleOnChange,
 }: InputFieldProps) => {
   return (
-    <div>
+    <div className="w-full my-2">
       <p className="text-base font-medium text-neutral mb-3">{label}</p>
       <input
         className={`border ${

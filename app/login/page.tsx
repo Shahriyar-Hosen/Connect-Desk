@@ -1,12 +1,16 @@
 "use client";
 
-import { LoginRightSide } from "@Components/Login";
+import { MainContainer } from "@Components/Common";
+import { LoginLeftSide, LoginRightSide } from "@Components/Login";
 
 const login = () => {
   return (
-    <div>
-      <LoginRightSide />
-    </div>
+    <MainContainer>
+      <div className="flex flex-col lg:flex-row px-20">
+        <LoginLeftSide />
+        <LoginRightSide />
+      </div>
+    </MainContainer>
   );
 };
 

@@ -6,18 +6,20 @@ export const LoginRightSide = () => {
     // console.log(e);
   };
   return (
-    <div>
-      <Logo />
-      <h3 className="text-neutral text-xl font-semibold">
-        Register Your Business Area
-      </h3>
-      <div className="flex gap-4">
-        <Button variant="primary" size="lg">
-          Business
-        </Button>
-        <Button variant="secondary" size="lg">
-          Client Login
-        </Button>
+    <div className="w-full mx-8">
+      <div className="flex flex-col justify-center items-center">
+        <Logo />
+        <h3 className="my-4 text-neutral text-xl font-semibold">
+          Register Your Business Area
+        </h3>
+        <div className="flex">
+          <Button variant="primary" size="lg">
+            Business
+          </Button>
+          <Button variant="secondary" size="lg">
+            Client Login
+          </Button>
+        </div>
       </div>
       <div>
         <InputField
@@ -25,7 +27,7 @@ export const LoginRightSide = () => {
           label="Business Name"
           placeholder="Enter your business name"
         />
-        <div>
+        <div className="flex gap-5">
           <InputField
             handleOnChange={handleOnChange}
             label="Mobile Number"
@@ -37,7 +39,7 @@ export const LoginRightSide = () => {
             placeholder="Enter your email"
           />
         </div>
-        <div>
+        <div className="flex gap-5">
           <InputField
             handleOnChange={handleOnChange}
             type="password"
@@ -52,7 +54,8 @@ export const LoginRightSide = () => {
           />
         </div>
       </div>
-      <Button variant="primary" width="full">
+      <br />
+      <Button variant="primary" width="full" size="lg">
         Register
       </Button>
     </div>
