@@ -3,7 +3,7 @@
 import { Container } from "@Components/Common";
 import { CompanySupport, ContactDetails, DownloadApp } from ".";
 
-const MainContainer = () => (
+const MainFooterContainer = () => (
   <Container>
     <div className="flex justify-center xl:justify-between items-center gap-[100%] xl:gap-2 md:gap-[7%] flex-wrap">
       <ContactDetails />
@@ -13,4 +13,4 @@ const MainContainer = () => (
   </Container>
 );
 
-export default MainContainer;
+export default MainFooterContainer;
