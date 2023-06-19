@@ -1,8 +1,19 @@
 import appStore from "./appStore.svg";
+import arrowHero from "./arrowHero.svg";
 import heroBg from "./heroBg.png";
 import heroLaptop from "./heroLaptop.png";
-import playStore from "./playStore.svg";
 import mackbook from "./mackbook.png";
-import arrowHero from "./arrowHero.svg";
+import packageBgLite from "./package-bg-lite.svg";
+import packageBg from "./package-bg.svg";
+import playStore from "./playStore.svg";
 
-export { appStore, heroBg, heroLaptop, playStore, mackbook, arrowHero };
+export {
+  appStore,
+  arrowHero,
+  heroBg,
+  heroLaptop,
+  mackbook,
+  packageBg,
+  packageBgLite,
+  playStore,
+};
