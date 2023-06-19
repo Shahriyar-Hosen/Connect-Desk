@@ -9,7 +9,7 @@ export const LoginRightSide = () => {
     // console.log(e);
   };
   return (
-    <div className="w-full md:mx-8 my-20">
+    <div className="w-full lg:mx-8 my-20">
       <div className="flex flex-col justify-center items-center">
         <Logo />
         <h3 className="my-4 text-neutral text-xl font-semibold">
