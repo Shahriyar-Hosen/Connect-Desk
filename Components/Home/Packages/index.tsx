@@ -23,7 +23,7 @@ const Packages = () => (
       {/* Package Card */}
       <section className="flex justify-center items-start flex-wrap gap-[30px] md:gap-[60px] mt-[30px] md:mt-[60px]">
         {packagesData.map((props, i) => (
-          <PackageCard {...props} key={i} />
+          <PackageCard {...props} index={i} key={i} />
         ))}
       </section>
     </Container>

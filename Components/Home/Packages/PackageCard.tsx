@@ -7,13 +7,20 @@ import CartTop from "./CartTop";
 import FeaturesCard from "./FeaturesCard";
 import Prices from "./Prices";
 
-const PackageCard = (
-  { duration, features, price, title }: IPackages,
-  i: number
-) => (
+interface IPackageCard extends IPackages {
+  index: number;
+}
+
+const PackageCard = ({
+  index,
+  duration,
+  features,
+  price,
+  title,
+}: IPackageCard) => (
   <BackgroundImage
-    key={i}
-    img={i % 2 === 0 ? packageBgLite : packageBg}
+    key={index}
+    img={index % 2 === 0 ? packageBgLite : packageBg}
     className="sm:w-[400px] shadow-lg rounded-[21px] max-w-[390px] sm:max-w-full"
   >
     <div className="flex justify-center items-center flex-col pb-7">
