@@ -6,7 +6,7 @@ import { LoginLeftSide, LoginRightSide } from "@Components/Login";
 const login = () => {
   return (
     <MainContainer>
-      <div className="flex flex-col lg:flex-row px-20">
+      <div className="flex flex-col lg:flex-row px-4 md:px-20">
         <LoginLeftSide />
         <LoginRightSide />
       </div>

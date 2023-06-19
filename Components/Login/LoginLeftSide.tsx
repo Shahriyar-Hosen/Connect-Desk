@@ -21,10 +21,13 @@ export const LoginLeftSide = () => {
             </span>
           }
         />
-        <CommonText>
-          You’ll get preloaded data or upload your own. Preconfigured processes,
-          reports, and dashboards. Guided experiences for every steps.
-        </CommonText>
+        <div className="mt-6">
+          <CommonText text="lg">
+            You’ll get preloaded data or upload your own. Preconfigured
+            processes, reports, and dashboards. Guided experiences for every
+            steps.
+          </CommonText>
+        </div>
       </div>
     </div>
   );

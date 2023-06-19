@@ -1,4 +1,7 @@
 import { Button, InputField, Logo } from "@Components/Common";
+import { roundArrow } from "@public/assets/icon";
+import Image from "next/image";
+import Link from "next/link";
 import { ChangeEvent } from "react";
 
 export const LoginRightSide = () => {
@@ -6,7 +9,7 @@ export const LoginRightSide = () => {
     // console.log(e);
   };
   return (
-    <div className="w-full mx-8">
+    <div className="w-full md:mx-8 my-20">
       <div className="flex flex-col justify-center items-center">
         <Logo />
         <h3 className="my-4 text-neutral text-xl font-semibold">
@@ -27,7 +30,7 @@ export const LoginRightSide = () => {
           label="Business Name"
           placeholder="Enter your business name"
         />
-        <div className="flex gap-5">
+        <div className="md:flex gap-5">
           <InputField
             handleOnChange={handleOnChange}
             label="Mobile Number"
@@ -39,7 +42,7 @@ export const LoginRightSide = () => {
             placeholder="Enter your email"
           />
         </div>
-        <div className="flex gap-5">
+        <div className="md:flex gap-5">
           <InputField
             handleOnChange={handleOnChange}
             type="password"
@@ -54,10 +57,28 @@ export const LoginRightSide = () => {
           />
         </div>
       </div>
+      <div className="flex my-3 gap-2 text-base font-medium">
+        <p>But</p>
+        <p>
+          I agree with the <span className="text-error">Terms & Condition</span>
+        </p>
+      </div>
       <br />
       <Button variant="primary" width="full" size="lg">
         Register
       </Button>
+      <div>
+        <p className="text-center my-10 text-base font-medium">
+          Already have an account?{" "}
+          <Link className="text-primary" href="">
+            Login{" "}
+          </Link>
+        </p>
+      </div>
+      <div className="flex gap-3">
+        <Image src={roundArrow} alt="" />
+        <p>Back to home</p>
+      </div>
     </div>
   );
 };
