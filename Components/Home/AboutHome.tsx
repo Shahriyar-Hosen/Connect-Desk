@@ -24,27 +24,27 @@ const AboutHome = () => {
           subTitle="Software"
         />
 
-        <div className="flex lg:w-[80%] w-[100%] mx-auto my-12 flex-col lg:flex-row">
-          <div className="flex justify-center">
+        <div className="w-full md:w-[95%] xl:w-full mx-auto flex flex-col lg:flex-row justify-center items-center gap-[5%] mt-6 lg:mt-0">
+          <div className="flex justify-center lg:justify-end xl:justify-center w-full xl:w-fit">
             <Image
               src={mackbook}
-              className="lg:w-[521px] lg:h-[282.39px]  w-[330px]"
+              className="xl:w-[521px] md:w-[70%] w-[80%]"
               alt=""
             />
           </div>
-          <div className="lg:w-1/2 flex flex-col justify-around">
+
+          <div className="w-[90%] lg:max-w-[500px] flex flex-col justify-start items-start gap-4 mt-6 xl:mt-0">
             <CommonText>
               Using the ConnectDesk, you can manage your company's sales and
               marketing modules. ConnectDesk software automates tasks including
               client sales, manage inventory, and distribution activities.
             </CommonText>
-            <br />
             <CommonText>
               ConnectDesk software not only assists you in managing your
               business but also keeps track of your inventory and personnel. It
               also features an extensive account management system.
             </CommonText>
-            <div className="mt-6">
+            <div className="xl:mt-6">
               <Button variant="primary">Learn More</Button>
             </div>
           </div>
