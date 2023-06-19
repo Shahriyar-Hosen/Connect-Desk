@@ -1,6 +1,6 @@
 "use client";
 
-import { CommonText, ConnectDesk } from "@Components/Common";
+import { CommonText, ConnectDesk, InputField } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import {
   AboutHome,
@@ -9,8 +9,12 @@ import {
   PerfectSolution,
 } from "@Components/Home";
 import { heroLaptop } from "@public/assets/images";
+import { ChangeEvent } from "react";
 
 const Home = () => {
+  const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
+    console.log(e);
+  };
   return (
     <main>
       <HeroSection
@@ -28,6 +32,11 @@ const Home = () => {
       />
       <AboutHome />
       <PerfectSolution />
+      <InputField
+        handleOnChange={handleOnChange}
+        label="Business Name"
+        placeholder="Enter your business name"
+      />
       <ImportantFeatures />
       <Packages />
     </main>
