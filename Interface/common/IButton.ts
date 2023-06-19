@@ -1,6 +1,6 @@
-import { IChildren } from "./IChildren";
+import { IChildrenWithClass } from "./IChildren";
 
-export interface IButton extends IChildren {
+export interface IButton extends IChildrenWithClass {
   variant: "primary" | "secondary";
   rounded?: boolean;
   width?: "full" | "auto";
