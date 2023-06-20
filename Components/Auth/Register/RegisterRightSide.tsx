@@ -1,10 +1,10 @@
 import { Button, InputField, Logo } from "@Components/Common";
-import { ToggleButton } from "@Components/Login";
 import { IUserType } from "@Interface";
 import { roundArrow } from "@public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent, useState } from "react";
+import { ToggleButton } from "../Login";
 
 export const RegisterRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");

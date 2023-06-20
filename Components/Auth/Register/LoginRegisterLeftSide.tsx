@@ -1,6 +1,9 @@
+"use client";
+
+import Image from "next/image";
+
 import { CommonText, ComponentHeader, ConnectDesk } from "@Components/Common";
 import { loginLeftImg } from "@public/assets/images";
-import Image from "next/image";
 
 interface LeftSiteProps {
   paragraph: JSX.Element | string;

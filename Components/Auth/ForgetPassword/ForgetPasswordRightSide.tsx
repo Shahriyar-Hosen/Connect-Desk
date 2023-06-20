@@ -1,8 +1,11 @@
-import { Button, InputField, Logo } from "@Components/Common";
-import { roundArrow } from "@public/assets/icon";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent } from "react";
+
+import { Button, InputField, Logo } from "@Components/Common";
+import { roundArrow } from "@public/assets/icon";
 
 export const ForgetPasswordRightSide = () => {
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
