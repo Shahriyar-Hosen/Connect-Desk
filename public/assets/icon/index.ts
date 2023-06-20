@@ -10,7 +10,9 @@ import location from "./location.svg";
 import phone from "./phone.svg";
 import profile from "./profile.svg";
 import purchase from "./purchase.svg";
+import rectangle from "./rectangle.svg";
 import report from "./report.svg";
+import roundArrow from "./roundArrow.svg";
 import sell from "./sell.svg";
 import stock from "./stock.svg";
 import support from "./support.svg";
@@ -18,10 +20,6 @@ import tick from "./tick.svg";
 import twitter from "./twitter.svg";
 import web from "./web.svg";
 import youtube from "./youtube.svg";
-import profile from "./profile.svg";
-import downArrow from "./downArrow.svg";
-import roundArrow from "./roundArrow.svg";
-import rectangle from "./rectangle.svg";
 
 export {
   POSSoftware,
@@ -36,7 +34,9 @@ export {
   phone,
   profile,
   purchase,
+  rectangle,
   report,
+  roundArrow,
   sell,
   stock,
   support,
@@ -44,8 +44,4 @@ export {
   twitter,
   web,
   youtube,
-  profile,
-  downArrow,
-  roundArrow,
-  rectangle,
 };
