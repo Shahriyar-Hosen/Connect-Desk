@@ -3,7 +3,7 @@ import { Button, LinkButton } from "@Components/Common";
 import { downArrow, profile } from "@public/assets/icon";
 import Image from "next/image";
 
-const LoginAndSign = () => (
+export const LoginAndSign = () => (
   <div className="hidden md:flex w-fit gap-2">
     <LinkButton link="/" variant="secondary" size="sm">
       <div className="flex gap-2">
@@ -25,5 +25,3 @@ const LoginAndSign = () => (
     </Button>
   </div>
 );
-
-export default LoginAndSign;
