@@ -4,11 +4,11 @@ import { navItems } from "@public/Data/common";
 import { useState } from "react";
 import { DropdownMenu, MenuItem } from ".";
 
-export const MenuItems = () => {
+export const MobileMenuItems = () => {
   const [open, setOpen] = useState("");
 
   return (
-    <ul className="menu menu-horizontal px-1 flex">
+    <ul className="menu menu-vertical">
       {navItems.map(({ label, link, option }, i) => (
         <MenuItem
           key={i}
@@ -18,7 +18,9 @@ export const MenuItems = () => {
           setOpen={setOpen}
         >
           {open === label && option && (
-            <DropdownMenu option={option} setOpen={setOpen} />
+            <div className="dropdown dropdown-left lg:hidden">
+              <DropdownMenu option={option} setOpen={setOpen} />
+            </div>
           )}
         </MenuItem>
       ))}
