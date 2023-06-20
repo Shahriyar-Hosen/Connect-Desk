@@ -9,3 +9,4 @@ export * from "./Container";
 export * from "./LinkButton";
 export * from "./Logo";
 export * from "./MainContainer";
+export * from "./InputField";
