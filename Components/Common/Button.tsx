@@ -10,12 +10,14 @@ export const Button = ({
   size = "md",
   rounded,
   className,
+  onClick,
 }: IButton) => {
   const primary = "bg-primary text-white";
   const secondary = "bg-white text-primary";
 
   return (
     <button
+      onClick={onClick}
       className={`${
         (variant === "secondary" && secondary) ||
         (variant === "primary" && primary)

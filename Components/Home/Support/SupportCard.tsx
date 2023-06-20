@@ -1,8 +1,9 @@
 "use client";
+
+import Image from "next/image";
+
 import { CommonText } from "@Components/Common";
 import { ICorporateSupport } from "@Interface";
-import Image from "next/image";
-import React from "react";
 
 const SupportCard = ({ img, title }: ICorporateSupport) => (
   <div className="w-full max-w-[313px] rounded-md shadow-md flex justify-start items-center p-2.5 bg-white gap-2.5">

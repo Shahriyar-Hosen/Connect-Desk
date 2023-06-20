@@ -1,6 +1,8 @@
 "use client";
-import { supportLeftImg } from "@public/assets/images";
+
 import Image from "next/image";
+
+import { supportLeftImg } from "@public/assets/images";
 
 const SupportLeft = () => (
   <div className="w-full md:w-[50%] flex justify-center items-center">
