@@ -2,7 +2,12 @@
 
 import Image from "next/image";
 
-import { BackgroundImage, Container } from "@Components/Common";
+import {
+  BackgroundImage,
+  ComponentHeader,
+  ConnectDesk,
+  Container,
+} from "@Components/Common";
 import { homeSupportBg, supportLeftImg } from "@public/assets/images";
 
 const Support = () => (
@@ -16,7 +21,15 @@ const Support = () => (
         />
       </div>
       <div className="w-full md:w-[50%] flex justify-center items-center md:justify-start">
-        <h1>Support</h1>
+        <ComponentHeader
+          title={
+            <>
+              <ConnectDesk text="lg" /> Deliver A
+            </>
+          }
+          subTitle="Corporate Support For All Time"
+          position="start"
+        />
       </div>
     </Container>
   </BackgroundImage>
