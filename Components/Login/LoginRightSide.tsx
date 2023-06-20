@@ -1,9 +1,12 @@
-import { Button, InputField, Logo } from "@Components/Common";
-import { IUserType } from "@Interface";
-import { rectangle, roundArrow } from "@public/assets/icon";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent, useState } from "react";
+
+import { Button, InputField, Logo } from "@Components/Common";
+import { IUserType } from "@Interface";
+import { rectangle, roundArrow } from "@public/assets/icon";
 import { ToggleButton } from "./ToggleButton";
 
 export const LoginRightSide = () => {
