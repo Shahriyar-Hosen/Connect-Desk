@@ -27,3 +27,8 @@ export interface IPackages {
   price: string;
   features: string[];
 }
+
+export interface ICorporateSupport {
+  title: string;
+  img: StaticImageData;
+}

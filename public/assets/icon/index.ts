@@ -1,4 +1,6 @@
+import emailSupport from "./Email Support.svg";
 import POSSoftware from "./POS-software.svg";
+import phoneSupport from "./Phone Support.svg";
 import accounting from "./accounting.svg";
 import arrow from "./arrow.svg";
 import checkPrimary from "./check-primary.svg";
@@ -28,10 +30,12 @@ export {
   checkPrimary,
   downArrow,
   easySale,
+  emailSupport,
   flexible,
   instagram,
   location,
   phone,
+  phoneSupport,
   profile,
   purchase,
   rectangle,
