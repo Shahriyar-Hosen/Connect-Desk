@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import {
   BackgroundImage,
+  CommonText,
   ComponentHeader,
   ConnectDesk,
   Container,
@@ -20,7 +21,7 @@ const Support = () => (
           alt=""
         />
       </div>
-      <div className="w-full md:w-[50%] flex justify-center items-center md:justify-start">
+      <div className="w-full md:w-[50%] flex flex-col justify-center items-start md:justify-start gap-3 md:gap-4">
         <ComponentHeader
           title={
             <>
@@ -30,6 +31,12 @@ const Support = () => (
           subTitle="Corporate Support For All Time"
           position="start"
         />
+
+        <CommonText className="max-w-[415px]">
+          When utilizing the software, issues and misunderstandings are quite
+          frequent. Our professional support team is here to help you with these
+          solutions.
+        </CommonText>
       </div>
     </Container>
   </BackgroundImage>
