@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
+
 import { BackgroundImage, Container } from "@Components/Common";
 import { homeSupportBg, supportLeftImg } from "@public/assets/images";
-import Image from "next/image";
 
 const Support = () => (
   <BackgroundImage img={homeSupportBg} className="my-2.5 md:my-5 min-h-full">
