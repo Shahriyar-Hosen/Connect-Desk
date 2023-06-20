@@ -7,6 +7,7 @@ import {
   ImportantFeatures,
   Packages,
   PerfectSolution,
+  Support,
 } from "@Components/Home";
 import { heroLaptop } from "@public/assets/images";
 
@@ -31,6 +32,7 @@ const Home = () => {
 
       <ImportantFeatures />
       <Packages />
+      <Support />
     </main>
   );
 };

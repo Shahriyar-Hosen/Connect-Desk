@@ -57,6 +57,7 @@ export const Header = () => {
       </Button>
     </div>
   );
+
   const mobileLoginAndSignUpButton = (
     <div className="flex gap-2 md:hidden">
       <Link href="/postcss.config.js">

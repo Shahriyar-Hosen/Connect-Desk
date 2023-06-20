@@ -1,3 +1,4 @@
+export * from "./common";
 export * from "./common/IBackgroundImage";
 export * from "./common/IButton";
 export * from "./common/IChildren";

@@ -7,3 +7,7 @@ export interface IButton extends IChildrenWithClass {
   size?: "sm" | "md" | "lg";
   rounded?: boolean;
 }
+
+export interface ILinkButton extends IButton {
+  link: string;
+}
