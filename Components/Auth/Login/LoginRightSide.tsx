@@ -15,6 +15,7 @@ export const LoginRightSide = () => {
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     // console.log(e);
   };
+
   return (
     <div className="w-full lg:mx-8 my-20">
       <div className="flex flex-col justify-center items-center">
