@@ -1,9 +1,11 @@
-import { IFeatures, IPackages } from "@Interface";
+import { ICorporateSupport, IFeatures, IPackages } from "@Interface";
 import {
   POSSoftware,
   accounting,
   easySale,
+  emailSupport,
   flexible,
+  phoneSupport,
   purchase,
   report,
   sell,
@@ -136,5 +138,16 @@ export const packagesData: IPackages[] = [
       "24/7 Corporate Support Online",
       "Data Security and Auto Backup Daily",
     ],
+  },
+];
+
+export const corporateSupport: ICorporateSupport[] = [
+  {
+    title: "24/7 Free Phone Support",
+    img: phoneSupport,
+  },
+  {
+    title: "24/7 Free Email Support",
+    img: emailSupport,
   },
 ];
