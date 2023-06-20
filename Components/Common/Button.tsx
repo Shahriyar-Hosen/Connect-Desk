@@ -21,7 +21,7 @@ export const Button = ({
         (variant === "primary" && primary)
       } 
         ${
-          (text === "14" && "text-sm") ||
+          (text === "14" && "text-xs sm:text-sm") ||
           (text === "16" && "text-base") ||
           (text === "18" && "text-[18px]")
         } 

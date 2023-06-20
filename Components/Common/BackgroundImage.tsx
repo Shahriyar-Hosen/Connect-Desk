@@ -9,7 +9,7 @@ export const BackgroundImage = ({
   className,
   hidden,
 }: IBackgroundImage) => (
-  <main className={`relative min-h-[500px] w-full ${className}`}>
+  <main className={`relative ${className}`}>
     <div
       className={`absolute w-full ${
         (hidden === "sm" && "md:inset-0") ||
