@@ -1,6 +1,6 @@
 "use client";
 
-import { CommonText, ConnectDesk } from "@Components/Common";
+import { CommonText, ConnectDesk, InputField } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import {
   AboutHome,
@@ -28,6 +28,7 @@ const Home = () => {
       />
       <AboutHome />
       <PerfectSolution />
+
       <ImportantFeatures />
       <Packages />
     </main>

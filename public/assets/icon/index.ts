@@ -17,6 +17,8 @@ import web from "./web.svg";
 import youtube from "./youtube.svg";
 import profile from "./profile.svg";
 import downArrow from "./downArrow.svg";
+import roundArrow from "./roundArrow.svg";
+import rectangle from "./rectangle.svg";
 
 export {
   POSSoftware,
@@ -38,4 +40,6 @@ export {
   youtube,
   profile,
   downArrow,
+  roundArrow,
+  rectangle,
 };
