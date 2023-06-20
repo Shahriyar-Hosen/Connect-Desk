@@ -5,7 +5,7 @@ import { useState } from "react";
 import { DropdownMenu, MenuItem } from ".";
 
 export const MenuItems = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState("");
 
   return (
     <ul className="menu menu-horizontal px-1 hidden lg:flex">
@@ -17,7 +17,9 @@ export const MenuItems = () => {
           option={option}
           setOpen={setOpen}
         >
-          {open && option && <DropdownMenu option={option} setOpen={setOpen} />}
+          {open === label && option && (
+            <DropdownMenu option={option} setOpen={setOpen} />
+          )}
         </MenuItem>
       ))}
     </ul>

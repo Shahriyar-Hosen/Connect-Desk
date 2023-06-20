@@ -10,7 +10,7 @@ export interface INavItems extends ILinkedList {
 }
 
 export interface IDropdownOpen {
-  setOpen: Dispatch<SetStateAction<boolean>>;
+  setOpen: Dispatch<SetStateAction<string>>;
 }
 
 export interface IMenuItem extends ILinkedList, IDropdownOpen {

@@ -13,7 +13,7 @@ export const MenuItem = ({
   option,
   setOpen,
 }: IMenuItem) => (
-  <li className="text-black" onClick={() => setOpen((prev) => !prev)}>
+  <li className="text-black" onClick={() => setOpen(label)}>
     <Link href={link}>
       {label} {option && <Image src={downArrow} alt={label} />}
     </Link>
