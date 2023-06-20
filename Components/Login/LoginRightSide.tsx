@@ -1,11 +1,14 @@
 import { Button, InputField, Logo } from "@Components/Common";
+import { IUserType } from "@Interface";
 import { rectangle, roundArrow } from "@public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
-import { ChangeEvent } from "react";
+import { ChangeEvent, useState } from "react";
 import { ToggleButton } from "./ToggleButton";
 
 export const LoginRightSide = () => {
+  const [userType, setUserType] = useState<IUserType>("Business Login");
+
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     // console.log(e);
   };
@@ -16,7 +19,7 @@ export const LoginRightSide = () => {
         <h3 className="my-4 text-neutral text-xl font-semibold">
           Login Your Business Area
         </h3>
-        <ToggleButton />
+        <ToggleButton setUserType={setUserType} userType={userType} />
       </div>
       <div>
         <InputField
