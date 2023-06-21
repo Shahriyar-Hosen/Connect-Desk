@@ -1,13 +1,14 @@
 "use client";
 
+import { IHeroRight } from "@Interface";
 import Image from "next/image";
 
-import { IHeroSection } from "@Interface/common/IHeroSection";
-
-export const HeroRight = ({ image }: IHeroSection) => (
+export const HeroRight = ({ image, pos }: IHeroRight) => (
   <Image
-    src={image || ""}
+    src={image}
     alt=""
-    className="w-[90%] sm:w-[80%] md:w-[70%] lg:w-[55%] xl:w-full"
+    className={`${
+      pos ? "md:pb-[18%] lg:pb-[10%] mx-auto" : "md:pb-[15%] lg:pb-[10%]"
+    }`}
   />
 );

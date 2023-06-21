@@ -1,6 +1,7 @@
 "use client";
 
 export * from "./AppInstall";
+export * from "./AskedQuestions";
 export * from "./BackgroundImage";
 export * from "./Button";
 export * from "./CommonText";
@@ -11,3 +12,4 @@ export * from "./InputField";
 export * from "./LinkButton";
 export * from "./Logo";
 export * from "./MainContainer";
+export * from "./Packages";

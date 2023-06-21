@@ -1,7 +1,9 @@
 "use client";
 
-import { AskedQuestions, PackagesCards } from "@Components/Packages";
+import { AskedQuestions } from "@Components/Common";
+import { PackagesCards } from "@Components/Packages";
 import PageHeader from "@Components/PageHeader";
+import { faqData } from "@public/Data/faq";
 
 const Packages = () => (
   <main>
@@ -16,7 +18,7 @@ const Packages = () => (
     />
     <div className="mt-[60px] pb-[50px]">
       <PackagesCards />
-      <AskedQuestions />
+      <AskedQuestions data={faqData} limit={10} />
     </div>
   </main>
 );
