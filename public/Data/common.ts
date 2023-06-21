@@ -3,93 +3,93 @@ import { INavItems } from "@Interface";
 export const support: INavItems[] = [
   {
     label: "Software Setup",
-    link: "/",
+    link: "/software-setup",
   },
   {
     label: "App Install",
-    link: "/",
+    link: "/app-install",
   },
   {
     label: "Video Tutorial",
-    link: "/",
+    link: "/video-tutorial",
   },
   {
     label: "User Guide",
-    link: "/",
+    link: "/user-guide",
   },
   {
     label: "Hardware",
-    link: "/",
+    link: "/hardware",
   },
   {
     label: "Client List",
-    link: "/",
+    link: "/client-list",
   },
 ];
 
 export const service: INavItems[] = [
   {
     label: "Inventory Software",
-    link: "/",
+    link: "/inventory-software",
   },
   {
     label: "POS Inventory Software",
-    link: "/",
+    link: "/pos-inventory-software",
   },
   {
     label: "Accounting Software",
-    link: "/",
+    link: "/accounting-software",
   },
   {
     label: "ERP Software",
-    link: "/",
+    link: "/erp-software",
   },
   {
     label: "Billing Software",
-    link: "/",
+    link: "/billing-software",
   },
   {
     label: "Hr & Payroll Software",
-    link: "/",
+    link: "/hr-payroll-software",
   },
   {
     label: "E-Commerce Software",
-    link: "/",
+    link: "/e-commerce-software",
   },
 ];
 
 export const more: INavItems[] = [
   {
     label: "About Us",
-    link: "/",
+    link: "/about-us",
   },
   {
     label: "Message From Founder",
-    link: "/",
+    link: "/message-from-founder",
   },
   {
     label: "Terms and Condition",
-    link: "/",
+    link: "/terms-and-condition",
   },
   {
     label: "Refund and Return Policy",
-    link: "/",
+    link: "/refund-and-return-policy",
   },
   {
     label: "Privacy Policy",
-    link: "/",
+    link: "/privacy-policy",
   },
   {
     label: "Company Info",
-    link: "/",
+    link: "/company-info",
   },
   {
     label: "Q&A",
-    link: "/",
+    link: "/question-and-answer",
   },
   {
     label: "Portfolio",
-    link: "/",
+    link: "/portfolio",
   },
 ];
 
@@ -100,29 +100,29 @@ export const navItems: INavItems[] = [
   },
   {
     label: "Features",
-    link: "/",
+    link: "/features",
   },
   {
-    label: "Package",
-    link: "/",
+    label: "Packages",
+    link: "/packages",
   },
   {
-    label: "Service",
-    link: "/",
+    label: "Services",
+    link: "/services",
     option: service,
   },
   {
     label: "Blog",
-    link: "/",
+    link: "/blog",
   },
   {
     label: "Support",
-    link: "/",
+    link: "/support",
     option: support,
   },
   {
     label: "More",
-    link: "/",
+    link: "/more",
     option: more,
   },
 ];
