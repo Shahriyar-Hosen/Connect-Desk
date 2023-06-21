@@ -1,7 +1,8 @@
 "use client";
 
-import { IHeroSection } from "@Interface/common/IHeroSection";
 import Image from "next/image";
+
+import { IHeroSection } from "@Interface/common/IHeroSection";
 
 export const HeroRight = ({ image }: IHeroSection) => (
   <Image
