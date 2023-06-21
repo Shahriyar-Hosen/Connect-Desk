@@ -3,6 +3,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { AskedQuestions, CommonText, Packages } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
+import { SoftwareFeatures } from "@Components/POSInventoryService";
 import { faqData } from "@public/Data/faq";
 import { posInventoryService } from "@public/assets/images";
 
@@ -31,6 +32,7 @@ const POSInventoryService = () => (
       pos
     />
 
+    <SoftwareFeatures />
     <Packages />
     <AskedQuestions data={faqData} limit={5} />
   </main>
