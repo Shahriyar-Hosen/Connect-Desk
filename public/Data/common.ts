@@ -85,7 +85,7 @@ export const more: INavItems[] = [
   },
   {
     label: "Q&A",
-    link: "/question-and-answer",
+    link: "/faq",
   },
   {
     label: "Portfolio",
