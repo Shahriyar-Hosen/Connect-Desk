@@ -1,11 +1,12 @@
 "use client";
 
-const FAQ = () => {
-  return (
-    <div>
-      <h1>FAQ</h1>
-    </div>
-  );
-};
+import FAQs from "@Components/FAQ";
+import { faqData } from "@public/Data/faq";
+
+const FAQ = () => (
+  <main className="mb-36">
+    <FAQs data={faqData} />
+  </main>
+);
 
 export default FAQ;

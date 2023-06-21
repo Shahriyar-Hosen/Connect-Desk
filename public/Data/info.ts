@@ -36,23 +36,23 @@ export const infoData: IInfo[] = [
     option: [
       {
         title: "About us",
-        link: "/",
+        link: "/about-us",
       },
       {
         title: "Blog",
-        link: "/",
+        link: "/blog",
       },
       {
         title: "Contact us",
-        link: "/",
+        link: "/contact-us",
       },
       {
         title: "Pricing",
-        link: "/",
+        link: "/pricing",
       },
       {
         title: "FAQ",
-        link: "/",
+        link: "/faq",
       },
     ],
   },
@@ -61,19 +61,19 @@ export const infoData: IInfo[] = [
     option: [
       {
         title: "Terms & Conditions",
-        link: "/",
+        link: "/terms-conditions",
       },
       {
-        title: "Privacy policy",
+        title: "privacy-policy",
         link: "/",
       },
       {
         title: "Refund & Return Policy",
-        link: "/",
+        link: "/refund-return-policy",
       },
       {
         title: "App Install",
-        link: "/",
+        link: "/app-install",
       },
     ],
   },
