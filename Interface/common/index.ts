@@ -5,6 +5,7 @@ export * from "./ICommon";
 export * from "./IComponentHeader";
 export * from "./IContainer";
 export * from "./IHeroSection";
+export * from "./IAuthComponent";
 
 import { Dispatch, ReactNode, SetStateAction } from "react";
 

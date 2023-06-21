@@ -1,15 +1,29 @@
 "use client";
 
 import { LoginRegisterLeftSide, LoginRightSide } from "@Components/Auth";
-import { MainContainer } from "@Components/Common";
+import { ConnectDesk, MainContainer } from "@Components/Common";
+import { AuthComponent } from "@Components/Shared";
+import { loginLeftImg } from "@public/assets/images";
 
-const login = () => (
-  <MainContainer>
-    <div className="w-[100%] lg:w-[90%] flex flex-col lg:flex-row mx-auto px-4 md:px-20 gap-10">
-      <LoginRegisterLeftSide paragraph="Let your Business Imagination Run Wild and Grow your Business Faster with ConnectDesk Software" />
-      <LoginRightSide />
-    </div>
-  </MainContainer>
-);
+const login = () => {
+  return (
+    <MainContainer>
+      <AuthComponent
+        leftComponent={
+          <LoginRegisterLeftSide
+            title={
+              <span>
+                Welcome to <ConnectDesk text="xl" />
+              </span>
+            }
+            image={loginLeftImg}
+            paragraph="Let your Business Imagination Run Wild and Grow your Business Faster with ConnectDesk Software"
+          />
+        }
+        rightComponent={<LoginRightSide />}
+      />
+    </MainContainer>
+  );
+};
 
 export default login;

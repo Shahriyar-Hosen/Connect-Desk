@@ -1,14 +1,11 @@
 "use client";
 
-import {
-  ForgetPasswordRightSide,
-  LoginRegisterLeftSide,
-} from "@Components/Auth";
+import { LoginRegisterLeftSide, OtpRightSide } from "@Components/Auth";
 import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { reset } from "@public/assets/images";
 
-const forgetPassword = () => {
+const otp = () => {
   return (
     <MainContainer>
       <AuthComponent
@@ -18,10 +15,10 @@ const forgetPassword = () => {
             image={reset}
           />
         }
-        rightComponent={<ForgetPasswordRightSide />}
+        rightComponent={<OtpRightSide />}
       />
     </MainContainer>
   );
 };
 
-export default forgetPassword;
+export default otp;

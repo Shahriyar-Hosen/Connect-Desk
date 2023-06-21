@@ -1,27 +1,27 @@
 "use client";
 
 import {
-  ForgetPasswordRightSide,
+  ConfirmPasswordRightSide,
   LoginRegisterLeftSide,
 } from "@Components/Auth";
 import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
-import { reset } from "@public/assets/images";
+import { confirmPass } from "@public/assets/images";
 
-const forgetPassword = () => {
+const confirmPassword = () => {
   return (
     <MainContainer>
       <AuthComponent
         leftComponent={
           <LoginRegisterLeftSide
-            title={<div className="mt-4 lg:mt-8">Reset Your Password</div>}
-            image={reset}
+            title={<div className="mt-4 lg:mt-8">Change Your Password</div>}
+            image={confirmPass}
           />
         }
-        rightComponent={<ForgetPasswordRightSide />}
+        rightComponent={<ConfirmPasswordRightSide />}
       />
     </MainContainer>
   );
 };
 
-export default forgetPassword;
+export default confirmPassword;
