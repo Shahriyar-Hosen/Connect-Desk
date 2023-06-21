@@ -1,13 +1,13 @@
 "use client";
 import { ComponentHeader, Container, MainContainer } from "@Components/Common";
 import FAQs from "@Components/FAQ";
-import { faqData } from "@public/Data/faq";
+import { IFAQ } from "@Interface";
 
-export const AskedQuestions = () => (
+export const AskedQuestions = ({ data, limit }: IFAQ) => (
   <MainContainer>
     <Container>
       <ComponentHeader title="Frequently Asked Questions" />
-      <FAQs data={faqData} limit={10} />
+      <FAQs data={data} limit={limit} />
     </Container>
   </MainContainer>
 );

@@ -1,6 +1,7 @@
 "use client";
 
 export * from "./AppInstall";
+export * from "./AskedQuestions";
 export * from "./BackgroundImage";
 export * from "./Button";
 export * from "./CommonText";

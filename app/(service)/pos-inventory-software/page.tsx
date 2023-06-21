@@ -1,8 +1,9 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
-import { CommonText, Packages } from "@Components/Common";
+import { AskedQuestions, CommonText, Packages } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
+import { faqData } from "@public/Data/faq";
 import { posInventoryService } from "@public/assets/images";
 
 const POSInventoryService = () => (
@@ -31,6 +32,7 @@ const POSInventoryService = () => (
     />
 
     <Packages />
+    <AskedQuestions data={faqData} limit={5} />
   </main>
 );
 
