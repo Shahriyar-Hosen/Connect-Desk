@@ -7,3 +7,4 @@ export * from "./common/ICommon";
 export * from "./common/IComponentHeader";
 export * from "./common/IContainer";
 export * from "./data/IInfo";
+export * from "./data/faq";
