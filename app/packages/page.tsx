@@ -4,7 +4,9 @@ import { PackagesCards } from "@Components/Packages";
 
 const Packages = () => (
   <main>
-    <PackagesCards />
+    <div className="mt-[60px] pb-[50px]">
+      <PackagesCards />
+    </div>
   </main>
 );
 
