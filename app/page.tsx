@@ -28,6 +28,7 @@ const Home = () => (
       button1="Buy Now"
       button2="Watch Video"
     />
+
     <AboutHome />
     <PerfectSolution />
     <ImportantFeatures />

@@ -18,7 +18,9 @@ export const HeroLeft = ({
       <h1 className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold md:max-w-[300px] lg:max-w-[414px]">
         {mainText}
       </h1>
-      <h1>{subText}</h1>
+      <h1 className="w-full flex justify-center md:justify-start items-center">
+        {subText}
+      </h1>
       <Image
         className="absolute hidden md:block -bottom-4 left-1"
         src={arrowHero}

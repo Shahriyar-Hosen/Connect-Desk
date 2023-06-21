@@ -16,7 +16,7 @@ const HeroSection = ({
   pos,
 }: IHeroSection) => (
   <BackgroundImage img={heroBg} hidden="sm">
-    <Container className="relative z-10 flex flex-col-reverse md:flex-row items-start justify-center min-h-[90%] lg:pt-5 xl:pt-10 ">
+    <Container className="relative z-10 flex flex-col-reverse md:flex-row items-start justify-center min-h-[90%] lg:pt-5 xl:pt-10">
       <HeroLeft
         mainText={mainText}
         subText={subText}
