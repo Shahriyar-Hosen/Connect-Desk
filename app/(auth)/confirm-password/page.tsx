@@ -10,7 +10,7 @@ import { confirmPass } from "@public/assets/images";
 
 const confirmPassword = () => {
   return (
-    <MainContainer>
+    <MainContainer isRemoveMargin>
       <AuthComponent
         leftComponent={
           <LoginRegisterLeftSide

@@ -10,7 +10,7 @@ import { reset } from "@public/assets/images";
 
 const forgetPassword = () => {
   return (
-    <MainContainer>
+    <MainContainer isRemoveMargin>
       <AuthComponent
         leftComponent={
           <LoginRegisterLeftSide

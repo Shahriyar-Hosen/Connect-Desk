@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const LoginAndSign = () => (
   <div className="hidden md:flex w-fit gap-2">
-    <LinkButton link="/" variant="secondary" size="sm">
+    <LinkButton link="/login" variant="secondary" size="sm">
       <div className="flex gap-2">
         <Image src={profile} alt="" />
         <div className="h-[20px] w-[2px] bg-primary" />
@@ -13,7 +13,7 @@ export const LoginAndSign = () => (
       </div>
     </LinkButton>
 
-    <LinkButton link="/" size="sm" variant="primary">
+    <LinkButton link="/register" size="sm" variant="primary">
       Sign Up
     </LinkButton>
 

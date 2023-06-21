@@ -7,7 +7,7 @@ import { reset } from "@public/assets/images";
 
 const otp = () => {
   return (
-    <MainContainer>
+    <MainContainer isRemoveMargin>
       <AuthComponent
         leftComponent={
           <LoginRegisterLeftSide
