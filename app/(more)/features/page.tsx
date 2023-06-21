@@ -1,5 +1,5 @@
+import { AllFeatures, FeaturesHeader } from "@Components/Features";
 import PageHeader from "@Components/PageHeader";
-import React from "react";
 
 const Features = () => {
   return (
@@ -9,6 +9,8 @@ const Features = () => {
         mainTitle="Take A Look At Our Awesome"
         subTitle={<span className="text-primary">Features</span>}
       />
+      <FeaturesHeader />
+      <AllFeatures />
     </div>
   );
 };
