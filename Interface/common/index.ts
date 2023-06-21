@@ -1,3 +1,11 @@
+export * from "./IBackgroundImage";
+export * from "./IButton";
+export * from "./IChildren";
+export * from "./ICommon";
+export * from "./IComponentHeader";
+export * from "./IContainer";
+export * from "./IHeroSection";
+
 import { Dispatch, ReactNode, SetStateAction } from "react";
 
 export interface ILinkedList {
