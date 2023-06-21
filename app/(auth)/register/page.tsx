@@ -1,19 +1,32 @@
 "use client";
 
 import { LoginRegisterLeftSide, RegisterRightSide } from "@Components/Auth";
-import { MainContainer } from "@Components/Common";
+import { ConnectDesk, MainContainer } from "@Components/Common";
+import { AuthComponent } from "@Components/Shared";
+import { loginLeftImg } from "@public/assets/images";
 
-const login = () => (
-  <MainContainer>
-    <div className="flex flex-col lg:flex-row px-4 md:px-20 gap-10">
-      <LoginRegisterLeftSide
-        paragraph="You’ll get preloaded data or upload your own. Preconfigured
-      processes, reports, and dashboards. Guided experiences for every
-      steps."
+const login = () => {
+  return (
+    <MainContainer>
+      <AuthComponent
+        leftComponent={
+          <LoginRegisterLeftSide
+            image={loginLeftImg}
+            title={
+              <span>
+                Welcome to <ConnectDesk text="xl" />
+              </span>
+            }
+            paragraph="You’ll get preloaded data or upload your own. Preconfigured
+          processes, reports, and dashboards. Guided experiences for every
+          steps."
+            isSubTitle
+          />
+        }
+        rightComponent={<RegisterRightSide />}
       />
-      <RegisterRightSide />
-    </div>
-  </MainContainer>
-);
+    </MainContainer>
+  );
+};
 
 export default login;
