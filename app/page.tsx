@@ -6,7 +6,7 @@ import {
   AboutHome,
   FreeTrial,
   ImportantFeatures,
-  Packages,
+  PackagesCards,
   PerfectSolution,
   Support,
 } from "@Components/Home";
@@ -31,7 +31,7 @@ const Home = () => {
       <AboutHome />
       <PerfectSolution />
       <ImportantFeatures />
-      <Packages />
+      <PackagesCards />
       <Support />
       <FreeTrial />
     </main>
