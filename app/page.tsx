@@ -1,12 +1,11 @@
 "use client";
 
-import { CommonText, ConnectDesk } from "@Components/Common";
+import { CommonText, ConnectDesk, Packages } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import {
   AboutHome,
   FreeTrial,
   ImportantFeatures,
-  Packages,
   PerfectSolution,
   Support,
 } from "@Components/Home";

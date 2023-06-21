@@ -3,7 +3,7 @@
 import { ComponentHeader, Container, MainContainer } from "@Components/Common";
 import { PackagesCards } from "@Components/Packages";
 
-const Packages = () => (
+export const Packages = () => (
   <MainContainer>
     <Container>
       <ComponentHeader
@@ -23,5 +23,3 @@ const Packages = () => (
     </Container>
   </MainContainer>
 );
-
-export default Packages;

@@ -1,7 +1,7 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
-import { CommonText } from "@Components/Common";
+import { CommonText, Packages } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import { posInventoryService } from "@public/assets/images";
 
@@ -29,6 +29,8 @@ const POSInventoryService = () => (
       image={posInventoryService}
       pos
     />
+
+    <Packages />
   </main>
 );
 
