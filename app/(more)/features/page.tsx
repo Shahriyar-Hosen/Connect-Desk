@@ -1,9 +1,10 @@
 import { AllFeatures, FeaturesHeader } from "@Components/Features";
+import { FreeTrial } from "@Components/Home";
 import PageHeader from "@Components/PageHeader";
 
 const Features = () => {
   return (
-    <div>
+    <main>
       <PageHeader
         pageName="Feature"
         mainTitle="Take A Look At Our Awesome"
@@ -11,7 +12,8 @@ const Features = () => {
       />
       <FeaturesHeader />
       <AllFeatures />
-    </div>
+      <FreeTrial />
+    </main>
   );
 };
 
