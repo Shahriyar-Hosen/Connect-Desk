@@ -1,5 +1,6 @@
 import appInstalImg from "./App Instal Img.svg";
 import freeTrial from "./Free Trial.png";
+import posInventoryService from "./POS Inventory Service.png";
 import supportLeftImg from "./Support-left-img.png";
 import appStore from "./appStore.svg";
 import arrowHero from "./arrowHero.svg";
@@ -28,6 +29,7 @@ export {
   packageBg,
   packageBgLite,
   playStore,
+  posInventoryService,
   reset,
   supportLeftImg,
 };
