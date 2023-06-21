@@ -1,10 +1,10 @@
 "use client";
 
-import { Container, MainContainer } from "@Components/Common";
+import { PackagesCards } from "@Components/Packages";
 
 const Packages = () => (
   <main>
-    <Packages />
+    <PackagesCards />
   </main>
 );
 
