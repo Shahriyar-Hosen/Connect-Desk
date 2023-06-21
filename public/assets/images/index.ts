@@ -1,3 +1,4 @@
+import appInstalImg from "./App Instal Img.svg";
 import freeTrial from "./Free Trial.png";
 import supportLeftImg from "./Support-left-img.png";
 import appStore from "./appStore.svg";
@@ -14,6 +15,7 @@ import playStore from "./playStore.svg";
 import reset from "./reset.png";
 
 export {
+  appInstalImg,
   appStore,
   arrowHero,
   confirmPass,
