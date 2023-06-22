@@ -15,7 +15,7 @@ export const HeroLeft = ({
 }: IHeroLeft) => (
   <div className="md:mt-[5%] sm:w-[90%] md:w-[70%] lg:w-[70%] xl:w-fit md:ml-10 lg:ml-[60px] mx-auto flex flex-col justify-center items-center md:justify-start md:items-start">
     <div className="relative">
-      <h1 className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold md:max-w-[300px] lg:max-w-[414px]">
+      <h1 className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold md:max-w-[300px] lg:max-w-[414px] text-center md:text-start">
         {mainText}
       </h1>
       <h1 className="w-full flex justify-center md:justify-start items-center">
