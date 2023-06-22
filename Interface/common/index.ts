@@ -26,7 +26,12 @@ export interface IDropdownOpen {
 export interface IMenuItem extends ILinkedList, IDropdownOpen {
   children?: ReactNode;
   option?: ILinkedList[];
+  handleDropdownLeave?: () => void;
+  handleDropdownHover: (label: string) => void;
+  isMobile?: boolean;
 }
 export interface IDropdownMenu extends IDropdownOpen {
-  option: ILinkedList[];
+  option?: ILinkedList[];
+  label?: string;
+  open?: string;
 }

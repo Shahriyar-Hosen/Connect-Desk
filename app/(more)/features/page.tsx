@@ -1,15 +1,19 @@
+import { AllFeatures, FeaturesHeader } from "@Components/Features";
+import { FreeTrial } from "@Components/Home";
 import PageHeader from "@Components/PageHeader";
-import React from "react";
 
 const Features = () => {
   return (
-    <div>
+    <main>
       <PageHeader
         pageName="Feature"
         mainTitle="Take A Look At Our Awesome"
         subTitle={<span className="text-primary">Features</span>}
       />
-    </div>
+      <FeaturesHeader />
+      <AllFeatures />
+      <FreeTrial />
+    </main>
   );
 };
 
