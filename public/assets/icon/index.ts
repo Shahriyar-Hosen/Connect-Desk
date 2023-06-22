@@ -6,9 +6,11 @@ import arrow from "./arrow.svg";
 import checkPrimary from "./check-primary.svg";
 import downArrow from "./downArrow.svg";
 import easySale from "./easy-sale.svg";
+import email from "./email.svg";
 import flexible from "./flexible.svg";
 import instagram from "./instagram.svg";
 import location from "./location.svg";
+import phoneLg from "./phone-lg.svg";
 import phone from "./phone.svg";
 import profile from "./profile.svg";
 import purchase from "./purchase.svg";
@@ -21,6 +23,7 @@ import support from "./support.svg";
 import tick from "./tick.svg";
 import twitter from "./twitter.svg";
 import web from "./web.svg";
+import whatsApp from "./whatsApp.svg";
 import youtube from "./youtube.svg";
 
 export {
@@ -30,11 +33,13 @@ export {
   checkPrimary,
   downArrow,
   easySale,
+  email,
   emailSupport,
   flexible,
   instagram,
   location,
   phone,
+  phoneLg,
   phoneSupport,
   profile,
   purchase,
@@ -47,5 +52,6 @@ export {
   tick,
   twitter,
   web,
+  whatsApp,
   youtube,
 };

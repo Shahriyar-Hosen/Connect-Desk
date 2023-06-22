@@ -47,6 +47,7 @@ import report from "./report.svg";
 import reset from "./reset.png";
 import scanning from "./scanning.svg";
 import sms from "./sms.svg";
+import supportBg from "./support-bg.png";
 import termCondition from "./term & condition.png";
 import videoTutorial from "./video-tutorial.svg";
 
@@ -99,6 +100,7 @@ export {
   reset,
   scanning,
   sms,
+  supportBg,
   supportLeftImg,
   termCondition,
   videoTutorial,

@@ -1,4 +1,5 @@
-import { IList, IPOSInventoryService } from "@Interface";
+import { ILabelAndIcon, IList } from "@Interface";
+import { email, phoneLg, whatsApp } from "@public/assets/icon";
 import {
   accountingBook,
   bank,
@@ -17,66 +18,66 @@ import {
   videoTutorial,
 } from "@public/assets/images";
 
-export const posInventoryServicesData: IPOSInventoryService[] = [
+export const posInventoryServicesData: ILabelAndIcon[] = [
   {
     icon: receipt,
-    title: "Quick Billing Invoice",
+    label: "Quick Billing Invoice",
   },
   {
     icon: invoices,
-    title: "Product Stock Report",
+    label: "Product Stock Report",
   },
   {
     icon: invoice,
-    title: "Daily Paid and Due Sales Report",
+    label: "Daily Paid and Due Sales Report",
   },
   {
     icon: accountingBook,
-    title: "Product Purchase Report Date Wise",
+    label: "Product Purchase Report Date Wise",
   },
   {
     icon: bill,
-    title: "Expense  List Report",
+    label: "Expense  List Report",
   },
   {
     icon: parcel,
-    title: "Product Return by Customer",
+    label: "Product Return by Customer",
   },
   {
     icon: report,
-    title: "Daily Sales Profit Loss Report",
+    label: "Daily Sales Profit Loss Report",
   },
   {
     icon: sms,
-    title: "Daily Reports Via Mobile SMS",
+    label: "Daily Reports Via Mobile SMS",
   },
   {
     icon: bank,
-    title: "Bank Transaction List & Report",
+    label: "Bank Transaction List & Report",
   },
   {
     icon: calculator,
-    title: "Customer and Supplier Ledger",
+    label: "Customer and Supplier Ledger",
   },
   {
     icon: printer,
-    title: "Report Printing",
+    label: "Report Printing",
   },
   {
     icon: barcode,
-    title: "Auto Barcode Generator",
+    label: "Auto Barcode Generator",
   },
   {
     icon: data,
-    title: "Daily Auto & Manual Backup",
+    label: "Daily Auto & Manual Backup",
   },
   {
     icon: scanning,
-    title: "Barcode Scanner for Easy Trannsaction",
+    label: "Barcode Scanner for Easy Trannsaction",
   },
   {
     icon: videoTutorial,
-    title: "Training for User Manual",
+    label: "Training for User Manual",
   },
 ];
 
@@ -141,5 +142,20 @@ export const supportMaintenanceTraining: IList[] = [
     label:
       "Note : After Deliver New Features /  Module Development is not include Maintenance",
     active: true,
+  },
+];
+
+export const customerSupportData: ILabelAndIcon[] = [
+  {
+    icon: phoneLg,
+    label: "0174674XXXX",
+  },
+  {
+    icon: email,
+    label: "info@connectdesk.com.bd",
+  },
+  {
+    icon: whatsApp,
+    label: "0174674XXXX",
   },
 ];

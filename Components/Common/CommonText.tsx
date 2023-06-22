@@ -14,7 +14,7 @@ export const CommonText = ({
       (text === "sm" && "text-xs lg:text-[13px]") ||
       (text === "md" && "text-sm") ||
       (text === "lg" && "text-base") ||
-      (text === "xl" && "text-lg") ||
+      (text === "xl" && "text-base lg:text-lg") ||
       (text === "2xl" && "text-xl") ||
       (text === "3xl" && "text-2xl")
     } ${className}`}
