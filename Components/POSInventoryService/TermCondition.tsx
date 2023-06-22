@@ -1,18 +1,21 @@
 "use client";
 
+import Image from "next/image";
+
 import {
+  BackgroundImage,
   CommonText,
   ComponentHeader,
   Container,
-  ListItem,
   MainContainer,
 } from "@Components/Common";
 import { termCondition } from "@public/assets/images";
-import Image from "next/image";
+import { shape1 } from "@public/assets/shape";
+import TermConditionCard from "./TermConditionCard";
 
 export const TermCondition = () => (
   <MainContainer>
-    <Container className="flex items-center">
+    <Container className="flex justify-around items-center">
       <div>
         <ComponentHeader title="Term & Condition" position="start" />
 
@@ -24,15 +27,16 @@ export const TermCondition = () => (
         <Image src={termCondition} className="max-w-[300px] mt-10" alt="" />
       </div>
 
-      <div className="w-full max-w-[394px] rounded boxShadow p-5 flex flex-col justify-center items-start gap-2.5 bg-[#ffffff] flex-shrink-0">
-        {termCondition1.map(({ label, active }, i) => (
-          <ListItem key={i} label={label} dot="sm" active={active} />
-        ))}
-      </div>
-
-      {/* <BackgroundImage img={shape1} className="w-full max-w-[410px]">
-        
-      </BackgroundImage> */}
+      <BackgroundImage img={shape1} className="w-full max-w-[500px]">
+        <div className="">
+          <div className="flex justify-start items-center">
+            <TermConditionCard termCondition={termCondition1} />
+          </div>
+          <div className="mt-[30px] flex justify-end items-center">
+            <TermConditionCard termCondition={termCondition2} />
+          </div>
+        </div>
+      </BackgroundImage>
     </Container>
   </MainContainer>
 );
