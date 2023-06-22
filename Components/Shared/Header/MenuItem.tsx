@@ -12,9 +12,24 @@ export const MenuItem = ({
   children,
   option,
   setOpen,
+  handleDropdownHover,
+  handleDropdownLeave,
+  isMobile,
 }: IMenuItem) => (
-  <li className="text-black" onClick={() => setOpen(label)}>
-    <Link href={link} className="lg:py-1 lg:px-2.5 xl:py-2 xl:px-4">
+  <li
+    className={`text-black`}
+    onClick={() => {
+      if (isMobile) {
+        setOpen(label);
+      }
+    }}
+    onMouseEnter={() => handleDropdownHover(label)}
+    onMouseLeave={handleDropdownLeave}
+  >
+    <Link
+      href={`${!option ? link : ""}`}
+      className="lg:py-1 lg:px-2.5 xl:py-2 xl:px-4"
+    >
       {label} {option && <Image src={downArrow} alt={label} />}
     </Link>
     {children}

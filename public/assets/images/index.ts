@@ -26,6 +26,23 @@ import printer from "./printer.svg";
 import receipt from "./receipt.svg";
 import report from "./report.svg";
 import reset from "./reset.png";
+import feature1 from "./feature1.svg";
+import feature2 from "./feature2.svg";
+import feature3 from "./feature3.svg";
+import feature4 from "./feature4.svg";
+import feature5 from "./feature5.svg";
+import feature6 from "./feature6.svg";
+import feature7 from "./feature7.svg";
+import feature8 from "./feature8.svg";
+import blog1 from "./blog1.svg";
+import blog2 from "./blog2.svg";
+import blog3 from "./blog3.svg";
+import blog4 from "./blog4.svg";
+import blog5 from "./blog5.svg";
+import blog6 from "./blog6.svg";
+import blog7 from "./blog7.svg";
+import blog8 from "./blog8.svg";
+import blog9 from "./blog9.svg";
 import scanning from "./scanning.svg";
 import sms from "./sms.svg";
 import videoTutorial from "./video-tutorial.svg";
@@ -61,5 +78,22 @@ export {
   scanning,
   sms,
   supportLeftImg,
+  feature1,
+  feature2,
+  feature3,
+  feature4,
+  feature5,
+  feature6,
+  feature7,
+  feature8,
+  blog1,
+  blog2,
+  blog3,
+  blog4,
+  blog5,
+  blog6,
+  blog7,
+  blog8,
+  blog9,
   videoTutorial,
 };

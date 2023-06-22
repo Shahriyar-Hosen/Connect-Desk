@@ -7,18 +7,32 @@ import { DropdownMenu, MenuItem } from ".";
 export const MenuItems = () => {
   const [open, setOpen] = useState("");
 
+  const handleDropdownHover = (label: string) => {
+    setOpen(label);
+  };
+
+  const handleDropdownLeave = () => {
+    setOpen("");
+  };
   return (
-    <ul className="menu menu-horizontal px-1 flex">
-      {navItems.map(({ label, link, option }, i) => (
+    <ul className={`menu menu-horizontal px-1 flex`}>
+      {navItems.map((nav, i) => (
         <MenuItem
           key={i}
-          label={label}
-          link={link}
-          option={option}
+          label={nav.label}
+          link={nav.link}
+          option={nav.option}
           setOpen={setOpen}
+          handleDropdownHover={handleDropdownHover}
+          handleDropdownLeave={handleDropdownLeave}
         >
-          {open === label && option && (
-            <DropdownMenu option={option} setOpen={setOpen} />
+          {open === nav.label && nav.option && (
+            <DropdownMenu
+              label={nav.label}
+              open={open}
+              option={nav.option}
+              setOpen={setOpen}
+            />
           )}
         </MenuItem>
       ))}
