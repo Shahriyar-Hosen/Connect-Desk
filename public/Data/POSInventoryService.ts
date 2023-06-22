@@ -17,7 +17,7 @@ import {
   videoTutorial,
 } from "@public/assets/images";
 
-export const posInventoryServices: IPOSInventoryService[] = [
+export const posInventoryServicesData: IPOSInventoryService[] = [
   {
     icon: receipt,
     title: "Quick Billing Invoice",
