@@ -38,6 +38,7 @@ const POSInventoryService = () => (
     <SoftwareFeatures />
     <GrowRetailFaster />
     <Packages />
+
     <AskedQuestions data={faqData} limit={5} />
   </main>
 );
