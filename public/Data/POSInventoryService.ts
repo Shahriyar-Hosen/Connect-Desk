@@ -1,4 +1,4 @@
-import { IPOSInventoryService } from "@Interface";
+import { IList, IPOSInventoryService } from "@Interface";
 import {
   accountingBook,
   bank,
@@ -80,7 +80,7 @@ export const posInventoryServicesData: IPOSInventoryService[] = [
   },
 ];
 
-export const termCondition1: { label: string; active?: boolean }[] = [
+export const termCondition1: IList[] = [
   {
     label: "After Sending Payment Please Confirm By Email/SMS/Phone Call",
   },
@@ -98,7 +98,7 @@ export const termCondition1: { label: string; active?: boolean }[] = [
   },
 ];
 
-export const termCondition2: { label: string; active?: boolean }[] = [
+export const termCondition2: IList[] = [
   {
     label:
       "If Sending Payment By Mobile Banking Please Send Transaction ID With Account",
@@ -114,3 +114,32 @@ export const termCondition2: { label: string; active?: boolean }[] = [
 ];
 
 export const termConditionData = [termCondition1, termCondition2];
+
+export const supportMaintenanceData: IList[] = [
+  {
+    label: "We Provide Maintenance Service After Deliver",
+  },
+  {
+    label: "Monthly Database And Software Backup",
+  },
+  {
+    label: "Software Security Test",
+  },
+  {
+    label: "Ready Software Any Kind Of Bug Solution",
+  },
+];
+
+export const supportMaintenanceTraining: IList[] = [
+  {
+    label: "Unlimited Support Over Phone, Email or Live Chat, Team Viewer",
+  },
+  {
+    label: "Video / Online Training : Free",
+  },
+  {
+    label:
+      "Note : After Deliver New Features /  Module Development is not include Maintenance",
+    active: true,
+  },
+];

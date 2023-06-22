@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import {
   CommonText,
   ComponentHeader,
@@ -8,9 +10,11 @@ import {
   ListItem,
   MainContainer,
 } from "@Components/Common";
-import { IList } from "@Interface";
+import {
+  supportMaintenanceData,
+  supportMaintenanceTraining,
+} from "@public/Data";
 import { afterSalesSupport } from "@public/assets/images";
-import Image from "next/image";
 
 export const AfterSalesSupport = () => (
   <MainContainer bg="secondary">
@@ -59,32 +63,3 @@ export const AfterSalesSupport = () => (
     </Container>
   </MainContainer>
 );
-
-export const supportMaintenanceData: IList[] = [
-  {
-    label: "We Provide Maintenance Service After Deliver",
-  },
-  {
-    label: "Monthly Database And Software Backup",
-  },
-  {
-    label: "Software Security Test",
-  },
-  {
-    label: "Ready Software Any Kind Of Bug Solution",
-  },
-];
-
-export const supportMaintenanceTraining: IList[] = [
-  {
-    label: "Unlimited Support Over Phone, Email or Live Chat, Team Viewer",
-  },
-  {
-    label: "Video / Online Training : Free",
-  },
-  {
-    label:
-      "Note : After Deliver New Features /  Module Development is not include Maintenance",
-    active: true,
-  },
-];
