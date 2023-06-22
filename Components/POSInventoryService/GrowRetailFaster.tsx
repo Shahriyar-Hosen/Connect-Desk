@@ -1,4 +1,7 @@
 "use client";
+
+import Image from "next/image";
+
 import {
   CommonText,
   ComponentHeader,
@@ -7,7 +10,6 @@ import {
   MainContainer,
 } from "@Components/Common";
 import { growRetailFaster } from "@public/assets/images";
-import Image from "next/image";
 
 export const GrowRetailFaster = () => (
   <MainContainer bg="secondary">
