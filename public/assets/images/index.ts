@@ -4,6 +4,7 @@ import growRetailFaster from "./GrowRetailFaster.svg";
 import posInventoryService from "./POS Inventory Service.png";
 import supportLeftImg from "./Support-left-img.png";
 import accountingBook from "./accounting-book.svg";
+import afterSalesSupport from "./afterSalesSupport.png";
 import appStore from "./appStore.svg";
 import arrowHero from "./arrowHero.svg";
 import bank from "./bank.svg";
@@ -51,6 +52,7 @@ import videoTutorial from "./video-tutorial.svg";
 
 export {
   accountingBook,
+  afterSalesSupport,
   appInstalImg,
   appStore,
   arrowHero,

@@ -8,7 +8,8 @@ export const ListItem = ({ dot = "md", label, active }: IListItem) => (
     {/* Dot */}
     <div
       className={`${
-        (dot === "sm" && "w-1 h-1") || (dot === "md" && "w-1.5 h-1.5")
+        (dot === "sm" && "min-w-[4px] min-h-[4px]") ||
+        (dot === "md" && "w-1.5 h-1.5")
       } bg-black rounded-full mt-2`}
     />
 

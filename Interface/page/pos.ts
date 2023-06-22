@@ -5,11 +5,11 @@ export interface IPOSInventoryService {
   title: string;
 }
 
-export interface ITermCondition {
+export interface IList {
   label: string;
   active?: boolean;
 }
 
 export interface ITermConditionCard {
-  termCondition: ITermCondition[];
+  termCondition: IList[];
 }

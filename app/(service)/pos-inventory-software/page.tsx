@@ -4,6 +4,7 @@
 import { AskedQuestions, CommonText, Packages } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import {
+  AfterSalesSupport,
   GrowRetailFaster,
   SoftwareFeatures,
   TermCondition,
@@ -40,6 +41,7 @@ const POSInventoryService = () => (
     <GrowRetailFaster />
     <Packages />
     <TermCondition />
+    <AfterSalesSupport />
     <AskedQuestions data={faqData} limit={5} />
   </main>
 );
