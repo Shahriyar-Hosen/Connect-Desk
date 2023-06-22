@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export const ContactDetails = () => {
   return (
-    <div>
+    <div className="w-full max-w-[520px]">
       {contactData.map((data) => (
-        <div key={data.title} className="flex gap-3">
+        <div key={data.title} className="my-4 flex gap-3 items-center">
           <Image src={data.icon} alt={data.title} />
           <div>
             <h3 className="text-sm font-semibold">{data.title}</h3>
