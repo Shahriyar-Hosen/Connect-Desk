@@ -9,7 +9,7 @@ export const contactData = [
   {
     icon: locationContact,
     title: "Office Address",
-    details: "Dhanmondi 32, Dhaka-1200, Bangladesh",
+    details: ["Dhanmondi 32, Dhaka-1200, Bangladesh"],
   },
   {
     icon: phoneContact,
@@ -25,11 +25,11 @@ export const contactData = [
   {
     icon: messageContact,
     title: "E-mail",
-    details: "support@connectdesk.com",
+    details: ["support@connectdesk.com"],
   },
   {
     icon: mapContact,
     title: "Location",
-    details: "support@connectdesk.com",
+    details: ["support@connectdesk.com"],
   },
 ];
