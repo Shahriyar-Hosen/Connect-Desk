@@ -1,5 +1,6 @@
 import appInstalImg from "./App Instal Img.svg";
 import freeTrial from "./Free Trial.png";
+import growRetailFaster from "./GrowRetailFaster.svg";
 import posInventoryService from "./POS Inventory Service.png";
 import supportLeftImg from "./Support-left-img.png";
 import accountingBook from "./accounting-book.svg";
@@ -76,6 +77,7 @@ export {
   feature7,
   feature8,
   freeTrial,
+  growRetailFaster,
   heroBg,
   heroLaptop,
   homeSupportBg,
