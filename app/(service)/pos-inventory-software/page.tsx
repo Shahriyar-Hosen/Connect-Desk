@@ -6,6 +6,7 @@ import HeroSection from "@Components/HeroSection";
 import {
   GrowRetailFaster,
   SoftwareFeatures,
+  TermCondition,
 } from "@Components/POSInventoryService";
 import { faqData } from "@public/Data/faq";
 import { posInventoryService } from "@public/assets/images";
@@ -38,7 +39,7 @@ const POSInventoryService = () => (
     <SoftwareFeatures />
     <GrowRetailFaster />
     <Packages />
-
+    <TermCondition />
     <AskedQuestions data={faqData} limit={5} />
   </main>
 );

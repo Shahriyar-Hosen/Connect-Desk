@@ -5,3 +5,9 @@ export interface ITextAndFont {
 export interface IClassName {
   className?: string;
 }
+
+export interface IListItem {
+  label: string;
+  dot?: "sm" | "md";
+  active?: boolean;
+}
