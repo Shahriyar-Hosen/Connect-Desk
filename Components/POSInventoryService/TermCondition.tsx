@@ -9,13 +9,14 @@ import {
   Container,
   MainContainer,
 } from "@Components/Common";
+import { termConditionData } from "@public/Data";
 import { termCondition } from "@public/assets/images";
 import { shape1 } from "@public/assets/shape";
 import TermConditionCard from "./TermConditionCard";
 
 export const TermCondition = () => (
   <MainContainer>
-    <Container className="flex justify-around items-center">
+    <Container className="flex flex-col  justify-center lg:flex-row lg:justify-around items-center gap-8">
       <div>
         <ComponentHeader title="Term & Condition" position="start" />
 
@@ -27,49 +28,22 @@ export const TermCondition = () => (
         <Image src={termCondition} className="max-w-[300px] mt-10" alt="" />
       </div>
 
-      <BackgroundImage img={shape1} className="w-full max-w-[500px]">
-        <div className="">
-          <div className="flex justify-start items-center">
-            <TermConditionCard termCondition={termCondition1} />
+      <BackgroundImage
+        img={shape1}
+        className="w-full max-w-[500px]"
+        hidden="sm"
+      >
+        {termConditionData.map((items, i) => (
+          <div
+            key={i}
+            className={`flex ${
+              i % 2 === 0 ? "justify-start" : "justify-end mt-[30px]"
+            } items-center`}
+          >
+            <TermConditionCard termCondition={items} />
           </div>
-          <div className="mt-[30px] flex justify-end items-center">
-            <TermConditionCard termCondition={termCondition2} />
-          </div>
-        </div>
+        ))}
       </BackgroundImage>
     </Container>
   </MainContainer>
 );
-
-const termCondition1: { label: string; active?: boolean }[] = [
-  {
-    label: "After Sending Payment Please Confirm By Email/SMS/Phone Call",
-  },
-  {
-    label:
-      "50% Due payment For Ready Software Setup And Training With Same Day",
-  },
-  {
-    label: "50% Advance Payment For Work Order Confirmation.",
-    active: true,
-  },
-  {
-    label:
-      "If Sending Payment By Bank Please Send Account Number For Confirmation",
-  },
-];
-
-const termCondition2: { label: string; active?: boolean }[] = [
-  {
-    label:
-      "If Sending Payment By Mobile Banking Please Send Transaction ID With Account",
-  },
-  {
-    label:
-      "Yearly Service Charge 2000 Taka (This Charge Added After 1 Year Installation Day)",
-  },
-  {
-    label:
-      "Online Support Time Sunday-Thursday (10 Am to 6 Pm) Free By ( TeamViewer/Anydesk).",
-  },
-];

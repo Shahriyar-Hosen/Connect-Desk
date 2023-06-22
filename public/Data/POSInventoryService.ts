@@ -79,3 +79,38 @@ export const posInventoryServicesData: IPOSInventoryService[] = [
     title: "Training for User Manual",
   },
 ];
+
+export const termCondition1: { label: string; active?: boolean }[] = [
+  {
+    label: "After Sending Payment Please Confirm By Email/SMS/Phone Call",
+  },
+  {
+    label:
+      "50% Due payment For Ready Software Setup And Training With Same Day",
+  },
+  {
+    label: "50% Advance Payment For Work Order Confirmation.",
+    active: true,
+  },
+  {
+    label:
+      "If Sending Payment By Bank Please Send Account Number For Confirmation",
+  },
+];
+
+export const termCondition2: { label: string; active?: boolean }[] = [
+  {
+    label:
+      "If Sending Payment By Mobile Banking Please Send Transaction ID With Account",
+  },
+  {
+    label:
+      "Yearly Service Charge 2000 Taka (This Charge Added After 1 Year Installation Day)",
+  },
+  {
+    label:
+      "Online Support Time Sunday-Thursday (10 Am to 6 Pm) Free By ( TeamViewer/Anydesk).",
+  },
+];
+
+export const termConditionData = [termCondition1, termCondition2];
