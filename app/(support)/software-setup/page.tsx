@@ -26,10 +26,9 @@ const SoftwareSetup = () => (
         </CommonText>
 
         <Video
-          height={380}
-          url="https://www.youtube.com/embed/o2W8_mvLuxU"
-          weight={700}
+          size="lg"
           className="mt-[50px]"
+          url="https://www.youtube.com/embed/o2W8_mvLuxU"
         />
       </Container>
     </MainContainer>
