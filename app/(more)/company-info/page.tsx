@@ -25,13 +25,10 @@ const CompanyInfo = () => {
             </h3>
             <h3 className="mb-2">E-TIN : 67567575786 </h3>
           </div>
-          <div>
+          <div className="w-full flex justify-center">
             <Image src={certificate} alt="certificate" />
           </div>
         </MainContainer>
-        {/* {termsAndConditionData.map((data) => (
-          <PolicyContainer textPosition="left" data={data} key={data.title} />
-        ))} */}
       </div>
     </main>
   );
