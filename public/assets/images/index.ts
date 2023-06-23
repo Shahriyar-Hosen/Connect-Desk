@@ -30,6 +30,7 @@ import feature5 from "./feature5.svg";
 import feature6 from "./feature6.svg";
 import feature7 from "./feature7.svg";
 import feature8 from "./feature8.svg";
+import founder from "./founder.png";
 import heroBg from "./heroBg.png";
 import heroLaptop from "./heroLaptop.png";
 import homeSupportBg from "./home-support.png";
@@ -80,6 +81,7 @@ export {
   feature6,
   feature7,
   feature8,
+  founder,
   freeTrial,
   growRetailFaster,
   heroBg,
