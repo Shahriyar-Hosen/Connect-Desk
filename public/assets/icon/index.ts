@@ -22,6 +22,10 @@ import tick from "./tick.svg";
 import twitter from "./twitter.svg";
 import web from "./web.svg";
 import youtube from "./youtube.svg";
+import locationContact from "./locationContact.svg";
+import phoneContact from "./phoneContact.svg";
+import messageContact from "./messageContact.svg";
+import mapContact from "./mapContact.svg";
 
 export {
   POSSoftware,
@@ -48,4 +52,8 @@ export {
   twitter,
   web,
   youtube,
+  locationContact,
+  phoneContact,
+  mapContact,
+  messageContact,
 };
