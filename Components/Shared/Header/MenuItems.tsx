@@ -3,18 +3,19 @@
 import { navItems } from "@public/Data/common";
 import { useState } from "react";
 import { DropdownMenu, MenuItem } from ".";
+import { NextRouter, useRouter } from "next/router";
+import { usePathname } from "next/navigation";
 
-export const MenuItems = () => {
+export const MenuItems = ({ router }: { router?: NextRouter }) => {
+  // const isActive = router.pathname === link;
+
   const [open, setOpen] = useState("");
-  const [isHover, setIsHover] = useState<boolean>(false);
   const handleDropdownHover = (label: string) => {
     setOpen(label);
-    setIsHover(true);
   };
 
   const handleDropdownLeave = () => {
     setOpen("");
-    setIsHover(false);
   };
   return (
     <ul className={`px-1 flex`}>
@@ -28,6 +29,7 @@ export const MenuItems = () => {
           open={open}
           handleDropdownHover={handleDropdownHover}
           handleDropdownLeave={handleDropdownLeave}
+          // router={router}
         >
           {open === nav.label && nav.option && (
             <DropdownMenu

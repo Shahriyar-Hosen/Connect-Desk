@@ -1,4 +1,5 @@
 import { Footer, Header } from "@Components/Shared";
+// import Header from "@Components/Shared/Header";
 import { IChildren } from "@Interface";
 import "@styles/globals.css";
 import { Inter } from "next/font/google";

@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { NextRouter } from "next/router";
 
 export interface ITextAndFont {
   text?: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
@@ -45,6 +46,7 @@ export interface IMenuItem extends ILinkedList, IDropdownOpen {
   handleDropdownHover: (label: string) => void;
   isMobile?: boolean;
   open: string;
+  router?: NextRouter;
 }
 export interface IDropdownMenu extends IDropdownOpen {
   option?: ILinkedList[];
