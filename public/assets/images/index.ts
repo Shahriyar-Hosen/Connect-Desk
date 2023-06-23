@@ -51,6 +51,7 @@ import sms from "./sms.svg";
 import supportBg from "./support-bg.png";
 import termCondition from "./term & condition.png";
 import videoTutorial from "./video-tutorial.svg";
+import certificate from "./certificate.svg";
 
 export {
   accountingBook,
@@ -106,4 +107,5 @@ export {
   supportLeftImg,
   termCondition,
   videoTutorial,
+  certificate,
 };
