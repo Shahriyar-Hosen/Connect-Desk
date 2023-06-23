@@ -50,6 +50,7 @@ import scanning from "./scanning.svg";
 import sms from "./sms.svg";
 import supportBg from "./support-bg.png";
 import termCondition from "./term & condition.png";
+import userGuide from "./userGuide.png";
 import videoTutorial from "./video-tutorial.svg";
 
 export {
@@ -105,5 +106,6 @@ export {
   supportBg,
   supportLeftImg,
   termCondition,
+  userGuide,
   videoTutorial,
 };
