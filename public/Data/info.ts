@@ -61,15 +61,15 @@ export const infoData: IInfo[] = [
     option: [
       {
         title: "Terms & Conditions",
-        link: "/terms-conditions",
+        link: "/terms-and-condition",
       },
       {
-        title: "privacy-policy",
-        link: "/",
+        title: "Privacy policy",
+        link: "/privacy-policy",
       },
       {
         title: "Refund & Return Policy",
-        link: "/refund-return-policy",
+        link: "/refund-and-return-policy",
       },
       {
         title: "App Install",
