@@ -32,7 +32,7 @@ export const ComponentHeader = ({
         (position === "end" && "justify-end")
       }`}
     >
-      <div className="w-[159px] h-[4px] opacity-60 bg-primary " />
+      <div className="w-[159px] h-[5px] opacity-60 bg-primary rounded-full" />
     </div>
   </div>
 );
