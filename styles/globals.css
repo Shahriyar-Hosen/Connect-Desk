@@ -18,6 +18,10 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+.boxShadow {
+  box-shadow: 0px 0px 8px 2px #0000001a;
+}
+
 .freeTrail h6 {
   font-weight: 600;
   font-size: 24px;
