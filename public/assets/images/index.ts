@@ -52,6 +52,7 @@ import supportBg from "./support-bg.png";
 import termCondition from "./term & condition.png";
 import userGuide from "./userGuide.png";
 import videoTutorial from "./video-tutorial.svg";
+import certificate from "./certificate.svg";
 
 export {
   accountingBook,
@@ -108,4 +109,5 @@ export {
   termCondition,
   userGuide,
   videoTutorial,
+  certificate,
 };
