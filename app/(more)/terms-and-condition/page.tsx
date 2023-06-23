@@ -19,7 +19,7 @@ const PrivacyPolicy = () => {
           </span>
         }
       />
-      <div className="w-[80%] md:w-[90%] lg:w-[70%] mx-auto">
+      <div className="w-[80%] md:w-[90%] lg:w-[70%] mx-auto pb-10">
         <MainContainer isRemoveMargin>
           <ComponentHeader title="সফটওয়্যার ব্যবহারের শর্তাবলী" />
         </MainContainer>
