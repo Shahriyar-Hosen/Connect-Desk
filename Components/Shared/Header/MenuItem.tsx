@@ -27,7 +27,7 @@ export const MenuItem = ({
     onMouseLeave={handleDropdownLeave}
   >
     <Link
-      href={`${!option ? link : ""}`}
+      href={`${!isMobile ? link : ""}`}
       className="lg:py-1 lg:px-2.5 xl:py-2 xl:px-4"
     >
       {label} {option && <Image src={downArrow} alt={label} />}
