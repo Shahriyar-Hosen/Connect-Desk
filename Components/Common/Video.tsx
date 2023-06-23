@@ -8,8 +8,8 @@ export const Video = ({ url, className, size = "md" }: IVideo) => (
   >
     <iframe
       className={`${
-        (size === "md" && "w-[80vw] max-w-[432px] max-h-[267px]") ||
-        (size === "lg" && "w-[80vw] max-w-[700px] max-h-[380px]")
+        (size === "md" && "w-[85vw] md:w-[432px] md:h-[267px]") ||
+        (size === "lg" && "w-[90vw] md:w-[700px] md:h-[380px]")
       } w-full h-auto  aspect-video rounded-lg`}
       src={url}
       title="YouTube video player"
