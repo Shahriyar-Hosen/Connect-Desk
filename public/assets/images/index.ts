@@ -1,8 +1,10 @@
 import appInstalImg from "./App Instal Img.svg";
 import freeTrial from "./Free Trial.png";
+import growRetailFaster from "./GrowRetailFaster.svg";
 import posInventoryService from "./POS Inventory Service.png";
 import supportLeftImg from "./Support-left-img.png";
 import accountingBook from "./accounting-book.svg";
+import afterSalesSupport from "./afterSalesSupport.png";
 import appStore from "./appStore.svg";
 import arrowHero from "./arrowHero.svg";
 import bank from "./bank.svg";
@@ -45,10 +47,13 @@ import report from "./report.svg";
 import reset from "./reset.png";
 import scanning from "./scanning.svg";
 import sms from "./sms.svg";
+import supportBg from "./support-bg.png";
+import termCondition from "./term & condition.png";
 import videoTutorial from "./video-tutorial.svg";
 
 export {
   accountingBook,
+  afterSalesSupport,
   appInstalImg,
   appStore,
   arrowHero,
@@ -76,6 +81,7 @@ export {
   feature7,
   feature8,
   freeTrial,
+  growRetailFaster,
   heroBg,
   heroLaptop,
   homeSupportBg,
@@ -94,6 +100,8 @@ export {
   reset,
   scanning,
   sms,
+  supportBg,
   supportLeftImg,
+  termCondition,
   videoTutorial,
 };

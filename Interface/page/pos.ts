@@ -1,6 +1,8 @@
-import { StaticImageData } from "next/image";
+export interface IList {
+  label: string;
+  active?: boolean;
+}
 
-export interface IPOSInventoryService {
-  icon: StaticImageData;
-  title: string;
+export interface ITermConditionCard {
+  termCondition: IList[];
 }
