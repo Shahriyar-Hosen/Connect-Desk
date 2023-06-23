@@ -7,7 +7,11 @@ export const ContactUsForm = () => {
       <InputField handleOnChange={handleOnChange} placeholder="Your Name" />
       <InputField handleOnChange={handleOnChange} placeholder="Your Address" />
       <InputField handleOnChange={handleOnChange} placeholder="Write subject" />
-      <InputField handleOnChange={handleOnChange} placeholder="Write message" />
+      <InputField
+        type="textarea"
+        handleOnChange={handleOnChange}
+        placeholder="Write message"
+      />
       <br />
       <Button width="full" variant="primary">
         Submit
