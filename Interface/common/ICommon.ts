@@ -44,6 +44,7 @@ export interface IMenuItem extends ILinkedList, IDropdownOpen {
   handleDropdownLeave?: () => void;
   handleDropdownHover: (label: string) => void;
   isMobile?: boolean;
+  open: string;
 }
 export interface IDropdownMenu extends IDropdownOpen {
   option?: ILinkedList[];

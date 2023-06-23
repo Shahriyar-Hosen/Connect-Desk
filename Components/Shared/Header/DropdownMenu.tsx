@@ -23,6 +23,7 @@ export const DropdownMenu = ({
           label={label}
           link={link}
           setOpen={setOpen}
+          open={open || ""}
         />
       ))}
   </ul>
