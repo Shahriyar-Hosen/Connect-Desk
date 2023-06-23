@@ -7,8 +7,8 @@ const Blog = ({ blog }: { blog: IBlogs }) => {
   const { description, id, image, postDate, title } = blog;
   return (
     <MainContainer isRemoveMargin>
-      <div className="flex flex-col md:flex-row">
-        <div className="w-full md:w-[65%]">
+      <div className="flex flex-col md:flex-row md:justify-between justify-center items-center gap-5 md:gap-10">
+        <div className="w-full md:w-[65%] max-w-[610px]">
           <div className="flex gap-2">
             <BlogButton text="By ConnectDesk" isHaveBackground />
             <BlogButton text={postDate} />
@@ -23,7 +23,8 @@ const Blog = ({ blog }: { blog: IBlogs }) => {
             Red More
           </button>
         </div>
-        <div className="w-full md:w-[35%] flex md:justify-end mt-5 md:mt-0">
+
+        <div className="w-full md:w-[35%] flex justify-center items-center md:justify-end mt-5 md:mt-0">
           <Image
             className="w-full max-w-[430px]"
             src={image}
