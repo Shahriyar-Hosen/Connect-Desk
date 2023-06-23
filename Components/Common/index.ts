@@ -13,3 +13,4 @@ export * from "./LinkButton";
 export * from "./Logo";
 export * from "./MainContainer";
 export * from "./Packages";
+export * from "./Video";

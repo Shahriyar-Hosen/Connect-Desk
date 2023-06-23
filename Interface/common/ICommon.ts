@@ -5,3 +5,9 @@ export interface ITextAndFont {
 export interface IClassName {
   className?: string;
 }
+
+export interface IVideo extends IClassName {
+  weight: number;
+  height: number;
+  url: string;
+}
