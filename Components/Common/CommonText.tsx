@@ -16,7 +16,8 @@ export const CommonText = ({
       (text === "lg" && "text-base") ||
       (text === "xl" && "text-lg") ||
       (text === "2xl" && "text-xl") ||
-      (text === "3xl" && "text-2xl")
+      (text === "3xl" && "text-2xl") ||
+      (text === "4xl" && "text-[26px]")
     } ${className}`}
   >
     {children}
