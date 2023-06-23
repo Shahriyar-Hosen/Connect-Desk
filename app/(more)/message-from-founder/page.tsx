@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
+
 import { CommonText, Container, MainContainer } from "@Components/Common";
 import PageHeader from "@Components/PageHeader";
 import { founder } from "@public/assets/images";
-import Image from "next/image";
 
 const MessageFromFounder = () => (
   <main>
