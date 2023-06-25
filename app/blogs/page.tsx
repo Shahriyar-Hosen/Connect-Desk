@@ -2,7 +2,7 @@ import Blog from "@Components/Blog";
 import PageHeader from "@Components/PageHeader";
 import { blogsData } from "@public/Data/blogPage";
 
-const BlogPage = () => {
+const BlogsPage = () => {
   return (
     <main>
       <PageHeader
@@ -19,4 +19,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default BlogsPage;

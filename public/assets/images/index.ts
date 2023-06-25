@@ -20,6 +20,7 @@ import blog7 from "./blog7.svg";
 import blog8 from "./blog8.svg";
 import blog9 from "./blog9.svg";
 import calculator from "./calculator.svg";
+import certificate from "./certificate.svg";
 import confirmPass from "./confirmPass.png";
 import data from "./data.svg";
 import feature1 from "./feature1.svg";
@@ -47,12 +48,12 @@ import receipt from "./receipt.svg";
 import report from "./report.svg";
 import reset from "./reset.png";
 import scanning from "./scanning.svg";
+import servicesImg from "./services-img.png";
 import sms from "./sms.svg";
 import supportBg from "./support-bg.png";
 import termCondition from "./term & condition.png";
 import userGuide from "./userGuide.png";
 import videoTutorial from "./video-tutorial.svg";
-import certificate from "./certificate.svg";
 
 export {
   accountingBook,
@@ -73,6 +74,7 @@ export {
   blog8,
   blog9,
   calculator,
+  certificate,
   confirmPass,
   data,
   feature1,
@@ -103,11 +105,11 @@ export {
   report,
   reset,
   scanning,
+  servicesImg,
   sms,
   supportBg,
   supportLeftImg,
   termCondition,
   userGuide,
   videoTutorial,
-  certificate,
 };
