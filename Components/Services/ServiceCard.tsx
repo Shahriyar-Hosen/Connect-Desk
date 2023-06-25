@@ -1,8 +1,9 @@
 "use client";
 
-import { IService } from "@Interface";
 import Image from "next/image";
 import Link from "next/link";
+
+import { IService } from "@Interface";
 
 export const ServiceCard = ({ des, img, title }: IService) => (
   <section className="w-full max-w-[453px] flex flex-col justify-center items-center mx-auto p-6 rounded-3xl bg-[#F9F9F9] gap-6">
