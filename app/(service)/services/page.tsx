@@ -1,12 +1,12 @@
 "use client";
 
-import { CommonText, Container, MainContainer } from "@Components/Common";
+import { CommonText } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import { servicesImg } from "@public/assets/images";
 
 const Services = () => {
   return (
-    <>
+    <main>
       <HeroSection
         mainText={
           <>
@@ -28,12 +28,7 @@ const Services = () => {
         image={servicesImg}
         service
       />
-      <MainContainer>
-        <Container>
-          <h1>Services Container</h1>
-        </Container>
-      </MainContainer>
-    </>
+    </main>
   );
 };
 
