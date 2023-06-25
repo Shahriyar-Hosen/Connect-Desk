@@ -48,6 +48,7 @@ import receipt from "./receipt.svg";
 import report from "./report.svg";
 import reset from "./reset.png";
 import scanning from "./scanning.svg";
+import serviceImg from "./serviceImg.png";
 import servicesImg from "./services-img.png";
 import sms from "./sms.svg";
 import supportBg from "./support-bg.png";
@@ -105,6 +106,7 @@ export {
   report,
   reset,
   scanning,
+  serviceImg,
   servicesImg,
   sms,
   supportBg,
