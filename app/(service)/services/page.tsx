@@ -2,6 +2,7 @@
 
 import { CommonText } from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
+import { AllServices } from "@Components/Services";
 import { servicesImg } from "@public/assets/images";
 
 const Services = () => {
@@ -28,6 +29,7 @@ const Services = () => {
         image={servicesImg}
         service
       />
+      <AllServices />
     </main>
   );
 };
