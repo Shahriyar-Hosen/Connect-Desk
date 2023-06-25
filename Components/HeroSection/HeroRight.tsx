@@ -1,7 +1,8 @@
 "use client";
 
-import { IHeroRight } from "@Interface";
 import Image from "next/image";
+
+import { IHeroRight } from "@Interface";
 
 export const HeroRight = ({ image, pos }: IHeroRight) => (
   <Image
