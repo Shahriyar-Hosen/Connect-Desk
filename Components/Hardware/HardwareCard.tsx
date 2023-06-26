@@ -5,8 +5,9 @@ import Image from "next/image";
 export const HardwareCard = ({ data }: { data: IHardwareData }) => {
   const { category, details, image, name } = data;
   return (
-    <div className="flex gap-4 border rounded-md shadow-md">
-      <Image src={image} alt={category} />
+    <div className="md:flex gap-4 border rounded-md shadow-md">
+      {/* w-full flex md:block justify-center */}
+      <Image className="" src={image} alt={category} />
       <div className="p-4">
         <h1 className="text-[14px] font-bold mb-4">{name}</h1>
 
