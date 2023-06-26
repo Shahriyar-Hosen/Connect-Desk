@@ -1,7 +1,8 @@
 "use client";
 
-import { aboutTop1, aboutTop2 } from "@public/assets/images";
 import Image from "next/image";
+
+import { aboutTop1, aboutTop2 } from "@public/assets/images";
 
 export const WhoWeAreImg = () => (
   <div className="grid gap-2.5 grid-cols-3 max-w-6xl mx-auto my-8 md:my-[60px]">
