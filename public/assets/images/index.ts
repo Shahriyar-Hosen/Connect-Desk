@@ -3,6 +3,8 @@ import freeTrial from "./Free Trial.png";
 import growRetailFaster from "./GrowRetailFaster.svg";
 import posInventoryService from "./POS Inventory Service.png";
 import supportLeftImg from "./Support-left-img.png";
+import aboutTop1 from "./about-to-1.png";
+import aboutTop2 from "./about-to-2.png";
 import accountingBook from "./accounting-book.svg";
 import afterSalesSupport from "./afterSalesSupport.png";
 import appStore from "./appStore.svg";
@@ -57,6 +59,8 @@ import userGuide from "./userGuide.png";
 import videoTutorial from "./video-tutorial.svg";
 
 export {
+  aboutTop1,
+  aboutTop2,
   accountingBook,
   afterSalesSupport,
   appInstalImg,
