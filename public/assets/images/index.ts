@@ -41,6 +41,7 @@ import invoice from "./invoice.svg";
 import invoices from "./invoices.svg";
 import loginLeftImg from "./loginLeftImg.png";
 import mackbook from "./mackbook.png";
+import mission from "./mission.png";
 import packageBgLite from "./package-bg-lite.png";
 import packageBg from "./package-bg.png";
 import parcel from "./parcel.svg";
@@ -56,7 +57,9 @@ import sms from "./sms.svg";
 import supportBg from "./support-bg.png";
 import termCondition from "./term & condition.png";
 import userGuide from "./userGuide.png";
+import value from "./value.png";
 import videoTutorial from "./video-tutorial.svg";
+import vision from "./vision.png";
 
 export {
   aboutTop1,
@@ -100,6 +103,7 @@ export {
   invoices,
   loginLeftImg,
   mackbook,
+  mission,
   packageBg,
   packageBgLite,
   parcel,
@@ -117,5 +121,7 @@ export {
   supportLeftImg,
   termCondition,
   userGuide,
+  value,
   videoTutorial,
+  vision,
 };
