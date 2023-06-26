@@ -21,10 +21,7 @@ export const MenuItem = ({
 }: IMenuItem) => {
   const pathname = usePathname();
   const isActive = pathname.startsWith(link);
-  console.log(pathname);
-  // const isActive = router?.pathname === link;
-  console.log({ link, pathname });
-  console.log(link === pathname);
+
   return (
     <div>
       <li
