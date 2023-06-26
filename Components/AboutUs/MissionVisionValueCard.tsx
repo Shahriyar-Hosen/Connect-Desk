@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
+
 import { CommonText, ComponentHeader } from "@Components/Common";
 import { IMissionVisionValue } from "@Interface/data/missionVisionValue";
-import Image from "next/image";
 
 export const MissionVisionValueCard = ({
   des,
