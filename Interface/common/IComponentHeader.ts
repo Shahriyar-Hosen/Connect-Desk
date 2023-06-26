@@ -5,4 +5,5 @@ export interface IComponentHeader extends ITextAndFont {
   title: string | JSX.Element;
   subTitle?: string | JSX.Element | boolean;
   subText?: string;
+  about?: boolean;
 }

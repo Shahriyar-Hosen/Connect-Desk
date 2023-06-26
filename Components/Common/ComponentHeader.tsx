@@ -8,6 +8,7 @@ export const ComponentHeader = ({
   subTitle,
   text = "md",
   subText,
+  about,
 }: IComponentHeader) => (
   <div>
     <div
@@ -17,23 +18,28 @@ export const ComponentHeader = ({
           position === "start" &&
           "xl:text-[28px] lg:text-[24px] text-[20px]") ||
         (text === "md" && `lg:text-[28px] text-[24px]`) ||
-        (text === "lg" && "text-[28px] lg:text-[32px]")
+        (text === "lg" &&
+          `${
+            about ? "text-[24px] lg:text-[30px]" : "text-[28px] lg:text-[32px]"
+          }`)
       } font-semibold ${
         (position === "center" && "text-center") ||
         (position === "start" && "text-start") ||
         (position === "end" && "text-end")
       }`}
     >
-      <h3 className="mb-1">{title}</h3>
-      <h3>{subTitle}</h3>
+      <h3>{title}</h3>
+      {subTitle ? <h3 className="mt-1">{subTitle}</h3> : null}
     </div>
 
-    <p className="text-center text-lg opacity-80 max-w-[589px] mx-auto">
-      {subText}
-    </p>
+    {subText ? (
+      <p className="text-center text-lg opacity-80 max-w-[589px] mx-auto">
+        {subText}
+      </p>
+    ) : null}
 
     <div
-      className={`w-full flex pt-2.5 ${
+      className={`w-full flex pt-1 ${
         (position === "center" && "justify-center") ||
         (position === "start" && "justify-start") ||
         (position === "end" && "justify-end")
