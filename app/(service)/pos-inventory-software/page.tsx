@@ -1,11 +1,15 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
-import { AskedQuestions, CommonText, Packages } from "@Components/Common";
+import {
+  AskedQuestions,
+  CommonText,
+  CustomerSupport,
+  Packages,
+} from "@Components/Common";
 import HeroSection from "@Components/HeroSection";
 import {
   AfterSalesSupport,
-  CustomerSupport,
   GrowRetailFaster,
   SoftwareFeatures,
   TermCondition,

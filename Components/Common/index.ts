@@ -8,6 +8,7 @@ export * from "./CommonText";
 export * from "./ComponentHeader";
 export * from "./ConnectDesk";
 export * from "./Container";
+export * from "./CustomerSupport";
 export * from "./InputField";
 export * from "./LinkButton";
 export * from "./ListItem";
