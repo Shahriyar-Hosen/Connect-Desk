@@ -1,10 +1,24 @@
 "use client";
 
+import { WhoWeAre } from "@Components/AboutUs";
+import { CustomerSupport } from "@Components/Common";
+import PageHeader from "@Components/PageHeader";
+
 const AboutUs = () => {
   return (
-    <div>
-      <h1>About Us</h1>
-    </div>
+    <main>
+      <PageHeader
+        mainTitle={
+          <>
+            About <span className="text-primary">Us</span>
+          </>
+        }
+        pageName="About Us"
+      />
+
+      <WhoWeAre />
+      <CustomerSupport />
+    </main>
   );
 };
 

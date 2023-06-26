@@ -14,6 +14,7 @@ const HeroSection = ({
   button1,
   button2,
   pos,
+  service,
 }: IHeroSection) => (
   <BackgroundImage img={heroBg} hidden="sm">
     <Container className="relative z-10 flex flex-col-reverse md:flex-row items-start justify-center min-h-[90%] lg:pt-5 xl:pt-10">
@@ -23,6 +24,7 @@ const HeroSection = ({
         paragraph={paragraph}
         button1={button1}
         button2={button2}
+        service={service}
       />
 
       <HeroRight image={image} pos={pos} />

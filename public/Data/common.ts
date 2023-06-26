@@ -112,8 +112,8 @@ export const navItems: INavItems[] = [
     option: service,
   },
   {
-    label: "Blog",
-    link: "/blog",
+    label: "Blogs",
+    link: "/blogs",
   },
   {
     label: "Support",

@@ -6,6 +6,7 @@ import {
   Container,
   MainContainer,
 } from "@Components/Common";
+import AllFeatures from "./AllFeatures";
 
 export const SoftwareFeatures = () => (
   <MainContainer>
@@ -18,6 +19,8 @@ export const SoftwareFeatures = () => (
         }
         subTitle="Features At A Glance"
       />
+
+      <AllFeatures />
     </Container>
   </MainContainer>
 );

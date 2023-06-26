@@ -1,8 +1,12 @@
 import appInstalImg from "./App Instal Img.svg";
 import freeTrial from "./Free Trial.png";
+import growRetailFaster from "./GrowRetailFaster.svg";
 import posInventoryService from "./POS Inventory Service.png";
 import supportLeftImg from "./Support-left-img.png";
+import aboutTop1 from "./about-to-1.png";
+import aboutTop2 from "./about-to-2.png";
 import accountingBook from "./accounting-book.svg";
+import afterSalesSupport from "./afterSalesSupport.png";
 import appStore from "./appStore.svg";
 import arrowHero from "./arrowHero.svg";
 import bank from "./bank.svg";
@@ -18,6 +22,7 @@ import blog7 from "./blog7.svg";
 import blog8 from "./blog8.svg";
 import blog9 from "./blog9.svg";
 import calculator from "./calculator.svg";
+import certificate from "./certificate.svg";
 import confirmPass from "./confirmPass.png";
 import data from "./data.svg";
 import feature1 from "./feature1.svg";
@@ -28,6 +33,7 @@ import feature5 from "./feature5.svg";
 import feature6 from "./feature6.svg";
 import feature7 from "./feature7.svg";
 import feature8 from "./feature8.svg";
+import founder from "./founder.png";
 import heroBg from "./heroBg.png";
 import heroLaptop from "./heroLaptop.png";
 import homeSupportBg from "./home-support.png";
@@ -44,11 +50,19 @@ import receipt from "./receipt.svg";
 import report from "./report.svg";
 import reset from "./reset.png";
 import scanning from "./scanning.svg";
+import serviceImg from "./serviceImg.png";
+import servicesImg from "./services-img.png";
 import sms from "./sms.svg";
+import supportBg from "./support-bg.png";
+import termCondition from "./term & condition.png";
+import userGuide from "./userGuide.png";
 import videoTutorial from "./video-tutorial.svg";
 
 export {
+  aboutTop1,
+  aboutTop2,
   accountingBook,
+  afterSalesSupport,
   appInstalImg,
   appStore,
   arrowHero,
@@ -65,6 +79,7 @@ export {
   blog8,
   blog9,
   calculator,
+  certificate,
   confirmPass,
   data,
   feature1,
@@ -75,7 +90,9 @@ export {
   feature6,
   feature7,
   feature8,
+  founder,
   freeTrial,
+  growRetailFaster,
   heroBg,
   heroLaptop,
   homeSupportBg,
@@ -93,7 +110,12 @@ export {
   report,
   reset,
   scanning,
+  serviceImg,
+  servicesImg,
   sms,
+  supportBg,
   supportLeftImg,
+  termCondition,
+  userGuide,
   videoTutorial,
 };
