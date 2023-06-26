@@ -1,6 +1,6 @@
 "use client";
 
-import { MissionVisionValue, WhoWeAre } from "@Components/AboutUs";
+import { Counter, MissionVisionValue, WhoWeAre } from "@Components/AboutUs";
 import { CustomerSupport } from "@Components/Common";
 import PageHeader from "@Components/PageHeader";
 
@@ -16,6 +16,7 @@ const AboutUs = () => (
     />
 
     <WhoWeAre />
+    <Counter />
     <MissionVisionValue />
     <CustomerSupport />
   </main>
