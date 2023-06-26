@@ -19,7 +19,7 @@ export const HeroLeft = ({
       <h1
         className={`text-[20px] md:text-[24px] lg:text-[32px] font-semibold ${
           service
-            ? "md:max-w-[323px] lg:max-w-[431px]"
+            ? "md:max-w-[331px] lg:max-w-[441px]"
             : "md:max-w-[300px] lg:max-w-[414px]"
         } text-center md:text-start`}
       >
