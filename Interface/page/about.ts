@@ -1,5 +1,5 @@
 export interface ICounterCard {
-  count: number;
+  maxCount: number;
   label: string;
   title: string;
 }
