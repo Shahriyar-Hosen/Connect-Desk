@@ -1,8 +1,9 @@
 "use client";
 
-import useClickOutSide from "@hooks/useClickOutside";
-import { navItems } from "@public/Data/common";
 import { useCallback, useRef, useState } from "react";
+
+import { useClickOutSide } from "@hooks";
+import { navItems } from "@public/Data/common";
 import { DropdownMenu, MenuItem } from ".";
 
 export const MobileMenuItems = () => {

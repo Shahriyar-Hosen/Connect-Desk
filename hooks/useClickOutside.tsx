@@ -1,6 +1,6 @@
 import { RefObject, useEffect } from "react";
 
-const useClickOutSide = () => {
+export const useClickOutSide = () => {
   const ClickOutSide = (
     ref: RefObject<HTMLElement>,
     handler: (event: MouseEvent | TouchEvent) => void
@@ -23,5 +23,3 @@ const useClickOutSide = () => {
 
   return ClickOutSide;
 };
-
-export default useClickOutSide;

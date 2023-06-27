@@ -1,13 +1,7 @@
 "use client";
 
-export * from "./DropdownMenu";
-export * from "./LoginAndSign";
-export * from "./MenuItem";
-export * from "./MenuItems";
-export * from "./MobileMenuItem";
-
 import { Container, Logo } from "@Components/Common";
-import { usePathname } from "next/navigation";
+import { useIgnorePate } from "@hooks";
 import {
   LoginAndSign,
   MenuItems,
@@ -16,12 +10,10 @@ import {
 } from ".";
 
 export const Header = () => {
-  const pathname = usePathname();
-
-  console.log(pathname);
+  const ignorePath = useIgnorePate();
 
   return (
-    <Container className={`${pathname === "/login" && "hidden"}`}>
+    <Container className={`${ignorePath && "hidden"}`}>
       <nav className="flex justify-between items-center px-5 py-2.5">
         <Logo />
 
@@ -64,4 +56,8 @@ export const Header = () => {
   );
 };
 
-// export default withRouter(Header);
+export * from "./DropdownMenu";
+export * from "./LoginAndSign";
+export * from "./MenuItem";
+export * from "./MenuItems";
+export * from "./MobileMenuItem";
