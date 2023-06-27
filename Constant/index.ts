@@ -1,7 +1,7 @@
 export const NavFooterHidePath: string[] = [
   "/register",
   "/login",
-  "forget-password",
+  "/forget-password",
   "/otp",
   "/confirm-password",
 ];
