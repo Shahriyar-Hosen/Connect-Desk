@@ -4,8 +4,11 @@ import { LoginRegisterLeftSide, LoginRightSide } from "@Components/Auth";
 import { ConnectDesk, MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { loginLeftImg } from "@public/assets/images";
+import { usePathname } from "next/navigation";
 
-const login = () => {
+const Login = () => {
+  const pathname = usePathname();
+
   return (
     <MainContainer isRemoveMargin>
       <AuthComponent
@@ -26,4 +29,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;

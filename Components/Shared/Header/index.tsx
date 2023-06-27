@@ -14,10 +14,8 @@ import {
   MobileLoginAndSignUpButton,
   MobileMenuItems,
 } from ".";
-import { NextRouter, useRouter, withRouter } from "next/router";
 
 export const Header = () => {
-  // const router = useRouter();
   return (
     <Container>
       <nav className="flex justify-between items-center px-5 py-2.5">
