@@ -1,0 +1,27 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+
+import { IAuthNavigate } from "@Interface";
+import { roundArrow } from "@public/assets/icon";
+
+export const AuthNavigate = ({
+  btnText = "Register Now",
+  label = "Don’t have an account?",
+  link = "register",
+}: IAuthNavigate) => (
+  <div>
+    <p className="text-center my-10 text-base font-medium">
+      {label}&nbsp;
+      <Link className="text-primary" href={`/${link}`}>
+        {btnText}
+      </Link>
+    </p>
+
+    <Link href="/" className="flex gap-3">
+      <Image src={roundArrow} alt="" />
+      <p className="cursor-pointer">Back to home</p>
+    </Link>
+  </div>
+);

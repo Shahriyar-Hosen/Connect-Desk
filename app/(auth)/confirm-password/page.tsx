@@ -1,9 +1,6 @@
 "use client";
 
-import {
-  ConfirmPasswordRightSide,
-  LoginRegisterLeftSide,
-} from "@Components/Auth";
+import { AuthLeftSide, ConfirmPasswordRightSide } from "@Components/Auth";
 import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { confirmPass } from "@public/assets/images";
@@ -13,7 +10,7 @@ const ConfirmPassword = () => {
     <MainContainer isRemoveMargin>
       <AuthComponent
         leftComponent={
-          <LoginRegisterLeftSide
+          <AuthLeftSide
             title={<div className="mt-4 lg:mt-8">Change Your Password</div>}
             image={confirmPass}
           />

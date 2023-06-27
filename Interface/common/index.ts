@@ -7,4 +7,5 @@ export * from "./IComponentHeader";
 export * from "./IConstant";
 export * from "./IContainer";
 export * from "./IHeroSection";
+export * from "./IInputField";
 export * from "./IPageHeader";

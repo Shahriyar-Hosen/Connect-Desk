@@ -1,10 +1,13 @@
-import { Button, InputField, Logo } from "@Components/Common";
-import { IUserType } from "@Interface";
-import { roundArrow } from "@public/assets/icon";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent, useState } from "react";
-import { ToggleButton } from "../Login";
+
+import { Button, InputField, Logo } from "@Components/Common";
+import { IUserType } from "@Interface";
+import { roundArrow } from "@public/assets/icon";
+import { ToggleButton } from "../ToggleButton";
 
 export const RegisterRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
@@ -66,16 +69,16 @@ export const RegisterRightSide = () => {
       </Button>
       <div>
         <p className="text-center my-10 text-base font-medium">
-          Already have an account?{" "}
-          <Link className="text-primary" href="">
-            Login{" "}
+          Already have an account?&nbsp;
+          <Link className="text-primary" href="/login">
+            Login
           </Link>
         </p>
       </div>
-      <div className="flex gap-3">
+      <Link href="/" className="flex gap-3">
         <Image src={roundArrow} alt="" />
-        <p>Back to home</p>
-      </div>
+        <p className="cursor-pointer">Back to home</p>
+      </Link>
     </div>
   );
 };
