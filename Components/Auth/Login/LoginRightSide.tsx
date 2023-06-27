@@ -34,27 +34,27 @@ export const LoginRightSide = () => {
             placeholder="Enter your password"
           />
         </div>
-        <div className="flex justify-between">
+        <Link href="/forget-password" className="flex justify-between">
           <div className="flex my-3 gap-2 text-base font-medium">
             <Image src={rectangle} alt="" />
             <p>Remember me</p>
           </div>
-          <p className="text-error">Forget Password?</p>
-        </div>
+          <p className="text-error cursor-pointer">Forget Password?</p>
+        </Link>
         <br />
         <Button variant="primary" width="full" size="lg">
           Login
         </Button>
         <div>
           <p className="text-center my-10 text-base font-medium">
-            Don’t have an account?
-            <Link className="text-primary" href="">
+            Don’t have an account?&nbsp;
+            <Link className="text-primary" href="/register">
               Register Now
             </Link>
           </p>
           <Link href="/" className="flex gap-3">
             <Image src={roundArrow} alt="" />
-            <p>Back to home</p>
+            <p className="cursor-pointer">Back to home</p>
           </Link>
         </div>
       </div>
