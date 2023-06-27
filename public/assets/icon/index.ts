@@ -5,13 +5,18 @@ import accounting from "./accounting.svg";
 import arrow from "./arrow.svg";
 import checkPrimary from "./check-primary.svg";
 import downArrow from "./downArrow.svg";
+import download from "./download.svg";
 import easySale from "./easy-sale.svg";
 import email from "./email.svg";
 import flexible from "./flexible.svg";
 import instagram from "./instagram.svg";
 import location from "./location.svg";
+import locationContact from "./locationContact.svg";
+import mapContact from "./mapContact.svg";
+import messageContact from "./messageContact.svg";
 import phoneLg from "./phone-lg.svg";
 import phone from "./phone.svg";
+import phoneContact from "./phoneContact.svg";
 import profile from "./profile.svg";
 import purchase from "./purchase.svg";
 import rectangle from "./rectangle.svg";
@@ -25,10 +30,6 @@ import twitter from "./twitter.svg";
 import web from "./web.svg";
 import whatsApp from "./whatsApp.svg";
 import youtube from "./youtube.svg";
-import locationContact from "./locationContact.svg";
-import phoneContact from "./phoneContact.svg";
-import messageContact from "./messageContact.svg";
-import mapContact from "./mapContact.svg";
 
 export {
   POSSoftware,
@@ -36,13 +37,18 @@ export {
   arrow,
   checkPrimary,
   downArrow,
+  download,
   easySale,
   email,
   emailSupport,
   flexible,
   instagram,
   location,
+  locationContact,
+  mapContact,
+  messageContact,
   phone,
+  phoneContact,
   phoneLg,
   phoneSupport,
   profile,
@@ -58,8 +64,4 @@ export {
   web,
   whatsApp,
   youtube,
-  locationContact,
-  phoneContact,
-  mapContact,
-  messageContact,
 };
