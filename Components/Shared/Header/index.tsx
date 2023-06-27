@@ -8,6 +8,7 @@ export * from "./MenuItems";
 export * from "./MobileMenuItem";
 
 import { Container, Logo } from "@Components/Common";
+import { usePathname } from "next/navigation";
 import {
   LoginAndSign,
   MenuItems,
@@ -16,8 +17,12 @@ import {
 } from ".";
 
 export const Header = () => {
+  const pathname = usePathname();
+
+  console.log(pathname);
+
   return (
-    <Container>
+    <Container className={`${pathname === "/login" && "hidden"}`}>
       <nav className="flex justify-between items-center px-5 py-2.5">
         <Logo />
 

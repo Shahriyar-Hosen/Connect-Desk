@@ -1,10 +1,10 @@
 import { Button, InputField, Logo } from "@Components/Common";
+import { IUserType } from "@Interface";
 import { rectangle, roundArrow } from "@public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent, useState } from "react";
 import { ToggleButton } from "./ToggleButton";
-import { IUserType } from "@Interface";
 
 export const LoginRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
@@ -52,10 +52,10 @@ export const LoginRightSide = () => {
               Register Now
             </Link>
           </p>
-          <div className="flex gap-3">
+          <Link href="/" className="flex gap-3">
             <Image src={roundArrow} alt="" />
             <p>Back to home</p>
-          </div>
+          </Link>
         </div>
       </div>
     </div>
