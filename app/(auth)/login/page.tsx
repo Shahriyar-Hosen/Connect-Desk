@@ -1,13 +1,19 @@
 "use client";
 
-import { LoginRegisterLeftSide, LoginRightSide } from "@Components/Auth";
+import {
+  AuthComponent,
+  LoginRegisterLeftSide,
+  LoginRightSide,
+} from "@Components/Auth";
 import { ConnectDesk, MainContainer } from "@Components/Common";
-import { AuthComponent } from "@Components/Shared";
 import { loginLeftImg } from "@public/assets/images";
 
 const Login = () => {
   return (
-    <MainContainer isRemoveMargin>
+    <MainContainer
+      isRemoveMargin
+      className="h-screen w-full flex flex-col justify-center items-center"
+    >
       <AuthComponent
         leftComponent={
           <LoginRegisterLeftSide

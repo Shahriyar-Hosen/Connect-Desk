@@ -4,7 +4,7 @@ import { rectangle, roundArrow } from "@public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent, useState } from "react";
-import { ToggleButton } from "./ToggleButton";
+import { ToggleButton } from "../ToggleButton";
 
 export const LoginRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
