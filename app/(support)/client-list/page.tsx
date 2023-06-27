@@ -16,7 +16,7 @@ const ClientList = () => (
       pageName="Client List"
     />
 
-    <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
+    <div className="w-full max-w-6xl mx-auto flex justify-between items-center my-[50px]">
       <h1 className="text-[26px] font-semibold text-center">Client List</h1>
 
       <Button
