@@ -117,12 +117,12 @@ export const navItems: INavItems[] = [
   },
   {
     label: "Support",
-    link: "/support",
+    link: "",
     option: support,
   },
   {
     label: "More",
-    link: "/more",
+    link: "",
     option: more,
   },
 ];
