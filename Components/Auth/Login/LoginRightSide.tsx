@@ -8,14 +8,16 @@ import { ToggleButton } from "../ToggleButton";
 
 export const LoginRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
+
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     // console.log(e);
   };
+
   return (
     <div className="w-full lg:mx-8 my-20">
       <div className="flex flex-col justify-center items-center">
         <Logo />
-        <h3 className="my-4 text-neutral text-xl font-semibold">
+        <h3 className="my-[30px] text-neutral text-xl font-semibold">
           Login Your Business Area
         </h3>
         <ToggleButton setUserType={setUserType} userType={userType} />
