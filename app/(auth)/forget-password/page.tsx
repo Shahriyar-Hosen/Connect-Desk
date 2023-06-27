@@ -1,16 +1,19 @@
 "use client";
 
 import {
+  AuthComponent,
   ForgetPasswordRightSide,
   LoginRegisterLeftSide,
 } from "@Components/Auth";
 import { MainContainer } from "@Components/Common";
-import { AuthComponent } from "@Components/Shared";
 import { reset } from "@public/assets/images";
 
 const ForgetPassword = () => {
   return (
-    <MainContainer isRemoveMargin>
+    <MainContainer
+      isRemoveMargin
+      className="h-screen flex flex-col justify-center items-center"
+    >
       <AuthComponent
         leftComponent={
           <LoginRegisterLeftSide
