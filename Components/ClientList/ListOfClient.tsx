@@ -1,9 +1,9 @@
 "use client";
 
-import { Container, MainContainer } from "@Components/Common";
+import { Container } from "@Components/Common";
 
 export const ListOfClient = () => (
-  <MainContainer>
+  <main className="mt-[50px] mb-[60px]">
     <Container>
       <div className="overflow-x-auto">
         <table className="table table-xs">
@@ -214,5 +214,5 @@ export const ListOfClient = () => (
         </table>
       </div>
     </Container>
-  </MainContainer>
+  </main>
 );
