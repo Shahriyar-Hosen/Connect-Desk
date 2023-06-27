@@ -2,7 +2,7 @@
 
 import {
   AuthComponent,
-  LoginRegisterLeftSide,
+  AuthLeftSide,
   RegisterRightSide,
 } from "@Components/Auth";
 import { ConnectDesk, MainContainer } from "@Components/Common";
@@ -16,7 +16,7 @@ const Register = () => (
   >
     <AuthComponent
       leftComponent={
-        <LoginRegisterLeftSide
+        <AuthLeftSide
           image={loginLeftImg}
           title={
             <span>

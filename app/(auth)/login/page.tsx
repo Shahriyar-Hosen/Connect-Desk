@@ -1,22 +1,15 @@
 "use client";
 
-import {
-  AuthComponent,
-  LoginRegisterLeftSide,
-  LoginRightSide,
-} from "@Components/Auth";
+import { AuthComponent, AuthLeftSide, LoginRightSide } from "@Components/Auth";
 import { ConnectDesk, MainContainer } from "@Components/Common";
 import { loginLeftImg } from "@public/assets/images";
 
 const Login = () => {
   return (
-    <MainContainer
-      isRemoveMargin
-      className="h-screen w-full flex flex-col justify-center items-center"
-    >
+    <MainContainer isRemoveMargin fullScreen>
       <AuthComponent
         leftComponent={
-          <LoginRegisterLeftSide
+          <AuthLeftSide
             title={
               <span>
                 Welcome to <ConnectDesk text="xl" />

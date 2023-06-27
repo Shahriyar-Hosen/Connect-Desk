@@ -8,7 +8,7 @@ interface LeftSiteProps {
   title: JSX.Element | string;
 }
 
-export const LoginRegisterLeftSide = ({
+export const AuthLeftSide = ({
   paragraph,
   isSubTitle,
   image,

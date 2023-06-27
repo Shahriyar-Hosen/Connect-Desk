@@ -1,10 +1,6 @@
 "use client";
 
-import {
-  AuthComponent,
-  LoginRegisterLeftSide,
-  OtpRightSide,
-} from "@Components/Auth";
+import { AuthComponent, AuthLeftSide, OtpRightSide } from "@Components/Auth";
 import { MainContainer } from "@Components/Common";
 import { reset } from "@public/assets/images";
 
@@ -16,7 +12,7 @@ const Otp = () => {
     >
       <AuthComponent
         leftComponent={
-          <LoginRegisterLeftSide
+          <AuthLeftSide
             title={<div className="mt-4 lg:mt-8">Reset Your Password</div>}
             image={reset}
           />
