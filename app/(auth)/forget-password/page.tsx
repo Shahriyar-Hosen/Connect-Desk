@@ -8,7 +8,7 @@ import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { reset } from "@public/assets/images";
 
-const forgetPassword = () => {
+const ForgetPassword = () => {
   return (
     <MainContainer isRemoveMargin>
       <AuthComponent
@@ -24,4 +24,4 @@ const forgetPassword = () => {
   );
 };
 
-export default forgetPassword;
+export default ForgetPassword;

@@ -5,7 +5,7 @@ import { ConnectDesk, MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { loginLeftImg } from "@public/assets/images";
 
-const login = () => {
+const Register = () => {
   return (
     <MainContainer isRemoveMargin>
       <AuthComponent
@@ -29,4 +29,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Register;

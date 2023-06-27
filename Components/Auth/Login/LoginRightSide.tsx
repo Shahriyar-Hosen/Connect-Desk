@@ -1,10 +1,10 @@
 import { Button, InputField, Logo } from "@Components/Common";
+import { IUserType } from "@Interface";
 import { rectangle, roundArrow } from "@public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
 import { ChangeEvent, useState } from "react";
 import { ToggleButton } from "./ToggleButton";
-import { IUserType } from "@Interface";
 
 export const LoginRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
@@ -34,28 +34,28 @@ export const LoginRightSide = () => {
             placeholder="Enter your password"
           />
         </div>
-        <div className="flex justify-between">
+        <Link href="/forget-password" className="flex justify-between">
           <div className="flex my-3 gap-2 text-base font-medium">
             <Image src={rectangle} alt="" />
             <p>Remember me</p>
           </div>
-          <p className="text-error">Forget Password?</p>
-        </div>
+          <p className="text-error cursor-pointer">Forget Password?</p>
+        </Link>
         <br />
         <Button variant="primary" width="full" size="lg">
           Login
         </Button>
         <div>
           <p className="text-center my-10 text-base font-medium">
-            Don’t have an account?
-            <Link className="text-primary" href="">
+            Don’t have an account?&nbsp;
+            <Link className="text-primary" href="/register">
               Register Now
             </Link>
           </p>
-          <div className="flex gap-3">
+          <Link href="/" className="flex gap-3">
             <Image src={roundArrow} alt="" />
-            <p>Back to home</p>
-          </div>
+            <p className="cursor-pointer">Back to home</p>
+          </Link>
         </div>
       </div>
     </div>

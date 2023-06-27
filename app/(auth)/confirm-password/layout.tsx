@@ -6,11 +6,7 @@ export const metadata = {
 };
 
 const ConfirmPasswordLayout = ({ children }: IChildren) => (
-  <html lang="en">
-    <body>
-      <main>{children}</main>
-    </body>
-  </html>
+  <main>{children}</main>
 );
 
 export default ConfirmPasswordLayout;

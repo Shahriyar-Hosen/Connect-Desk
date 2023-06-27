@@ -4,6 +4,7 @@ export * from "./IButton";
 export * from "./IChildren";
 export * from "./ICommon";
 export * from "./IComponentHeader";
+export * from "./IConstant";
 export * from "./IContainer";
 export * from "./IHeroSection";
 export * from "./IPageHeader";

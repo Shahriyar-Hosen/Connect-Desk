@@ -1,9 +1,10 @@
 "use client";
 
-import { navItems } from "@public/Data/common";
 import { useCallback, useRef, useState } from "react";
+
+import { useClickOutSide } from "@hooks";
+import { navItems } from "@public/Data/common";
 import { DropdownMenu, MenuItem } from ".";
-import useClickOutSide from "@hooks/useClickOutside";
 
 export const MobileMenuItems = () => {
   const [open, setOpen] = useState("");
@@ -34,6 +35,7 @@ export const MobileMenuItems = () => {
           setOpen={setOpen}
           handleDropdownHover={() => {}}
           isMobile
+          open=""
         >
           {open === label && option && (
             <div className="dropdown dropdown-bottom lg:hidden" ref={menuRef}>

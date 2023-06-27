@@ -5,7 +5,7 @@ import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { reset } from "@public/assets/images";
 
-const otp = () => {
+const Otp = () => {
   return (
     <MainContainer isRemoveMargin>
       <AuthComponent
@@ -21,4 +21,4 @@ const otp = () => {
   );
 };
 
-export default otp;
+export default Otp;

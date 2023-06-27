@@ -8,7 +8,7 @@ import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { confirmPass } from "@public/assets/images";
 
-const confirmPassword = () => {
+const ConfirmPassword = () => {
   return (
     <MainContainer isRemoveMargin>
       <AuthComponent
@@ -24,4 +24,4 @@ const confirmPassword = () => {
   );
 };
 
-export default confirmPassword;
+export default ConfirmPassword;
