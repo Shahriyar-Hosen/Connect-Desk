@@ -1,14 +1,6 @@
 "use client";
 
-import { ChangeEvent } from "react";
-
-interface InputFieldProps {
-  label?: string;
-  type?: string;
-  placeholder?: string;
-  width?: string;
-  handleOnChange: (e: ChangeEvent<HTMLInputElement>) => void;
-}
+import { InputFieldProps } from "@Interface";
 
 export const InputField = ({
   label,
@@ -21,9 +13,9 @@ export const InputField = ({
     <div className="w-full my-2">
       <p className="text-base font-medium text-neutral mb-3">{label}</p>
       <input
-        className={`border ${
+        className={`border border-primary border-opacity-20 rounded-md ${
           (width === "full" && "w-full") || (width === "half" && "w-1/2")
-        } p-3 border-primary  rounded-sm`}
+        } p-3`}
         onChange={(e) => handleOnChange(e)}
         type={type}
         placeholder={placeholder}

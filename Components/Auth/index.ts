@@ -1,4 +1,6 @@
 export * from "./AuthComponent";
+export * from "./AuthNavigate";
+export * from "./AuthTopSection";
 export * from "./ConfirmPassword";
 export * from "./ForgetPassword";
 export * from "./Login";

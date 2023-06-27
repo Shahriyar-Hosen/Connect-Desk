@@ -6,7 +6,7 @@ import { loginLeftImg } from "@public/assets/images";
 
 const Login = () => {
   return (
-    <MainContainer isRemoveMargin fullScreen>
+    <MainContainer isRemoveMargin isRemovePadding fullScreen>
       <AuthComponent
         leftComponent={
           <AuthLeftSide
