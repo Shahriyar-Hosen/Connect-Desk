@@ -19,10 +19,13 @@ const ClientList = () => (
 
     <Container>
       <div className="w-full max-w-6xl mx-auto flex justify-between items-center mt-[50px]">
-        <h1 className="text-[26px] font-semibold text-center">Client List</h1>
+        <h1 className="text-lg md:text-[26px] font-semibold text-center">
+          Client List
+        </h1>
 
         <Button
           text="14"
+          size="sm"
           variant="primary"
           className="flex justify-center items-center gap-2.5"
         >
