@@ -10,6 +10,7 @@ import { AuthTopSection } from "../AuthTopSection";
 
 export const RegisterRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
+
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     // console.log(e);
   };
