@@ -21,7 +21,7 @@ export const LoginRightSide = () => {
         userType={userType}
       />
 
-      <div className="max-w-[520px] mx-auto">
+      <div className="w-full max-w-[520px] mx-auto">
         <div className="flex flex-col justify-center items-center gap-6">
           <InputField
             handleOnChange={handleOnChange}
@@ -35,6 +35,7 @@ export const LoginRightSide = () => {
             placeholder="Enter your password"
           />
         </div>
+
         <AgreeSection
           label1="Remember me"
           label2="Forget Password?"

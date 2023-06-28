@@ -1,5 +1,6 @@
 "use client";
 
+import { CommonText } from "@Components/Common";
 import { IAgreeSection } from "@Interface";
 import { rectangle } from "@public/assets/icon";
 import Image from "next/image";
@@ -13,12 +14,12 @@ export const AgreeSection = ({
   <div className="flex justify-between items-center my-3 mt">
     <div className="flex justify-center items-center gap-2 text-base font-medium">
       <Image src={rectangle} alt="" />
-      <p>{label1}</p>
+      <CommonText>{label1}</CommonText>
     </div>
 
     {label2 ? (
       <Link href={labelLink2} className="text-error cursor-pointer">
-        {label2}
+        <CommonText> {label2}</CommonText>
       </Link>
     ) : null}
   </div>

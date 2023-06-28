@@ -15,7 +15,7 @@ export const RegisterRightSide = () => {
   };
 
   return (
-    <div className="w-[90%] md:w-[80%] mx-auto lg:mx-8 lg:px-4">
+    <div className="w-[90%] md:w-[80%] mx-auto lg:pr-5">
       <div className=" max-w-[602px] mx-auto">
         <AuthTopSection
           label="Register Your Business Area"
@@ -29,6 +29,7 @@ export const RegisterRightSide = () => {
             label="Business Name"
             placeholder="Enter your business name"
           />
+
           <div className="md:flex gap-5">
             <InputField
               handleOnChange={handleOnChange}
