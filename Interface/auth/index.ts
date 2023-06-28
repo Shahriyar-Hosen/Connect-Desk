@@ -12,3 +12,12 @@ export interface IAuthNavigate {
   link?: string;
   btnText?: string;
 }
+export interface IAuthTopSection extends IToggleButton {
+  label: string;
+}
+
+export interface IAgreeSection {
+  label1: string | JSX.Element;
+  label2?: string;
+  labelLink2?: string;
+}

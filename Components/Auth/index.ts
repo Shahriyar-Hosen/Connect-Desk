@@ -1,3 +1,4 @@
+export * from "./AgreeSection";
 export * from "./AuthComponent";
 export * from "./AuthNavigate";
 export * from "./AuthTopSection";

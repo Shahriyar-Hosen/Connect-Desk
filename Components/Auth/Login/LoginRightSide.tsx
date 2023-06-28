@@ -1,13 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import { ChangeEvent, useState } from "react";
 
 import { Button, InputField } from "@Components/Common";
 import { IUserType } from "@Interface";
-import { rectangle } from "@public/assets/icon";
-import { AuthNavigate, AuthTopSection } from "..";
+import { AgreeSection, AuthNavigate, AuthTopSection } from "..";
 
 export const LoginRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
@@ -38,16 +35,11 @@ export const LoginRightSide = () => {
             placeholder="Enter your password"
           />
         </div>
-
-        <div className="flex justify-between items-center my-3 mt">
-          <div className="flex justify-center items-center gap-2 text-base font-medium">
-            <Image src={rectangle} alt="" />
-            <p>Remember me</p>
-          </div>
-          <Link href="/forget-password" className="text-error cursor-pointer">
-            Forget Password?
-          </Link>
-        </div>
+        <AgreeSection
+          label1="Remember me"
+          label2="Forget Password?"
+          labelLink2="/forget-password"
+        />
 
         <br />
 

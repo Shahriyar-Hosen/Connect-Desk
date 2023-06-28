@@ -24,7 +24,7 @@ export const Button = ({
       } 
         ${
           (text === "14" && "text-xs sm:text-sm") ||
-          (text === "16" && "text-base") ||
+          (text === "16" && "text-sm md:text-base") ||
           (text === "18" &&
             "text-[14px] md:text-[16px] lg:text-[17px] xl:text-[18px]")
         } 
