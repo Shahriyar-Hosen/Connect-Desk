@@ -201,4 +201,49 @@ export const hardwareData: IHardwareData[] = [
       "58mm & 80mm printing mode switch.",
     ],
   },
+  //   Barcode Scanner
+  {
+    name: "Xprinter XP-E200M Thermal POS Printer",
+    category: "Barcode Scanner",
+    image: pos1,
+    details: [
+      "200mm per second print speed for both graphics & text",
+      "Drop-in paper loading & auto cutter.",
+      "Reprinting Task Supported.",
+      "58mm & 80mm printing mode switch.",
+    ],
+  },
+  {
+    name: "Xprinter XP-E200M Thermal POS Printer",
+    category: "Barcode Scanner",
+    image: pos2,
+    details: [
+      "200mm per second print speed for both graphics & text",
+      "Drop-in paper loading & auto cutter.",
+      "Reprinting Task Supported.",
+      "58mm & 80mm printing mode switch.",
+    ],
+  },
+  {
+    name: "Xprinter XP-E200M Thermal POS Printer",
+    category: "Barcode Scanner",
+    image: pos3,
+    details: [
+      "200mm per second print speed for both graphics & text",
+      "Drop-in paper loading & auto cutter.",
+      "Reprinting Task Supported.",
+      "58mm & 80mm printing mode switch.",
+    ],
+  },
+  {
+    name: "Xprinter XP-E200M Thermal POS Printer",
+    category: "Barcode Scanner",
+    image: pos4,
+    details: [
+      "200mm per second print speed for both graphics & text",
+      "Drop-in paper loading & auto cutter.",
+      "Reprinting Task Supported.",
+      "58mm & 80mm printing mode switch.",
+    ],
+  },
 ];
