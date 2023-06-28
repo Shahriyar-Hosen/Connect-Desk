@@ -14,7 +14,7 @@ export const AuthNavigate = ({
   <div>
     <p className="text-center my-5 md:my-7 lg:my-10 text-base font-medium">
       {label}&nbsp;
-      <Link className="text-primary" href={`/${link}`}>
+      <Link className="text-primary" href={`${link}`}>
         {btnText}
       </Link>
     </p>
