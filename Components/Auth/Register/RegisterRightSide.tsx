@@ -16,7 +16,7 @@ export const RegisterRightSide = () => {
   };
 
   return (
-    <div className="w-[90%] md:w-[80%] mx-auto lg:pr-5">
+    <div className="w-[90%] md:w-full mx-auto lg:pr-5">
       <div className=" max-w-[602px] mx-auto">
         <AuthTopSection
           label="Register Your Business Area"

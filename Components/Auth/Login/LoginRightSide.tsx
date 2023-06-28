@@ -14,7 +14,7 @@ export const LoginRightSide = () => {
   };
 
   return (
-    <div className="w-full lg:mx-8 my-20">
+    <div className="w-[90%] mx-auto md:w-full lg:pr-5">
       <AuthTopSection
         label="Login Your Business Area"
         setUserType={setUserType}
