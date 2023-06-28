@@ -24,10 +24,8 @@ const Register = () => (
               Welcome to <ConnectDesk text="xl" />
             </span>
           }
-          paragraph="You’ll get preloaded data or upload your own. Preconfigured
-    processes, reports, and dashboards. Guided experiences for every
-    steps."
           isSubTitle
+          paragraph="You’ll get preloaded data or upload your own. Preconfigured processes, reports, and dashboards. Guided experiences for every steps."
         />
       }
       rightComponent={<RegisterRightSide />}

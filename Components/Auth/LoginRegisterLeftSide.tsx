@@ -1,18 +1,13 @@
 import { Button, CommonText, ConnectDesk } from "@Components/Common";
-import Image, { StaticImageData } from "next/image";
-
-interface LeftSiteProps {
-  paragraph?: JSX.Element | string;
-  isSubTitle?: boolean;
-  image: StaticImageData;
-  title: JSX.Element | string;
-}
+import { LeftSiteProps } from "@Interface";
+import Image from "next/image";
 
 export const AuthLeftSide = ({
   paragraph,
   isSubTitle,
   image,
   title,
+  bottomBtn,
 }: LeftSiteProps) => (
   <div className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-t from-white via-base-100 to-white md:px-20 lg:px-0">
     <div className="md:w-[80%]">
@@ -37,11 +32,13 @@ export const AuthLeftSide = ({
         {paragraph}
       </CommonText>
 
-      <div className="w-full max-w-[380px] mx-auto opacity-90 mt-6">
-        <Button variant="primary" text="16" width="full">
-          Start My Free 7-Days Trial
-        </Button>
-      </div>
+      {bottomBtn ? (
+        <div className="w-full max-w-[380px] mx-auto opacity-90 mt-6">
+          <Button variant="primary" text="16" width="full">
+            Start My Free 7-Days Trial
+          </Button>
+        </div>
+      ) : null}
     </div>
   </div>
 );
