@@ -14,7 +14,10 @@ export const MainContainer = ({
     className={`w-full ${!isRemoveMargin && "my-[10px] md:my-[30px]"} ${
       !isRemovePadding && "py-[20px] md:py-[60px]"
     }
-    ${fullScreen && "h-screen w-full flex flex-col justify-center items-center"}
+    ${
+      fullScreen &&
+      "h-full min-h-screen w-full flex flex-col justify-center items-center"
+    }
      ${
        (bg === "default" && "bg-transparent") ||
        (bg === "primary" && "bg-base-100") ||
