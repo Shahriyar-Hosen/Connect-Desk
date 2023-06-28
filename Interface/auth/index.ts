@@ -1,3 +1,4 @@
+import { IChildrenWithClass } from "@Interface/common";
 import { StaticImageData } from "next/image";
 import { Dispatch, SetStateAction } from "react";
 
@@ -29,4 +30,16 @@ export interface LeftSiteProps {
   image: StaticImageData;
   title: JSX.Element | string;
   bottomBtn?: boolean;
+}
+
+export interface IAuthMainRightSide extends IChildrenWithClass, IToggleButton {
+  agreeSectionLabel1: string | JSX.Element;
+  agreeSectionLabel2?: string;
+  agreeSectionLabelLink2?: string;
+  authTopLabel: string;
+  btnText: string;
+  authNavigateLabel?: string;
+  authNavigateLink?: string;
+  authNavigateBtnText?: string;
+  maxWidth: string;
 }
