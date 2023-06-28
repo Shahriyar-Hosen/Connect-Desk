@@ -12,7 +12,7 @@ const Register = () => (
   <MainContainer
     isRemoveMargin
     isRemovePadding
-    className="h-screen w-full flex flex-col justify-center items-center"
+    className="h-full min-h-screen w-full flex flex-col justify-center items-center py-5 lg:py-0"
   >
     <AuthComponent
       leftComponent={

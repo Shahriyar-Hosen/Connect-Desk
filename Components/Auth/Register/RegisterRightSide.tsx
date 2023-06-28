@@ -8,6 +8,7 @@ import { Button, InputField, Logo } from "@Components/Common";
 import { IUserType } from "@Interface";
 import { roundArrow } from "@public/assets/icon";
 import { ToggleButton } from "../ToggleButton";
+import { AuthTopSection } from "../AuthTopSection";
 
 export const RegisterRightSide = () => {
   const [userType, setUserType] = useState<IUserType>("Business Login");
@@ -16,14 +17,21 @@ export const RegisterRightSide = () => {
   };
 
   return (
-    <div className="w-[90%] md:w-[80%] mx-auto lg:mx-8 lg:px-4 my-20">
-      <div className="flex flex-col justify-center items-center">
+    <div className="w-[90%] md:w-[80%] mx-auto lg:mx-8 lg:px-4">
+      <AuthTopSection
+        label="Register Your Business Area"
+        setUserType={setUserType}
+        userType={userType}
+      />
+
+      {/* <div className="flex flex-col justify-center items-center">
         <Logo />
         <h3 className="my-4 text-neutral text-xl font-semibold">
           Register Your Business Area
         </h3>
         <ToggleButton setUserType={setUserType} userType={userType} />
-      </div>
+      </div> */}
+
       <div>
         <InputField
           handleOnChange={handleOnChange}
