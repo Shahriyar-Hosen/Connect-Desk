@@ -23,10 +23,12 @@ export const AuthLeftSide = ({
         Welcome to <ConnectDesk text="xl" />
       </h3>
 
-      <p className="text-base md:text-lg lg:text-xl font-semibold text-center max-w-[352px] mx-auto opacity-80 mt-4">
-        Try ConnectDesk Free For <span className="text-primary">7 Days</span>.
-        No Payment Required.
-      </p>
+      {isSubTitle ? (
+        <p className="text-base md:text-lg lg:text-xl font-semibold text-center max-w-[352px] mx-auto opacity-80 mt-4">
+          Try ConnectDesk Free For <span className="text-primary">7 Days</span>.
+          No Payment Required.
+        </p>
+      ) : null}
 
       <CommonText className="mt-5 max-w-[422px] mx-auto">
         {paragraph}
