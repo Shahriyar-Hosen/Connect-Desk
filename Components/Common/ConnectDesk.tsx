@@ -16,7 +16,7 @@ export const ConnectDesk = ({
       (text === "md" && "text-xl") ||
       (text === "lg" &&
         `text-[24px] lg:text-[28px] ${logo && "text-[25px]"}`) ||
-      (text === "xl" && "text-[28px] lg:text-[32px]")
+      (text === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
     } 
       ${
         (font === "Poppins" && "font-[Poppins]") ||

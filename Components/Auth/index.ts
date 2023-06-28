@@ -1,4 +1,6 @@
+export * from "./AgreeSection";
 export * from "./AuthComponent";
+export * from "./AuthMainRightSide";
 export * from "./AuthNavigate";
 export * from "./AuthTopSection";
 export * from "./ConfirmPassword";

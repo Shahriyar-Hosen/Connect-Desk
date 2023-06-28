@@ -6,7 +6,12 @@ import { loginLeftImg } from "@public/assets/images";
 
 const Login = () => {
   return (
-    <MainContainer isRemoveMargin isRemovePadding fullScreen>
+    <MainContainer
+      isRemoveMargin
+      isRemovePadding
+      fullScreen
+      className="py-5 lg:py-0"
+    >
       <AuthComponent
         leftComponent={
           <AuthLeftSide

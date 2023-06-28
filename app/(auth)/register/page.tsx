@@ -12,7 +12,8 @@ const Register = () => (
   <MainContainer
     isRemoveMargin
     isRemovePadding
-    className="h-screen w-full flex flex-col justify-center items-center"
+    fullScreen
+    className="py-5 lg:py-0"
   >
     <AuthComponent
       leftComponent={
@@ -23,10 +24,9 @@ const Register = () => (
               Welcome to <ConnectDesk text="xl" />
             </span>
           }
-          paragraph="You’ll get preloaded data or upload your own. Preconfigured
-    processes, reports, and dashboards. Guided experiences for every
-    steps."
+          paragraph="You’ll get preloaded data or upload your own. Preconfigured processes, reports, and dashboards. Guided experiences for every steps."
           isSubTitle
+          bottomBtn
         />
       }
       rightComponent={<RegisterRightSide />}
