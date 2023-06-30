@@ -1,4 +1,4 @@
-import { Button, CommonText, ConnectDesk } from "@Components/Common";
+import { Button, CommonText } from "@Components/Common";
 import { LeftSiteProps } from "@Interface";
 import Image from "next/image";
 
@@ -8,20 +8,28 @@ export const AuthLeftSide = ({
   image,
   title,
   bottomBtn,
+  JSXTitle,
 }: LeftSiteProps) => (
   <div className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-t from-white via-base-100 to-white md:px-20 lg:px-0">
     <div className="md:w-[80%]">
       <Image
-        className="w-full max-w-[328px] md:max-w-[428px] mx-auto"
+        className="w-[80%] sm:w-full max-w-[328px] md:max-w-[428px] mx-auto"
         src={image}
         alt="dfd"
       />
     </div>
 
     <div className="w-[100%] px-2">
-      <h3 className="text-2xl md:text-[26px] lg:text-[32px] font-semibold">
-        Welcome to <ConnectDesk text="xl" />
-      </h3>
+      {JSXTitle && (
+        <h3 className="text-2xl md:text-[26px] lg:text-[32px] font-semibold">
+          {JSXTitle}
+        </h3>
+      )}
+      {title && (
+        <h3 className="mt-5 lg:mt-10 text-lg lg:text-2xl font-semibold">
+          {title}
+        </h3>
+      )}
 
       {isSubTitle ? (
         <p className="text-base md:text-lg lg:text-xl font-semibold text-center max-w-[352px] mx-auto opacity-80 mt-4">

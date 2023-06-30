@@ -19,7 +19,7 @@ const Register = () => (
       leftComponent={
         <AuthLeftSide
           image={loginLeftImg}
-          title={
+          JSXTitle={
             <span>
               Welcome to <ConnectDesk text="xl" />
             </span>

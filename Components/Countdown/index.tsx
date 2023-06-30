@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { ITimeProps } from "@Interface";
+import { FC, useEffect, useState } from "react";
+import { CountdownCard } from "./CountdownCard";
 
-interface TimeProps {
-  targetDate: Date;
-}
-
-const Countdown: React.FC<TimeProps> = ({ targetDate }) => {
+const Countdown: FC<ITimeProps> = ({ targetDate }) => {
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
@@ -16,12 +14,15 @@ const Countdown: React.FC<TimeProps> = ({ targetDate }) => {
       const timeDifference = targetDate.getTime() - currentDate.getTime();
 
       const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+
       const hours = Math.floor(
         (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
+
       const minutes = Math.floor(
         (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
       );
+
       const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
       setDays(days);
@@ -37,22 +38,10 @@ const Countdown: React.FC<TimeProps> = ({ targetDate }) => {
 
   return (
     <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
-      <div className="flex flex-col">
-        <span className="countdown font-mono text-5xl">{days}</span>
-        days
-      </div>
-      <div className="flex flex-col">
-        <span className="countdown font-mono text-5xl">{hours}</span>
-        hours
-      </div>
-      <div className="flex flex-col">
-        <span className="countdown font-mono text-5xl">{minutes}</span>
-        min
-      </div>
-      <div className="flex flex-col">
-        <span className="countdown font-mono text-5xl">{seconds}</span>
-        sec
-      </div>
+      <CountdownCard time={days} title="days" />
+      <CountdownCard time={hours} title="hours" />
+      <CountdownCard time={minutes} title="min" />
+      <CountdownCard time={seconds} title="sec" />
     </div>
   );
 };

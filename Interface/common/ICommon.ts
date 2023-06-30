@@ -53,3 +53,12 @@ export interface IDropdownMenu extends IDropdownOpen {
   label?: string;
   open?: string;
 }
+
+export interface ITimeProps {
+  targetDate: Date;
+}
+
+export interface ICountdownCard {
+  title: string;
+  time: number;
+}
