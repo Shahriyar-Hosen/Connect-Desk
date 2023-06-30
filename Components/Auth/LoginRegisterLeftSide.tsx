@@ -13,7 +13,7 @@ export const AuthLeftSide = ({
   <div className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-t from-white via-base-100 to-white md:px-20 lg:px-0">
     <div className="md:w-[80%]">
       <Image
-        className="w-full max-w-[328px] md:max-w-[428px] mx-auto"
+        className="w-[80%] sm:w-full max-w-[328px] md:max-w-[428px] mx-auto"
         src={image}
         alt="dfd"
       />
