@@ -36,6 +36,7 @@ export interface LeftSiteProps {
   image: StaticImageData;
   title: JSX.Element | string;
   bottomBtn?: boolean;
+  titleType?: "JSX" | "title";
 }
 
 export interface IAuthMainRightSide

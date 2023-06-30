@@ -20,6 +20,7 @@ const Login = () => {
                 Welcome to <ConnectDesk text="xl" />
               </span>
             }
+            titleType="JSX"
             image={loginLeftImg}
             paragraph="Let your Business Imagination Run Wild and Grow your Business Faster with ConnectDesk Software"
           />

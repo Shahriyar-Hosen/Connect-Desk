@@ -12,14 +12,13 @@ const ForgetPassword = () => {
   return (
     <MainContainer
       isRemoveMargin
-      className="h-screen flex flex-col justify-center items-center"
+      isRemovePadding
+      fullScreen
+      className="py-5 lg:py-0"
     >
       <AuthComponent
         leftComponent={
-          <AuthLeftSide
-            title={<div className="mt-4 lg:mt-8">Reset Your Password</div>}
-            image={reset}
-          />
+          <AuthLeftSide title="Reset Your Password" image={reset} />
         }
         rightComponent={<ForgetPasswordRightSide />}
       />
