@@ -5,20 +5,20 @@ import { MainContainer } from "@Components/Common";
 import { AuthComponent } from "@Components/Shared";
 import { confirmPass } from "@public/assets/images";
 
-const ConfirmPassword = () => {
-  return (
-    <MainContainer isRemoveMargin>
-      <AuthComponent
-        leftComponent={
-          <AuthLeftSide
-            title={<div className="mt-4 lg:mt-8">Change Your Password</div>}
-            image={confirmPass}
-          />
-        }
-        rightComponent={<ConfirmPasswordRightSide />}
-      />
-    </MainContainer>
-  );
-};
+const ConfirmPassword = () => (
+  <MainContainer
+    isRemoveMargin
+    isRemovePadding
+    fullScreen
+    className="py-5 lg:py-0"
+  >
+    <AuthComponent
+      leftComponent={
+        <AuthLeftSide title="Change Your Password" image={confirmPass} />
+      }
+      rightComponent={<ConfirmPasswordRightSide />}
+    />
+  </MainContainer>
+);
 
 export default ConfirmPassword;
