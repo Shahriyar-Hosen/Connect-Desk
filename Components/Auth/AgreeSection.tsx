@@ -18,8 +18,8 @@ export const AgreeSection = ({
     </div>
 
     {label2 ? (
-      <Link href={labelLink2} className="text-error cursor-pointer">
-        <CommonText> {label2}</CommonText>
+      <Link href={labelLink2} className="text-error">
+        <CommonText className="cursor-pointer"> {label2}</CommonText>
       </Link>
     ) : null}
   </div>
