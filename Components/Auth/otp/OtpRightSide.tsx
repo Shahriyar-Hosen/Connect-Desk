@@ -22,13 +22,13 @@ export const OtpRightSide = () => {
             <CommonText>1:52</CommonText>
           </div>
 
-          <div className="flex justify-between gap-3">
-            <InputField handleOnChange={handleOnChange} />
-            <InputField handleOnChange={handleOnChange} />
-            <InputField handleOnChange={handleOnChange} />
-            <InputField handleOnChange={handleOnChange} />
-            <InputField handleOnChange={handleOnChange} />
-            <InputField handleOnChange={handleOnChange} />
+          <div className="flex justify-center gap-2.5 items-center">
+            <InputField otp width="auto" handleOnChange={handleOnChange} />
+            <InputField otp width="auto" handleOnChange={handleOnChange} />
+            <InputField otp width="auto" handleOnChange={handleOnChange} />
+            <InputField otp width="auto" handleOnChange={handleOnChange} />
+            <InputField otp width="auto" handleOnChange={handleOnChange} />
+            <InputField otp width="auto" handleOnChange={handleOnChange} />
           </div>
         </div>
       </AuthMainRightSide>
