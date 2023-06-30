@@ -9,13 +9,19 @@ export interface IToggleButton {
   setUserType: Dispatch<SetStateAction<IUserType>>;
 }
 
+export interface IToggleButtonOptional {
+  userType?: IUserType;
+  setUserType?: Dispatch<SetStateAction<IUserType>>;
+}
+
 export interface IAuthNavigate {
   label?: string;
   link?: string;
   btnText?: string;
 }
-export interface IAuthTopSection extends IToggleButton {
+export interface IAuthTopSection extends IToggleButtonOptional {
   label: string;
+  labelType?: "title" | "normal";
 }
 
 export interface IAgreeSection {
@@ -32,11 +38,14 @@ export interface LeftSiteProps {
   bottomBtn?: boolean;
 }
 
-export interface IAuthMainRightSide extends IChildrenWithClass, IToggleButton {
+export interface IAuthMainRightSide
+  extends IChildrenWithClass,
+    IToggleButtonOptional {
   agreeSectionLabel1: string | JSX.Element;
   agreeSectionLabel2?: string;
   agreeSectionLabelLink2?: string;
   authTopLabel: string;
+  authTopLabelType?: "title" | "normal";
   btnText: string;
   authNavigateLabel?: string;
   authNavigateLink?: string;

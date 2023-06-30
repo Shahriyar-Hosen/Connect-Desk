@@ -19,13 +19,15 @@ export const AuthMainRightSide = ({
   authNavigateLabel,
   agreeSectionLabel2,
   agreeSectionLabelLink2,
+  authTopLabelType,
 }: IAuthMainRightSide) => (
   <section className="w-[90%] md:w-full mx-auto lg:pr-5">
     <div className={`w-full ${maxWidth} mx-auto`}>
       <AuthTopSection
         label={authTopLabel}
-        setUserType={setUserType}
         userType={userType}
+        setUserType={setUserType}
+        labelType={authTopLabelType}
       />
 
       {children}
