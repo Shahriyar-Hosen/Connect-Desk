@@ -6,6 +6,7 @@ export const ForgetPasswordRightSide = () => {
   const handleOnChange = (e: ChangeEvent<HTMLInputElement>) => {
     // console.log(e);
   };
+
   return (
     <AuthMainRightSide
       authTopLabel="Enter the email address or phone associated with your account and we’ll send your a verification code to reset your password."
