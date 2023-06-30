@@ -48,6 +48,7 @@ export interface IAuthMainRightSide
   authTopLabel: string;
   authTopLabelType?: "title" | "normal";
   btnText: string;
+  btnLink?: string;
   authNavigateLabel?: string;
   authNavigateLink?: string;
   authNavigateBtnText?: string;

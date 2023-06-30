@@ -2,6 +2,7 @@
 
 import { Button } from "@Components/Common";
 import { IAuthMainRightSide } from "@Interface";
+import Link from "next/link";
 import { AgreeSection } from "./AgreeSection";
 import { AuthNavigate } from "./AuthNavigate";
 import { AuthTopSection } from "./AuthTopSection";
@@ -20,6 +21,7 @@ export const AuthMainRightSide = ({
   agreeSectionLabel2,
   agreeSectionLabelLink2,
   authTopLabelType,
+  btnLink,
 }: IAuthMainRightSide) => (
   <section className="w-[90%] md:w-full mx-auto lg:pr-5">
     <div className={`w-full ${maxWidth} mx-auto`}>
@@ -42,9 +44,11 @@ export const AuthMainRightSide = ({
 
       <br />
 
-      <Button variant="primary" width="full" size="lg">
-        {btnText}
-      </Button>
+      <Link href={btnLink || ""}>
+        <Button variant="primary" width="full" size="lg">
+          {btnText}
+        </Button>
+      </Link>
 
       <AuthNavigate
         label={authNavigateLabel}

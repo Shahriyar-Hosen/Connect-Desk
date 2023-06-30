@@ -10,8 +10,9 @@ export const ForgetPasswordRightSide = () => {
     <AuthMainRightSide
       authTopLabel="Enter the email address or phone associated with your account and we’ll send your a verification code to reset your password."
       authTopLabelType="normal"
-      btnText="Continue"
       maxWidth="max-w-[485px]"
+      btnText="Continue"
+      btnLink="/confirm-password"
     >
       <div className="mt-10">
         <InputField
