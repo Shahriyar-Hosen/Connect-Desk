@@ -18,10 +18,12 @@ export interface IAuthNavigate {
   label?: string;
   link?: string;
   btnText?: string;
+  otp?: boolean;
 }
 export interface IAuthTopSection extends IToggleButtonOptional {
   label: string;
   labelType?: "title" | "normal";
+  otp?: boolean;
 }
 
 export interface IAgreeSection {
@@ -46,6 +48,7 @@ export interface IAuthMainRightSide
   agreeSectionLabel2?: string;
   agreeSectionLabelLink2?: string;
   authTopLabel: string;
+  otp?: boolean;
   authTopLabelType?: "title" | "normal";
   btnText: string;
   btnLink?: string;

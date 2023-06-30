@@ -1,5 +1,4 @@
-import { Button, InputField, Logo } from "@Components/Common";
-import Link from "next/link";
+import { CommonText, InputField } from "@Components/Common";
 import { ChangeEvent } from "react";
 import { AuthMainRightSide } from "../AuthMainRightSide";
 
@@ -11,22 +10,30 @@ export const OtpRightSide = () => {
   return (
     <>
       <AuthMainRightSide
-        authTopLabel="Enter the email address or phone associated with your account and we’ll send your a verification code to reset your password."
+        otp
+        authTopLabel="We have sent you One Time Password to your email"
         authTopLabelType="normal"
         maxWidth="max-w-[485px]"
-        btnText="Continue"
-        btnLink="/confirm-password"
+        btnText="Verify OTP"
       >
-        <div className="flex justify-between gap-3">
-          <InputField handleOnChange={handleOnChange} />
-          <InputField handleOnChange={handleOnChange} />
-          <InputField handleOnChange={handleOnChange} />
-          <InputField handleOnChange={handleOnChange} />
-          <InputField handleOnChange={handleOnChange} />
-          <InputField handleOnChange={handleOnChange} />
+        <div>
+          <div className="flex flex-col justify-center items-center gap-2">
+            <CommonText>Please Enter OTP</CommonText>
+            <CommonText>1:52</CommonText>
+          </div>
+
+          <div className="flex justify-between gap-3">
+            <InputField handleOnChange={handleOnChange} />
+            <InputField handleOnChange={handleOnChange} />
+            <InputField handleOnChange={handleOnChange} />
+            <InputField handleOnChange={handleOnChange} />
+            <InputField handleOnChange={handleOnChange} />
+            <InputField handleOnChange={handleOnChange} />
+          </div>
         </div>
       </AuthMainRightSide>
-      <div className="w-[90%] md:w-[80%] mx-auto lg:mx-8 lg:px-4 my-20">
+
+      {/* <div className="w-[90%] md:w-[80%] mx-auto lg:mx-8 lg:px-4 my-20">
         <div className="flex flex-col justify-center items-center">
           <Logo />
           <h3 className="my-4 text-neutral text-xl font-semibold">
@@ -60,7 +67,7 @@ export const OtpRightSide = () => {
             Resent OTP Again
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -22,6 +22,7 @@ export const AuthMainRightSide = ({
   agreeSectionLabelLink2,
   authTopLabelType,
   btnLink,
+  otp,
 }: IAuthMainRightSide) => (
   <section className="w-[90%] md:w-full mx-auto lg:pr-5">
     <div className={`w-full ${maxWidth} mx-auto`}>
@@ -30,6 +31,7 @@ export const AuthMainRightSide = ({
         userType={userType}
         setUserType={setUserType}
         labelType={authTopLabelType}
+        otp={otp}
       />
 
       {children}
@@ -54,6 +56,7 @@ export const AuthMainRightSide = ({
         label={authNavigateLabel}
         btnText={authNavigateBtnText}
         link={authNavigateLink}
+        otp={otp}
       />
     </div>
   </section>

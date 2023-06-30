@@ -9,11 +9,18 @@ export const AuthTopSection = ({
   setUserType,
   userType,
   labelType = "title",
+  otp,
 }: IAuthTopSection) => (
   <div className="flex flex-col justify-center items-center">
     <Logo />
 
     <div className="my-[25px] md:my-[30px] text-center">
+      {otp && (
+        <p className="text-base lg:text-xl font-semibold mb-5">
+          Please Enter the One-Time Password to verify your account
+        </p>
+      )}
+
       {labelType === "title" ? (
         <h3 className="text-neutral text-base md:text-xl font-semibold">
           {label}
