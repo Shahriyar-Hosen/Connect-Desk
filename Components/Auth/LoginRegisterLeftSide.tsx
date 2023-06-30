@@ -8,7 +8,7 @@ export const AuthLeftSide = ({
   image,
   title,
   bottomBtn,
-  titleType = "title",
+  JSXTitle,
 }: LeftSiteProps) => (
   <div className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-t from-white via-base-100 to-white md:px-20 lg:px-0">
     <div className="md:w-[80%]">
@@ -20,12 +20,13 @@ export const AuthLeftSide = ({
     </div>
 
     <div className="w-[100%] px-2">
-      {titleType === "title" ? (
-        <h3 className="mt-5 lg:mt-10 text-lg lg:text-2xl font-semibold">
-          {title}
-        </h3>
-      ) : (
+      {JSXTitle && (
         <h3 className="text-2xl md:text-[26px] lg:text-[32px] font-semibold">
+          {JSXTitle}
+        </h3>
+      )}
+      {title && (
+        <h3 className="mt-5 lg:mt-10 text-lg lg:text-2xl font-semibold">
           {title}
         </h3>
       )}

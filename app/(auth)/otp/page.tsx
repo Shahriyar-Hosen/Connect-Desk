@@ -12,10 +12,7 @@ const Otp = () => {
     >
       <AuthComponent
         leftComponent={
-          <AuthLeftSide
-            title={<div className="mt-4 lg:mt-8">Reset Your Password</div>}
-            image={reset}
-          />
+          <AuthLeftSide title="Reset Your Password" image={reset} />
         }
         rightComponent={<OtpRightSide />}
       />

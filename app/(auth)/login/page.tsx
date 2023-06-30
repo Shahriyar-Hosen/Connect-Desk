@@ -14,12 +14,11 @@ const Login = () => (
     <AuthComponent
       leftComponent={
         <AuthLeftSide
-          title={
+          JSXTitle={
             <span>
               Welcome to <ConnectDesk text="xl" />
             </span>
           }
-          titleType="JSX"
           image={loginLeftImg}
           paragraph="Let your Business Imagination Run Wild and Grow your Business Faster with ConnectDesk Software"
         />
