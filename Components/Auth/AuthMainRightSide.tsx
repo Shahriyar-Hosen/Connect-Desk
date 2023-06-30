@@ -32,11 +32,13 @@ export const AuthMainRightSide = ({
 
       {children}
 
-      <AgreeSection
-        label1={agreeSectionLabel1}
-        label2={agreeSectionLabel2}
-        labelLink2={agreeSectionLabelLink2}
-      />
+      {agreeSectionLabel1 && (
+        <AgreeSection
+          label1={agreeSectionLabel1}
+          label2={agreeSectionLabel2}
+          labelLink2={agreeSectionLabelLink2}
+        />
+      )}
 
       <br />
 

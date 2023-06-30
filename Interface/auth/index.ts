@@ -41,7 +41,7 @@ export interface LeftSiteProps {
 export interface IAuthMainRightSide
   extends IChildrenWithClass,
     IToggleButtonOptional {
-  agreeSectionLabel1: string | JSX.Element;
+  agreeSectionLabel1?: string | JSX.Element;
   agreeSectionLabel2?: string;
   agreeSectionLabelLink2?: string;
   authTopLabel: string;
