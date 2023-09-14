@@ -31,6 +31,10 @@ export interface ITextAndFont {
   font?: "Exo" | "Poppins" | "sans";
 }
 
+export interface IConnectDesk extends ITextAndFont {
+  logo?: boolean;
+}
+
 export interface IListItem {
   label: string;
   dot?: "sm" | "md";

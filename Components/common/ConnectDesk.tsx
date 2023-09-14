@@ -1,10 +1,6 @@
 "use client";
 
-import { ITextAndFont } from "@/Interface";
-
-export interface IConnectDesk extends ITextAndFont {
-  logo?: boolean;
-}
+import { IConnectDesk } from "@/Interface";
 
 export const ConnectDesk = ({
   text = "md",

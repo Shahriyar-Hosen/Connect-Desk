@@ -1,8 +1,9 @@
 "use client";
 
-import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
+
+import { logo } from "@/public/assets";
 import { ConnectDesk } from "./ConnectDesk";
 
 export const Logo = () => (
