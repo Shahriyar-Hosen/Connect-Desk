@@ -1,5 +1,6 @@
 "use client";
 
+import { Logo } from "@/Components/common";
 import { fullLogo } from "@/public/assets";
 import Image from "next/image";
 
@@ -10,6 +11,7 @@ const Home = () => {
       <p className="text-2xl font-extrabold mt-5 text-primary">
         This is Testing Purpose deploy
       </p>
+      <Logo />
     </div>
   );
 };
