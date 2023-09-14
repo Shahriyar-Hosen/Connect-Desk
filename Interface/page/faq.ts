@@ -1,4 +1,4 @@
-import { ISingleFAQ } from "@Interface/data/faq";
+import { ISingleFAQ } from "..";
 
 export interface IFAQ {
   data: ISingleFAQ[];

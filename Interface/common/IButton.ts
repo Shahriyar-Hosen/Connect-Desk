@@ -1,5 +1,5 @@
 import { MouseEventHandler } from "react";
-import { IChildrenWithClass } from "./IChildren";
+import { IChildrenWithClass } from ".";
 
 export interface IButton extends IChildrenWithClass {
   variant: "primary" | "secondary";

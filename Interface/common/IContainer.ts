@@ -1,4 +1,4 @@
-import { IChildrenWithClass } from "./IChildren";
+import { IChildrenWithClass } from ".";
 
 export interface IMainContainer extends IChildrenWithClass {
   bg?: "primary" | "secondary" | "default";

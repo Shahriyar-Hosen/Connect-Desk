@@ -1,4 +1,4 @@
-import { ITextAndFont } from "./ICommon";
+import { ITextAndFont } from ".";
 
 export interface IComponentHeader extends ITextAndFont {
   position?: "start" | "center" | "end";
