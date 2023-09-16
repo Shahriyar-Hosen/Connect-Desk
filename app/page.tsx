@@ -1,8 +1,9 @@
 "use client";
 
-import { ConnectDesk } from "@/Components/common";
-import { fullLogo, logoSvg } from "@/public/assets";
 import Image from "next/image";
+
+import { ConnectDesk } from "@/Components";
+import { fullLogo, logoSvg } from "@/public/assets";
 
 const Home = () => (
   <div className="flex flex-col justify-center items-center mt-10">
