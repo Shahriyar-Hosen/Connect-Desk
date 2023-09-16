@@ -26,13 +26,10 @@ export interface ILabelAndIcon {
   label: string;
 }
 
+// md -> 20
 export interface ITextAndFont {
   text?: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
-  font?: "Exo" | "Poppins" | "sans";
-}
-
-export interface IConnectDesk extends ITextAndFont {
-  logo?: boolean;
+  font?: "exo" | "poppins" | "sans";
 }
 
 export interface IListItem {
