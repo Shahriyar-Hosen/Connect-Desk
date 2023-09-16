@@ -16,7 +16,9 @@ const Home = () => (
     <p className="text-2xl font-extrabold mt-5 text-primary font-exo mb-5">
       This is Testing Purpose deploy (exo)
     </p>
-
+    <p className="text-xl text-secondary font-semibold">
+      Connect<span className="text-primary">Desk</span>
+    </p>
     <ConnectDesk />
   </div>
 );
