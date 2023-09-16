@@ -28,7 +28,7 @@ export interface ILabelAndIcon {
 
 // md -> 20
 export interface ITextAndFont {
-  text?: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
+  size?: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
   font?: "exo" | "poppins" | "sans";
 }
 

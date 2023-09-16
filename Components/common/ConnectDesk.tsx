@@ -4,14 +4,14 @@ import { ITextAndFont } from "@/Interface";
 import { FC } from "react";
 
 export const ConnectDesk: FC<ITextAndFont> = ({
-  text = "md",
+  size = "md",
   font = "poppins",
 }) => (
   <span
     className={`${
-      (text === "md" && "text-[20px]") ||
-      (text === "lg" && `text-[24px] lg:text-[28px]`) ||
-      (text === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
+      (size === "md" && "text-[20px]") ||
+      (size === "lg" && `text-[24px] lg:text-[28px]`) ||
+      (size === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
     } 
       ${
         (font === "poppins" && "font-poppins") ||
