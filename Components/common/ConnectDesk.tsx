@@ -1,12 +1,17 @@
 "use client";
 
-import { IConnectDesk } from "@/Interface";
+import { ITextAndFont } from "@/Interface";
+import { FC } from "react";
 
-export const ConnectDesk = ({
+export interface IConnectDesk extends ITextAndFont {
+  logo?: boolean;
+}
+
+export const ConnectDesk: FC<IConnectDesk> = ({
   text = "md",
   font = "Poppins",
   logo,
-}: IConnectDesk) => (
+}) => (
   <span
     className={`${
       (text === "md" && "text-xl") ||
@@ -15,8 +20,8 @@ export const ConnectDesk = ({
       (text === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
     } 
       ${
-        (font === "Poppins" && "font-[Poppins]") ||
-        (font === "Exo" && "font-[Exo]") ||
+        (font === "Poppins" && "font-Poppins") ||
+        (font === "Exo" && "font-Exo") ||
         (font === "sans" && "font-sans")
       }
       ${logo && "italic"}
