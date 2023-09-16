@@ -1,6 +1,5 @@
-import { StaticImageData } from "next/image";
 import { Dispatch, SetStateAction } from "react";
-import { IChildrenWithClass } from "..";
+import { IChildrenWithClass } from ".";
 
 export type IUserType = "Business Login" | "Client Login";
 

@@ -1,5 +1,4 @@
 // import "@styles/globals.css";
-import { Header } from "@/Components/Shared/Header";
 import { IChildren } from "@/Interface";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
@@ -15,7 +14,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: IChildren) => (
   <html lang="en">
     <body className={inter.className}>
-      <Header />
+      {/* <Header /> */}
       <main>{children}</main>
       {/* <Footer /> */}
     </body>
