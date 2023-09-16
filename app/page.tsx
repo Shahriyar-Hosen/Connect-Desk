@@ -1,5 +1,6 @@
 "use client";
 
+import { Logo } from "@/Components/common";
 import { fullLogo } from "@/public/assets";
 import Image from "next/image";
 
@@ -9,9 +10,10 @@ const Home = () => (
     <p className="text-2xl font-extrabold mt-5 text-primary font-poppins">
       This is Testing Purpose deploy (poppins)
     </p>
-    <p className="text-2xl font-extrabold mt-5 text-primary font-exo">
+    <p className="text-2xl font-extrabold mt-5 text-primary font-exo mb-10">
       This is Testing Purpose deploy (exo)
     </p>
+    <Logo />
   </div>
 );
 
