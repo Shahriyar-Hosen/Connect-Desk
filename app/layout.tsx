@@ -1,4 +1,3 @@
-// import "@styles/globals.css";
 import { IChildren } from "@/Interface";
 import "@/styles/globals.css";
 import type { Metadata } from "next";
