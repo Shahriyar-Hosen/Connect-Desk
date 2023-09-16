@@ -19,6 +19,10 @@ module.exports = {
         warning: "#fbbd23",
         error: "#ff0000",
       },
+      fontFamily: {
+        Poppins: "Poppins",
+        Exo: "Exo",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
