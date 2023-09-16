@@ -1,7 +1,6 @@
 "use client";
 
-import { Logo } from "@/Components/common";
-import { fullLogo } from "@/public/assets";
+import { fullLogo, logoSvg } from "@/public/assets";
 import Image from "next/image";
 
 const Home = () => (
@@ -13,7 +12,8 @@ const Home = () => (
     <p className="text-2xl font-extrabold mt-5 text-primary font-exo mb-10">
       This is Testing Purpose deploy (exo)
     </p>
-    <Logo />
+
+    <Image src={logoSvg} alt="" />
   </div>
 );
 
