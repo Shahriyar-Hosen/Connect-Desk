@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { logo } from "@/public/assets";
-import { ConnectDesk } from "./ConnectDesk";
+import { ConnectDesk } from ".";
 
 export const Logo = () => (
   <div className="w-fit max-w-[168px]">
