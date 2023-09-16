@@ -15,8 +15,8 @@ export const ConnectDesk = ({
       (text === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
     } 
       ${
-        (font === "Poppins" && "font-[Poppins]") ||
-        (font === "Exo" && "font-[Exo]") ||
+        (font === "Poppins" && "font-poppins") ||
+        (font === "Exo" && "font-exo") ||
         (font === "sans" && "font-sans")
       }
       ${logo && "italic"}

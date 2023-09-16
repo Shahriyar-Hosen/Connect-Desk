@@ -20,6 +20,10 @@ const config: Config = {
         warning: "#fbbd23",
         error: "#ff0000",
       },
+      fontFamily: {
+        poppins: "Poppins",
+        exo: "Exo",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
