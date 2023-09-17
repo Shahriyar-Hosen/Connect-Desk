@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import { ConnectDesk } from "@/Components";
+import { ConnectDesk } from "@/components";
 import { fullLogo, logoSvg } from "@/public/assets";
 
 const Home = () => (
