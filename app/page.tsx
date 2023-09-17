@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 
+import { ConnectDesk } from "@/components";
 import { fullLogo, logoSvg } from "@/public/assets";
 
 const Home = () => (
@@ -17,7 +18,7 @@ const Home = () => (
       This is Testing Purpose deploy (exo)
     </p>
 
-    {/* <ConnectDesk /> */}
+    <ConnectDesk />
   </div>
 );
 
