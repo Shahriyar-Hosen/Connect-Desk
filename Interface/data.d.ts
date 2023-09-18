@@ -49,6 +49,9 @@ export interface IPrivatePolicyData {
   title: string;
   details: string[];
 }
+export interface IPolicy extends IPrivatePolicyData {
+  textPosition?: "center" | "left" | "right";
+}
 
 export interface IService {
   img: StaticImageData;

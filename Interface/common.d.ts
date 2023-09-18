@@ -1,5 +1,4 @@
 import { StaticImageData } from "next/image";
-import { NextRouter } from "next/router";
 import {
   ChangeEvent,
   Dispatch,
@@ -28,7 +27,7 @@ export interface ILabelAndIcon {
 
 // md -> 20
 export interface ITextAndFont {
-  size?: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
+  text?: "sm" | "md" | "lg" | "xl" | "2xl" | "3xl" | "4xl";
   font?: "exo" | "poppins" | "sans";
 }
 
@@ -45,6 +44,9 @@ export type INavFooterHidePath =
   | "/otp"
   | "/confirm-password";
 
+export interface IFooterTitle extends IChildrenWithClass {
+  text?: "sm" | "xl";
+}
 export interface IVideo extends IClassName {
   url: string;
   size?: "sm" | "md" | "lg" | "xl";
@@ -70,7 +72,6 @@ export interface IMenuItem extends ILinkedList, IDropdownOpen {
   handleDropdownHover: (label: string) => void;
   isMobile?: boolean;
   open: string;
-  router?: NextRouter;
 }
 export interface IDropdownMenu extends IDropdownOpen {
   option?: ILinkedList[];
