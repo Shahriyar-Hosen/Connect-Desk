@@ -1,17 +1,43 @@
 "use client";
 
-import { fullLogo } from "@/public/assets";
-import Image from "next/image";
+import {
+  AboutHome,
+  CommonText,
+  ConnectDesk,
+  FreeTrial,
+  HeroSection,
+  ImportantFeatures,
+  Packages,
+  PerfectSolution,
+  Support,
+} from "@/components";
+import { heroLaptop } from "@/public/assets/images";
 
-const Home = () => {
-  return (
-    <div className="flex flex-col justify-center items-center mt-10">
-      <Image src={fullLogo} alt="" />
-      <p className="text-2xl font-extrabold mt-5 text-primary">
-        This is Testing Purpose deploy
-      </p>
-    </div>
-  );
-};
+const Home = () => (
+  <main>
+    <HeroSection
+      mainText="Simplify and Grow Your Retail Business with"
+      subText={<ConnectDesk text="xl" />}
+      paragraph={
+        <CommonText>
+          Its user-friendly interface enables you to send invoices after sale,
+          create quotations as well as track expenses, manage inventory, check
+          daily transaction, view and update financial reports, among other
+          things.
+        </CommonText>
+      }
+      image={heroLaptop}
+      button1="Buy Now"
+      button2="Watch Video"
+    />
+
+    <AboutHome />
+    <PerfectSolution />
+    <ImportantFeatures />
+    <Packages />
+    <Support />
+    <FreeTrial />
+  </main>
+);
 
 export default Home;
