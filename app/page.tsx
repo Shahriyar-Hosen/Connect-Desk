@@ -1,25 +1,41 @@
 "use client";
 
-import Image from "next/image";
-
-import { ConnectDesk } from "@/components";
-import { fullLogo, logoSvg } from "@/public/assets";
+import { CommonText, ConnectDesk, Packages } from "@Components/Common";
+import HeroSection from "@Components/HeroSection";
+import {
+  AboutHome,
+  FreeTrial,
+  ImportantFeatures,
+  PerfectSolution,
+  Support,
+} from "@Components/Home";
+import { heroLaptop } from "@public/assets/images";
 
 const Home = () => (
-  <div className="flex flex-col justify-center items-center mt-10">
-    <Image src={fullLogo} alt="" />
-    <p className="text-2xl font-extrabold mt-5 text-primary font-poppins mb-5">
-      This is Testing Purpose deploy (poppins)
-    </p>
+  <main>
+    <HeroSection
+      mainText="Simplify and Grow Your Retail Business with"
+      subText={<ConnectDesk text="xl" />}
+      paragraph={
+        <CommonText>
+          Its user-friendly interface enables you to send invoices after sale,
+          create quotations as well as track expenses, manage inventory, check
+          daily transaction, view and update financial reports, among other
+          things.
+        </CommonText>
+      }
+      image={heroLaptop}
+      button1="Buy Now"
+      button2="Watch Video"
+    />
 
-    <Image src={logoSvg} alt="" />
-
-    <p className="text-2xl font-extrabold mt-5 text-primary font-exo mb-5">
-      This is Testing Purpose deploy (exo)
-    </p>
-
-    <ConnectDesk />
-  </div>
+    <AboutHome />
+    <PerfectSolution />
+    <ImportantFeatures />
+    <Packages />
+    <Support />
+    <FreeTrial />
+  </main>
 );
 
 export default Home;
