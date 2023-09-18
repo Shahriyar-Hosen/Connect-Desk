@@ -1,3 +1,5 @@
+"use client";
+
 import { MainContainer, PageHeader, PolicyContainer } from "@/components";
 import { refundAndReturnPolicyData } from "@/public/Data";
 

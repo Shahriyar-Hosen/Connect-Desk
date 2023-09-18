@@ -1,3 +1,5 @@
+"use client";
+
 import { ITimeProps } from "@/Interface";
 import { FC, useEffect, useState } from "react";
 import { CountdownCard } from "./CountdownCard";

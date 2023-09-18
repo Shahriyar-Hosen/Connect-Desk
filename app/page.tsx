@@ -1,15 +1,17 @@
 "use client";
 
-import { CommonText, ConnectDesk, Packages } from "@Components/Common";
-import HeroSection from "@Components/HeroSection";
 import {
   AboutHome,
+  CommonText,
+  ConnectDesk,
   FreeTrial,
+  HeroSection,
   ImportantFeatures,
+  Packages,
   PerfectSolution,
   Support,
-} from "@Components/Home";
-import { heroLaptop } from "@public/assets/images";
+} from "@/components";
+import { heroLaptop } from "@/public/assets/images";
 
 const Home = () => (
   <main>

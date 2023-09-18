@@ -1,3 +1,5 @@
+"use client";
+
 import { IPolicy } from "@/Interface";
 import { FC } from "react";
 import { CommonText } from "..";
@@ -17,9 +19,9 @@ export const PolicyContainer: FC<IPolicy> = ({
     >
       {title}
     </h3>
-    {details.map((p) => (
-      <div key={p} className="mb-3">
-        <CommonText>{p}</CommonText>
+    {details.map((text) => (
+      <div key={text} className="mb-3">
+        <CommonText>{text}</CommonText>
       </div>
     ))}
   </div>

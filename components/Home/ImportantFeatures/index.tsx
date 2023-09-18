@@ -10,7 +10,7 @@ import { featuresData } from "@/public/Data";
 import { FC } from "react";
 import { FeatureCard } from "./FeatureCard";
 
-const ImportantFeatures: FC = () => (
+export const ImportantFeatures: FC = () => (
   <MainContainer>
     <Container>
       <ComponentHeader
@@ -26,5 +26,3 @@ const ImportantFeatures: FC = () => (
     </Container>
   </MainContainer>
 );
-
-export default ImportantFeatures;

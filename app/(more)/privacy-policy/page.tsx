@@ -30,14 +30,13 @@ const PrivacyPolicy = () => (
             </span>
           }
         />
-        <p className="mt-4">
-          <CommonText>
-            Design comps, layouts, wireframes—will your clients accept that you
-            go about things the facile way? Authorities in our business will
-            tell in no uncertain terms that Lorem Ipsum is that huge, huge no no
-            to forswear forever.{" "}
-          </CommonText>
-        </p>
+
+        <CommonText className="mt-4">
+          Design comps, layouts, wireframes—will your clients accept that you go
+          about things the facile way? Authorities in our business will tell in
+          no uncertain terms that Lorem Ipsum is that huge, huge no no to
+          forswear forever.
+        </CommonText>
       </MainContainer>
       {privatePolicyData.map((policy) => (
         <PolicyContainer {...policy} key={policy.title} />

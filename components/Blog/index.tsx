@@ -1,3 +1,5 @@
+"use client";
+
 import { IBlogs } from "@/Interface";
 import Image from "next/image";
 import { FC } from "react";
