@@ -7,9 +7,10 @@ import {
   PageHeader,
   Video,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 const SoftwareSetup = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Software Setup"
       mainTitle={
@@ -32,7 +33,7 @@ const SoftwareSetup = () => (
         />
       </Container>
     </MainContainer>
-  </main>
+  </Wrapper>
 );
 
 export default SoftwareSetup;

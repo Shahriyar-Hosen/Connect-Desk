@@ -4,9 +4,10 @@ import {
   FreeTrial,
   PageHeader,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 const Features = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Feature"
       mainTitle="Take A Look At Our Awesome"
@@ -15,7 +16,7 @@ const Features = () => (
     <FeaturesHeader />
     <AllFeatures />
     <FreeTrial />
-  </main>
+  </Wrapper>
 );
 
 export default Features;

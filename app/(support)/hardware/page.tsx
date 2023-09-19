@@ -1,12 +1,13 @@
 "use client";
 
 import { HardwareContainer, PageHeader } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 const Hardware = () => (
-  <main>
+  <Wrapper>
     <PageHeader pageName="Hardware" mainTitle="Hardware" />
     <HardwareContainer />
-  </main>
+  </Wrapper>
 );
 
 export default Hardware;

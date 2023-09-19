@@ -1,10 +1,11 @@
 "use client";
 
 import { AskedQuestions, PackagesCards, PageHeader } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { faqData } from "@/public/Data/faq";
 
 const Packages = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Pricing Plans"
       mainTitle="Choose The Right Plan For"
@@ -18,7 +19,7 @@ const Packages = () => (
       <PackagesCards />
       <AskedQuestions data={faqData} limit={10} />
     </div>
-  </main>
+  </Wrapper>
 );
 
 export default Packages;

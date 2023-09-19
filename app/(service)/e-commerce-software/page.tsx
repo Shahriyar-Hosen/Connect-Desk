@@ -1,7 +1,7 @@
 "use client";
 
-import { ComingSoonPage } from "@/components";
+import { ComingSoon } from "@/components";
 
-const ECommerceSoftware = () => <ComingSoonPage />;
+const ECommerceSoftware = () => <ComingSoon />;
 
 export default ECommerceSoftware;

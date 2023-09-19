@@ -1,5 +1,5 @@
-import { ComingSoonPage } from "@/components";
+import { ComingSoon } from "@/components";
 
-const BillingSoftware = () => <ComingSoonPage />;
+const BillingSoftware = () => <ComingSoon />;
 
 export default BillingSoftware;

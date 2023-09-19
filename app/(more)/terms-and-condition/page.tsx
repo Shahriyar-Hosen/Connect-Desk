@@ -6,10 +6,12 @@ import {
   PageHeader,
   PolicyContainer,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { termsAndConditionData } from "@/public/Data";
+import { FC } from "react";
 
-const PrivacyPolicy = () => (
-  <main>
+const PrivacyPolicy: FC = () => (
+  <Wrapper>
     <PageHeader
       pageName="Terms And Conditions"
       mainTitle={
@@ -26,6 +28,6 @@ const PrivacyPolicy = () => (
         <PolicyContainer textPosition="left" {...terms} key={terms.title} />
       ))}
     </div>
-  </main>
+  </Wrapper>
 );
 export default PrivacyPolicy;

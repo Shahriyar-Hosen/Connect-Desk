@@ -1,10 +1,12 @@
 "use client";
 
 import { AllServices, CommonText, HeroSection } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { servicesImg } from "@/public/assets/images";
+import { FC } from "react";
 
-const Services = () => (
-  <main>
+const Services: FC = () => (
+  <Wrapper>
     <HeroSection
       mainText={
         <>
@@ -27,7 +29,7 @@ const Services = () => (
       service
     />
     <AllServices />
-  </main>
+  </Wrapper>
 );
 
 export default Services;

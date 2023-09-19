@@ -7,11 +7,12 @@ import {
   PageHeader,
   VideoTutorialCard,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 import { videoTutorialData } from "@/public/Data/videoTutorial";
 
 const VideoTutorial = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Video Tutorial"
       mainTitle={
@@ -32,7 +33,7 @@ const VideoTutorial = () => (
         </section>
       </Container>
     </MainContainer>
-  </main>
+  </Wrapper>
 );
 
 export default VideoTutorial;

@@ -1,11 +1,12 @@
 "use client";
 
 import { MainContainer, PageHeader } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { certificate } from "@/public/assets/images";
 import Image from "next/image";
 
 const CompanyInfo = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Company Info"
       mainTitle={
@@ -28,7 +29,7 @@ const CompanyInfo = () => (
         </div>
       </MainContainer>
     </div>
-  </main>
+  </Wrapper>
 );
 
 export default CompanyInfo;

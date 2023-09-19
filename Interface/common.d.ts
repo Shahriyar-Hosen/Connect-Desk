@@ -44,6 +44,11 @@ export type INavFooterHidePath =
   | "/otp"
   | "/confirm-password";
 
+export interface IWrapper extends IChildrenWithClass {
+  header?: boolean;
+  footer?: boolean;
+}
+
 export interface IFooterTitle extends IChildrenWithClass {
   text?: "sm" | "xl";
 }
@@ -80,7 +85,10 @@ export interface IDropdownMenu extends IDropdownOpen {
 }
 
 export interface ITimeProps {
-  targetDate: Date;
+  year: string;
+  month: string;
+  day: string;
+  fulDate?: string;
 }
 
 export interface ICountdownCard {

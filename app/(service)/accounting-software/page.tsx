@@ -1,7 +1,7 @@
 "use client";
 
-import { ComingSoonPage } from "@/components";
+import { ComingSoon } from "@/components";
 
-const AccountingSoftware = () => <ComingSoonPage />;
+const AccountingSoftware = () => <ComingSoon />;
 
 export default AccountingSoftware;

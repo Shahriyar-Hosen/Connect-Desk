@@ -4,10 +4,11 @@ import Image from "next/image";
 
 import { CommonText, Container, MainContainer, PageHeader } from "@/components";
 
+import { Wrapper } from "@/components/Shared";
 import { founder } from "@/public/assets/images";
 
 const MessageFromFounder = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Message From Founder"
       mainTitle={
@@ -64,7 +65,7 @@ const MessageFromFounder = () => (
         </div>
       </Container>
     </MainContainer>
-  </main>
+  </Wrapper>
 );
 
 export default MessageFromFounder;

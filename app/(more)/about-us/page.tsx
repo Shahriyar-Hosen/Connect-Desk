@@ -7,9 +7,10 @@ import {
   PageHeader,
   WhoWeAre,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 const AboutUs = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       mainTitle={
         <>
@@ -23,7 +24,7 @@ const AboutUs = () => (
     <Counter />
     <MissionVisionValue />
     <CustomerSupport />
-  </main>
+  </Wrapper>
 );
 
 export default AboutUs;
