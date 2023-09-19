@@ -26,6 +26,15 @@ const config: Config = {
         poppins: "Poppins",
         exo: "Exo",
       },
+      zIndex: {
+        999999: "999999",
+        99999: "99999",
+        9999: "9999",
+        999: "999",
+        99: "99",
+        9: "9",
+        1: "1",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -33,6 +42,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
