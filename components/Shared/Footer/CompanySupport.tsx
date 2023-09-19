@@ -14,7 +14,7 @@ export const CompanySupport: FC = () => (
 
         <div className="flex flex-col justify-center items-start gap-3 w-auto">
           {option.map(({ link, title }, i) => (
-            <Link href={link} key={i}>
+            <Link href={link} key={i} className="hover:font-semibold">
               {title}
             </Link>
           ))}

@@ -3,25 +3,11 @@
 import Image from "next/image";
 
 import { logoSvg } from "@/public/assets";
+import Link from "next/link";
 import { FC } from "react";
 
 export const Logo: FC = () => (
-  <Image src={logoSvg} alt="" />
-  // <div className="w-fit max-w-[168px]">
-  //   <Link href="/">
-  //     <div className="-mb-[12px] mr-[9%] flex justify-end items-end">
-  //       <Image
-  //         src={logo}
-  //         className="w-[22px] h-[22px] sm:w-[24px] sm:h-[24px]"
-  //         alt=""
-  //       />
-  //     </div>
-
-  //     <ConnectDesk text="lg" font="Exo" logo />
-
-  //     <p className="text-[8.5px] lg:text-[9.5px] text-primary italic font-sans tracking-widest sm:-mt-[5px] -mt-[5px] font-semibold cursor-pointer">
-  //       Business Management Software
-  //     </p>
-  //   </Link>
-  // </div>
+  <Link href="/">
+    <Image src={logoSvg} alt="" />
+  </Link>
 );

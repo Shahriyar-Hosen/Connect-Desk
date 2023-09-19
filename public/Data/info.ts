@@ -48,7 +48,7 @@ export const infoData: IInfo[] = [
       },
       {
         title: "Pricing",
-        link: "/pricing",
+        link: "/packages",
       },
       {
         title: "FAQ",
