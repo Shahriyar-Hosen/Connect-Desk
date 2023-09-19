@@ -50,13 +50,6 @@ export const MenuItem: FC<IMenuItem> = ({
           style={{ width: open === label || isActive ? "100%" : "0" }}
         ></div>
       )}
-      {/* <div
-        className={`${
-          open === label || isActive
-            ? "w-full transition duration-300 opacity-100"
-            : "w-0 opacity-0"
-        } h-[2px] bg-primary`}
-      ></div> */}
     </div>
   );
 };

@@ -19,12 +19,12 @@ export const LoginAndSign: FC = () => (
       Sign Up
     </LinkButton>
 
-    <Button variant="secondary" size="sm">
+    {/* <Button variant="secondary" size="sm">
       <div className="flex gap-1">
         EN
         <Image src={downArrow} alt="" />
       </div>
-    </Button>
+    </Button> */}
   </div>
 );
 

@@ -19,7 +19,7 @@ export const Header = () => {
 
   return (
     <header className="sticky top-0 z-999 flex w-full bg-[#ddffeb]">
-      <div className="flex flex-grow items-center gap-2 justify-end py-4 px-4 shadow md:px-6 2xl:px-11">
+      <div className="flex flex-grow items-center gap-2 justify-end py-4 px-4  md:px-6 2xl:px-11 max-w-[1440px]">
         {/* <RxAvatar className="text-primary" size={"50px"} />
 
         <MdOutlineClose className="text-primary lg:hidden " size={"30px"} />

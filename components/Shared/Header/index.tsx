@@ -5,7 +5,7 @@ import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
 import {
-  LoginAndSign,
+  Avatar,
   MenuItems,
   MobileLoginAndSignUpButton,
   MobileMenuItems,
@@ -21,7 +21,8 @@ export const Header: FC<IClassName> = ({ className }) => (
           <MenuItems />
         </div>
 
-        <LoginAndSign />
+        <Avatar />
+        {/* <LoginAndSign /> */}
 
         <div className="dropdown dropdown-end lg:hidden">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -54,8 +55,23 @@ export const Header: FC<IClassName> = ({ className }) => (
   </Container>
 );
 
+export * from "./Avatar";
 export * from "./DropdownMenu";
 export * from "./LoginAndSign";
 export * from "./MenuItem";
 export * from "./MenuItems";
 export * from "./MobileMenuItem";
+
+{
+  /* <div className="navbar bg-base-100">
+  <div className="flex-1">
+    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+  </div>
+  <div className="flex-none gap-2">
+    <div className="form-control">
+      <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+    </div>
+    
+  </div>
+</div> */
+}
