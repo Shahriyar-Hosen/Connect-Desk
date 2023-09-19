@@ -1,7 +1,7 @@
 "use client";
 
-import { ComingSoonPage } from "@/components";
+import { ComingSoon } from "@/components";
 
-const HrPayrollSoftware = () => <ComingSoonPage />;
+const HrPayrollSoftware = () => <ComingSoon />;
 
 export default HrPayrollSoftware;

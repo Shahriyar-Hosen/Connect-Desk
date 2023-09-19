@@ -12,12 +12,14 @@ import {
   SoftwareFeatures,
   TermCondition,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 import { faqData } from "@/public/Data/faq";
 import { posInventoryService } from "@/public/assets/images";
+import { FC } from "react";
 
-const POSInventoryService = () => (
-  <main>
+const POSInventoryService: FC = () => (
+  <Wrapper>
     <HeroSection
       mainText={
         <>
@@ -48,6 +50,6 @@ const POSInventoryService = () => (
     <AfterSalesSupport />
     <CustomerSupport />
     <AskedQuestions data={faqData} limit={5} />
-  </main>
+  </Wrapper>
 );
 export default POSInventoryService;

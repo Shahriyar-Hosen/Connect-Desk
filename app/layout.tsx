@@ -1,5 +1,4 @@
 import { IChildren } from "@/Interface";
-import { Footer, Header } from "@/components/Shared";
 import "@/styles/globals.css";
 import { Inter } from "next/font/google";
 
@@ -12,11 +11,7 @@ export const metadata = {
 
 const RootLayout = ({ children }: IChildren) => (
   <html lang="en">
-    <body className={inter.className}>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </body>
+    <body className={inter.className}>{children}</body>
   </html>
 );
 

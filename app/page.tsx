@@ -11,10 +11,11 @@ import {
   PerfectSolution,
   Support,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { heroLaptop } from "@/public/assets/images";
 
 const Home = () => (
-  <main>
+  <Wrapper>
     <HeroSection
       mainText="Simplify and Grow Your Retail Business with"
       subText={<ConnectDesk text="xl" />}
@@ -37,7 +38,7 @@ const Home = () => (
     <Packages />
     <Support />
     <FreeTrial />
-  </main>
+  </Wrapper>
 );
 
 export default Home;

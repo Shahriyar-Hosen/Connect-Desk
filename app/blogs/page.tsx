@@ -1,8 +1,9 @@
 import { Blog, PageHeader } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { blogsData } from "@/public/Data/blogPage";
 
 const BlogsPage = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       pageName="Blog"
       mainTitle="Read Our Awesome"
@@ -13,7 +14,7 @@ const BlogsPage = () => (
         <Blog key={blog.id} {...blog} />
       ))}
     </div>
-  </main>
+  </Wrapper>
 );
 
 export default BlogsPage;

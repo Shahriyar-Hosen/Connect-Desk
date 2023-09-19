@@ -1,5 +1,7 @@
 "use client";
 
+import { FC } from "react";
+
 import {
   CommonText,
   ComponentHeader,
@@ -8,11 +10,12 @@ import {
   PageHeader,
   PolicyContainer,
 } from "@/components";
+import { Wrapper } from "@/components/Shared";
 
 import { privatePolicyData } from "@/public/Data";
 
-const PrivacyPolicy = () => (
-  <main>
+const PrivacyPolicy: FC = () => (
+  <Wrapper>
     <PageHeader
       pageName="Privacy Policy"
       mainTitle={
@@ -42,7 +45,7 @@ const PrivacyPolicy = () => (
         <PolicyContainer {...policy} key={policy.title} />
       ))}
     </div>
-  </main>
+  </Wrapper>
 );
 
 export default PrivacyPolicy;

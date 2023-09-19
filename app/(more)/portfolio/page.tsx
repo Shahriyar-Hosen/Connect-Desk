@@ -1,7 +1,7 @@
 "use client";
 
-import { ComingSoonPage } from "@/components";
+import { ComingSoon } from "@/components";
 
-const Portfolio = () => <ComingSoonPage />;
+const Portfolio = () => <ComingSoon />;
 
 export default Portfolio;

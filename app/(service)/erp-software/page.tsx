@@ -1,7 +1,7 @@
 "use client";
 
-import { ComingSoonPage } from "@/components";
+import { ComingSoon } from "@/components";
 
-const ErpSoftware = () => <ComingSoonPage />;
+const ErpSoftware = () => <ComingSoon />;
 
 export default ErpSoftware;

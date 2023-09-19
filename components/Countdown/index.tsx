@@ -1,14 +1,22 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 
 import { ITimeProps } from "@/Interface";
 import { FC, useEffect, useState } from "react";
 import { CountdownCard } from "./CountdownCard";
 
-export const Countdown: FC<ITimeProps> = ({ targetDate }) => {
+export const Countdown: FC<ITimeProps> = ({
+  fulDate,
+  day = "01",
+  month = "12",
+  year = "2024",
+}) => {
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
+
+  const targetDate = new Date(fulDate || `${year}-${month}-${day}T00:00:00`);
 
   useEffect(() => {
     const timer = setInterval(() => {

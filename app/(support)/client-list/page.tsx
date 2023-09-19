@@ -1,11 +1,12 @@
 "use client";
 
 import { Button, Container, ListOfClient, PageHeader } from "@/components";
+import { Wrapper } from "@/components/Shared";
 import { download } from "@/public/assets/icon";
 import Image from "next/image";
 
 const ClientList = () => (
-  <main>
+  <Wrapper>
     <PageHeader
       mainTitle={
         <>
@@ -34,7 +35,7 @@ const ClientList = () => (
     </Container>
 
     <ListOfClient />
-  </main>
+  </Wrapper>
 );
 
 export default ClientList;
