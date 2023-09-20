@@ -3,6 +3,7 @@ export * from "./aboutUs";
 export * from "./blogPage";
 export * from "./common";
 export * from "./contactUsPage";
+export * from "./dashboard";
 export * from "./faq";
 export * from "./featuresPage";
 export * from "./homePage";
