@@ -1,39 +1,10 @@
 "use client";
 
+import { IDashboardSidebarItem } from "@/Interface";
+import { dashboardSidebarItem } from "@/public/Data";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
-import { LuLayoutDashboard } from "react-icons/lu";
-import { PiUsersFourLight } from "react-icons/pi";
-import { TbBrandProducthunt as TbBrandProduction } from "react-icons/tb";
 import { Logo } from "..";
-
-export interface IDashboardMenuItem {
-  id: string;
-  label: string;
-  path: string;
-  icon: JSX.Element;
-}
-
-const menuItems: IDashboardMenuItem[] = [
-  {
-    id: "dashboard",
-    label: "Dashboard",
-    path: "/dashboard",
-    icon: <LuLayoutDashboard size={25} />,
-  },
-  {
-    id: "products",
-    label: "Products",
-    path: "/dashboard/products",
-    icon: <TbBrandProduction size={25} />,
-  },
-  {
-    id: "visitors",
-    label: "Visitors",
-    path: "/dashboard/visitors",
-    icon: <PiUsersFourLight size={25} />,
-  },
-];
 
 export const Sidebar = () => {
   // const { sideBarOpen, setSideBarOpen } = useContext(GlobalContext);
@@ -43,7 +14,7 @@ export const Sidebar = () => {
   const pathName = usePathname();
   const router = useRouter();
 
-  const handlenavigate = (getMenuItem: IDashboardMenuItem) => {
+  const handlenavigate = (getMenuItem: IDashboardSidebarItem) => {
     // if (status === "unauthenticated") {
     //   router.push("/unauth-page");
     //   return;
@@ -64,18 +35,19 @@ export const Sidebar = () => {
         <nav className="mt-5 lg:mt-9 ">
           <div>
             <ul className="mb-6 flex flex-col gap-1.5">
-              {menuItems.map((menuItem) => (
+              {dashboardSidebarItem.map((menuItem) => (
                 <li key={menuItem.id}>
                   <label
                     onClick={() => handlenavigate(menuItem)}
                     className={`group relative cursor-pointer flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-accent hover:bg-opacity-30 
                              ${
-                               pathName.includes(menuItem.id) &&
+                               (pathName.split("/").length <= 2
+                                 ? pathName.split("/")[1] === menuItem.id
+                                 : pathName.split("/")[2] === menuItem.id) &&
                                "bg-accent bg-opacity-30"
                              }
                             `}
                   >
-                    {menuItem.icon}
                     {menuItem.label}
                   </label>
                 </li>

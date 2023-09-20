@@ -1,5 +1,5 @@
 import { IChildren } from "@/Interface";
-import { Header, Sidebar } from "@/components/Dashboard";
+import { Navbar, Sidebar } from "@/components/Dashboard";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,11 +12,9 @@ const DashboardLayout = ({ children }: IChildren) => (
     <Sidebar />
 
     <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
-      <Header />
+      <Navbar />
       <main>
-        <div className="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
-          {children}
-        </div>
+        <div className="max-w-[1440px] p-4 md:p-6 2xl:p-10">{children}</div>
       </main>
     </div>
   </div>

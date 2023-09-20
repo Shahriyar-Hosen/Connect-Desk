@@ -10,18 +10,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#026848",
-        secondary: "#cd6b2e",
-        accent: "#54D487",
-        neutral: "#000000",
-        "base-100": "#cbe0da",
-        "base-200": "#fbf5f3",
-        info: "#3abff8",
-        success: "#36d399",
-        warning: "#fbbd23",
-        error: "#ff0000",
-      },
       fontFamily: {
         poppins: "Poppins",
         exo: "Exo",
@@ -42,7 +30,24 @@ const config: Config = {
       },
     },
   },
+  daisyui: {
+    themes: [
+      {
+        light: {
+          primary: "#026848",
+          secondary: "#cd6b2e",
+          accent: "#54D487",
+          neutral: "#000000",
+          "base-100": "#cbe0da",
+          "base-200": "#fbf5f3",
+          info: "#3abff8",
+          success: "#36d399",
+          warning: "#fbbd23",
+          error: "#ff0000",
+        },
+      },
+    ],
+  },
   plugins: [require("daisyui")],
 };
-
 export default config;

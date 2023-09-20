@@ -1,0 +1,49 @@
+import { IDashboardSidebarItem } from "@/Interface";
+
+export const dashboardSidebarItem: IDashboardSidebarItem[] = [
+  {
+    id: "dashboard",
+    label: "Dashboard",
+    path: "/dashboard",
+  },
+  {
+    id: "packages",
+    label: "Packages",
+    path: "/dashboard/packages",
+  },
+  {
+    id: "products",
+    label: "Products",
+    path: "/dashboard/products",
+  },
+  {
+    id: "category",
+    label: "Category",
+    path: "/dashboard/category",
+  },
+  {
+    id: "sub-category",
+    label: "Sub Category",
+    path: "/dashboard/sub-category",
+  },
+  {
+    id: "site-use-tutorial",
+    label: "Site Use Tutorial",
+    path: "/dashboard/site-use-tutorial",
+  },
+  {
+    id: "faq",
+    label: "FAQ",
+    path: "/dashboard/faq",
+  },
+  {
+    id: "founder-message",
+    label: "Founder Message",
+    path: "/dashboard/founder-message",
+  },
+  {
+    id: "contact-us",
+    label: "Contact Us",
+    path: "/dashboard/contact-us",
+  },
+];
