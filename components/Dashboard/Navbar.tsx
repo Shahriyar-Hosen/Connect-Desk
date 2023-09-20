@@ -62,7 +62,6 @@ export const Navbar = () => {
                 />
               </svg>
               Updates
-              <span className="badge badge-sm badge-warning">NEW</span>
             </Link>
           </li>
           <li>
