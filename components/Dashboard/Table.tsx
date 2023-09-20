@@ -2,6 +2,7 @@
 
 import { FC } from "react";
 import { FiEdit } from "react-icons/fi";
+import { MdDelete } from "react-icons/md";
 import { RiDeleteBin2Fill } from "react-icons/ri";
 
 export const Table: FC<{}> = ({}) => (
@@ -33,7 +34,7 @@ export const Table: FC<{}> = ({}) => (
             </td>
             <td>
               <button className="btn btn-xs btn-error bg-red-600 hover:text-gray-700 transition-all delay-100 capitalize">
-                <RiDeleteBin2Fill /> Delete
+                <MdDelete /> Delete
               </button>
             </td>
           </tr>
