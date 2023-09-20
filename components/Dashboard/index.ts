@@ -5,3 +5,4 @@ export * from "./Package";
 export * from "./Product";
 export * from "./Sidebar";
 export * from "./SubCategory";
+export * from "./Table";
