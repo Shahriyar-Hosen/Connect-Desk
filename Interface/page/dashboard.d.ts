@@ -3,3 +3,8 @@ export interface IDashboardSidebarItem {
   label: string;
   path: string;
 }
+
+export interface IHeader {
+  title: string;
+  link: string;
+}
