@@ -2,25 +2,26 @@
 
 import { Button } from "@/components";
 import { Form, Formik, FormikHelpers } from "formik";
+import { FC } from "react";
 import * as Yup from "yup";
-import { Input } from "../Form";
-
-const validationSchema = Yup.object().shape({
-  question: Yup.string().required("Question is required"),
-  answer: Yup.string().required("Answer is required"),
-});
+import { Input } from ".";
 
 interface IFaqForm {
   question: string;
   answer: string;
 }
 
-export const FaqForm = () => {
-  const initialValues: IFaqForm = {
-    question: "",
-    answer: "",
-  };
+const initialValues = {
+  question: "",
+  answer: "",
+};
 
+export interface IMyForm {
+  validationSchema: Yup.ObjectSchema<any>;
+  initialValues: IFaqForm;
+}
+
+export const MyForm: FC<IMyForm> = ({ validationSchema }) => {
   const handleSubmit = (
     values: IFaqForm,
     { resetForm }: FormikHelpers<IFaqForm>
