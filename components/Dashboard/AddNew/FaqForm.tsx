@@ -36,7 +36,7 @@ export const FaqForm = () => {
       onSubmit={(values, actions) => handleSubmit(values, actions)}
     >
       {({ isSubmitting, isValid }) => (
-        <Form className="w-full flex flex-col justify-center items-start gap-8">
+        <Form className="w-full flex flex-col justify-center items-start gap-2.5">
           <div>
             <label className="text-base font-semibold">Question</label>
             <Input

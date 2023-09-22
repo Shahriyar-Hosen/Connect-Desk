@@ -11,7 +11,7 @@ const validationSchema = Yup.object().shape({
     .required("Video Link is required")
     .matches(
       /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be|vimeo\.com|dailymotion\.com|v\.redd\.it)\/.+/,
-      "Invalid video link. Please provide a valid link from supported platforms."
+      "Invalid video link."
     ),
 });
 
@@ -53,7 +53,7 @@ export const VideoTutorialForm = () => {
 
           <Button
             variant="primary"
-            className="bg-primary disabled:bg-opacity-70 disabled:cursor-not-allowed mt-8"
+            className="bg-primary disabled:bg-opacity-70 disabled:cursor-not-allowed mt-5"
             type="submit"
             disabled={!isValid || isSubmitting}
           >
