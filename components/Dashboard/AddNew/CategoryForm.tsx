@@ -3,7 +3,7 @@
 import { Button } from "@/components";
 import { Form, Formik, FormikHelpers } from "formik";
 import * as Yup from "yup";
-import { Input } from "../Form";
+import { Input } from "../FormsElement";
 
 const validationSchema = Yup.object().shape({
   category: Yup.string().required("Category is required"),
