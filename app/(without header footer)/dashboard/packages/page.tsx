@@ -5,7 +5,7 @@ import { FC } from "react";
 
 const Packages: FC = () => (
   <main>
-    <Header title="Packages" link="/dashboard/packages" />
+    <Header title="Packages" link="/dashboard/packages/add-new" />
     <Table />
   </main>
 );

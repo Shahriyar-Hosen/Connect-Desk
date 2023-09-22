@@ -14,9 +14,6 @@ export const FormikError: FC<IFormikError> = ({
   <ErrorMessage
     name={name}
     component={component}
-    className={twMerge(
-      "text-red-600 absolute bottom-3 left-[5px] h-1",
-      className
-    )}
+    className={twMerge("text-red-600 absolute -bottom-8 left-[5px]", className)}
   />
 );

@@ -19,6 +19,7 @@ const initialValues = {
 export interface IMyForm {
   validationSchema: Yup.ObjectSchema<any>;
   initialValues: IFaqForm;
+  handleSubmit: Function;
 }
 
 export const MyForm: FC<IMyForm> = ({ validationSchema }) => {
