@@ -8,7 +8,9 @@ import { Input } from "../Form";
 const validationSchema = Yup.object().shape({
   title: Yup.string().required("Title is required"),
   features: Yup.string().required("Features is required"),
-  image: Yup.string().required("Image is required"),
+  image: Yup.string()
+    .required("Image is required")
+    .url("Invalid image link. Please provide a valid URL."),
   subcategoryId: Yup.string()
     .required("Subcategory Id is required")
     .matches(/^[0-9]/, "Subcategory Id must be a numeric value"),
