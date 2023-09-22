@@ -1,11 +1,10 @@
 "use client";
 
-import { FC } from "react";
+import { NextPage } from "next";
 import { FiEdit } from "react-icons/fi";
 import { MdDelete } from "react-icons/md";
-import { RiDeleteBin2Fill } from "react-icons/ri";
 
-export const Table: FC<{}> = ({}) => (
+export const Table: NextPage<{}> = ({}) => (
   <div className="overflow-x-auto">
     <table className="table table-md">
       <thead>

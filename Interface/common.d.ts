@@ -121,6 +121,8 @@ export interface IButton extends IChildrenWithClass {
   size?: "sm" | "md" | "lg";
   rounded?: boolean;
   onClick?: MouseEventHandler<HTMLButtonElement> | undefined;
+  type?: "submit" | "reset" | "button";
+  disabled?: boolean;
 }
 
 export interface ILinkButton extends IButton {

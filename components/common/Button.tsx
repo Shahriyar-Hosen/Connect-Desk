@@ -4,17 +4,21 @@ import { IButton } from "@/Interface";
 import { FC } from "react";
 
 export const Button: FC<IButton> = ({
-  children,
-  variant,
   text = "14",
-  width = "auto",
   size = "md",
+  type,
+  width = "auto",
+  variant,
   rounded,
-  className,
   onClick,
+  children,
+  disabled,
+  className,
 }) => (
   <button
+    type={type}
     onClick={onClick}
+    disabled={disabled}
     className={`${
       (variant === "secondary" && "bg-white text-primary") ||
       (variant === "primary" && "bg-primary text-white")

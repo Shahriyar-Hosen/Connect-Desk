@@ -1,3 +1,4 @@
+export * from "./AddNew";
 export * from "./Category";
 export * from "./Header";
 export * from "./Navbar";
