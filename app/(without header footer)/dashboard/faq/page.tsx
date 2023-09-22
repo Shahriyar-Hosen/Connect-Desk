@@ -1,11 +1,11 @@
 "use client";
 
 import { Header, Table } from "@/components/Dashboard";
-import { FC } from "react";
+import { NextPage } from "next";
 
-const Faq: FC = () => (
+const Faq: NextPage = () => (
   <main>
-    <Header title="FAQ" link="/dashboard/faq" />
+    <Header title="FAQ" link="/dashboard/faq/add-new" />
     <Table />
   </main>
 );

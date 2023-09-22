@@ -27,9 +27,9 @@ export const dashboardSidebarItem: IDashboardSidebarItem[] = [
     path: "/dashboard/sub-category",
   },
   {
-    id: "site-use-tutorial",
-    label: "Site Use Tutorial",
-    path: "/dashboard/site-use-tutorial",
+    id: "video-tutorial",
+    label: "Video Tutorial",
+    path: "/dashboard/video-tutorial",
   },
   {
     id: "faq",

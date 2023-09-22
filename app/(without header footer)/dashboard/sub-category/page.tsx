@@ -5,7 +5,7 @@ import { FC } from "react";
 
 const SubCategory: FC = () => (
   <main>
-    <Header title="Sub Category" link="/dashboard/sub-category" />
+    <Header title="Sub Category" link="/dashboard/sub-category/add-new" />
     <Table />
   </main>
 );
