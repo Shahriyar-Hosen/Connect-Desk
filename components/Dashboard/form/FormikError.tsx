@@ -1,15 +1,16 @@
 "use client";
 
 import { ErrorMessage } from "formik";
+import { FC } from "react";
 import { twMerge } from "tailwind-merge";
 
-import { IFormikError } from "@/interface";
+import { IFormikError } from "@/Interface";
 
-export const FormikError = ({
+export const FormikError: FC<IFormikError> = ({
   name,
   component = "div",
   className,
-}: IFormikError) => (
+}) => (
   <ErrorMessage
     name={name}
     component={component}
