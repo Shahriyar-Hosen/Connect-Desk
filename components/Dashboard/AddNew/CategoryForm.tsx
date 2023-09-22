@@ -6,7 +6,7 @@ import * as Yup from "yup";
 import { Input } from "../Form";
 
 const validationSchema = Yup.object().shape({
-  category: Yup.string().required("Question is required"),
+  category: Yup.string().required("Category is required"),
 });
 
 interface ICategoryForm {

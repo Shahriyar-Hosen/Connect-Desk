@@ -6,9 +6,9 @@ import * as Yup from "yup";
 import { Input } from "../Form";
 
 const validationSchema = Yup.object().shape({
-  subCategory: Yup.string().required("Question is required"),
+  subCategory: Yup.string().required("Sub Category is required"),
   categoryId: Yup.string()
-    .required("Question is required")
+    .required("Category Id is required")
     .matches(/^[0-9]/, "Category Id must be a numeric value"),
 });
 
