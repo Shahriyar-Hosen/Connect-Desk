@@ -53,7 +53,7 @@ export const ProductsForm = () => {
           </div>
           <div>
             <label className="text-base font-semibold">Features</label>
-            <Input type="text" name="features" placeholder="Features" />
+            <Input as="editor" name="features" placeholder="Features" />
           </div>
           <div>
             <label className="text-base font-semibold">Image</label>
@@ -67,7 +67,6 @@ export const ProductsForm = () => {
               placeholder="Subcategory Id"
             />
           </div>
-
           <Button
             variant="primary"
             className="bg-primary disabled:bg-opacity-70 disabled:cursor-not-allowed mt-5"

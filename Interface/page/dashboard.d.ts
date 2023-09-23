@@ -14,7 +14,7 @@ export interface IHeader {
 
 export interface IInput extends IClassName {
   name: string;
-  as?: "textarea";
+  as?: "textarea" | "editor";
   select?: string[];
   fullWidth?: string;
   placeholder?: string;
