@@ -12,18 +12,19 @@ import {
   Container,
   MainContainer,
 } from "..";
+import { IIntlComponentParams } from "@/Interface";
 
-export const AboutHome: FC = () => (
+export const AboutHome: FC<IIntlComponentParams> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         position="center"
         title={
           <span>
-            About <ConnectDesk text="xl" />
+            {t("aboutHome.about")} <ConnectDesk text="xl" />
           </span>
         }
-        subTitle="Software"
+        subTitle={t("aboutHome.software")}
       />
 
       <div className="w-full md:w-[95%] xl:w-full mx-auto flex flex-col lg:flex-row justify-center items-center gap-[5%] mt-6 lg:mt-0">
@@ -37,17 +38,13 @@ export const AboutHome: FC = () => (
 
         <div className="w-[90%] lg:max-w-[500px] flex flex-col justify-start items-start gap-4 mt-6 xl:mt-0">
           <CommonText>
-            Using the ConnectDesk, you can manage your company's sales and
-            marketing modules. ConnectDesk software automates tasks including
-            client sales, manage inventory, and distribution activities.
+            {t("aboutHome.firstPara", { cd: "ConnectDesk" })}
           </CommonText>
           <CommonText>
-            ConnectDesk software not only assists you in managing your business
-            but also keeps track of your inventory and personnel. It also
-            features an extensive account management system.
+            {t("aboutHome.secondPara", { cd: "ConnectDesk" })}
           </CommonText>
           <div className="xl:mt-6">
-            <Button variant="primary">Learn More</Button>
+            <Button variant="primary">{t("aboutHome.buttonLevel")}</Button>
           </div>
         </div>
       </div>
