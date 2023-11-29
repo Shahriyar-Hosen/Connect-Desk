@@ -17,88 +17,88 @@ export const solutions: {
   title: string;
 }[] = [
   {
-    title: "Track all types of Income & Expense",
+    title: "perfectSolution.solutions.trackIncomeExpense",
   },
   {
-    title: "Inventory Tracking",
+    title: "perfectSolution.solutions.inventoryTracking",
   },
   {
-    title: "Real Time Financial Report",
+    title: "perfectSolution.solutions.realTimeFinancialReport",
   },
   {
-    title: "Dynamic Dashboard",
+    title: "perfectSolution.solutions.dynamicDashboard",
   },
   {
-    title: "99.99% Data Security & Backup",
+    title: "perfectSolution.solutions.dataSecurityBackup",
   },
   {
-    title: "Works on Mobile & Desktop",
+    title: "perfectSolution.solutions.worksMobileDesktop",
   },
   {
-    title: "24/7 Corporate Support",
+    title: "perfectSolution.solutions.corporateSupport",
   },
   {
-    title: "Synchronized Online & Apps",
+    title: "perfectSolution.solutions.synchronizedOnlineApps",
   },
   {
-    title: "Simplified Module Design",
+    title: "perfectSolution.solutions.simplifiedModuleDesign",
   },
   {
-    title: "Affordable Price",
+    title: "perfectSolution.solutions.affordablePrice",
   },
   {
-    title: "Access From Anywhere",
+    title: "perfectSolution.solutions.accessFromAnywhere",
   },
   {
-    title: "User-Friendly Interface",
+    title: "perfectSolution.solutions.userFriendlyInterface",
   },
 ];
 
 export const featuresData: IFeatures[] = [
   {
     icon: easySale,
-    title: "Easy Sale & Invoice Create",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.easySale",
+    des: "importantFeatures.features.easySaleDes",
   },
   {
     icon: stock,
-    title: "Stock Management",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.stock",
+    des: "importantFeatures.features.stockDes",
   },
   {
     icon: accounting,
-    title: "Easy Accounting",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.accounting",
+    des: "importantFeatures.features.accountingDes",
   },
   {
     icon: POSSoftware,
-    title: "Perfect POS Software",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.POSSoftware",
+    des: "importantFeatures.features.POSSoftwareDes",
   },
   {
     icon: report,
-    title: "Overall Business Reports",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.report",
+    des: "importantFeatures.features.reportDes",
   },
   {
     icon: sell,
-    title: "Sell & Purchase Quotation",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.sell",
+    des: "importantFeatures.features.sellDes",
   },
   {
     icon: purchase,
-    title: "Purchase Order",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.purchase",
+    des: "importantFeatures.features.purchaseDes",
   },
   {
     icon: flexible,
-    title: "Flexible Planning",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.flexible",
+    des: "importantFeatures.features.flexibleDes",
   },
   {
     icon: support,
-    title: "Corporate Support",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.support",
+    des: "importantFeatures.features.supportDes",
   },
 ];
 

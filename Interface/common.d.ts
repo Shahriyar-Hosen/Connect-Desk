@@ -14,6 +14,10 @@ export interface IClassName {
 export interface IChildren {
   children: ReactNode;
 }
+export interface IChildrenWithIntl {
+  children: ReactNode;
+  params: { lng: string };
+}
 
 export interface IChildrenWithClass extends IChildren {
   children: ReactNode;
@@ -171,4 +175,11 @@ export interface IPageHeader {
   pageName: string;
   mainTitle: JSX.Element | string;
   subTitle?: JSX.Element | string;
+}
+
+export interface IIntlParams {
+  params: { lng: string };
+}
+export interface IIntlComponentParams {
+  t: TFunction<string | string[], string>;
 }

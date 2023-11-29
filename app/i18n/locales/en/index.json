@@ -1,0 +1,60 @@
+{
+  "heroSection": {
+    "mainText": "Simplify and Grow Your Retail Business with",
+    "commonText": "Its user-friendly interface enables you to send invoices after sale,create quotations as well as track expenses, manage inventory, check daily transaction, view and update financial reports, among other things.",
+    "buttonOneLevel": "Buy Now",
+    "buttonTwoLevel": "Watch Video"
+  },
+  "aboutHome": {
+    "about": "About",
+    "software": "Software",
+    "firstPara": " Using the {{cd}}, you can manage your company's sales and marketing modules. {{cd}} software automates tasks including client sales, manage inventory, and distribution activities.",
+    "secondPara": "{{cd}} software not only assists you in managing your business but also keeps track of your inventory and personnel. It also features an extensive account management system.",
+    "buttonLevel": "Learn More"
+  },
+  "perfectSolution": {
+    "title": "Perfect <spanTag>Solution</spanTag> For Your",
+    "business": "Business",
+    "solutions": {
+      "trackIncomeExpense": "Track all types of Income & Expense",
+      "inventoryTracking": "Inventory Tracking",
+      "realTimeFinancialReport": "Real Time Financial Report",
+      "dynamicDashboard": "Dynamic Dashboard",
+      "dataSecurityBackup": "99.99% Data Security & Backup",
+      "worksMobileDesktop": "Works on Mobile & Desktop",
+      "corporateSupport": "24/7 Corporate Support",
+      "synchronizedOnlineApps": "Synchronized Online & Apps",
+      "simplifiedModuleDesign": "Simplified Module Design",
+      "affordablePrice": "Affordable Price",
+      "accessFromAnywhere": "Access From Anywhere",
+      "userFriendlyInterface": "User-Friendly Interface"
+    }
+  },
+  "importantFeatures": {
+    "title": "Important Features Of",
+    "features": {
+      "easySale": "Easy Sale & Invoice Create",
+      "easySaleDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "stock": "Stock Management",
+      "stockDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "accounting": "Easy Accounting",
+      "accountingDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "POSSoftware": "Perfect POS Software",
+      "POSSoftwareDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "report": "Overall Business Reports",
+      "reportDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "sell": "Sell & Purchase Quotation",
+      "sellDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "purchase": "Purchase Order",
+      "purchaseDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "flexible": "Flexible Planning",
+      "flexibleDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "support": "Corporate Support",
+      "supportDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly."
+    }
+  },
+  "packages": {
+    "title": "  Pricing To <spanTag>Suite</spanTag> All Size",
+    "business": "of <spanTag>Business</spanTag"
+  }
+}
