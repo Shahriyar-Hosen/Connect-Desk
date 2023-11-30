@@ -96,5 +96,12 @@
         }
       }
     }
+  },
+  "support": {
+    "title": "Deliver A",
+    "subTitle": "Corporate Support For All Time",
+    "supportText": " When utilizing the software, issues and misunderstandings are quite frequent. Our professional support team is here to help you with these solutions.",
+    "phoneSupport": "24/7 Free Phone Support",
+    "emailSupport": "24/7 Free Email Support"
   }
 }

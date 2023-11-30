@@ -135,7 +135,7 @@ export const packagesData: IPackages[] = [
       "packages.packagesData.corporatePackage.features.setting",
       "packages.packagesData.corporatePackage.features.dailyReports",
       "packages.packagesData.corporatePackage.features.businessReports",
-      "packages.packagesData.corporatePackage.features.corporateSupport",
+      "packages.packagesData.corporatePackage.features.onlineStore",
       "packages.packagesData.corporatePackage.features.dataSecurity",
     ],
   },
@@ -143,11 +143,11 @@ export const packagesData: IPackages[] = [
 
 export const corporateSupport: ICorporateSupport[] = [
   {
-    title: "24/7 Free Phone Support",
+    title: "support.phoneSupport",
     img: phoneSupport,
   },
   {
-    title: "24/7 Free Email Support",
+    title: "support.emailSupport",
     img: emailSupport,
   },
 ];

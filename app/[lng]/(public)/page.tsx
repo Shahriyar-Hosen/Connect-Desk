@@ -33,7 +33,7 @@ const Home: FC<IIntlParams> = ({ params: { lng } }) => {
       <PerfectSolution t={t} />
       <ImportantFeatures t={t} />
       <Packages t={t} />
-      <Support />
+      <Support t={t} />
       <FreeTrial />
     </main>
   );

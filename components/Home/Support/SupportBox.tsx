@@ -4,23 +4,22 @@ import { CommonText, ComponentHeader, ConnectDesk } from "@/components";
 import { corporateSupport } from "@/public/Data";
 import { FC } from "react";
 import { SupportCard } from "./SupportCard";
+import { IIntlComponentParams } from "@/Interface";
 
-export const SupportBox: FC = () => (
+export const SupportBox: FC<IIntlComponentParams> = ({ t }) => (
   <div className="w-fit md:w-[50%] flex flex-col justify-center items-start md:justify-start gap-3 md:gap-4 md:pr-5 lg:pr-0 md:pt-12 lg:pt-0">
     <ComponentHeader
       title={
         <>
-          <ConnectDesk text="lg" /> Deliver A
+          <ConnectDesk text="lg" /> {t("support.title")}
         </>
       }
-      subTitle="Corporate Support For All Time"
+      subTitle={t("support.subTitle")}
       position="start"
     />
 
     <CommonText className="max-w-[415px]">
-      When utilizing the software, issues and misunderstandings are quite
-      frequent. Our professional support team is here to help you with these
-      solutions.
+      {t("support.supportText")}
     </CommonText>
 
     {corporateSupport.map((support, i) => (
@@ -30,7 +29,7 @@ export const SupportBox: FC = () => (
           i % 2 === 0 ? "md:justify-start" : "md:justify-end"
         }`}
       >
-        <SupportCard {...support} />
+        <SupportCard {...support} t={t} />
       </div>
     ))}
   </div>
