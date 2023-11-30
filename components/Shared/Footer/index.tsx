@@ -1,14 +1,17 @@
 "use client";
 
-import { IClassName } from "@/Interface";
+import { IClassName, IIntlComponentParams } from "@/Interface";
 import { CommonText, Container } from "@/components";
 import { FC } from "react";
 import { MainFooterContainer } from "./MainFooterContainer";
 
-export const Footer: FC<IClassName> = ({ className }) => (
+export const Footer: FC<IClassName & IIntlComponentParams> = ({
+  className,
+  t,
+}) => (
   <footer className={className}>
     <section className="bg-gradient-to-t to-base-200 from-base-100 pt-[60px]">
-      <MainFooterContainer />
+      <MainFooterContainer t={t} />
 
       <div className="border-t border-primary">
         <Container className="flex justify-between items-center pt-5 pb-6">

@@ -3,17 +3,18 @@
 import { CommonText, Logo } from "@/components";
 import { FC } from "react";
 import { ContactInfo } from ".";
+import { IIntlComponentParams } from "@/Interface";
+import { Trans } from "react-i18next";
 
-export const ContactDetails: FC = () => (
+export const ContactDetails: FC<IIntlComponentParams> = ({ t }) => (
   <div className="w-full lg:w-auto mb-8 xl:mb-[58px] flex lg:block flex-col justify-center items-center">
     <div className="flex flex-col gap-4 mb-9 ">
       <Logo />
       <CommonText text="sm">
-        ConnectDesk is a software development company. The <br /> company works
-        with business solutions for SME traders.
+        <Trans i18nKey="footer.contactText" components={{ br: <br /> }} t={t} />
       </CommonText>
     </div>
 
-    <ContactInfo />
+    <ContactInfo t={t} />
   </div>
 );

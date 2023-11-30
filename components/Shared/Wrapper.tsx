@@ -17,7 +17,7 @@ export const Wrapper: FC<IWrapper & IIntlParams> = ({
     <main className={className}>
       <Header t={t} className={header ? "hidden" : "block"} />
       {children}
-      <Footer className={footer ? "hidden" : "block"} />
+      <Footer t={t} className={footer ? "hidden" : "block"} />
     </main>
   );
 };

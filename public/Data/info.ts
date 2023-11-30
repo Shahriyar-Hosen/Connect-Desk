@@ -4,25 +4,25 @@ import { instagram, phone, twitter, web, youtube } from "../assets/icon";
 export const contactInfo: IContactInfo[] = [
   {
     icon: phone,
-    title: "Sales",
+    title: "footer.contactOptions.sales",
     number: "+8801234567892",
     time: "10AM - 9PM",
   },
   {
     icon: phone,
-    title: "Support 1",
+    title: "footer.contactOptions.supportOne",
     number: "+8801234567892",
     time: "10AM - 9PM",
   },
   {
     icon: phone,
-    title: "Support 2",
+    title: "footer.contactOptions.supportTwo",
     number: "+8801234567892",
     time: "10AM - 9PM",
   },
   {
     icon: phone,
-    title: "IP Phone",
+    title: "footer.contactOptions.IPPhone",
     number: "+8801234567892",
     time: "10AM - 9PM",
   },
@@ -32,47 +32,47 @@ export const location: string = "Dhanmondi 32, Dhaka - 1200, Bangldesh";
 
 export const infoData: IInfo[] = [
   {
-    name: "Company",
+    name: "footer.infoData.company",
     option: [
       {
-        title: "About us",
+        title: "footer.infoData.aboutUs",
         link: "/about-us",
       },
       {
-        title: "Blog",
+        title: "footer.infoData.blog",
         link: "/blog",
       },
       {
-        title: "Contact us",
+        title: "footer.infoData.contactUs",
         link: "/contact-us",
       },
       {
-        title: "Pricing",
+        title: "footer.infoData.pricing",
         link: "/packages",
       },
       {
-        title: "FAQ",
+        title: "footer.infoData.FAQ",
         link: "/faq",
       },
     ],
   },
   {
-    name: "Support",
+    name: "footer.infoData.support",
     option: [
       {
-        title: "Terms & Conditions",
+        title: "footer.infoData.terms&Conditions",
         link: "/terms-and-condition",
       },
       {
-        title: "Privacy policy",
+        title: "footer.infoData.privacyPolicy",
         link: "/privacy-policy",
       },
       {
-        title: "Refund & Return Policy",
+        title: "footer.infoData.refund&ReturnPolicy",
         link: "/refund-and-return-policy",
       },
       {
-        title: "App Install",
+        title: "footer.infoData.appInstall",
         link: "/app-install",
       },
     ],

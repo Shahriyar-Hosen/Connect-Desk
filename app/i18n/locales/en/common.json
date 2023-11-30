@@ -38,5 +38,34 @@
     },
     "login": "Login",
     "signUp": "Sign Up"
+  },
+  "footer": {
+    "copyright": "Copyright &copy; {new Date().getFullYear()} ConnectDesk",
+    "allRightsReserved": "All rights reserved",
+    "contactText": "ConnectDesk is a software development company. The <br> company works with business solutions for SME traders.",
+    "contactInfo": "Contact Info",
+    "contactOptions": {
+      "sales": "Sales",
+      "supportOne": "Support 1",
+      "supportTwo": "Support 2",
+      "IPPhone": "IP Phone"
+    },
+    "infoData": {
+      "company": "Company",
+      "aboutUs": "About us",
+      "blog": "Blog",
+      "contactUs": "Contact us",
+      "pricing": "Pricing",
+      "FAQ": "FAQ",
+      "support": "Support",
+      "terms&Conditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy policy",
+      "refund&ReturnPolicy": "Refund & Return Policy",
+      "appInstall": "App Install"
+    },
+    "download": {
+      "downloadApp": "Download App",
+      "socialMediaLinks": "Social Media Links"
+    }
   }
 }
