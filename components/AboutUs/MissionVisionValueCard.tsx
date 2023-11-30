@@ -1,16 +1,13 @@
 "use client";
 
-import { IMissionVisionValue } from "@/Interface";
+import { IIntlComponentParams, IMissionVisionValue } from "@/Interface";
 import Image from "next/image";
 import { FC } from "react";
 import { CommonText, ComponentHeader } from "..";
 
-export const MissionVisionValueCard: FC<IMissionVisionValue> = ({
-  des,
-  img,
-  title,
-  id,
-}) => (
+export const MissionVisionValueCard: FC<
+  IMissionVisionValue & IIntlComponentParams
+> = ({ des, img, title, id, t }) => (
   <div
     key={id}
     className={`flex flex-col-reverse ${
@@ -18,12 +15,12 @@ export const MissionVisionValueCard: FC<IMissionVisionValue> = ({
     } justify-between items-center gap-5 mt-2.5`}
   >
     <div>
-      <ComponentHeader title={title} position="start" text="lg" about />
+      <ComponentHeader title={t(title)} position="start" text="lg" about />
       <CommonText
         className="max-w-[432px] text-[#797979] text-start mt-7"
         text="xl"
       >
-        {des}
+        {t(des)}
       </CommonText>
     </div>
     <Image
