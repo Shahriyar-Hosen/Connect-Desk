@@ -15,88 +15,80 @@ export const features: IFeaturesPage[] = [
     id: 1,
     image: feature1,
     title: {
-      first: "Get Started Very",
-      second: "Easy",
-      third: "sign up",
+      first: "allFeatures.featureOne.getStartedVery",
+      second: "allFeatures.featureOne.easy",
+      third: "allFeatures.featureOne.signup",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureOne.para",
   },
   {
     id: 2,
     image: feature2,
     title: {
-      first: "Explore Our",
-      second: "Awesome",
-      third: "Dashboard",
+      first: "allFeatures.featureTwo.exploreOur",
+      second: "allFeatures.featureTwo.awesome",
+      third: "allFeatures.featureTwo.dashboard",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureTwo.para",
   },
   {
     id: 3,
     image: feature3,
     title: {
-      first: "Manage Your",
-      second: "Sales",
-      third: "Easily",
+      first: "allFeatures.featureThree.manageYour",
+      second: "allFeatures.featureThree.sales",
+      third: "allFeatures.featureThree.easily",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureThree.para",
   },
   {
     id: 4,
     image: feature4,
     title: {
-      first: "Create Invoices",
-      second: "Very",
-      third: "Easily",
+      first: "allFeatures.featureFour.createInvoices",
+      second: "allFeatures.featureFour.very",
+      third: "allFeatures.featureFour.easily",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureFour.para",
   },
   {
     id: 5,
     image: feature5,
     title: {
-      first: "Create Sales & Purchase",
-      second: "Quotation",
-      third: "Easily",
+      first: "allFeatures.featureFive.createSales&Purchase",
+      second: "allFeatures.featureFive.quotation",
+      third: "allFeatures.featureFive.easily",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureFive.para",
   },
   {
     id: 6,
     image: feature6,
     title: {
-      first: "Perfect POS Software For",
-      second: "Retail",
-      third: "Business",
+      first: "allFeatures.featureSix.perfectPOSSoftwareFor",
+      second: "allFeatures.featureSix.retail",
+      third: "allFeatures.featureSix.business",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureSix.para",
   },
   {
     id: 7,
     image: feature7,
     title: {
-      first: "Fully Organized Vehicle",
-      second: "Management",
-      third: "System",
+      first: "allFeatures.featureSeven.fullyOrganizedVehicle",
+      second: "allFeatures.featureSeven.management",
+      third: "allFeatures.featureSeven.system",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureSeven.para",
   },
   {
     id: 8,
     image: feature8,
     title: {
-      first: "Manage Your",
-      second: "Products",
-      third: "Easily",
+      first: "allFeatures.featureEight.manageYour",
+      second: "allFeatures.featureEight.products",
+      third: "allFeatures.featureEight.easily",
     },
-    paragraph:
-      "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option.",
+    paragraph: "allFeatures.featureEight.para",
   },
 ];

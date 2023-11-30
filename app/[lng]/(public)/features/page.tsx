@@ -20,7 +20,7 @@ const Features: FC<IIntlParams> = async ({ params: { lng } }) => {
         }
       />
       <FeaturesHeader lng={lng} />
-      <AllFeatures />
+      <AllFeatures lng={lng} />
       <FreeTrial lng={lng} />
     </main>
   );

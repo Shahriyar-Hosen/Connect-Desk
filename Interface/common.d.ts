@@ -183,3 +183,7 @@ export interface IIntlParams {
 export interface IIntlTranslator {
   t: TFunction<string | string[], string>;
 }
+
+export interface IIntlLang {
+  lng: string;
+}

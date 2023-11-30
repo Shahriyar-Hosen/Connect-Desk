@@ -1,11 +1,17 @@
 "use client";
 
-import { IFeaturesPage } from "@/Interface";
+import { IFeaturesPage, IIntlTranslator } from "@/Interface";
 import Image from "next/image";
 import { FC } from "react";
 import { CommonText, ComponentHeader } from "..";
 
-export const Feature: FC<IFeaturesPage> = ({ id, image, paragraph, title }) => (
+export const Feature: FC<IFeaturesPage & IIntlTranslator> = ({
+  id,
+  image,
+  paragraph,
+  title,
+  t,
+}) => (
   <div
     className={`flex flex-col ${
       id % 2 === 1 ? "md:flex-row" : "md:flex-row-reverse"
@@ -23,13 +29,14 @@ export const Feature: FC<IFeaturesPage> = ({ id, image, paragraph, title }) => (
         position="start"
         title={
           <span>
-            {title.first} <span className="text-primary">{title.second}</span>
+            {t(title.first)}{" "}
+            <span className="text-primary">{t(title.second)}</span>
           </span>
         }
-        subTitle={<span className="text-secondary">{title.third}</span>}
+        subTitle={<span className="text-secondary">{t(title.third)}</span>}
       />
       <br />
-      <CommonText>{paragraph}</CommonText>
+      <CommonText>{t(paragraph)}</CommonText>
     </div>
   </div>
 );
