@@ -9,8 +9,9 @@ import {
   Container,
   MainContainer,
 } from "..";
+import { IIntlComponentParams } from "@/Interface";
 
-export const FreeTrial: FC = () => (
+export const FreeTrial: FC<IIntlComponentParams> = ({ t }) => (
   <MainContainer>
     <Container className="flex justify-center items-center -mt-1 mb-7">
       <BackgroundImage
@@ -20,17 +21,17 @@ export const FreeTrial: FC = () => (
         <div className="flex flex-col sm:flex-row justify-between items-center gap-[10px]">
           <div className="flex flex-col justify-center items-center sm:items-start gap-1 sm:gap-2.5 freeTrail">
             <h6 className="text-primary text-center sm:text-start">
-              One Tool For Your Entire Business
+              {t("freeTrial.oneTool")}
             </h6>
             <h6 className="text-primary text-center sm:text-start">
-              Get Started Now!
+              {t("freeTrial.getStarted")}
             </h6>
             <CommonText text="sm" className="pt-1 text-center sm:text-start">
-              Sign Up to Start Your 7 Days Trial For Free
+              {t("freeTrial.trialForFree")}
             </CommonText>
           </div>
           <div>
-            <Button variant="primary">Sign Up</Button>
+            <Button variant="primary">{t("freeTrial.buttonLevel")}</Button>
           </div>
         </div>
       </BackgroundImage>

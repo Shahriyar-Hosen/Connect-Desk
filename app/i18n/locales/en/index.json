@@ -103,5 +103,11 @@
     "supportText": " When utilizing the software, issues and misunderstandings are quite frequent. Our professional support team is here to help you with these solutions.",
     "phoneSupport": "24/7 Free Phone Support",
     "emailSupport": "24/7 Free Email Support"
+  },
+  "freeTrial": {
+    "oneTool": "One Tool For Your Entire Business",
+    "getStarted": " Get Started Now!",
+    "trialForFree": "Sign Up to Start Your 7 Days Trial For Free",
+    "buttonLevel": "Sign Up"
   }
 }
