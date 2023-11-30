@@ -1,0 +1,22 @@
+{
+  "pageName": "Contact Us",
+  "mainTitle": "Feel Free To Contact",
+  "subTitle": "With Us",
+  "contactData": {
+    "officeAddress": "Office Address",
+    "callUs": "Call Us",
+    "E-mail": "E-mail",
+    "location": "Location",
+    "sales": "Sales",
+    "supportOne": "Support 1",
+    "supportTwo": "Support 2",
+    "IPPhone": "IP Phone"
+  },
+  "contactForm": {
+    "yourName": "Your Name",
+    "yourAddress": "Your Address",
+    "writeSubject": "Write subject",
+    "writeMessage": "Write message",
+    "submit": "Submit"
+  }
+}
