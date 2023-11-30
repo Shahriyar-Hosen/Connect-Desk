@@ -5,9 +5,9 @@ import { contactInfo } from "@/public/Data";
 import Image from "next/image";
 import { FC } from "react";
 import { FooterTitle } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const ContactInfo: FC<IIntlComponentParams> = ({ t }) => (
+export const ContactInfo: FC<IIntlTranslator> = ({ t }) => (
   <div className="flex flex-col gap-[10px]">
     <FooterTitle text="sm">{t("footer.contactInfo")}</FooterTitle>
     <div className="flex flex-col gap-[10px]">

@@ -12,9 +12,9 @@ import {
   Container,
   MainContainer,
 } from "..";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const AboutHome: FC<IIntlComponentParams> = ({ t }) => (
+export const AboutHome: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader

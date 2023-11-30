@@ -5,9 +5,9 @@ import { FC, useCallback, useRef, useState } from "react";
 import { useClickOutSide } from "@/hooks";
 import { navItems } from "@/public/Data";
 import { DropdownMenu, MenuItem } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const MobileMenuItems: FC<IIntlComponentParams> = ({ t }) => {
+export const MobileMenuItems: FC<IIntlTranslator> = ({ t }) => {
   const [open, setOpen] = useState("");
   const [openMenu, setOpenMenu] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);

@@ -13,10 +13,10 @@ import {
   Container,
   MainContainer,
 } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 import { Trans } from "react-i18next";
 
-export const CustomerSupport: FC<IIntlComponentParams> = ({ t }) => (
+export const CustomerSupport: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader

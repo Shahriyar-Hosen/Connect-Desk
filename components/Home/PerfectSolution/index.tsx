@@ -4,10 +4,10 @@ import { ComponentHeader, Container, MainContainer } from "@/components";
 import { solutions } from "@/public/Data";
 import { FC } from "react";
 import { Solution } from "./Solution";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 import { Trans } from "react-i18next";
 
-export const PerfectSolution: FC<IIntlComponentParams> = ({ t }) => (
+export const PerfectSolution: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer bg="secondary">
     <Container>
       <ComponentHeader

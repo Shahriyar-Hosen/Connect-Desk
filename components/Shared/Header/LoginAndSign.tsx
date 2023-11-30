@@ -1,12 +1,12 @@
 "use client";
 
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 import { Button, LinkButton } from "@/components";
 import { downArrow, profile } from "@/public/assets/icon";
 import Image from "next/image";
 import { FC } from "react";
 
-export const LoginAndSign: FC<IIntlComponentParams> = ({ t }) => (
+export const LoginAndSign: FC<IIntlTranslator> = ({ t }) => (
   <div className="hidden md:flex w-fit gap-2">
     <LinkButton link="/login" variant="secondary" size="sm">
       <div className="flex gap-2">
@@ -29,7 +29,7 @@ export const LoginAndSign: FC<IIntlComponentParams> = ({ t }) => (
   </div>
 );
 
-export const MobileLoginAndSignUpButton: FC<IIntlComponentParams> = ({ t }) => (
+export const MobileLoginAndSignUpButton: FC<IIntlTranslator> = ({ t }) => (
   <div className="flex gap-2 md:hidden">
     <LinkButton link="/" variant="secondary" size="sm">
       <div className="flex gap-2">

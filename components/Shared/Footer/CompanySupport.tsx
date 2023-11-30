@@ -5,9 +5,9 @@ import Link from "next/link";
 import { infoData } from "@/public/Data";
 import { FC } from "react";
 import { FooterTitle } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const CompanySupport: FC<IIntlComponentParams> = ({ t }) => (
+export const CompanySupport: FC<IIntlTranslator> = ({ t }) => (
   <div className="grid grid-cols-2 mt-0 xl:mt-10 lg:w-[27%] gap-[10%]">
     {infoData.map(({ name, option }, i) => (
       <div key={i}>

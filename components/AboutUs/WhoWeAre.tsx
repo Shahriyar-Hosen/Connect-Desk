@@ -3,10 +3,10 @@
 import { FC } from "react";
 import { ComponentHeader, Container, MainContainer } from "..";
 import { WhoWeAreImg } from "./WhoWeAreImg";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 import { Trans } from "react-i18next";
 
-export const WhoWeAre: FC<IIntlComponentParams> = ({ t }) => (
+export const WhoWeAre: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader

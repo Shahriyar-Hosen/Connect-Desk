@@ -4,9 +4,9 @@ import { CommonText, ComponentHeader, ConnectDesk } from "@/components";
 import { corporateSupport } from "@/public/Data";
 import { FC } from "react";
 import { SupportCard } from "./SupportCard";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const SupportBox: FC<IIntlComponentParams> = ({ t }) => (
+export const SupportBox: FC<IIntlTranslator> = ({ t }) => (
   <div className="w-fit md:w-[50%] flex flex-col justify-center items-start md:justify-start gap-3 md:gap-4 md:pr-5 lg:pr-0 md:pt-12 lg:pt-0">
     <ComponentHeader
       title={

@@ -1,12 +1,12 @@
 "use client";
 
-import { IIntlComponentParams, IMissionVisionValue } from "@/Interface";
+import { IIntlTranslator, IMissionVisionValue } from "@/Interface";
 import Image from "next/image";
 import { FC } from "react";
 import { CommonText, ComponentHeader } from "..";
 
 export const MissionVisionValueCard: FC<
-  IMissionVisionValue & IIntlComponentParams
+  IMissionVisionValue & IIntlTranslator
 > = ({ des, img, title, id, t }) => (
   <div
     key={id}

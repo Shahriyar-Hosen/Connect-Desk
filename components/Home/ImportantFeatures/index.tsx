@@ -9,9 +9,9 @@ import {
 import { featuresData } from "@/public/Data";
 import { FC } from "react";
 import { FeatureCard } from "./FeatureCard";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const ImportantFeatures: FC<IIntlComponentParams> = ({ t }) => (
+export const ImportantFeatures: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader

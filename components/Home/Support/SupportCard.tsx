@@ -1,11 +1,11 @@
 "use client";
 
-import { ICorporateSupport, IIntlComponentParams } from "@/Interface";
+import { ICorporateSupport, IIntlTranslator } from "@/Interface";
 import { CommonText } from "@/components";
 import Image from "next/image";
 import { FC } from "react";
 
-export const SupportCard: FC<ICorporateSupport & IIntlComponentParams> = ({
+export const SupportCard: FC<ICorporateSupport & IIntlTranslator> = ({
   img,
   title,
   t,

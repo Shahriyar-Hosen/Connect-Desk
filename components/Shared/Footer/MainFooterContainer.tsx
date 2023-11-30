@@ -3,9 +3,9 @@
 import { Container } from "@/components";
 import { FC } from "react";
 import { CompanySupport, ContactDetails, DownloadApp } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const MainFooterContainer: FC<IIntlComponentParams> = ({ t }) => (
+export const MainFooterContainer: FC<IIntlTranslator> = ({ t }) => (
   <Container>
     <div className="flex justify-center xl:justify-between items-center gap-[100%] xl:gap-2 md:gap-[7%] flex-wrap">
       <ContactDetails t={t} />

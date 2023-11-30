@@ -19,9 +19,9 @@ const Features: FC<IIntlParams> = async ({ params: { lng } }) => {
           <span className="text-primary">{t("pageHeader.subTitle")}</span>
         }
       />
-      <FeaturesHeader />
+      <FeaturesHeader lng={lng} />
       <AllFeatures />
-      <FreeTrial />
+      <FreeTrial lng={lng} />
     </main>
   );
 };

@@ -3,9 +3,9 @@
 import { navItems } from "@/public/Data";
 import { FC, useState } from "react";
 import { DropdownMenu, MenuItem } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const MenuItems: FC<IIntlComponentParams> = ({ t }) => {
+export const MenuItems: FC<IIntlTranslator> = ({ t }) => {
   const [open, setOpen] = useState("");
   const handleDropdownHover = (label: string) => {
     setOpen(label);

@@ -1,6 +1,6 @@
 "use client";
 
-import { IClassName, IIntlComponentParams } from "@/Interface";
+import { IClassName, IIntlTranslator } from "@/Interface";
 import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
@@ -11,10 +11,7 @@ import {
   MobileMenuItems,
 } from ".";
 
-export const Header: FC<IClassName & IIntlComponentParams> = ({
-  className,
-  t,
-}) => (
+export const Header: FC<IClassName & IIntlTranslator> = ({ className, t }) => (
   <Container className={twMerge("px-0 pl-2 md:pl-0", className)}>
     <nav className="flex justify-between items-center px-0 md:px-3 lg:px-5 py-2.5">
       <Logo />

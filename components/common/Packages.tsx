@@ -3,10 +3,10 @@
 import { FC } from "react";
 import { ComponentHeader, Container, MainContainer } from ".";
 import { PackagesCards } from "..";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 import { Trans } from "react-i18next";
 
-export const Packages: FC<IIntlComponentParams> = ({ t }) => (
+export const Packages: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader

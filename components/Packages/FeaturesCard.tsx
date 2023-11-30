@@ -2,11 +2,12 @@
 
 import { FC } from "react";
 import { CartTop, FeaturesItem } from ".";
-import { IIntlComponentParams } from "@/Interface";
+import { IIntlTranslator } from "@/Interface";
 
-export const FeaturesCard: FC<
-  { features: string[] } & IIntlComponentParams
-> = ({ features, t }) => (
+export const FeaturesCard: FC<{ features: string[] } & IIntlTranslator> = ({
+  features,
+  t,
+}) => (
   <div className="mt-3 sm:mt-6 w-[85%] h-auto rounded-[25px]  bg-white pb-6">
     <CartTop
       title={t("packages.features")}

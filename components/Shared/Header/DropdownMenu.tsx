@@ -1,10 +1,10 @@
 "use client";
 
-import { IDropdownMenu, IIntlComponentParams } from "@/Interface";
+import { IDropdownMenu, IIntlTranslator } from "@/Interface";
 import { FC } from "react";
 import { MenuItem } from "./MenuItem";
 
-export const DropdownMenu: FC<IDropdownMenu & IIntlComponentParams> = ({
+export const DropdownMenu: FC<IDropdownMenu & IIntlTranslator> = ({
   label,
   open,
   option,

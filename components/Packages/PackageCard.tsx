@@ -1,12 +1,12 @@
 "use client";
 
-import { IIntlComponentParams, IPackageCard } from "@/Interface";
+import { IIntlTranslator, IPackageCard } from "@/Interface";
 import { packageBg, packageBgLite } from "@/public/assets/images";
 import { FC } from "react";
 import { CartTop, FeaturesCard, Prices } from ".";
 import { BackgroundImage, Button, CommonText } from "..";
 
-export const PackageCard: FC<IPackageCard & IIntlComponentParams> = ({
+export const PackageCard: FC<IPackageCard & IIntlTranslator> = ({
   index,
   duration,
   features,

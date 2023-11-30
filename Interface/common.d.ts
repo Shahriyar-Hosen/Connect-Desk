@@ -180,6 +180,6 @@ export interface IPageHeader {
 export interface IIntlParams {
   params: { lng: string };
 }
-export interface IIntlComponentParams {
+export interface IIntlTranslator {
   t: TFunction<string | string[], string>;
 }

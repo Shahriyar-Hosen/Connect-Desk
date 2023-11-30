@@ -1,6 +1,6 @@
 "use client";
 
-import { IIntlComponentParams, IMenuItem } from "@/Interface";
+import { IIntlTranslator, IMenuItem } from "@/Interface";
 import { downArrow } from "@/public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +8,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FC } from "react";
 
-export const MenuItem: FC<IMenuItem & IIntlComponentParams> = ({
+export const MenuItem: FC<IMenuItem & IIntlTranslator> = ({
   label,
   link,
   children,
