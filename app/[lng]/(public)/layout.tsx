@@ -1,10 +1,10 @@
 import { FC } from "react";
 
-import { IChildren } from "@/Interface";
+import { IChildren, IIntlParams } from "@/Interface";
 import { Wrapper } from "@/components/Shared";
 
-const PublicLayout: FC<IChildren> = ({ children }) => (
-  <Wrapper>{children}</Wrapper>
+const PublicLayout: FC<IChildren & IIntlParams> = ({ children, params }) => (
+  <Wrapper params={params}>{children}</Wrapper>
 );
 
 export default PublicLayout;

@@ -1,6 +1,6 @@
 "use client";
 
-import { IClassName } from "@/Interface";
+import { IClassName, IIntlComponentParams } from "@/Interface";
 import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
@@ -11,14 +11,17 @@ import {
   MobileMenuItems,
 } from ".";
 
-export const Header: FC<IClassName> = ({ className }) => (
+export const Header: FC<IClassName & IIntlComponentParams> = ({
+  className,
+  t,
+}) => (
   <Container className={twMerge("px-0 pl-2 md:pl-0", className)}>
     <nav className="flex justify-between items-center px-0 md:px-3 lg:px-5 py-2.5">
       <Logo />
 
       <div className="flex justify-center items-center">
         <div className="dropdown dropdown-bottom dropdown-hover hidden lg:block">
-          <MenuItems />
+          <MenuItems t={t} />
         </div>
 
         <Avatar />
@@ -46,8 +49,8 @@ export const Header: FC<IClassName> = ({ className }) => (
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow-md bg-white absolute z-[100] rounded-md w-52"
           >
-            <MobileMenuItems />
-            <MobileLoginAndSignUpButton />
+            <MobileMenuItems t={t} />
+            <MobileLoginAndSignUpButton t={t} />
           </ul>
         </div>
       </div>

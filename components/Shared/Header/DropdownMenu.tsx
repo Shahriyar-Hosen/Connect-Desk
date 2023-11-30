@@ -1,14 +1,15 @@
 "use client";
 
-import { IDropdownMenu } from "@/Interface";
+import { IDropdownMenu, IIntlComponentParams } from "@/Interface";
 import { FC } from "react";
 import { MenuItem } from "./MenuItem";
 
-export const DropdownMenu: FC<IDropdownMenu> = ({
+export const DropdownMenu: FC<IDropdownMenu & IIntlComponentParams> = ({
   label,
   open,
   option,
   setOpen,
+  t,
 }) => (
   <ul
     tabIndex={0}
@@ -25,6 +26,7 @@ export const DropdownMenu: FC<IDropdownMenu> = ({
           link={link}
           setOpen={setOpen}
           open={open || ""}
+          t={t}
         />
       ))}
   </ul>

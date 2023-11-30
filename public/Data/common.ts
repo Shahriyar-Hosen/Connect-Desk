@@ -2,126 +2,126 @@ import { INavItems } from "@/Interface";
 
 export const support: INavItems[] = [
   {
-    label: "Software Setup",
+    label: "header.navItems.supportOptions.softwareSetup",
     link: "/software-setup",
   },
   {
-    label: "App Install",
+    label: "header.navItems.supportOptions.appInstall",
     link: "/app-install",
   },
   {
-    label: "Video Tutorial",
+    label: "header.navItems.supportOptions.videoTutorial",
     link: "/video-tutorial",
   },
   {
-    label: "User Guide",
+    label: "header.navItems.supportOptions.userGuide",
     link: "/user-guide",
   },
   {
-    label: "Hardware",
+    label: "header.navItems.supportOptions.hardware",
     link: "/hardware",
   },
   {
-    label: "Client List",
+    label: "header.navItems.supportOptions.clientList",
     link: "/client-list",
   },
 ];
 
 export const service: INavItems[] = [
   {
-    label: "Inventory Software",
+    label: "header.navItems.servicesOptions.inventorySoftware",
     link: "/inventory-software",
   },
   {
-    label: "POS Inventory Software",
+    label: "header.navItems.servicesOptions.POSInventorySoftware",
     link: "/pos-inventory-software",
   },
   {
-    label: "Accounting Software",
+    label: "header.navItems.servicesOptions.accountingSoftware",
     link: "/accounting-software",
   },
   {
-    label: "ERP Software",
+    label: "header.navItems.servicesOptions.ERPSoftware",
     link: "/erp-software",
   },
   {
-    label: "Billing Software",
+    label: "header.navItems.servicesOptions.billingSoftware",
     link: "/billing-software",
   },
   {
-    label: "Hr & Payroll Software",
+    label: "header.navItems.servicesOptions.Hr&PayrollSoftware",
     link: "/hr-payroll-software",
   },
   {
-    label: "E-Commerce Software",
+    label: "header.navItems.servicesOptions.E-CommerceSoftware",
     link: "/e-commerce-software",
   },
 ];
 
 export const more: INavItems[] = [
   {
-    label: "About Us",
+    label: "header.navItems.moreOptions.aboutUs",
     link: "/about-us",
   },
   {
-    label: "Message From Founder",
+    label: "header.navItems.moreOptions.messageFromFounder",
     link: "/message-from-founder",
   },
   {
-    label: "Terms and Condition",
+    label: "header.navItems.moreOptions.termsAndCondition",
     link: "/terms-and-condition",
   },
   {
-    label: "Refund and Return Policy",
+    label: "header.navItems.moreOptions.refundAndReturnPolicy",
     link: "/refund-and-return-policy",
   },
   {
-    label: "Privacy Policy",
+    label: "header.navItems.moreOptions.privacyPolicy",
     link: "/privacy-policy",
   },
   {
-    label: "Company Info",
+    label: "header.navItems.moreOptions.companyInfo",
     link: "/company-info",
   },
   {
-    label: "Q&A",
+    label: "header.navItems.moreOptions.Q&A",
     link: "/faq",
   },
   {
-    label: "Portfolio",
+    label: "header.navItems.moreOptions.portfolio",
     link: "/portfolio",
   },
 ];
 
 export const navItems: INavItems[] = [
   {
-    label: "Home",
+    label: "header.navItems.home",
     link: "/",
   },
   {
-    label: "Features",
+    label: "header.navItems.features",
     link: "/features",
   },
   {
-    label: "Packages",
+    label: "header.navItems.packages",
     link: "/packages",
   },
   {
-    label: "Services",
+    label: "header.navItems.services",
     link: "/services",
     option: service,
   },
   {
-    label: "Blogs",
+    label: "header.navItems.blogs",
     link: "/blogs",
   },
   {
-    label: "Support",
+    label: "header.navItems.support",
     link: "",
     option: support,
   },
   {
-    label: "More",
+    label: "header.navItems.more",
     link: "",
     option: more,
   },

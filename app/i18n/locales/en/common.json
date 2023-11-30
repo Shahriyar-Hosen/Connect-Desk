@@ -1,0 +1,42 @@
+{
+  "header": {
+    "navItems": {
+      "home": "Home",
+      "features": "Features",
+      "packages": "Packages",
+      "services": "Services",
+      "blogs": "Blogs",
+      "support": "Support",
+      "more": "More",
+      "servicesOptions": {
+        "inventorySoftware": "Inventory Software",
+        "POSInventorySoftware": "POS Inventory Software",
+        "accountingSoftware": "Accounting Software",
+        "ERPSoftware": "ERP Software",
+        "billingSoftware": "Billing Software",
+        "Hr&PayrollSoftware": "Hr & Payroll Software",
+        "E-CommerceSoftware": "E-Commerce Software"
+      },
+      "supportOptions": {
+        "softwareSetup": "Software Setup",
+        "appInstall": "App Install",
+        "videoTutorial": "Video Tutorial",
+        "userGuide": "User Guide",
+        "hardware": "Hardware",
+        "clientList": "Client List"
+      },
+      "moreOptions": {
+        "aboutUs": "About Us",
+        "messageFromFounder": "Message From Founder",
+        "termsAndCondition": "Terms and Condition",
+        "refundAndReturnPolicy": "Refund and Return Policy",
+        "privacyPolicy": "Privacy Policy",
+        "companyInfo": "Company Info",
+        "Q&A": "Q&A",
+        "portfolio": "Portfolio"
+      }
+    },
+    "login": "Login",
+    "signUp": "Sign Up"
+  }
+}

@@ -3,8 +3,9 @@
 import { navItems } from "@/public/Data";
 import { FC, useState } from "react";
 import { DropdownMenu, MenuItem } from ".";
+import { IIntlComponentParams } from "@/Interface";
 
-export const MenuItems: FC = () => {
+export const MenuItems: FC<IIntlComponentParams> = ({ t }) => {
   const [open, setOpen] = useState("");
   const handleDropdownHover = (label: string) => {
     setOpen(label);
@@ -26,6 +27,7 @@ export const MenuItems: FC = () => {
           open={open}
           handleDropdownHover={handleDropdownHover}
           handleDropdownLeave={handleDropdownLeave}
+          t={t}
         >
           {open === nav.label && nav.option && (
             <DropdownMenu
@@ -33,6 +35,7 @@ export const MenuItems: FC = () => {
               open={open}
               option={nav.option}
               setOpen={setOpen}
+              t={t}
             />
           )}
         </MenuItem>

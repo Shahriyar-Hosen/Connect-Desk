@@ -1,22 +1,23 @@
 "use client";
 
+import { IIntlComponentParams } from "@/Interface";
 import { Button, LinkButton } from "@/components";
 import { downArrow, profile } from "@/public/assets/icon";
 import Image from "next/image";
 import { FC } from "react";
 
-export const LoginAndSign: FC = () => (
+export const LoginAndSign: FC<IIntlComponentParams> = ({ t }) => (
   <div className="hidden md:flex w-fit gap-2">
     <LinkButton link="/login" variant="secondary" size="sm">
       <div className="flex gap-2">
         <Image src={profile} alt="" />
         <div className="h-[20px] w-[2px] bg-primary" />
-        Login
+        {t("header.login")}
       </div>
     </LinkButton>
 
     <LinkButton link="/register" size="sm" variant="primary">
-      Sign Up
+      {t("header.signUp")}
     </LinkButton>
 
     {/* <Button variant="secondary" size="sm">
@@ -28,19 +29,19 @@ export const LoginAndSign: FC = () => (
   </div>
 );
 
-export const MobileLoginAndSignUpButton = () => (
+export const MobileLoginAndSignUpButton: FC<IIntlComponentParams> = ({ t }) => (
   <div className="flex gap-2 md:hidden">
     <LinkButton link="/" variant="secondary" size="sm">
       <div className="flex gap-2">
         <Image src={profile} alt="" />
         <div className="h-[20px] w-[2px] bg-primary"></div>
-        Login
+        {t("header.login")}
       </div>
     </LinkButton>
 
     <LinkButton link="/" size="sm" variant="primary">
       <div className="flex px-3">
-        <div>Sign up</div>
+        <div>{t("header.signUp")}</div>
       </div>
     </LinkButton>
   </div>
