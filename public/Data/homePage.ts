@@ -135,7 +135,7 @@ export const packagesData: IPackages[] = [
       "packages.packagesData.corporatePackage.features.setting",
       "packages.packagesData.corporatePackage.features.dailyReports",
       "packages.packagesData.corporatePackage.features.businessReports",
-      "packages.packagesData.corporatePackage.features.onlineStore",
+      "packages.packagesData.corporatePackage.features.corporateSupport",
       "packages.packagesData.corporatePackage.features.dataSecurity",
     ],
   },
