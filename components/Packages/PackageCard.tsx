@@ -1,17 +1,18 @@
 "use client";
 
-import { IPackageCard } from "@/Interface";
+import { IIntlComponentParams, IPackageCard } from "@/Interface";
 import { packageBg, packageBgLite } from "@/public/assets/images";
 import { FC } from "react";
 import { CartTop, FeaturesCard, Prices } from ".";
 import { BackgroundImage, Button, CommonText } from "..";
 
-export const PackageCard: FC<IPackageCard> = ({
+export const PackageCard: FC<IPackageCard & IIntlComponentParams> = ({
   index,
   duration,
   features,
   price,
   title,
+  t,
 }) => (
   <BackgroundImage
     key={index}
@@ -19,14 +20,14 @@ export const PackageCard: FC<IPackageCard> = ({
     className="sm:w-[400px] shadow-lg rounded-[21px] max-w-[390px] sm:max-w-full"
   >
     <div className="flex justify-center items-center flex-col pb-7">
-      <CartTop title={title} height="h-12 sm:h-14" text="lg" />
+      <CartTop title={t(title)} height="h-12 sm:h-14" text="lg" />
 
       <CommonText text="md" className="text-[#1B253F] mt-2 sm:mt-3">
-        {duration}
+        {t(duration)}
       </CommonText>
 
-      <Prices price={price} />
-      <FeaturesCard features={features} />
+      <Prices price={t(price)} />
+      <FeaturesCard t={t} features={features} />
 
       <Button
         variant="primary"
@@ -35,7 +36,7 @@ export const PackageCard: FC<IPackageCard> = ({
         size="lg"
         className="-mt-[25px]"
       >
-        Purchase Package
+        {t("packages.purchasePackage")}
       </Button>
     </div>
   </BackgroundImage>

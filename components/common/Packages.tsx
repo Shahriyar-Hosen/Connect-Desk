@@ -30,7 +30,7 @@ export const Packages: FC<IIntlComponentParams> = ({ t }) => (
         }
       />
 
-      <PackagesCards />
+      <PackagesCards t={t} />
     </Container>
   </MainContainer>
 );
