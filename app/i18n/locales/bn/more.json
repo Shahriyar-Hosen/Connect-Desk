@@ -1,0 +1,20 @@
+{
+  "faq": {
+    "pageName": "প্র",
+    "mainTitle": "প্রায়শই জিজ্ঞাসা করা",
+    "questions": "প্রশ্ন"
+  },
+  "messageFromFounder": {
+    "pageName": "প্রতিষ্ঠাতা থেকে বার্তা",
+    "mainTitle": "থেকে বার্তা <spanTag>প্রতিষ্ঠাতা</spanTag>",
+    "messageFromFounder": "প্রতিষ্ঠাতা থেকে বার্তা",
+    "messageParaOne": "আমি আপনাকে স্বাগত জানাই আনন্দিত <strongTag>{{cd}}</strongTag>, এবং আমি আমাদের কোম্পানিতে আপনার আগ্রহের প্রশংসা করি।  <strongTag>{{cd}}</strongTag>, আমাদের লক্ষ্য হল উদ্ভাবনী সমাধান প্রদান করা যা আমাদের গ্রাহকদের প্রত্যাশা ছাড়িয়ে যায় যখন অসামান্য গ্রাহক পরিষেবা প্রদান করে।",
+    "messageParaTwo": "সফ্টওয়্যার ডেভেলপমেন্ট, ওয়েব ডিজাইন, ই-কমার্স সলিউশন, ডিজিটাল মার্কেটিং এবং আরও অনেক কিছু সহ আমাদের বিস্তৃত পরিসরে আমরা গর্ব করি। ",
+    "messageParaThree": "বিবেচনা করার জন্য আপনাকে ধন্যবাদ <strongTag>{{cd}}</strongTag> আপনার প্রযুক্তির প্রয়োজনের জন্য। "
+  },
+  "termsAndCondition": {
+    "pageName": "শর্তাবলী",
+    "mainTitle": "শর্তাবলী এবং <spanTag>শর্তাবলী</spanTag>",
+    "conditionsForUsingSoftware": ""
+  }
+}
