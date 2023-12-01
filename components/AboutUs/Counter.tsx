@@ -13,22 +13,22 @@ export const Counter: FC<IIntlTranslator> = ({ t }) => (
         <CounterCard
           maxCount={100}
           label="M"
-          title={t("counter.clientSatisfaction")}
+          title={t("counter.clientSatisfaction", { ns: "about-us" })}
         />
         <CounterCard
           maxCount={24}
           label=" h"
-          title={t("counter.expertSupportTeam")}
+          title={t("counter.expertSupportTeam", { ns: "about-us" })}
         />
         <CounterCard
           maxCount={98}
           label=" k+"
-          title={t("counter.salesCount")}
+          title={t("counter.salesCount", { ns: "about-us" })}
         />
         <CounterCard
           maxCount={208}
           label=" +"
-          title={t("counter.clientWorldwide")}
+          title={t("counter.clientWorldwide", { ns: "about-us" })}
         />
       </div>
     </Container>

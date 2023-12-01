@@ -15,12 +15,17 @@ export const MissionVisionValueCard: FC<
     } justify-between items-center gap-5 mt-2.5`}
   >
     <div>
-      <ComponentHeader title={t(title)} position="start" text="lg" about />
+      <ComponentHeader
+        title={t(title, { ns: "about-us" })}
+        position="start"
+        text="lg"
+        about
+      />
       <CommonText
         className="max-w-[432px] text-[#797979] text-start mt-7"
         text="xl"
       >
-        {t(des)}
+        {t(des, { ns: "about-us" })}
       </CommonText>
     </div>
     <Image

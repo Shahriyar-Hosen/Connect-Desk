@@ -13,7 +13,7 @@ import { FC } from "react";
 import { Trans } from "react-i18next";
 
 const AboutUs: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, "about-us");
+  const { t } = useTranslation(lng, ["common", "about-us"]);
   return (
     <main>
       <PageHeader
@@ -23,10 +23,11 @@ const AboutUs: FC<IIntlParams> = ({ params: { lng } }) => {
               i18nKey="pageTitle"
               components={{ spanTag: <span className="text-primary" /> }}
               t={t}
+              ns={"about-us"}
             />
           </>
         }
-        pageName={t("pageName")}
+        pageName={t("pageName", { ns: "about-us" })}
       />
 
       <WhoWeAre t={t} />
