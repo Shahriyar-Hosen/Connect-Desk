@@ -8,18 +8,19 @@ import { FC } from "react";
 import { Trans } from "react-i18next";
 
 const Packages: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, ["packages", "index"]);
+  const { t } = useTranslation(lng, ["common", "packages"]);
   return (
     <main>
       <PageHeader
-        pageName={t("pageName")}
-        mainTitle={t("mainTitle")}
+        pageName={t("pageName", { ns: "packages" })}
+        mainTitle={t("mainTitle", { ns: "packages" })}
         subTitle={
           <>
             <Trans
               i18nKey="subTitle"
               components={{ spanTag: <span className="text-primary" /> }}
               t={t}
+              ns={"packages"}
             />
           </>
         }
