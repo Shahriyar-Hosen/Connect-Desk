@@ -83,34 +83,29 @@ export const posInventoryServicesData: ILabelAndIcon[] = [
 
 export const termCondition1: IList[] = [
   {
-    label: "After Sending Payment Please Confirm By Email/SMS/Phone Call",
+    label: "POSSoftware.termCondition.afterSendingPayment",
   },
   {
-    label:
-      "50% Due payment For Ready Software Setup And Training With Same Day",
+    label: "POSSoftware.termCondition.setupAndTraining",
   },
   {
-    label: "50% Advance Payment For Work Order Confirmation.",
+    label: "POSSoftware.termCondition.workOrderConfirmation",
     active: true,
   },
   {
-    label:
-      "If Sending Payment By Bank Please Send Account Number For Confirmation",
+    label: "POSSoftware.termCondition.paymentByBank",
   },
 ];
 
 export const termCondition2: IList[] = [
   {
-    label:
-      "If Sending Payment By Mobile Banking Please Send Transaction ID With Account",
+    label: "POSSoftware.termCondition.mobileBanking",
   },
   {
-    label:
-      "Yearly Service Charge 2000 Taka (This Charge Added After 1 Year Installation Day)",
+    label: "POSSoftware.termCondition.yearlyServiceCharge",
   },
   {
-    label:
-      "Online Support Time Sunday-Thursday (10 Am to 6 Pm) Free By ( TeamViewer/Anydesk).",
+    label: "POSSoftware.termCondition.onlineSupportTime",
   },
 ];
 
@@ -118,29 +113,28 @@ export const termConditionData = [termCondition1, termCondition2];
 
 export const supportMaintenanceData: IList[] = [
   {
-    label: "We Provide Maintenance Service After Deliver",
+    label: "POSSoftware.afterSalesSupport.maintenanceService",
   },
   {
-    label: "Monthly Database And Software Backup",
+    label: "POSSoftware.afterSalesSupport.monthlyBackup",
   },
   {
-    label: "Software Security Test",
+    label: "POSSoftware.afterSalesSupport.securityTest",
   },
   {
-    label: "Ready Software Any Kind Of Bug Solution",
+    label: "POSSoftware.afterSalesSupport.bugSolution",
   },
 ];
 
 export const supportMaintenanceTraining: IList[] = [
   {
-    label: "Unlimited Support Over Phone, Email or Live Chat, Team Viewer",
+    label: "POSSoftware.afterSalesSupport.unlimitedSupport",
   },
   {
-    label: "Video / Online Training : Free",
+    label: "POSSoftware.afterSalesSupport.onlineTraining",
   },
   {
-    label:
-      "Note : After Deliver New Features /  Module Development is not include Maintenance",
+    label: "POSSoftware.afterSalesSupport.excludeMaintenance",
     active: true,
   },
 ];

@@ -18,40 +18,43 @@ import {
 import { faqData } from "@/public/Data/faq";
 import { posInventoryService } from "@/public/assets/images";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 
 const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, ["common", "service", "packages"]);
+  const { t } = useTranslation(lng, ["common", "services", "packages"]);
 
   return (
     <main>
       <HeroSection
         mainText={
           <>
-            Perfect POS Software For
-            <span className="text-primary"> Retail </span>
-            <span className="text-secondary">Business</span>
+            <Trans
+              i18nKey="POSSoftware.heroMainText"
+              components={{
+                spanTagPrimary: <span className="text-primary" />,
+                spanTagSecondary: <span className="text-secondary" />,
+              }}
+              t={t}
+              ns={"services"}
+            />
           </>
         }
         paragraph={
           <CommonText>
-            Use POS billing software to oversee all aspects of your retail
-            business. With ConnectDesk POS Software, you can effortlessly manage
-            your retail business' sales, inventory, purchases, customers,
-            finances, and more. Create and print expert invoices, take advantage
-            by connect mobile apps to boost your earnings.
+            {t("POSSoftware.heroPara", { ns: "services" })}
           </CommonText>
         }
-        button1="View Demo"
-        button2="Proposal"
+        button1={t("POSSoftware.viewDemo", { ns: "services" })}
+        button2={t("POSSoftware.proposal", { ns: "services" })}
         image={posInventoryService}
         pos
       />
 
-      <SoftwareFeatures />
-      <GrowRetailFaster />
+      <SoftwareFeatures t={t} lng={lng} />
+      <GrowRetailFaster t={t} />
       <Packages t={t} />
-      <TermCondition />
-      <AfterSalesSupport />
+      <TermCondition t={t} />
+      <AfterSalesSupport t={t} />
       <CustomerSupport t={t} />
       <AskedQuestions t={t} data={faqData} limit={5} />
     </main>

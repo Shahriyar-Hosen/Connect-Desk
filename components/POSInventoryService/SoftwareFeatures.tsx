@@ -8,20 +8,25 @@ import {
   Container,
   MainContainer,
 } from "..";
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 
-export const SoftwareFeatures: FC = () => (
+export const SoftwareFeatures: FC<IIntlTranslator & IIntlLang> = ({
+  t,
+  lng,
+}) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         title={
           <>
-            <ConnectDesk text="xl" /> POS Software
+            <ConnectDesk text="xl" />
+            {t("POSSoftware.POSSoftware", { ns: "services" })}
           </>
         }
-        subTitle="Features At A Glance"
+        subTitle={t("POSSoftware.featuresAtAGlance", { ns: "services" })}
       />
 
-      <AllFeatures />
+      <AllFeatures lng={lng} />
     </Container>
   </MainContainer>
 );

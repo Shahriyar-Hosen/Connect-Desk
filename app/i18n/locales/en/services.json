@@ -1,0 +1,38 @@
+{
+  "POSSoftware": {
+    "heroMainText": "Perfect POS Software For <spanTagPrimary> Retail </spanTagPrimary> <spanTagSecondary>Business</spanTagSecondary>",
+    "heroPara": "Use POS billing software to oversee all aspects of your retail business. With ConnectDesk POS Software, you can effortlessly manage your retail business' sales, inventory, purchases, customers finances, and more. Create and print expert invoices, take advantage by connect mobile apps to boost your earnings.",
+    "viewDemo": "View Demo",
+    "proposal": "Proposal",
+    "POSSoftware": " POS Software",
+    "featuresAtAGlance": "Features At A Glance",
+    "GrowRetailFaster": {
+      "title": "Grow Your Retail Faster With Smart POS Software",
+      "subTitle": "From <cd>",
+      "para": "{{cd}} POS Software Helps Stay On Top Of Your Retail Business Finances Without Any Prior Business Knowledge"
+    },
+    "termCondition": {
+      "title": "Term & Condition",
+      "para": " {{cd}} Accounting Software Helps Stay On Top Of Your Business Finances Without Accounting Knowledge",
+      "afterSendingPayment": "After Sending Payment Please Confirm By Email/SMS/Phone Call",
+      "setupAndTraining": "50% Due payment For Ready Software Setup And Training With Same Day",
+      "workOrderConfirmation": "50% Advance Payment For Work Order Confirmation.",
+      "paymentByBank": "If Sending Payment By Bank Please Send Account Number For Confirmation",
+      "mobileBanking": "If Sending Payment By Mobile Banking Please Send Transaction ID With Account",
+      "yearlyServiceCharge": "Yearly Service Charge 2000 Taka (This Charge Added After 1 Year Installation Day)",
+      "onlineSupportTime": "Online Support Time Sunday-Thursday (10 Am to 6 Pm) Free By ( TeamViewer/Anydesk)."
+    },
+    "afterSalesSupport": {
+      "title": "After Sales Support From",
+      "para": "{{cd}} Accounting Software Helps Stay On Top Of Your Business Finances Without Accounting Knowledge",
+      "maintenance": "Maintenance",
+      "maintenanceService": "We Provide Maintenance Service After Deliver",
+      "monthlyBackup": "Monthly Database And Software Backup",
+      "securityTest": "Software Security Test",
+      "bugSolution": "Ready Software Any Kind Of Bug Solution",
+      "unlimitedSupport": "Unlimited Support Over Phone, Email or Live Chat, Team Viewer",
+      "onlineTraining": "Video / Online Training : Free",
+      "excludeMaintenance": "Note : After Deliver New Features /  Module Development is not include Maintenance"
+    }
+  }
+}

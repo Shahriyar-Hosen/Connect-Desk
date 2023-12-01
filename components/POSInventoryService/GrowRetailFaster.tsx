@@ -10,22 +10,33 @@ import {
   Container,
   MainContainer,
 } from "..";
+import { IIntlTranslator } from "@/Interface";
+import { Trans } from "react-i18next";
 
-export const GrowRetailFaster: FC = () => (
+export const GrowRetailFaster: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer bg="secondary">
     <Container className="flex justify-center items-center flex-col">
       <ComponentHeader
-        title="Grow Your Retail Faster With Smart POS Software"
+        title={t("POSSoftware.GrowRetailFaster.title", { ns: "services" })}
         subTitle={
           <>
-            From <ConnectDesk text="lg" />
+            <Trans
+              i18nKey="POSSoftware.GrowRetailFaster.subTitle"
+              components={{
+                cd: <ConnectDesk text="lg" />,
+              }}
+              t={t}
+              ns={"services"}
+            />
           </>
         }
       />
 
       <CommonText text="sm" className="mt-4 max-w-[521px] text-center">
-        ConnectDesk POS Software Helps Stay On Top Of Your Retail Business
-        Finances Without Any Prior Business Knowledge
+        {t("POSSoftware.GrowRetailFaster.para", {
+          ns: "services",
+          cd: "ConnectDesk",
+        })}
       </CommonText>
 
       <Image
