@@ -1,18 +1,5 @@
 {
   "pageName": "Pricing Plans",
   "mainTitle": "Choose The Right Plan For",
-  "subTitle": "Your <spanTag>Business</spanTag>",
-  "askedQuestions": {
-    "title": "Frequently Asked Questions",
-    "charge": "What is the monthly/yearly charge for this software?",
-    "eligibilityDuration": "Free trial eligible for how many days?",
-    "totalAccounts": "How many account can be created with same mobile number or email?",
-    "renewPackage": "How can I renew my package after free trial?",
-    "paymentMethods": "What are the payment methods?",
-    "supportTiming": "Time of taking support?",
-    "productEntry": "Customer’s product can be entry from support?",
-    "getSupport": "How to get support?",
-    "installSoftware": "Do I need to install any software?",
-    "uploadData": "How to upload data in mobile app and cloud software?"
-  }
+  "subTitle": "Your <spanTag>Business</spanTag>"
 }
