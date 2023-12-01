@@ -12,8 +12,8 @@ const Packages: FC<IIntlParams> = ({ params: { lng } }) => {
   return (
     <main>
       <PageHeader
-        pageName="Pricing Plans"
-        mainTitle="Choose The Right Plan For"
+        pageName={t("pageName")}
+        mainTitle={t("mainTitle")}
         subTitle={
           <>
             <Trans
@@ -26,7 +26,7 @@ const Packages: FC<IIntlParams> = ({ params: { lng } }) => {
       />
       <div className="mt-[60px] pb-[50px]">
         <PackagesCards t={t} />
-        <AskedQuestions data={faqData} limit={10} />
+        <AskedQuestions t={t} data={faqData} limit={10} />
       </div>
     </main>
   );

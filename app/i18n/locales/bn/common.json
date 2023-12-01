@@ -1,0 +1,71 @@
+{
+  "header": {
+    "navItems": {
+      "home": "বাড়ি",
+      "features": "বৈশিষ্ট্য",
+      "packages": "প্যাকেজ",
+      "services": "সেবা",
+      "blogs": "ব্লগ",
+      "support": "সমর্থন",
+      "more": "আরও",
+      "servicesOptions": {
+        "inventorySoftware": "ইনভেন্টরি সফটওয়্যার",
+        "POSInventorySoftware": "POS ইনভেন্টরি সফটওয়্যার",
+        "accountingSoftware": "অ্যাকাউন্টিং সফটওয়্যার",
+        "ERPSoftware": "ইআরপি সফটওয়্যার",
+        "billingSoftware": "বিলিং সফটওয়্যার",
+        "Hr&PayrollSoftware": "Hr",
+        "E-CommerceSoftware": "ই-কমার্স সফটওয়্যার"
+      },
+      "supportOptions": {
+        "softwareSetup": "সফটওয়্যার সেটআপ",
+        "appInstall": "অ্যাপ ইনস্টল করুন",
+        "videoTutorial": "চলচ্চিত্র মাধ্যমে শিক্ষা",
+        "userGuide": "ব্যবহারকারীর নির্দেশিকা",
+        "hardware": "হার্ডওয়্যার",
+        "clientList": "মক্কেল তালিকা"
+      },
+      "moreOptions": {
+        "aboutUs": "আমাদের সম্পর্কে",
+        "messageFromFounder": "প্রতিষ্ঠাতা থেকে বার্তা",
+        "termsAndCondition": "শর্তাবলী",
+        "refundAndReturnPolicy": "রিফান্ড এবং রিটার্ন নীতি",
+        "privacyPolicy": "গোপনীয়তা নীতি",
+        "companyInfo": "প্রতিষ্ঠানের তথ্য",
+        "Q&A": "প্র",
+        "portfolio": "পোর্টফোলিও"
+      }
+    },
+    "login": "প্রবেশ করুন",
+    "signUp": "নিবন্ধন করুন"
+  },
+  "footer": {
+    "copyright": "কপিরাইট",
+    "allRightsReserved": "সমস্ত অধিকার সংরক্ষিত",
+    "contactText": "কানেক্টডেস্ক একটি সফটওয়্যার ডেভেলপমেন্ট কোম্পানি।  <br> কোম্পানি এসএমই ব্যবসায়ীদের জন্য ব্যবসায়িক সমাধান নিয়ে কাজ করে।",
+    "contactInfo": "যোগাযোগের তথ্য",
+    "contactOptions": {
+      "sales": "বিক্রয়",
+      "supportOne": "সমর্থন 1",
+      "supportTwo": "সমর্থন 2",
+      "IPPhone": "আইপি ফোন"
+    },
+    "infoData": {
+      "company": "প্রতিষ্ঠান",
+      "aboutUs": "আমাদের সম্পর্কে",
+      "blog": "ব্লগ",
+      "contactUs": "যোগাযোগ করুন",
+      "pricing": "মূল্য নির্ধারণ",
+      "FAQ": "FAQ",
+      "support": "সমর্থন",
+      "terms&Conditions": "শর্তাবলী",
+      "privacyPolicy": "গোপনীয়তা নীতি",
+      "refund&ReturnPolicy": "ফেরত",
+      "appInstall": "অ্যাপ ইনস্টল করুন"
+    },
+    "download": {
+      "downloadApp": "অ্যাপ ডাউনলোড করুন",
+      "socialMediaLinks": "সোশ্যাল মিডিয়া লিংক"
+    }
+  }
+}
