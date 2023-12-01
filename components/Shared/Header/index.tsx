@@ -1,6 +1,6 @@
 "use client";
 
-import { IClassName, IIntlTranslator } from "@/Interface";
+import { IClassName, IIntlLang, IIntlTranslator } from "@/Interface";
 import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
@@ -10,8 +10,13 @@ import {
   MobileLoginAndSignUpButton,
   MobileMenuItems,
 } from ".";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
-export const Header: FC<IClassName & IIntlTranslator> = ({ className, t }) => (
+export const Header: FC<IClassName & IIntlTranslator & IIntlLang> = ({
+  className,
+  t,
+  lng,
+}) => (
   <Container className={twMerge("px-0 pl-2 md:pl-0", className)}>
     <nav className="flex justify-between items-center px-0 md:px-3 lg:px-5 py-2.5">
       <Logo />
@@ -23,6 +28,7 @@ export const Header: FC<IClassName & IIntlTranslator> = ({ className, t }) => (
 
         <Avatar />
         {/* <LoginAndSign /> */}
+        <LanguageSwitcher lng={lng} />
 
         <div className="dropdown dropdown-end lg:hidden">
           <label tabIndex={0} className="btn btn-ghost btn-circle">

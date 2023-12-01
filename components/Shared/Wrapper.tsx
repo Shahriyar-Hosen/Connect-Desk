@@ -10,12 +10,12 @@ export const Wrapper: FC<IWrapper & IIntlParams> = ({
   footer,
   children,
   className,
-  params,
+  params: { lng },
 }) => {
-  const { t } = useTranslation(params.lng, "common");
+  const { t } = useTranslation(lng, "common");
   return (
     <main className={className}>
-      <Header t={t} className={header ? "hidden" : "block"} />
+      <Header lng={lng} t={t} className={header ? "hidden" : "block"} />
       {children}
       <Footer t={t} className={footer ? "hidden" : "block"} />
     </main>
