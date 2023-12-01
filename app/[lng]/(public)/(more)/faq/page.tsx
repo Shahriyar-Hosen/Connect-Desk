@@ -7,13 +7,17 @@ import { faqData } from "@/public/Data/faq";
 import { FC } from "react";
 
 const FAQ: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, "common");
+  const { t } = useTranslation(lng, ["common", "more"]);
   return (
     <main className="mb-36">
       <PageHeader
-        pageName="Q&A"
-        mainTitle="Frequently Asked"
-        subTitle={<span className="text-primary">Questions</span>}
+        pageName={t("faq.pageName", { ns: "more" })}
+        mainTitle={t("faq.mainTitle", { ns: "more" })}
+        subTitle={
+          <span className="text-primary">
+            {t("faq.questions", { ns: "more" })}
+          </span>
+        }
       />
       <FAQs t={t} data={faqData} />
     </main>
