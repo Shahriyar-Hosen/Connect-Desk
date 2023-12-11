@@ -1,24 +1,33 @@
 "use client";
 
+import { IIntlParams } from "@/Interface";
+import { useTranslation } from "@/app/i18n/client";
 import { MainContainer, PageHeader, PolicyContainer } from "@/components";
 import { refundAndReturnPolicyData } from "@/public/Data";
 import { FC } from "react";
 
-const PrivacyPolicy: FC = () => (
-  <main>
-    <PageHeader
-      pageName="Refund And Return Policy"
-      mainTitle="Refund And Return"
-      subTitle={<span className="text-primary">Policy</span>}
-    />
-    <MainContainer isRemoveMargin>
-      <div className="w-[80%] md:w-[90%] lg:w-[70%] mx-auto">
-        {refundAndReturnPolicyData.map((policy) => (
-          <PolicyContainer {...policy} key={policy.title} />
-        ))}
-      </div>
-    </MainContainer>
-  </main>
-);
+const PrivacyPolicy: FC<IIntlParams> = ({ params: { lng } }) => {
+  const { t } = useTranslation(lng, ["common", "refund-policy"]);
+  return (
+    <main>
+      <PageHeader
+        pageName={t("pageName", { ns: "refund-policy" })}
+        mainTitle={t("mainTitle", { ns: "refund-policy" })}
+        subTitle={
+          <span className="text-primary">
+            {t("subTitle", { ns: "refund-policy" })}
+          </span>
+        }
+      />
+      <MainContainer isRemoveMargin>
+        <div className="w-[80%] md:w-[90%] lg:w-[70%] mx-auto">
+          {refundAndReturnPolicyData.map((policy) => (
+            <PolicyContainer {...policy} key={policy.title} />
+          ))}
+        </div>
+      </MainContainer>
+    </main>
+  );
+};
 
 export default PrivacyPolicy;
