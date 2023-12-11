@@ -1,0 +1,12 @@
+{
+  "DownloadApp": "Download App",
+  "AboutApp": "Now getting our services easily with our mobile app. Download the app and handle your business in your hand",
+  "HowToInstallApp": "How To Install The App?",
+  "DownloadAppFromGoogle": "Download the app from Google Play Store / Apple App Store, and enjoy 7 days free trial.",
+  "HowToCreateAccount": "How to create an account:",
+  "createAccount": {
+    "stepOne": "At first download and install the app.",
+    "stepTwo": "After installing the app, create a new account by signing up.",
+    "stepThree": "By verifying your account, your can start to use your account."
+  }
+}
