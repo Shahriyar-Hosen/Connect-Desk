@@ -1,0 +1,15 @@
+{
+  "pageName": "Video Tutorial",
+  "mainTitle": "Video <spanTag>Tutorial</spanTag>",
+  "introPara": "See the video tutorial.",
+  "videoTutorialData": {
+    "AddProduct": "Add Product",
+    "Purchase": "Purchase",
+    "DebitCreditVoucher": "Debit + Credit Voucher",
+    "Reports": "Reports",
+    "SaleInvoice": "Sale Invoice",
+    "Salary": "Salary",
+    "Settings": "Settings",
+    "UserCreate": "User Create"
+  }
+}
