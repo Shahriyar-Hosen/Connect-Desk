@@ -13,7 +13,7 @@ const Hardware: FC<IIntlParams> = ({ params: { lng } }) => {
         pageName={t("pageName", { ns: "hardware" })}
         mainTitle={t("pageName", { ns: "hardware" })}
       />
-      <HardwareContainer t={t} />
+      <HardwareContainer lng={lng} />
     </main>
   );
 };

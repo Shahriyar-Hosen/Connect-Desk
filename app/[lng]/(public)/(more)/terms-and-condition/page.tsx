@@ -13,7 +13,7 @@ import { FC } from "react";
 import { Trans } from "react-i18next";
 
 const TermsAndCondition: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, ["more"]);
+  const { t } = useTranslation(lng, ["more", "privacy-policy"]);
   return (
     <main>
       <PageHeader
@@ -33,7 +33,12 @@ const TermsAndCondition: FC<IIntlParams> = ({ params: { lng } }) => {
           <ComponentHeader title="সফটওয়্যার ব্যবহারের শর্তাবলী" />
         </MainContainer>
         {termsAndConditionData.map((terms) => (
-          <PolicyContainer textPosition="left" {...terms} key={terms.title} />
+          <PolicyContainer
+            textPosition="left"
+            {...terms}
+            key={terms.title}
+            t={t}
+          />
         ))}
       </div>
     </main>
