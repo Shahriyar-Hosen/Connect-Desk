@@ -1,0 +1,7 @@
+{
+  "pageName": "Company Info",
+  "mainTitle": "Company <spanTag>Info</spanTag>",
+  "tradeLicenceNumber": "Trade Licence Number : {{number}}",
+  "VATRegistrationNumber": "VAT Registration Number : {{number}}",
+  "ETIN": "E-TIN : {{number}}"
+}
