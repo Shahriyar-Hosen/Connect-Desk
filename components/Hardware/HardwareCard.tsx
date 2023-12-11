@@ -1,15 +1,16 @@
 "use client";
 
-import { IHardwareData } from "@/Interface";
+import { IHardwareData, IIntlTranslator } from "@/Interface";
 import Image from "next/image";
 import { FC } from "react";
 import { CommonText } from "..";
 
-export const HardwareCard: FC<IHardwareData> = ({
+export const HardwareCard: FC<IHardwareData & IIntlTranslator> = ({
   category,
   details,
   image,
   name,
+  t,
 }) => (
   <div className="lg:flex gap-4 border rounded-md shadow-md">
     <div className="w-full flex justify-center ">
@@ -17,13 +18,14 @@ export const HardwareCard: FC<IHardwareData> = ({
     </div>
     <div className="p-4">
       <h1 className="text-[14px] font-bold mb-4 text-center lg:text-left">
-        {name}
+        {t(name, { ns: "hardware" })}
       </h1>
 
       {details.map((p, index) => (
         <ul key={index}>
           <li className="text-sm flex gap-2">
-            {"\u2B24"} <CommonText text="lg">{p}</CommonText>
+            {"\u2B24"}{" "}
+            <CommonText text="lg">{t(p, { ns: "hardware" })}</CommonText>
           </li>
         </ul>
       ))}

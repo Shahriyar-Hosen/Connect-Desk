@@ -1,0 +1,17 @@
+{
+  "pageName": "হার্ডওয়্যার",
+  "mainTitle": "হার্ডওয়্যার",
+  "POSPrinter": "POS প্রিন্টার",
+  "LaserPrinter": "লেজার প্রিন্টার",
+  "BarcodePrinter": "বারকোড প্রিন্টার",
+  "BarcodeScanner": "বারকোড স্ক্যানার",
+  "hardwareData": {
+    "ThermalPOSPrinter": "এক্সপ্রিন্টার XP-E200M থার্মাল POS প্রিন্টার",
+    "ThermalPOSPrinterSpecs": {
+      "specOne": "গ্রাফিক্স এবং টেক্সট উভয়ের জন্য 200 মিমি প্রতি সেকেন্ড মুদ্রণ গতি",
+      "specTwo": "ড্রপ-ইন পেপার লোডিং এবং স্বয়ংক্রিয় কাটার।",
+      "specThree": "রিপ্রিন্টিং টাস্ক সমর্থিত।",
+      "specFour": "58 মিমি এবং 80 মিমি প্রিন্টিং মোড সুইচ।"
+    }
+  }
+}
