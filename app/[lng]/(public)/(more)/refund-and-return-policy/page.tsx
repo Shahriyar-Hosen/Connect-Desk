@@ -7,7 +7,11 @@ import { refundAndReturnPolicyData } from "@/public/Data";
 import { FC } from "react";
 
 const PrivacyPolicy: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, ["common", "refund-policy"]);
+  const { t } = useTranslation(lng, [
+    "common",
+    "refund-policy",
+    "privacy-policy",
+  ]);
   return (
     <main>
       <PageHeader
@@ -22,7 +26,7 @@ const PrivacyPolicy: FC<IIntlParams> = ({ params: { lng } }) => {
       <MainContainer isRemoveMargin>
         <div className="w-[80%] md:w-[90%] lg:w-[70%] mx-auto">
           {refundAndReturnPolicyData.map((policy) => (
-            <PolicyContainer {...policy} key={policy.title} />
+            <PolicyContainer {...policy} key={policy.title} t={t} />
           ))}
         </div>
       </MainContainer>
