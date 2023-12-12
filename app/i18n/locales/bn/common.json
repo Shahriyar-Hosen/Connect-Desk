@@ -1,20 +1,20 @@
 {
   "header": {
     "navItems": {
-      "home": "বাড়ি",
-      "features": "বৈশিষ্ট্য",
+      "home": "হোম",
+      "features": "ফিচারস",
       "packages": "প্যাকেজ",
-      "services": "সেবা",
+      "services": "সার্ভিস",
       "blogs": "ব্লগ",
-      "support": "সমর্থন",
-      "more": "আরও",
+      "support": "সাপোর্ট",
+      "more": "অন্যান্য",
       "servicesOptions": {
         "inventorySoftware": "ইনভেন্টরি সফটওয়্যার",
         "POSInventorySoftware": "POS ইনভেন্টরি সফটওয়্যার",
         "accountingSoftware": "অ্যাকাউন্টিং সফটওয়্যার",
         "ERPSoftware": "ইআরপি সফটওয়্যার",
         "billingSoftware": "বিলিং সফটওয়্যার",
-        "Hr&PayrollSoftware": "Hr",
+        "Hr&PayrollSoftware": "Hr & Payroll Software",
         "E-CommerceSoftware": "ই-কমার্স সফটওয়্যার"
       },
       "supportOptions": {
@@ -23,16 +23,16 @@
         "videoTutorial": "চলচ্চিত্র মাধ্যমে শিক্ষা",
         "userGuide": "ব্যবহারকারীর নির্দেশিকা",
         "hardware": "হার্ডওয়্যার",
-        "clientList": "মক্কেল তালিকা"
+        "clientList": "ক্লায়েন্ট তালিকা"
       },
       "moreOptions": {
         "aboutUs": "আমাদের সম্পর্কে",
-        "messageFromFounder": "প্রতিষ্ঠাতা থেকে বার্তা",
+        "messageFromFounder": "প্রতিষ্ঠাতার বার্তা",
         "termsAndCondition": "শর্তাবলী",
         "refundAndReturnPolicy": "রিফান্ড এবং রিটার্ন নীতি",
         "privacyPolicy": "গোপনীয়তা নীতি",
         "companyInfo": "প্রতিষ্ঠানের তথ্য",
-        "Q&A": "প্র",
+        "Q&A": "প্রশ্নোত্তর",
         "portfolio": "পোর্টফোলিও"
       }
     },
@@ -40,15 +40,15 @@
     "signUp": "নিবন্ধন করুন"
   },
   "footer": {
-    "copyright": "কপিরাইট",
+    "copyright": "কপিরাইট © ২০২৩ কানেক্টডেস্ক",
     "allRightsReserved": "সমস্ত অধিকার সংরক্ষিত",
     "contactText": "কানেক্টডেস্ক একটি সফটওয়্যার ডেভেলপমেন্ট কোম্পানি।  <br> কোম্পানি এসএমই ব্যবসায়ীদের জন্য ব্যবসায়িক সমাধান নিয়ে কাজ করে।",
     "contactInfo": "যোগাযোগের তথ্য",
     "contactOptions": {
-      "sales": "বিক্রয়",
-      "supportOne": "সমর্থন 1",
-      "supportTwo": "সমর্থন 2",
-      "IPPhone": "আইপি ফোন"
+      "sales": "সেলস্",
+      "supportOne": "সাপোর্ট ১",
+      "supportTwo": "সাপোর্ট ২",
+      "IPPhone": "আই.পি ফোন"
     },
     "infoData": {
       "company": "প্রতিষ্ঠান",
@@ -69,15 +69,15 @@
     }
   },
   "packages": {
-    "title": "  মূল্য নির্ধারণ <spanTag>সুইট</spanTag> সব আকার",
-    "business": "এর <spanTag>ব্যবসা</spanTag",
-    "features": "বৈশিষ্ট্য",
-    "purchasePackage": "প্যাকেজ ক্রয়",
+    "title": "  মূল্য নির্ধারণ <spanTag>করুন</spanTag> সব আকার",
+    "business": "এর <spanTag>ব্যবসার</spanTag",
+    "features": "বৈশিষ্ট্যসমূহ",
+    "purchasePackage": "প্যাকেজ ক্রয় করুন",
     "packagesData": {
       "businessPackage": {
-        "title": "ব্যবসা প্যাকেজ",
-        "duration": "ব্যবসা প্রতি / 12 মাস",
-        "price": "7,500",
+        "title": "বিজনেস প্যাকেজ",
+        "duration": "বিজনেস প্রতি / ১২ মাস",
+        "price": "৭,৫০০",
         "features": {
           "online": "অনলাইন সফটওয়্যার এবং মোবাইল অ্যাপস",
           "product": "পণ্য, বিক্রয়, ক্রয়, ব্যয়, উদ্ধৃতি",
@@ -94,8 +94,8 @@
       },
       "corporatePackage": {
         "title": "কর্পোরেট প্যাকেজ",
-        "duration": "ব্যবসা প্রতি / 12 মাস",
-        "price": "19,999",
+        "duration": "বিজনেস প্রতি / ১২ মাস",
+        "price": "১৯,৯৯৯",
         "features": {
           "accountManagement": "হিসাব ব্যবস্থাপনা",
           "inventoryManagement": "ইনভেন্টরি ম্যানেজমেন্ট",
@@ -113,7 +113,7 @@
     }
   },
   "askedQuestions": {
-    "title": "সচরাচর জিজ্ঞাস্য",
+    "title": "প্রায়শই জিজ্ঞাসা করা প্রশ্নগুলো",
     "charge": "এই সফ্টওয়্যারের জন্য মাসিক/বার্ষিক চার্জ কত?",
     "eligibilityDuration": "কত দিনের জন্য বিনামূল্যে ট্রায়াল যোগ্য?",
     "totalAccounts": "একই মোবাইল নম্বর বা ইমেইল দিয়ে কয়টি অ্যাকাউন্ট তৈরি করা যায়?",
@@ -126,7 +126,7 @@
     "uploadData": "কিভাবে মোবাইল অ্যাপ এবং ক্লাউড সফটওয়্যারে ডেটা আপলোড করবেন?"
   },
   "customerSupport": {
-    "title": "সঙ্গে <ConnectDesk> আপনার উইল পাবেন",
+    "title": "<ConnectDesk> সাথে আপনার উইল পাবেন",
     "subTitle": "বন্ধুত্বপূর্ণ গ্রাহক সমর্থন"
   },
   "comingSoon": "শীঘ্রই আসছে",

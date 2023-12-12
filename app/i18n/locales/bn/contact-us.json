@@ -1,7 +1,7 @@
 {
   "pageName": "যোগাযোগ করুন",
-  "mainTitle": "যোগাযোগ বিনা দ্বিধায়",
-  "subTitle": "আমাদের সাথে",
+  "mainTitle": "আমাদের সাথে যোগাযোগ করুন",
+  "subTitle": "বিনা দ্বিধায়",
   "contactData": {
     "officeAddress": "অফিসের ঠিকানা",
     "callUs": "আমাদের কল করুন",
@@ -13,8 +13,8 @@
     "IPPhone": "আইপি ফোন"
   },
   "contactForm": {
-    "yourName": "তোমার নাম",
-    "yourAddress": "আপনার ঠিকানা",
+    "yourName": "আপনার নাম",
+    "yourAddress": "ইমেইল ঠিকানা",
     "writeSubject": "বিষয় লিখুন",
     "writeMessage": "বার্তা লিখুন",
     "submit": "জমা দিন"
