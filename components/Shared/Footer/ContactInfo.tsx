@@ -1,11 +1,11 @@
 "use client";
 
+import { IIntlTranslator } from "@/Interface";
 import { CommonText } from "@/components";
 import { contactInfo } from "@/public/Data";
 import Image from "next/image";
 import { FC } from "react";
 import { FooterTitle } from ".";
-import { IIntlTranslator } from "@/Interface";
 
 export const ContactInfo: FC<IIntlTranslator> = ({ t }) => (
   <div className="flex flex-col gap-[10px]">
@@ -15,7 +15,7 @@ export const ContactInfo: FC<IIntlTranslator> = ({ t }) => (
         <div key={i} className="flex justify-start items-center gap-[10px]">
           <Image src={icon} alt="" />
           <CommonText>
-            {t(title)}: {number} ({time})
+            {t(title)}: {t(number)} ({t(time)})
           </CommonText>
         </div>
       ))}

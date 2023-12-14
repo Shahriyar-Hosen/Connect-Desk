@@ -45,10 +45,26 @@
     "contactText": "ConnectDesk is a software development company. The <br> company works with business solutions for SME traders.",
     "contactInfo": "Contact Info",
     "contactOptions": {
-      "sales": "Sales",
-      "supportOne": "Support 1",
-      "supportTwo": "Support 2",
-      "IPPhone": "IP Phone"
+      "sales": {
+        "title": "Sales",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "supportOne": {
+        "title": "Support 1",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "supportTwo": {
+        "title": "Support 2",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "IPPhone": {
+        "title": "IP Phone",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      }
     },
     "infoData": {
       "company": "Company",
