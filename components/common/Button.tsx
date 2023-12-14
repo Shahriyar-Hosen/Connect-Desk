@@ -2,6 +2,7 @@
 
 import { IButton } from "@/Interface";
 import { FC } from "react";
+import { twMerge } from "tailwind-merge";
 
 export const Button: FC<IButton> = ({
   text = "14",
@@ -19,10 +20,13 @@ export const Button: FC<IButton> = ({
     type={type}
     onClick={onClick}
     disabled={disabled}
-    className={`${
-      (variant === "secondary" && "bg-white text-primary") ||
-      (variant === "primary" && "bg-primary text-white")
-    } 
+    className={twMerge(
+      `${
+        (variant === "secondary" &&
+          "bg-white text-primary hover:bg-secondary hover:text-white hover:border-secondary") ||
+        (variant === "primary" &&
+          "bg-primary text-white hover:bg-secondary hover:border-secondary")
+      } 
   ${
     (text === "14" && "text-xs sm:text-sm") ||
     (text === "16" && "text-sm md:text-base") ||
@@ -38,9 +42,11 @@ export const Button: FC<IButton> = ({
         width === "full" ? "w-full px-2" : "px-9 md:px-10"
       } py-1.5 sm:py-2 md:py-2.5`)
   } 
-  ${width === "full" && "w-full"} border font-medium border-primary
-  
-  ${className}`}
+  ${
+    width === "full" && "w-full"
+  } border font-medium border-primary transition-all delay-150`,
+      className
+    )}
   >
     {children}
   </button>

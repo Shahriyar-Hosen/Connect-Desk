@@ -66,6 +66,11 @@ export interface ILinkedList {
   label: string;
 }
 
+export interface ILabelIcon {
+  icon: StaticImageData;
+  label: string;
+}
+
 export interface INavItems extends ILinkedList {
   option?: ILinkedList[];
 }
