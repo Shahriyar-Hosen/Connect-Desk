@@ -40,8 +40,21 @@
     "signUp": "Sign Up"
   },
   "footer": {
-    "copyright": "Copyright &copy; {new Date().getFullYear()} ConnectDesk",
-    "allRightsReserved": "All rights reserved",
+    "copyright": {
+      "title": "Copyright",
+      "company": "ConnectDesk",
+      "allRightsReserved": "All rights reserved",
+      "year": {
+        "2023": "2023",
+        "2024": "2024",
+        "2025": "2025",
+        "2026": "2026",
+        "2027": "2027",
+        "2028": "2028",
+        "2029": "2029",
+        "2030": "2030"
+      }
+    },
     "contactText": "ConnectDesk is a software development company. The <br> company works with business solutions for SME traders.",
     "contactInfo": "Contact Info",
     "contactOptions": {

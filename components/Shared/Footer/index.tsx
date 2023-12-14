@@ -13,9 +13,11 @@ export const Footer: FC<IClassName & IIntlTranslator> = ({ className, t }) => (
       <div className="border-t border-primary">
         <Container className="flex justify-between items-center pt-5 pb-6">
           <CommonText>
-            Copyright &copy; {new Date().getFullYear()} ConnectDesk
+            {t("footer.copyright.title")} &copy;&nbsp;
+            {t(`footer.copyright.year.${new Date().getFullYear()}`)}&nbsp;
+            {t("footer.copyright.company")}
           </CommonText>
-          <CommonText>All rights reserved</CommonText>
+          <CommonText>{t("footer.copyright.allRightsReserved")}</CommonText>
         </Container>
       </div>
     </section>
