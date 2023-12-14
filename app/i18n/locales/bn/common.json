@@ -12,7 +12,7 @@
         "inventorySoftware": "ইনভেন্টরি সফটওয়্যার",
         "POSInventorySoftware": "POS ইনভেন্টরি সফটওয়্যার",
         "accountingSoftware": "অ্যাকাউন্টিং সফটওয়্যার",
-        "ERPSoftware": "ইআরপি সফটওয়্যার",
+        "ERPSoftware": "ERP সফটওয়্যার",
         "billingSoftware": "বিলিং সফটওয়্যার",
         "Hr&PayrollSoftware": "Hr & Payroll Software",
         "E-CommerceSoftware": "ই-কমার্স সফটওয়্যার"
@@ -20,10 +20,10 @@
       "supportOptions": {
         "softwareSetup": "সফটওয়্যার সেটআপ",
         "appInstall": "অ্যাপ ইনস্টল করুন",
-        "videoTutorial": "চলচ্চিত্র মাধ্যমে শিক্ষা",
+        "videoTutorial": "ভিডিও টিউটোরিয়াল",
         "userGuide": "ব্যবহারকারীর নির্দেশিকা",
         "hardware": "হার্ডওয়্যার",
-        "clientList": "ক্লায়েন্ট তালিকা"
+        "clientList": "ক্লায়েন্ট লিস্ট"
       },
       "moreOptions": {
         "aboutUs": "আমাদের সম্পর্কে",
@@ -36,16 +36,15 @@
         "portfolio": "পোর্টফোলিও"
       }
     },
-    "login": "প্রবেশ করুন",
-    "signUp": "নিবন্ধন করুন"
+    "login": "লগইন",
+    "signUp": "সাইন আপ"
   },
   "footer": {
-    "copyright": "কপিরাইট © ২০২৩ কানেক্টডেস্ক",
+    "copyright": "কপিরাইট © {new Date().getFullYear()} কানেক্টডেস্ক",
     "allRightsReserved": "সমস্ত অধিকার সংরক্ষিত",
-    "contactText": "কানেক্টডেস্ক একটি সফটওয়্যার ডেভেলপমেন্ট কোম্পানি।  <br> কোম্পানি এসএমই ব্যবসায়ীদের জন্য ব্যবসায়িক সমাধান নিয়ে কাজ করে।",
-    "contactInfo": "যোগাযোগের তথ্য",
+    "contactText": "কানেক্টডেস্ক একটি সফটওয়্যার ডেভেলপমেন্ট কোম্পানি। কোম্পানিটি এসএমই ব্যবসায়ীদের জন্য ব্যবসায়িক সমাধান নিয়ে কাজ করে।",
     "contactOptions": {
-      "sales": "সেলস্",
+      "sales": "সেলস",
       "supportOne": "সাপোর্ট ১",
       "supportTwo": "সাপোর্ট ২",
       "IPPhone": "আই.পি ফোন"
@@ -57,7 +56,7 @@
       "contactUs": "যোগাযোগ করুন",
       "pricing": "মূল্য নির্ধারণ",
       "FAQ": "FAQ",
-      "support": "সমর্থন",
+      "support": "সাপোর্ট",
       "terms&Conditions": "শর্তাবলী",
       "privacyPolicy": "গোপনীয়তা নীতি",
       "refund&ReturnPolicy": "ফেরত",
@@ -130,5 +129,5 @@
     "subTitle": "বন্ধুত্বপূর্ণ গ্রাহক সমর্থন"
   },
   "comingSoon": "শীঘ্রই আসছে",
-  "backToHome": "বাড়িতে ফিরে যাও"
+  "backToHome": "হোম এ ফিরে যাও"
 }

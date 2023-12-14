@@ -1,8 +1,8 @@
 "use client";
 
 import { IIntlTranslator } from "@/Interface";
-import { Button, LinkButton } from "@/components";
-import { downArrow, profile } from "@/public/assets/icon";
+import { LinkButton } from "@/components";
+import { profile } from "@/public/assets/icon";
 import Image from "next/image";
 import { FC } from "react";
 
@@ -19,13 +19,6 @@ export const LoginAndSign: FC<IIntlTranslator> = ({ t }) => (
     <LinkButton link="/register" size="sm" variant="primary">
       {t("header.signUp")}
     </LinkButton>
-
-    {/* <Button variant="secondary" size="sm">
-      <div className="flex gap-1">
-        EN
-        <Image src={downArrow} alt="" />
-      </div>
-    </Button> */}
   </div>
 );
 

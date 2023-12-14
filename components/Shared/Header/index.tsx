@@ -5,7 +5,7 @@ import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
 import {
-  Avatar,
+  LoginAndSign,
   MenuItems,
   MobileLoginAndSignUpButton,
   MobileMenuItems,
@@ -26,8 +26,7 @@ export const Header: FC<IClassName & IIntlTranslator & IIntlLang> = ({
           <MenuItems t={t} />
         </div>
 
-        <Avatar />
-        {/* <LoginAndSign /> */}
+        <LoginAndSign t={t} />
         <LanguageSwitcher lng={lng} />
 
         <div className="dropdown dropdown-end lg:hidden">
