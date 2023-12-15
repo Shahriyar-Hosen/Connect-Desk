@@ -13,7 +13,7 @@ export const AuthTopSection: FC<IAuthTopSection> = ({
   otp,
 }) => (
   <div className="flex flex-col justify-center items-center">
-    <Logo />
+    <Logo lng="en" />
 
     <div className="my-[25px] md:my-[30px] text-center">
       {otp && (

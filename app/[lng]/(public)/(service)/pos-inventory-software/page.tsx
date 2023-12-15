@@ -2,7 +2,6 @@
 
 import { IIntlParams } from "@/Interface";
 import { useTranslation } from "@/app/i18n/client";
-/* eslint-disable react/no-unescaped-entities */
 import {
   AfterSalesSupport,
   AskedQuestions,
@@ -51,11 +50,11 @@ const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
       />
 
       <SoftwareFeatures t={t} lng={lng} />
-      <GrowRetailFaster t={t} />
+      <GrowRetailFaster lng={lng} t={t} />
       <Packages t={t} />
       <TermCondition t={t} />
-      <AfterSalesSupport t={t} />
-      <CustomerSupport t={t} />
+      <AfterSalesSupport lng={lng} t={t} />
+      <CustomerSupport lng={lng} t={t} />
       <AskedQuestions t={t} data={faqData} limit={5} />
     </main>
   );

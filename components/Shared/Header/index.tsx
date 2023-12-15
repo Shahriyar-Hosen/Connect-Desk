@@ -5,7 +5,7 @@ import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
 import {
-  Avatar,
+  LoginAndSign,
   MenuItems,
   MobileLoginAndSignUpButton,
   MobileMenuItems,
@@ -19,15 +19,14 @@ export const Header: FC<IClassName & IIntlTranslator & IIntlLang> = ({
 }) => (
   <Container className={twMerge("px-0 pl-2 md:pl-0", className)}>
     <nav className="flex justify-between items-center px-0 md:px-3 lg:px-5 py-2.5">
-      <Logo />
+      <Logo lng={lng} />
 
       <div className="flex justify-center items-center">
         <div className="dropdown dropdown-bottom dropdown-hover hidden lg:block">
           <MenuItems t={t} />
         </div>
 
-        <Avatar />
-        {/* <LoginAndSign /> */}
+        <LoginAndSign t={t} />
         <LanguageSwitcher lng={lng} />
 
         <div className="dropdown dropdown-end lg:hidden">

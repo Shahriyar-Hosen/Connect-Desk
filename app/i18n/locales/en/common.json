@@ -40,15 +40,45 @@
     "signUp": "Sign Up"
   },
   "footer": {
-    "copyright": "Copyright &copy; {new Date().getFullYear()} ConnectDesk",
-    "allRightsReserved": "All rights reserved",
+    "copyright": {
+      "title": "Copyright",
+      "company": "ConnectDesk",
+      "allRightsReserved": "All rights reserved",
+      "year": {
+        "2023": "2023",
+        "2024": "2024",
+        "2025": "2025",
+        "2026": "2026",
+        "2027": "2027",
+        "2028": "2028",
+        "2029": "2029",
+        "2030": "2030"
+      }
+    },
     "contactText": "ConnectDesk is a software development company. The <br> company works with business solutions for SME traders.",
     "contactInfo": "Contact Info",
     "contactOptions": {
-      "sales": "Sales",
-      "supportOne": "Support 1",
-      "supportTwo": "Support 2",
-      "IPPhone": "IP Phone"
+      "sales": {
+        "title": "Sales",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "supportOne": {
+        "title": "Support 1",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "supportTwo": {
+        "title": "Support 2",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "IPPhone": {
+        "title": "IP Phone",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "location": "Mahadevpur, Naogaon, Rajshahi, Bangladesh"
     },
     "infoData": {
       "company": "Company",
@@ -126,9 +156,12 @@
     "uploadData": "How to upload data in mobile app and cloud software?"
   },
   "customerSupport": {
-    "title": "With <ConnectDesk> Your Will Get",
+    "title": "With <ConnectDesk/> Your Will Get",
     "subTitle": "Friendly Customer Support"
   },
   "comingSoon": "Coming Soon",
-  "backToHome": "Back to home"
+  "backToHome": "Back to home",
+  "connect": "Connect",
+  "desk": "Desk",
+  "slogan": "Business Management Software"
 }

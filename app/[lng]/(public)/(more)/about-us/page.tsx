@@ -33,7 +33,7 @@ const AboutUs: FC<IIntlParams> = ({ params: { lng } }) => {
       <WhoWeAre t={t} />
       <Counter t={t} />
       <MissionVisionValue t={t} />
-      <CustomerSupport t={t} />
+      <CustomerSupport lng={lng} t={t} />
     </main>
   );
 };

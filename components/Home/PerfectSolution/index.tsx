@@ -1,11 +1,11 @@
 "use client";
 
+import { IIntlTranslator } from "@/Interface";
 import { ComponentHeader, Container, MainContainer } from "@/components";
 import { solutions } from "@/public/Data";
 import { FC } from "react";
-import { Solution } from "./Solution";
-import { IIntlTranslator } from "@/Interface";
 import { Trans } from "react-i18next";
+import { Solution } from "./Solution";
 
 export const PerfectSolution: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer bg="secondary">
@@ -29,7 +29,12 @@ export const PerfectSolution: FC<IIntlTranslator> = ({ t }) => (
 
       <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 gap-y-[60px] justify-items-center mt-[60px]">
         {solutions.map(({ title }, i) => (
-          <Solution key={i} title={t(title)} />
+          <Solution
+            key={i}
+            title={
+              <Trans i18nKey={t(title)} components={{ br: <br /> }} t={t} />
+            }
+          />
         ))}
       </section>
     </Container>

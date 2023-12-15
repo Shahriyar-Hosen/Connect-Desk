@@ -21,7 +21,7 @@ const Login = () => (
         <AuthLeftSide
           JSXTitle={
             <span>
-              Welcome to <ConnectDesk text="xl" />
+              Welcome to <ConnectDesk lng="en" text="xl" />
             </span>
           }
           image={loginLeftImg}

@@ -1,8 +1,10 @@
 "use client";
 
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { growRetailFaster } from "@/public/assets/images";
 import Image from "next/image";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 import {
   CommonText,
   ComponentHeader,
@@ -10,10 +12,11 @@ import {
   Container,
   MainContainer,
 } from "..";
-import { IIntlTranslator } from "@/Interface";
-import { Trans } from "react-i18next";
 
-export const GrowRetailFaster: FC<IIntlTranslator> = ({ t }) => (
+export const GrowRetailFaster: FC<IIntlTranslator & IIntlLang> = ({
+  t,
+  lng,
+}) => (
   <MainContainer bg="secondary">
     <Container className="flex justify-center items-center flex-col">
       <ComponentHeader
@@ -23,7 +26,7 @@ export const GrowRetailFaster: FC<IIntlTranslator> = ({ t }) => (
             <Trans
               i18nKey="POSSoftware.GrowRetailFaster.subTitle"
               components={{
-                cd: <ConnectDesk text="lg" />,
+                cd: <ConnectDesk lng={lng} text="lg" />,
               }}
               t={t}
               ns={"services"}

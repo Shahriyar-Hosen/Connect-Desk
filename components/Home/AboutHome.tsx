@@ -1,27 +1,28 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { mackbook } from "@/public/assets/images";
 import Image from "next/image";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 import {
-  Button,
   CommonText,
   ComponentHeader,
   ConnectDesk,
   Container,
+  LinkButton,
   MainContainer,
 } from "..";
-import { IIntlTranslator } from "@/Interface";
 
-export const AboutHome: FC<IIntlTranslator> = ({ t }) => (
+export const AboutHome: FC<IIntlTranslator & IIntlLang> = ({ t, lng }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         position="center"
         title={
           <span>
-            {t("aboutHome.about")} <ConnectDesk text="xl" />
+            {t("aboutHome.about")} <ConnectDesk lng={lng} text="xl" />
           </span>
         }
         subTitle={t("aboutHome.software")}
@@ -38,13 +39,23 @@ export const AboutHome: FC<IIntlTranslator> = ({ t }) => (
 
         <div className="w-[90%] lg:max-w-[500px] flex flex-col justify-start items-start gap-4 mt-6 xl:mt-0">
           <CommonText>
-            {t("aboutHome.firstPara", { cd: "ConnectDesk" })}
+            <Trans
+              i18nKey="aboutHome.firstPara"
+              components={{ strong: <strong /> }}
+              t={t}
+            />
           </CommonText>
           <CommonText>
-            {t("aboutHome.secondPara", { cd: "ConnectDesk" })}
+            <Trans
+              i18nKey="aboutHome.secondPara"
+              components={{ strong: <strong /> }}
+              t={t}
+            />
           </CommonText>
           <div className="xl:mt-6">
-            <Button variant="primary">{t("aboutHome.buttonLevel")}</Button>
+            <LinkButton link="/about-us" variant="primary">
+              {t("aboutHome.buttonLevel")}
+            </LinkButton>
           </div>
         </div>
       </div>

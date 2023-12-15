@@ -9,6 +9,7 @@ import { Trans } from "react-i18next";
 
 const Services: FC<IIntlParams> = ({ params: { lng } }) => {
   const { t } = useTranslation(lng, "services");
+
   return (
     <main>
       <HeroSection
@@ -29,7 +30,7 @@ const Services: FC<IIntlParams> = ({ params: { lng } }) => {
         image={servicesImg}
         service
       />
-      <AllServices t={t} />
+      <AllServices lng={lng} t={t} />
     </main>
   );
 };

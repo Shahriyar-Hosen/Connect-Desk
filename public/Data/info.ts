@@ -4,27 +4,27 @@ import { instagram, phone, twitter, web, youtube } from "../assets/icon";
 export const contactInfo: IContactInfo[] = [
   {
     icon: phone,
-    title: "footer.contactOptions.sales",
-    number: "+8801234567892",
-    time: "10AM - 9PM",
+    title: "footer.contactOptions.sales.title",
+    number: "footer.contactOptions.sales.number",
+    time: "footer.contactOptions.sales.time",
   },
   {
     icon: phone,
-    title: "footer.contactOptions.supportOne",
-    number: "+8801234567892",
-    time: "10AM - 9PM",
+    title: "footer.contactOptions.supportOne.title",
+    number: "footer.contactOptions.supportOne.number",
+    time: "footer.contactOptions.supportOne.time",
   },
   {
     icon: phone,
-    title: "footer.contactOptions.supportTwo",
-    number: "+8801234567892",
-    time: "10AM - 9PM",
+    title: "footer.contactOptions.supportTwo.title",
+    number: "footer.contactOptions.supportTwo.number",
+    time: "footer.contactOptions.supportTwo.time",
   },
   {
     icon: phone,
-    title: "footer.contactOptions.IPPhone",
-    number: "+8801234567892",
-    time: "10AM - 9PM",
+    title: "footer.contactOptions.IPPhone.title",
+    number: "footer.contactOptions.IPPhone.number",
+    time: "footer.contactOptions.IPPhone.time",
   },
 ];
 

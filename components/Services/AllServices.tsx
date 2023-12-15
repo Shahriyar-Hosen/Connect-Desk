@@ -4,10 +4,11 @@ import { servicesData } from "@/public/Data";
 import { FC } from "react";
 import { ComponentHeader, ConnectDesk, Container, MainContainer } from "..";
 import { ServiceCard } from "./ServiceCard";
-import { IIntlTranslator } from "@/Interface";
+import { IIntlTranslator, IIntlLang } from "@/Interface";
 import { Trans } from "react-i18next";
 
-export const AllServices: FC<IIntlTranslator> = ({ t }) => (
+
+export const AllServices: FC<IIntlTranslator & IIntlLang> = ({ t, lng }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
@@ -16,7 +17,7 @@ export const AllServices: FC<IIntlTranslator> = ({ t }) => (
             <Trans
               i18nKey="AllServicesOfCD"
               components={{
-                ConnectDeskLogo: <ConnectDesk text="lg" font="poppins" />,
+                ConnectDeskLogo: <ConnectDesk lng={lng} text="lg" font="poppins" />,
               }}
               t={t}
             />

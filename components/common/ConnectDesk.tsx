@@ -2,21 +2,26 @@
 
 import { FC } from "react";
 
-import { IClassName, ITextAndFont } from "@/Interface";
+import { IClassName, IIntlLang, ITextAndFont } from "@/Interface";
+import { useTranslation } from "@/app/i18n/client";
 import { twMerge } from "tailwind-merge";
 
-export const ConnectDesk: FC<ITextAndFont & IClassName> = ({
+export const ConnectDesk: FC<ITextAndFont & IClassName & IIntlLang> = ({
   className,
   font,
   text,
-}) => (
-  <span
-    className={twMerge(
-      `${
-        (text === "md" && "text-xl") ||
-        (text === "lg" && `text-[24px] lg:text-[28px]`) ||
-        (text === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
-      } 
+  lng,
+}) => {
+  const { t } = useTranslation(lng, "common");
+
+  return (
+    <span
+      className={twMerge(
+        `${
+          (text === "md" && "text-xl") ||
+          (text === "lg" && `text-[24px] lg:text-[28px]`) ||
+          (text === "xl" && "text-[26px] md:text-[28px] lg:text-[32px]")
+        } 
       ${
         (font === "poppins" && "font-poppins") ||
         (font === "exo" && "font-exo") ||
@@ -24,9 +29,11 @@ export const ConnectDesk: FC<ITextAndFont & IClassName> = ({
       }
       
     text-secondary font-semibold`,
-      className
-    )}
-  >
-    Connect<span className="text-primary ">Desk</span>
-  </span>
-);
+        className
+      )}
+    >
+      {t("connect")}
+      <span className="text-primary ">{t("desk")}</span>
+    </span>
+  );
+};

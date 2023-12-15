@@ -1,8 +1,8 @@
 "use client";
 
+import { IIntlTranslator } from "@/Interface";
 import { FC } from "react";
 import { ContactDetails, ContactUsForm, MainContainer } from "..";
-import { IIntlTranslator } from "@/Interface";
 
 export const ContactUsContainer: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
