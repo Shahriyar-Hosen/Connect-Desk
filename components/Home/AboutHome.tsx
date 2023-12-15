@@ -5,8 +5,8 @@ import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { mackbook } from "@/public/assets/images";
 import Image from "next/image";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 import {
-  Button,
   CommonText,
   ComponentHeader,
   ConnectDesk,
@@ -39,10 +39,18 @@ export const AboutHome: FC<IIntlTranslator & IIntlLang> = ({ t, lng }) => (
 
         <div className="w-[90%] lg:max-w-[500px] flex flex-col justify-start items-start gap-4 mt-6 xl:mt-0">
           <CommonText>
-            {t("aboutHome.firstPara", { cd: "ConnectDesk" })}
+            <Trans
+              i18nKey="aboutHome.firstPara"
+              components={{ strong: <strong /> }}
+              t={t}
+            />
           </CommonText>
           <CommonText>
-            {t("aboutHome.secondPara", { cd: "ConnectDesk" })}
+            <Trans
+              i18nKey="aboutHome.secondPara"
+              components={{ strong: <strong /> }}
+              t={t}
+            />
           </CommonText>
           <div className="xl:mt-6">
             <LinkButton link="/about-us" variant="primary">

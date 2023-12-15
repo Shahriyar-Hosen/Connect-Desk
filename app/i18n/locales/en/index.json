@@ -8,8 +8,8 @@
   "aboutHome": {
     "about": "About",
     "software": "Software",
-    "firstPara": " Using the {{cd}}, you can manage your company's sales and marketing modules. {{cd}} software automates tasks including client sales, manage inventory, and distribution activities.",
-    "secondPara": "{{cd}} software not only assists you in managing your business but also keeps track of your inventory and personnel. It also features an extensive account management system.",
+    "firstPara": " Using the <strong>ConnectDesk</strong>, you can manage your company's sales and marketing modules. <strong>ConnectDesk</strong> software automates tasks including client sales, manage inventory, and distribution activities.",
+    "secondPara": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also keeps track of your inventory and personnel. It also features an extensive account management system.",
     "buttonLevel": "Learn More"
   },
   "perfectSolution": {
@@ -34,23 +34,23 @@
     "title": "Important Features Of",
     "features": {
       "easySale": "Easy Sale & Invoice Create",
-      "easySaleDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "easySaleDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "stock": "Stock Management",
-      "stockDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "stockDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "accounting": "Easy Accounting",
-      "accountingDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "accountingDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "POSSoftware": "Perfect POS Software",
-      "POSSoftwareDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "POSSoftwareDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "report": "Overall Business Reports",
-      "reportDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "reportDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "sell": "Sell & Purchase Quotation",
-      "sellDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "sellDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "purchase": "Purchase Order",
-      "purchaseDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "purchaseDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "flexible": "Flexible Planning",
-      "flexibleDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly.",
+      "flexibleDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly.",
       "support": "Corporate Support",
-      "supportDes": "{{cd}} software not only assists you in managing your business but also helps you to grow your parallelly."
+      "supportDes": "<strong>ConnectDesk</strong> software not only assists you in managing your business but also helps you to grow your parallelly."
     }
   },
   "packages": {
