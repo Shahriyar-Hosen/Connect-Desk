@@ -5,33 +5,32 @@ import { useTranslation } from "@/app/i18n/client";
 import { AllServices, CommonText, HeroSection } from "@/components";
 import { servicesImg } from "@/public/assets/images";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 
 const Services: FC<IIntlParams> = ({ params: { lng } }) => {
-  const { t } = useTranslation(lng, ["services"]);
+  const { t } = useTranslation(lng, "services");
+
   return (
     <main>
       <HeroSection
         mainText={
           <>
-            Software That We Are Serving Will Aid in
-            <span className="text-primary"> Business </span>
-            <span className="text-secondary">Management</span>
+            <Trans
+              i18nKey="heroMainText"
+              components={{
+                primarySpanTag: <span className="text-primary" />,
+                secondarySpanTag: <span className="text-secondary" />,
+              }}
+              t={t}
+            />
           </>
         }
-        paragraph={
-          <CommonText>
-            ConnectDesk App is a simple, Easy-to-use accounting Inventory app
-            for small and medium businesses. Its simple user interface allows
-            you to send invoices, bills & quotations, Track Expenses & receipts,
-            manage inventory, view daily transaction books, view & send various
-            financial reports and much more.
-          </CommonText>
-        }
-        button2="See All Services"
+        paragraph={<CommonText>{t("heroParagraph")}</CommonText>}
+        button2={t("SeeAllServices")}
         image={servicesImg}
         service
       />
-      <AllServices lng={lng} />
+      <AllServices lng={lng} t={t} />
     </main>
   );
 };
