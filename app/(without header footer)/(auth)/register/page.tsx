@@ -22,7 +22,7 @@ const Register = () => (
           image={loginLeftImg}
           JSXTitle={
             <span>
-              Welcome to <ConnectDesk text="xl" />
+              Welcome to <ConnectDesk lng="en" text="xl" />
             </span>
           }
           paragraph="You’ll get preloaded data or upload your own. Preconfigured processes, reports, and dashboards. Guided experiences for every steps."
