@@ -16,6 +16,7 @@ import {
   MainContainer,
 } from "..";
 import { IIntlLang, IIntlTranslator } from "@/Interface";
+import { Trans } from "react-i18next";
 
 export const AfterSalesSupport: FC<IIntlTranslator & IIntlLang> = ({
   t,
@@ -24,15 +25,39 @@ export const AfterSalesSupport: FC<IIntlTranslator & IIntlLang> = ({
   <MainContainer bg="secondary">
     <Container className="flex flex-col justify-center items-center">
       <ComponentHeader
-        title={t("POSSoftware.afterSalesSupport.title", { ns: "services" })}
-        subTitle={<ConnectDesk lng={lng} text="lg" />}
+        title={
+          <Trans
+            i18nKey="POSSoftware.afterSalesSupport.title"
+            components={{
+              cd: <ConnectDesk lng={lng} text="lg" />,
+            }}
+            t={t}
+            ns={"services"}
+          />
+        }
+        subTitle={
+          <Trans
+            i18nKey="POSSoftware.afterSalesSupport.subTitle"
+            components={{
+              cd: <ConnectDesk lng={lng} text="lg" />,
+            }}
+            t={t}
+            ns={"services"}
+          />
+        }
       />
 
       <CommonText text="sm" className="text-center max-w-[521px] mx-auto mt-4">
-        {t("POSSoftware.afterSalesSupport.title", {
-          ns: "services",
-          cd: "ConnectDesk",
-        })}
+        {
+          <Trans
+            i18nKey="POSSoftware.afterSalesSupport.para"
+            components={{
+              strong: <strong />,
+            }}
+            t={t}
+            ns={"services"}
+          />
+        }
       </CommonText>
 
       <Image

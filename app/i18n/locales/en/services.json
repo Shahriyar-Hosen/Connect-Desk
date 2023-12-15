@@ -1,15 +1,16 @@
 {
   "POSSoftware": {
     "heroMainText": "Perfect POS Software For <spanTagPrimary> Retail </spanTagPrimary> <spanTagSecondary>Business</spanTagSecondary>",
-    "heroPara": "Use POS billing software to oversee all aspects of your retail business. With ConnectDesk POS Software, you can effortlessly manage your retail business' sales, inventory, purchases, customers finances, and more. Create and print expert invoices, take advantage by connect mobile apps to boost your earnings.",
+    "heroPara": "Use POS billing software to oversee all aspects of your retail business. With <strongTag>ConnectDesk</strongTag> POS Software, you can effortlessly manage your retail business' sales, inventory, purchases, customers finances, and more. Create and print expert invoices, take advantage by connect mobile apps to boost your earnings.",
     "viewDemo": "View Demo",
     "proposal": "Proposal",
     "POSSoftware": " POS Software",
-    "featuresAtAGlance": "Features At A Glance",
+    "featuresAtAGlanceTitle": "<CDLogo/> POS Software",
+    "featuresAtAGlanceSubtitle": "Features At A Glance",
     "GrowRetailFaster": {
       "title": "Grow Your Retail Faster With Smart POS Software",
       "subTitle": "From <cd>",
-      "para": "{{cd}} POS Software Helps Stay On Top Of Your Retail Business Finances Without Any Prior Business Knowledge"
+      "para": "ConnectDesk POS Software Helps Stay On Top Of Your Retail Business Finances Without Any Prior Business Knowledge"
     },
     "termCondition": {
       "title": "Term & Condition",
@@ -24,7 +25,8 @@
     },
     "afterSalesSupport": {
       "title": "After Sales Support From",
-      "para": "{{cd}} Accounting Software Helps Stay On Top Of Your Business Finances Without Accounting Knowledge",
+      "subTitle": "<cd/>",
+      "para": "<strong>ConnectDesk</strong> Accounting Software Helps Stay On Top Of Your Business Finances Without Accounting Knowledge",
       "maintenance": "Maintenance",
       "maintenanceService": "We Provide Maintenance Service After Deliver",
       "monthlyBackup": "Monthly Database And Software Backup",

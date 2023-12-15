@@ -40,7 +40,14 @@ const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
         }
         paragraph={
           <CommonText>
-            {t("POSSoftware.heroPara", { ns: "services" })}
+            <Trans
+              i18nKey="POSSoftware.heroPara"
+              components={{
+                strongTag: <strong />,
+              }}
+              t={t}
+              ns={"services"}
+            />
           </CommonText>
         }
         button1={t("POSSoftware.viewDemo", { ns: "services" })}

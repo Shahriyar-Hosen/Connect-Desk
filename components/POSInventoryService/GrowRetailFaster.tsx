@@ -20,13 +20,24 @@ export const GrowRetailFaster: FC<IIntlTranslator & IIntlLang> = ({
   <MainContainer bg="secondary">
     <Container className="flex justify-center items-center flex-col">
       <ComponentHeader
-        title={t("POSSoftware.GrowRetailFaster.title", { ns: "services" })}
+        title={
+          <Trans
+            i18nKey="POSSoftware.GrowRetailFaster.title"
+            components={{
+              cd: <ConnectDesk lng={lng} text="lg" />,
+            }}
+            t={t}
+            ns={"services"}
+          />
+        }
         subTitle={
           <>
             <Trans
               i18nKey="POSSoftware.GrowRetailFaster.subTitle"
               components={{
                 cd: <ConnectDesk lng={lng} text="lg" />,
+                spanTagPrimary: <span className="text-primary" />,
+                spanTagSecondary: <span className="text-secondary" />,
               }}
               t={t}
               ns={"services"}
@@ -36,10 +47,14 @@ export const GrowRetailFaster: FC<IIntlTranslator & IIntlLang> = ({
       />
 
       <CommonText text="sm" className="mt-4 max-w-[521px] text-center">
-        {t("POSSoftware.GrowRetailFaster.para", {
-          ns: "services",
-          cd: "ConnectDesk",
-        })}
+        <Trans
+          i18nKey="POSSoftware.GrowRetailFaster.para"
+          components={{
+            strong: <strong />,
+          }}
+          t={t}
+          ns={"services"}
+        />
       </CommonText>
 
       <Image
