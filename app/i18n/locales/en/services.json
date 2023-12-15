@@ -34,5 +34,24 @@
       "onlineTraining": "Video / Online Training : Free",
       "excludeMaintenance": "Note : After Deliver New Features /  Module Development is not include Maintenance"
     }
-  }
+  },
+  "heroMainText": "Software That We Are Serving Will Aid in <primarySpanTag> Business </primarySpanTag> <secondarySpanTag>Management</secondarySpanTag>",
+  "heroParagraph": "ConnectDesk App is a simple, Easy-to-use accounting Inventory app for small and medium businesses. Its simple user interface allows you to send invoices, bills & quotations, Track Expenses & receipts, manage inventory, view daily transaction books, view & send various financial reports and much more.",
+  "SeeAllServices": "See All Services",
+  "AllServicesOfCD": "All Services Of <ConnectDeskLogo/>",
+  "servicesData": {
+    "AccountingSoftware": "Accounting Software",
+    "AccountingSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "InventorySoftware": "Inventory Software",
+    "InventorySoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "POSSoftware": "POS Software",
+    "POSSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "ERPSoftware": "ERP Software",
+    "ERPSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "ECommerce": "E-Commerce",
+    "ECommerceDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "HRPayrollSoftware": "HR Payroll Software",
+    "HRPayrollSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece."
+  },
+  "LearnMore": "Learn More"
 }

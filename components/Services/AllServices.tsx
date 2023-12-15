@@ -4,21 +4,29 @@ import { servicesData } from "@/public/Data";
 import { FC } from "react";
 import { ComponentHeader, ConnectDesk, Container, MainContainer } from "..";
 import { ServiceCard } from "./ServiceCard";
+import { IIntlTranslator } from "@/Interface";
+import { Trans } from "react-i18next";
 
-export const AllServices: FC = () => (
+export const AllServices: FC<IIntlTranslator> = ({ t }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         title={
           <>
-            All Services Of <ConnectDesk text="lg" font="poppins" />
+            <Trans
+              i18nKey="AllServicesOfCD"
+              components={{
+                ConnectDeskLogo: <ConnectDesk text="lg" font="poppins" />,
+              }}
+              t={t}
+            />
           </>
         }
       />
 
       <div className="mt-[60px] grid grid-cols-1 md:grid-cols-2 justify-items-center gap-20 max-w-6xl mx-auto">
         {servicesData.map((service, i) => (
-          <ServiceCard {...service} key={i} />
+          <ServiceCard {...service} key={i} t={t} />
         ))}
       </div>
     </Container>
