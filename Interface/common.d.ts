@@ -192,3 +192,8 @@ export interface IIntlTranslator {
 export interface IIntlLang {
   lng: string;
 }
+
+export interface IIntlLangWithTranslator {
+  lng?: string;
+  t?: TFunction<string | string[], string>;
+}

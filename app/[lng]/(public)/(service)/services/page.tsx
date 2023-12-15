@@ -1,34 +1,39 @@
 "use client";
 
+import { IIntlParams } from "@/Interface";
+import { useTranslation } from "@/app/i18n/client";
 import { AllServices, CommonText, HeroSection } from "@/components";
 import { servicesImg } from "@/public/assets/images";
 import { FC } from "react";
 
-const Services: FC = () => (
-  <main>
-    <HeroSection
-      mainText={
-        <>
-          Software That We Are Serving Will Aid in
-          <span className="text-primary"> Business </span>
-          <span className="text-secondary">Management</span>
-        </>
-      }
-      paragraph={
-        <CommonText>
-          ConnectDesk App is a simple, Easy-to-use accounting Inventory app for
-          small and medium businesses. Its simple user interface allows you to
-          send invoices, bills & quotations, Track Expenses & receipts, manage
-          inventory, view daily transaction books, view & send various financial
-          reports and much more.
-        </CommonText>
-      }
-      button2="See All Services"
-      image={servicesImg}
-      service
-    />
-    <AllServices />
-  </main>
-);
+const Services: FC<IIntlParams> = ({ params: { lng } }) => {
+  const { t } = useTranslation(lng, ["services"]);
+  return (
+    <main>
+      <HeroSection
+        mainText={
+          <>
+            Software That We Are Serving Will Aid in
+            <span className="text-primary"> Business </span>
+            <span className="text-secondary">Management</span>
+          </>
+        }
+        paragraph={
+          <CommonText>
+            ConnectDesk App is a simple, Easy-to-use accounting Inventory app
+            for small and medium businesses. Its simple user interface allows
+            you to send invoices, bills & quotations, Track Expenses & receipts,
+            manage inventory, view daily transaction books, view & send various
+            financial reports and much more.
+          </CommonText>
+        }
+        button2="See All Services"
+        image={servicesImg}
+        service
+      />
+      <AllServices lng={lng} />
+    </main>
+  );
+};
 
 export default Services;

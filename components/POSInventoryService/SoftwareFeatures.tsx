@@ -19,7 +19,7 @@ export const SoftwareFeatures: FC<IIntlTranslator & IIntlLang> = ({
       <ComponentHeader
         title={
           <>
-            <ConnectDesk text="xl" />
+            <ConnectDesk lng={lng} text="xl" />
             {t("POSSoftware.POSSoftware", { ns: "services" })}
           </>
         }

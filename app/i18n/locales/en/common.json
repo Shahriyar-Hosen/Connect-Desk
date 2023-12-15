@@ -156,9 +156,12 @@
     "uploadData": "How to upload data in mobile app and cloud software?"
   },
   "customerSupport": {
-    "title": "With <ConnectDesk> Your Will Get",
+    "title": "With <ConnectDesk/> Your Will Get",
     "subTitle": "Friendly Customer Support"
   },
   "comingSoon": "Coming Soon",
-  "backToHome": "Back to home"
+  "backToHome": "Back to home",
+  "connect": "Connect",
+  "desk": "Desk",
+  "slogan": "Business Management Software"
 }

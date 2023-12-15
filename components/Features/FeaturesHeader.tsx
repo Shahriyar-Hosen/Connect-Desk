@@ -13,7 +13,7 @@ export const FeaturesHeader: FC<IIntlLang> = ({ lng }) => {
         title={t("featureHeader.checkFeatureOf")}
         subTitle={
           <span>
-            <ConnectDesk text="lg" /> {t("featureHeader.software")}
+            <ConnectDesk lng={lng} text="lg" /> {t("featureHeader.software")}
           </span>
         }
       />

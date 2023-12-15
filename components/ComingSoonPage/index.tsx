@@ -14,7 +14,7 @@ export const ComingSoon: FC<IIntlLang> = ({ lng }) => {
   return (
     <main className="h-screen w-full flex justify-center items-center">
       <div className=" flex flex-col justify-center items-center gap-10 lg:gap-12">
-        <Logo />
+        <Logo lng={lng} />
 
         <h1 className="text-3xl lg:text-[48px] font-semibold text-primary text-center">
           {t("comingSoon")}

@@ -22,18 +22,18 @@ const Home: FC<IIntlParams> = ({ params: { lng } }) => {
     <main>
       <HeroSection
         mainText={t("heroSection.mainText")}
-        subText={<ConnectDesk text="xl" />}
+        subText={<ConnectDesk lng={lng} text="xl" />}
         paragraph={<CommonText>{t("heroSection.commonText")}</CommonText>}
         image={heroLaptop}
         button1={t("heroSection.buttonOneLevel")}
         button2={t("heroSection.buttonTwoLevel")}
       />
 
-      <AboutHome t={t} />
+      <AboutHome lng={lng} t={t} />
       <PerfectSolution t={t} />
-      <ImportantFeatures t={t} />
+      <ImportantFeatures lng={lng} t={t} />
       <Packages t={t} />
-      <Support t={t} />
+      <Support lng={lng} t={t} />
       <FreeTrial lng={lng} />
     </main>
   );

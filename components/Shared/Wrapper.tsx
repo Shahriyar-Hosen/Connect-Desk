@@ -1,9 +1,9 @@
 "use client";
 
 import { IIntlParams, IWrapper } from "@/Interface";
+import { useTranslation } from "@/app/i18n/client";
 import { FC } from "react";
 import { Footer, Header } from ".";
-import { useTranslation } from "@/app/i18n/client";
 
 export const Wrapper: FC<IWrapper & IIntlParams> = ({
   header,
@@ -17,7 +17,7 @@ export const Wrapper: FC<IWrapper & IIntlParams> = ({
     <main className={className}>
       <Header lng={lng} t={t} className={header ? "hidden" : "block"} />
       {children}
-      <Footer t={t} className={footer ? "hidden" : "block"} />
+      <Footer lng={lng} t={t} className={footer ? "hidden" : "block"} />
     </main>
   );
 };

@@ -38,7 +38,7 @@ const PrivacyPolicy: FC<IIntlParams> = ({ params: { lng } }) => {
           <ComponentHeader
             title={
               <span>
-                <ConnectDesk text="lg" />
+                <ConnectDesk lng={lng} text="lg" />
                 {t("PrivacyPolicy", { ns: "privacy-policy" })}
               </span>
             }

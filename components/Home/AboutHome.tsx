@@ -1,6 +1,7 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { mackbook } from "@/public/assets/images";
 import Image from "next/image";
 import { FC } from "react";
@@ -12,16 +13,15 @@ import {
   Container,
   MainContainer,
 } from "..";
-import { IIntlTranslator } from "@/Interface";
 
-export const AboutHome: FC<IIntlTranslator> = ({ t }) => (
+export const AboutHome: FC<IIntlTranslator & IIntlLang> = ({ t, lng }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         position="center"
         title={
           <span>
-            {t("aboutHome.about")} <ConnectDesk text="xl" />
+            {t("aboutHome.about")} <ConnectDesk lng={lng} text="xl" />
           </span>
         }
         subTitle={t("aboutHome.software")}

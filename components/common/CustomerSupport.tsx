@@ -3,8 +3,10 @@
 import Image from "next/image";
 import { FC } from "react";
 
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { customerSupportData } from "@/public/Data";
 import { supportBg } from "@/public/assets/images";
+import { Trans } from "react-i18next";
 import {
   BackgroundImage,
   CommonText,
@@ -13,10 +15,11 @@ import {
   Container,
   MainContainer,
 } from ".";
-import { IIntlTranslator } from "@/Interface";
-import { Trans } from "react-i18next";
 
-export const CustomerSupport: FC<IIntlTranslator> = ({ t }) => (
+export const CustomerSupport: FC<IIntlTranslator & IIntlLang> = ({
+  t,
+  lng,
+}) => (
   <MainContainer>
     <Container>
       <ComponentHeader
@@ -24,7 +27,7 @@ export const CustomerSupport: FC<IIntlTranslator> = ({ t }) => (
           <>
             <Trans
               i18nKey="customerSupport.title"
-              components={{ ConnectDesk: <ConnectDesk text="lg" /> }}
+              components={{ ConnectDesk: <ConnectDesk lng={lng} text="lg" /> }}
               t={t}
             />
           </>

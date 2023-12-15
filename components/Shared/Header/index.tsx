@@ -19,7 +19,7 @@ export const Header: FC<IClassName & IIntlTranslator & IIntlLang> = ({
 }) => (
   <Container className={twMerge("px-0 pl-2 md:pl-0", className)}>
     <nav className="flex justify-between items-center px-0 md:px-3 lg:px-5 py-2.5">
-      <Logo />
+      <Logo lng={lng} />
 
       <div className="flex justify-center items-center">
         <div className="dropdown dropdown-bottom dropdown-hover hidden lg:block">

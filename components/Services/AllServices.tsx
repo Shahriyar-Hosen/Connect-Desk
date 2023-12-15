@@ -4,14 +4,15 @@ import { servicesData } from "@/public/Data";
 import { FC } from "react";
 import { ComponentHeader, ConnectDesk, Container, MainContainer } from "..";
 import { ServiceCard } from "./ServiceCard";
+import { IIntlLang } from "@/Interface";
 
-export const AllServices: FC = () => (
+export const AllServices: FC<IIntlLang> = ({ lng }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         title={
           <>
-            All Services Of <ConnectDesk text="lg" font="poppins" />
+            All Services Of <ConnectDesk lng={lng} text="lg" font="poppins" />
           </>
         }
       />

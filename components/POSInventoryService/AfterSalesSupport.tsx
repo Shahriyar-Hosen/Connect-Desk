@@ -15,14 +15,17 @@ import {
   ListItem,
   MainContainer,
 } from "..";
-import { IIntlTranslator } from "@/Interface";
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 
-export const AfterSalesSupport: FC<IIntlTranslator> = ({ t }) => (
+export const AfterSalesSupport: FC<IIntlTranslator & IIntlLang> = ({
+  t,
+  lng,
+}) => (
   <MainContainer bg="secondary">
     <Container className="flex flex-col justify-center items-center">
       <ComponentHeader
         title={t("POSSoftware.afterSalesSupport.title", { ns: "services" })}
-        subTitle={<ConnectDesk text="lg" />}
+        subTitle={<ConnectDesk lng={lng} text="lg" />}
       />
 
       <CommonText text="sm" className="text-center max-w-[521px] mx-auto mt-4">
