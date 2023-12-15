@@ -11,6 +11,7 @@ import {
   ComponentHeader,
   ConnectDesk,
   Container,
+  LinkButton,
   MainContainer,
 } from "..";
 
@@ -44,7 +45,9 @@ export const AboutHome: FC<IIntlTranslator & IIntlLang> = ({ t, lng }) => (
             {t("aboutHome.secondPara", { cd: "ConnectDesk" })}
           </CommonText>
           <div className="xl:mt-6">
-            <Button variant="primary">{t("aboutHome.buttonLevel")}</Button>
+            <LinkButton link="/about-us" variant="primary">
+              {t("aboutHome.buttonLevel")}
+            </LinkButton>
           </div>
         </div>
       </div>

@@ -16,18 +16,18 @@
     "title": "Perfect <spanTag>Solution</spanTag> For Your",
     "business": "Business",
     "solutions": {
-      "trackIncomeExpense": "Track all types of Income & Expense",
-      "inventoryTracking": "Inventory Tracking",
-      "realTimeFinancialReport": "Real Time Financial Report",
-      "dynamicDashboard": "Dynamic Dashboard",
-      "dataSecurityBackup": "99.99% Data Security & Backup",
-      "worksMobileDesktop": "Works on Mobile & Desktop",
-      "corporateSupport": "24/7 Corporate Support",
-      "synchronizedOnlineApps": "Synchronized Online & Apps",
-      "simplifiedModuleDesign": "Simplified Module Design",
-      "affordablePrice": "Affordable Price",
-      "accessFromAnywhere": "Access From Anywhere",
-      "userFriendlyInterface": "User-Friendly Interface"
+      "trackIncomeExpense": "Track all types of <br /> Income & Expense",
+      "inventoryTracking": "Inventory <br /> Tracking",
+      "realTimeFinancialReport": "Real Time <br /> Financial Report",
+      "dynamicDashboard": "Dynamic <br /> Dashboard",
+      "dataSecurityBackup": "99.99% Data <br /> Security & Backup",
+      "worksMobileDesktop": "Works on Mobile & <br /> Desktop",
+      "corporateSupport": "24/7 Corporate <br /> Support",
+      "synchronizedOnlineApps": "Synchronized <br /> Online & Apps",
+      "simplifiedModuleDesign": "Simplified Module <br /> Design",
+      "affordablePrice": "Affordable <br /> Price",
+      "accessFromAnywhere": "Access From <br /> Anywhere",
+      "userFriendlyInterface": "User-Friendly <br /> Interface"
     }
   },
   "importantFeatures": {

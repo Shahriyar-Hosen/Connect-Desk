@@ -15,42 +15,55 @@ import {
 
 export const solutions: {
   title: string;
+  des: string;
 }[] = [
   {
     title: "perfectSolution.solutions.trackIncomeExpense",
+    des: "perfectSolution.solutions.trackIncomeExpense",
   },
   {
     title: "perfectSolution.solutions.inventoryTracking",
+    des: "perfectSolution.solutions.inventoryTracking",
   },
   {
     title: "perfectSolution.solutions.realTimeFinancialReport",
+    des: "perfectSolution.solutions.realTimeFinancialReport",
   },
   {
     title: "perfectSolution.solutions.dynamicDashboard",
+    des: "perfectSolution.solutions.dynamicDashboard",
   },
   {
     title: "perfectSolution.solutions.dataSecurityBackup",
+    des: "perfectSolution.solutions.dataSecurityBackup",
   },
   {
     title: "perfectSolution.solutions.worksMobileDesktop",
+    des: "perfectSolution.solutions.worksMobileDesktop",
   },
   {
     title: "perfectSolution.solutions.corporateSupport",
+    des: "perfectSolution.solutions.corporateSupport",
   },
   {
     title: "perfectSolution.solutions.synchronizedOnlineApps",
+    des: "perfectSolution.solutions.synchronizedOnlineApps",
   },
   {
     title: "perfectSolution.solutions.simplifiedModuleDesign",
+    des: "perfectSolution.solutions.simplifiedModuleDesign",
   },
   {
     title: "perfectSolution.solutions.affordablePrice",
+    des: "perfectSolution.solutions.affordablePrice",
   },
   {
     title: "perfectSolution.solutions.accessFromAnywhere",
+    des: "perfectSolution.solutions.accessFromAnywhere",
   },
   {
     title: "perfectSolution.solutions.userFriendlyInterface",
+    des: "perfectSolution.solutions.userFriendlyInterface",
   },
 ];
 
