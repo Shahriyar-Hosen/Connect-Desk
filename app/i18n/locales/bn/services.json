@@ -9,7 +9,7 @@
     "featuresAtAGlanceSubtitle": "<spanTagPrimary>POS</spanTagPrimary> <spanTagSecondary>সফ্টওয়্যার বৈশিষ্ট্য</spanTagSecondary>",
     "GrowRetailFaster": {
       "title": "<cd/> স্মার্ট POS সফ্টওয়্যার দিয়ে আপনার খুচরো",
-      "subTitle": "<spanTagPrimary>বিক্রয় দ্রুত</spanTagPrimary> <spanTagSecondary>বৃদ্ধি করুন</spanTagSecondary>  ",
+      "subTitle": "<spanTagSecondary>বিক্রয় দ্রুত</spanTagSecondary> <spanTagPrimary>বৃদ্ধি করুন</spanTagPrimary>  ",
       "para": "<strong>কানেক্টডেস্ক</strong> POS সফ্টওয়্যার কোনো পূর্বের ব্যবসায়িক জ্ঞান ছাড়াই আপনার খুচরা ব্যবসার অর্থের শীর্ষে থাকতে সাহায্য করে"
     },
     "termCondition": {

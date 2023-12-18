@@ -99,8 +99,8 @@
     }
   },
   "packages": {
-    "title": "  Pricing To <spanTag>Suite</spanTag> All Size",
-    "business": "of <spanTag>Business</spanTag",
+    "title": "  Pricing To <primarySpanTag>Suite</primarySpanTag> All Size",
+    "business": "of <secondarySpanTag>Business</spanTag",
     "features": "Features",
     "purchasePackage": "Purchase Package",
     "packagesData": {

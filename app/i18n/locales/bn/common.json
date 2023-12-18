@@ -99,8 +99,8 @@
     }
   },
   "packages": {
-    "title": "  মূল্য নির্ধারণ <spanTag>করুন</spanTag> সব আকার",
-    "business": "এর <spanTag>ব্যবসার</spanTag",
+    "title": "<secondarySpanTag>সঠিক পরিকল্পনা</secondarySpanTag> চয়ন করুন",
+    "business": "আপনার <primarySpanTag>ব্যবসার</primarySpanTag>",
     "features": "বৈশিষ্ট্যসমূহ",
     "purchasePackage": "প্যাকেজ ক্রয় করুন",
     "packagesData": {
