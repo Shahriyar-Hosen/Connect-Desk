@@ -14,21 +14,20 @@ const Services: FC<IIntlParams> = ({ params: { lng } }) => {
     <main>
       <HeroSection
         mainText={
-          <>
-            <Trans
-              i18nKey="heroMainText"
-              components={{
-                primarySpanTag: <span className="text-primary" />,
-                secondarySpanTag: <span className="text-secondary" />,
-              }}
-              t={t}
-            />
-          </>
+          <Trans
+            i18nKey="heroMainText"
+            components={{
+              primarySpanTag: <span className="text-primary" />,
+              secondarySpanTag: <span className="text-secondary" />,
+            }}
+            t={t}
+          />
         }
         paragraph={<CommonText>{t("heroParagraph")}</CommonText>}
         button2={t("SeeAllServices")}
         image={servicesImg}
         service
+        lng={lng}
       />
       <AllServices lng={lng} t={t} />
     </main>
