@@ -24,13 +24,11 @@ export const CustomerSupport: FC<IIntlTranslator & IIntlLang> = ({
     <Container>
       <ComponentHeader
         title={
-          <>
-            <Trans
-              i18nKey="customerSupport.title"
-              components={{ ConnectDesk: <ConnectDesk lng={lng} text="lg" /> }}
-              t={t}
-            />
-          </>
+          <Trans
+            i18nKey="customerSupport.title"
+            components={{ ConnectDesk: <ConnectDesk lng={lng} text="lg" /> }}
+            t={t}
+          />
         }
         subTitle={t("customerSupport.subTitle")}
       />

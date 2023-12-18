@@ -124,6 +124,9 @@ export const supportMaintenanceData: IList[] = [
   {
     label: "POSSoftware.afterSalesSupport.bugSolution",
   },
+  {
+    label: "POSSoftware.afterSalesSupport.performance",
+  },
 ];
 
 export const supportMaintenanceTraining: IList[] = [

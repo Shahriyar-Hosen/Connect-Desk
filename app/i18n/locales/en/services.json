@@ -1,7 +1,7 @@
 {
   "POSSoftware": {
     "heroMainText": "Perfect POS Software For <spanTagPrimary> Retail </spanTagPrimary> <spanTagSecondary>Business</spanTagSecondary>",
-    "heroPara": "Use POS billing software to oversee all aspects of your retail business. With <strongTag>ConnectDesk</strongTag> POS Software, you can effortlessly manage your retail business' sales, inventory, purchases, customers finances, and more. Create and print expert invoices, take advantage by connect mobile apps to boost your earnings.",
+    "heroPara": "Use POS billing software to oversee all aspects of your retail business. With <strong>ConnectDesk</strong> POS Software, you can effortlessly manage your retail business' sales, inventory, purchases, customers finances, and more. Create and print expert invoices, take advantage by connect mobile apps to boost your earnings.",
     "viewDemo": "View Demo",
     "proposal": "Proposal",
     "POSSoftware": " POS Software",
@@ -32,6 +32,7 @@
       "monthlyBackup": "Monthly Database And Software Backup",
       "securityTest": "Software Security Test",
       "bugSolution": "Ready Software Any Kind Of Bug Solution",
+      "performance": "Software Performance Test",
       "unlimitedSupport": "Unlimited Support Over Phone, Email or Live Chat, Team Viewer",
       "onlineTraining": "Video / Online Training : Free",
       "excludeMaintenance": "Note : After Deliver New Features /  Module Development is not include Maintenance"

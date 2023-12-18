@@ -41,7 +41,7 @@ const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
             <Trans
               i18nKey="POSSoftware.heroPara"
               components={{
-                strongTag: <strong />,
+                strong: <strong />,
               }}
               t={t}
               ns={"services"}

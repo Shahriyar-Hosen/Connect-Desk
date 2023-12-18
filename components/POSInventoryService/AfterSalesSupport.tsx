@@ -1,5 +1,6 @@
 "use client";
 
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import {
   supportMaintenanceData,
   supportMaintenanceTraining,
@@ -7,6 +8,7 @@ import {
 import { afterSalesSupport } from "@/public/assets/images";
 import Image from "next/image";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 import {
   CommonText,
   ComponentHeader,
@@ -15,8 +17,6 @@ import {
   ListItem,
   MainContainer,
 } from "..";
-import { IIntlLang, IIntlTranslator } from "@/Interface";
-import { Trans } from "react-i18next";
 
 export const AfterSalesSupport: FC<IIntlTranslator & IIntlLang> = ({
   t,
@@ -48,16 +48,14 @@ export const AfterSalesSupport: FC<IIntlTranslator & IIntlLang> = ({
       />
 
       <CommonText text="sm" className="text-center max-w-[521px] mx-auto mt-4">
-        {
-          <Trans
-            i18nKey="POSSoftware.afterSalesSupport.para"
-            components={{
-              strong: <strong />,
-            }}
-            t={t}
-            ns={"services"}
-          />
-        }
+        <Trans
+          i18nKey="POSSoftware.afterSalesSupport.para"
+          components={{
+            strong: <strong />,
+          }}
+          t={t}
+          ns={"services"}
+        />
       </CommonText>
 
       <Image
