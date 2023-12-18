@@ -26,11 +26,21 @@ export const CustomerSupport: FC<IIntlTranslator & IIntlLang> = ({
         title={
           <Trans
             i18nKey="customerSupport.title"
-            components={{ ConnectDesk: <ConnectDesk lng={lng} text="lg" /> }}
+            components={{
+              ConnectDesk: <ConnectDesk lng={lng} text="lg" />,
+            }}
             t={t}
           />
         }
-        subTitle={t("customerSupport.subTitle")}
+        subTitle={
+          <Trans
+            i18nKey="customerSupport.subTitle"
+            components={{
+              primary: <span className="text-primary" />,
+            }}
+            t={t}
+          />
+        }
       />
 
       <section className="mt-[60px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5 items-center mx-auto px-5 md:px-0">

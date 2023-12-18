@@ -1,5 +1,8 @@
 "use client";
 
+import { FC } from "react";
+import { Trans } from "react-i18next";
+
 import { IIntlParams } from "@/Interface";
 import { useTranslation } from "@/app/i18n/client";
 import {
@@ -13,11 +16,8 @@ import {
   SoftwareFeatures,
   TermCondition,
 } from "@/components";
-
 import { faqData } from "@/public/Data/faq";
 import { posInventoryService } from "@/public/assets/images";
-import { FC } from "react";
-import { Trans } from "react-i18next";
 
 const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
   const { t } = useTranslation(lng, ["common", "services", "packages"]);
