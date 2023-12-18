@@ -26,17 +26,15 @@ const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
     <main>
       <HeroSection
         mainText={
-          <>
-            <Trans
-              i18nKey="POSSoftware.heroMainText"
-              components={{
-                spanTagPrimary: <span className="text-primary" />,
-                spanTagSecondary: <span className="text-secondary" />,
-              }}
-              t={t}
-              ns={"services"}
-            />
-          </>
+          <Trans
+            i18nKey="POSSoftware.heroMainText"
+            components={{
+              spanTagPrimary: <span className="text-primary" />,
+              spanTagSecondary: <span className="text-secondary" />,
+            }}
+            t={t}
+            ns={"services"}
+          />
         }
         paragraph={
           <CommonText>
@@ -53,6 +51,7 @@ const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
         button1={t("POSSoftware.viewDemo", { ns: "services" })}
         button2={t("POSSoftware.proposal", { ns: "services" })}
         image={posInventoryService}
+        lng={lng}
         pos
       />
 
@@ -66,4 +65,5 @@ const POSInventoryService: FC<IIntlParams> = ({ params: { lng } }) => {
     </main>
   );
 };
+
 export default POSInventoryService;

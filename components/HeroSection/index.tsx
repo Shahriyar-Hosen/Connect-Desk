@@ -27,6 +27,7 @@ export const HeroSection: FC<IHeroSection> = ({
         button1={button1}
         button2={button2}
         service={service}
+        pos={pos}
         lng={lng}
       />
 

@@ -159,6 +159,7 @@ export interface IHeroLeft {
   button1?: string;
   button2?: string;
   service?: boolean;
+  pos?: boolean;
   lng?: string;
 }
 

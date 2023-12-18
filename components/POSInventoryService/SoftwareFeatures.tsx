@@ -1,15 +1,15 @@
 "use client";
 
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 import {
-  AllFeatures,
   ComponentHeader,
   ConnectDesk,
   Container,
+  InventoryServices,
   MainContainer,
 } from "..";
-import { IIntlLang, IIntlTranslator } from "@/Interface";
-import { Trans } from "react-i18next";
 
 export const SoftwareFeatures: FC<IIntlTranslator & IIntlLang> = ({
   t,
@@ -19,16 +19,14 @@ export const SoftwareFeatures: FC<IIntlTranslator & IIntlLang> = ({
     <Container>
       <ComponentHeader
         title={
-          <>
-            <Trans
-              i18nKey="POSSoftware.featuresAtAGlanceTitle"
-              components={{
-                CDLogo: <ConnectDesk lng={lng} text="xl" />,
-              }}
-              t={t}
-              ns={"services"}
-            />
-          </>
+          <Trans
+            i18nKey="POSSoftware.featuresAtAGlanceTitle"
+            components={{
+              CDLogo: <ConnectDesk lng={lng} text="xl" />,
+            }}
+            t={t}
+            ns={"services"}
+          />
         }
         subTitle={
           <Trans
@@ -43,7 +41,7 @@ export const SoftwareFeatures: FC<IIntlTranslator & IIntlLang> = ({
         }
       />
 
-      <AllFeatures lng={lng} />
+      <InventoryServices />
     </Container>
   </MainContainer>
 );
