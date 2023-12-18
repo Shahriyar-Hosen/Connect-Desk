@@ -21,63 +21,63 @@ import { email, phoneLg, whatsApp } from "../assets/icon";
 export const posInventoryServicesData: ILabelAndIcon[] = [
   {
     icon: receipt,
-    label: "Quick Billing Invoice",
+    label: "posInventoryServicesData.QuickBillingInvoice",
   },
   {
     icon: invoices,
-    label: "Product Stock Report",
+    label: "posInventoryServicesData.ProductStockReport",
   },
   {
     icon: invoice,
-    label: "Daily Paid and Due Sales Report",
+    label: "posInventoryServicesData.DailyPaidandDueSalesReport",
   },
   {
     icon: accountingBook,
-    label: "Product Purchase Report Date Wise",
+    label: "posInventoryServicesData.ProductPurchaseReportDateWise",
   },
   {
     icon: bill,
-    label: "Expense  List Report",
+    label: "posInventoryServicesData.ExpenseListReport",
   },
   {
     icon: parcel,
-    label: "Product Return by Customer",
+    label: "posInventoryServicesData.ProductReturnbyCustomer",
   },
   {
     icon: report,
-    label: "Daily Sales Profit Loss Report",
+    label: "posInventoryServicesData.DailySalesProfitLossReport",
   },
   {
     icon: sms,
-    label: "Daily Reports Via Mobile SMS",
+    label: "posInventoryServicesData.DailyReportsViaMobileSMS",
   },
   {
     icon: bank,
-    label: "Bank Transaction List & Report",
+    label: "posInventoryServicesData.BankTransactionListReport",
   },
   {
     icon: calculator,
-    label: "Customer and Supplier Ledger",
+    label: "posInventoryServicesData.CustomerandSupplierLedger",
   },
   {
     icon: printer,
-    label: "Report Printing",
+    label: "posInventoryServicesData.ReportPrinting",
   },
   {
     icon: barcode,
-    label: "Auto Barcode Generator",
+    label: "posInventoryServicesData.AutoBarcodeGenerator",
   },
   {
     icon: data,
-    label: "Daily Auto & Manual Backup",
+    label: "posInventoryServicesData.DailyAutoManualBackup",
   },
   {
     icon: scanning,
-    label: "Barcode Scanner for Easy Trannsaction",
+    label: "posInventoryServicesData.BarcodeScannerforEasyTrannsaction",
   },
   {
     icon: videoTutorial,
-    label: "Training for User Manual",
+    label: "posInventoryServicesData.TrainingforUserManual",
   },
 ];
 

@@ -56,5 +56,22 @@
     "HRPayrollSoftware": "এইচআর পেরোল সফটওয়্যার",
     "HRPayrollSoftwareDes": "জনপ্রিয় বিশ্বাসের বিপরীতে, লর ইপসাম কেবল এলোমেলো পাঠ্য নয়। এটি একটি টুকরা মধ্যে শিকড় আছে."
   },
-  "LearnMore": "আরও জানুন"
+  "LearnMore": "আরও জানুন",
+  "posInventoryServicesData": {
+    "QuickBillingInvoice": "দ্রুত বিলিং চালান",
+    "ProductStockReport": "পণ্য স্টক রিপোর্ট",
+    "DailyPaidandDueSalesReport": "দৈনিক পরিশোধিত এবং বকেয়া বিক্রয় প্রতিবেদন",
+    "ProductPurchaseReportDateWise": "পণ্য ক্রয় রিপোর্ট তারিখ অনুযায়ী",
+    "ExpenseListReport": "ব্যয় তালিকা প্রতিবেদন",
+    "ProductReturnbyCustomer": "গ্রাহক দ্বারা পণ্য ফেরত",
+    "DailySalesProfitLossReport": "দৈনিক বিক্রয় লাভ ক্ষতি রিপোর্ট",
+    "DailyReportsViaMobileSMS": "মোবাইল এসএমএসের মাধ্যমে দৈনিক প্রতিবেদন",
+    "BankTransactionListReport": "ব্যাংক লেনদেনের তালিকা এবং প্রতিবেদন",
+    "CustomerandSupplierLedger": "গ্রাহক এবং সরবরাহকারী খাতা",
+    "ReportPrinting": "রিপোর্ট মুদ্রণ",
+    "AutoBarcodeGenerator": "অটো বারকোড জেনারেটর",
+    "DailyAutoManualBackup": "দৈনিক অটো এবং ম্যানুয়াল ব্যাকআপ",
+    "BarcodeScannerforEasyTrannsaction": "সহজ লেনদেনের জন্য বারকোড স্ক্যানার",
+    "TrainingforUserManual": "ব্যবহারকারীর জন্য প্রশিক্ষণ"
+  }
 }
