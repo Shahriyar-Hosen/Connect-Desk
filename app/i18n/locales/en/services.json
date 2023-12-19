@@ -56,5 +56,22 @@
     "HRPayrollSoftware": "HR Payroll Software",
     "HRPayrollSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece."
   },
-  "LearnMore": "Learn More"
+  "LearnMore": "Learn More",
+  "posInventoryServicesData": {
+    "QuickBillingInvoice": "Quick Billing Invoice",
+    "ProductStockReport": "Product Stock Report",
+    "DailyPaidandDueSalesReport": "Daily Paid and Due Sales Report",
+    "ProductPurchaseReportDateWise": "Product Purchase Report Date Wise",
+    "ExpenseListReport": "Expense  List Report",
+    "ProductReturnbyCustomer": "Product Return by Customer",
+    "DailySalesProfitLossReport": "Daily Sales Profit Loss Report",
+    "DailyReportsViaMobileSMS": "Daily Reports Via Mobile SMS",
+    "BankTransactionListReport": "Bank Transaction List & Report",
+    "CustomerandSupplierLedger": "Customer and Supplier Ledger",
+    "ReportPrinting": "Report Printing",
+    "AutoBarcodeGenerator": "Auto Barcode Generator",
+    "DailyAutoManualBackup": "Daily Auto & Manual Backup",
+    "BarcodeScannerforEasyTrannsaction": "Barcode Scanner for Easy Trannsaction",
+    "TrainingforUserManual": "Training for User Manual"
+  }
 }

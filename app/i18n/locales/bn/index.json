@@ -54,8 +54,8 @@
     }
   },
   "packages": {
-    "title": "ব্যবসায়ের ধরন অনুযায়ী <spanTag>প্যাকেজ</spanTag>",
-    "business": "<spanTag>নির্বাচন</spanTag> করুন",
+    "title": "ব্যবসায়ের ধরন অনুযায়ী <primarySpanTag>প্যাকেজ</primarySpanTag>",
+    "business": "<secondarySpanTag>নির্বাচন</secondarySpanTag> করুন",
     "features": "বৈশিষ্ট্যসমূহ",
     "purchasePackage": "প্যাকেজ ক্রয় করুন",
     "packagesData": {

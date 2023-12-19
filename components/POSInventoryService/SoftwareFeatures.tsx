@@ -41,7 +41,7 @@ export const SoftwareFeatures: FC<IIntlTranslator & IIntlLang> = ({
         }
       />
 
-      <InventoryServices />
+      <InventoryServices t={t} />
     </Container>
   </MainContainer>
 );
