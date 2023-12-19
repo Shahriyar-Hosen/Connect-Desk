@@ -6,46 +6,40 @@ import { profile } from "@/public/assets/icon";
 import Image from "next/image";
 import { FC } from "react";
 
-export const LoginAndSign: FC<IIntlTranslator & { mobile?: boolean }> = ({
-  t,
-  mobile,
-}) => {
-  if (mobile) {
-    return (
-      <div className="flex gap-2 md:hidden">
-        <LinkButton link="/login" variant="secondary" size="sm">
-          <div className="flex gap-2">
-            <Image src={profile} alt="" />
-            <div className="h-[20px] w-[2px] bg-primary" />
-            {t("header.login")}
-          </div>
-        </LinkButton>
+export interface IMobile {
+  mobile?: boolean;
+}
 
-        <LinkButton
-          link="/register"
-          size="sm"
-          variant="primary"
-          className="px-5 py-2"
-        >
-          {t("header.signUp")}
-        </LinkButton>
+export const LoginAndSign: FC<IIntlTranslator & IMobile> = ({ t, mobile }) => {
+  const Login: FC = () => (
+    <LinkButton link="/login" variant="secondary" size="sm">
+      <div className="flex gap-2">
+        <Image src={profile} alt="" />
+        <div className="h-[20px] w-[2px] bg-primary" />
+        {t("header.login")}
       </div>
-    );
-  }
+    </LinkButton>
+  );
+  const SignUp: FC<IMobile> = ({ mobile }) => (
+    <LinkButton
+      link="/register"
+      size="sm"
+      variant="primary"
+      className={mobile ? "px-5 py-2" : ""}
+    >
+      {t("header.signUp")}
+    </LinkButton>
+  );
 
-  return (
+  return mobile ? (
+    <div className="flex gap-2 md:hidden">
+      <Login />
+      <SignUp mobile />
+    </div>
+  ) : (
     <div className="hidden md:flex w-fit gap-2">
-      <LinkButton link="/login" variant="secondary" size="sm">
-        <div className="flex gap-2">
-          <Image src={profile} alt="" />
-          <div className="h-[20px] w-[2px] bg-primary" />
-          {t("header.login")}
-        </div>
-      </LinkButton>
-
-      <LinkButton link="/register" size="sm" variant="primary">
-        {t("header.signUp")}
-      </LinkButton>
+      <Login />
+      <SignUp />
     </div>
   );
 };
