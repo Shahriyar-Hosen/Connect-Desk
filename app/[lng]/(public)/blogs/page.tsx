@@ -1,11 +1,12 @@
+import { IIntlParams } from "@/Interface";
+import { useTranslation } from "@/app/i18n";
 import { Blog, PageHeader } from "@/components";
 import { blogsData } from "@/public/Data/blogPage";
-import { useTranslation } from "@/app/i18n";
 import { FC } from "react";
-import { IIntlParams } from "@/Interface";
 
 const BlogsPage: FC<IIntlParams> = async ({ params: { lng } }) => {
   const { t } = await useTranslation(lng, "blogs");
+
   return (
     <main>
       <PageHeader
