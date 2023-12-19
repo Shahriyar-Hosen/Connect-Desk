@@ -1,11 +1,14 @@
-import { Blog, PageHeader } from "@/components";
-import { blogsData } from "@/public/Data/blogPage";
-import { useTranslation } from "@/app/i18n";
-import { FC } from "react";
-import { IIntlParams } from "@/Interface";
+"use client";
 
-const BlogsPage: FC<IIntlParams> = async ({ params: { lng } }) => {
-  const { t } = await useTranslation(lng, "blogs");
+import { IIntlParams } from "@/Interface";
+import { useTranslation } from "@/app/i18n/client";
+import { Blog, PageHeader, Pagination } from "@/components";
+import { blogsData } from "@/public/Data/blogPage";
+import { FC } from "react";
+
+const BlogsPage: FC<IIntlParams> = ({ params: { lng } }) => {
+  const { t } = useTranslation(lng, "blogs");
+
   return (
     <main>
       <PageHeader
@@ -18,6 +21,7 @@ const BlogsPage: FC<IIntlParams> = async ({ params: { lng } }) => {
           <Blog key={blog.id} {...blog} lng={lng} />
         ))}
       </div>
+      <Pagination />
     </main>
   );
 };

@@ -1,17 +1,17 @@
+import { useTranslation } from "@/app/i18n/client";
 import { hardwareData } from "@/public/Data/hardwareData";
+import { FC } from "react";
 import { ComponentHeader } from "..";
 import { HardwareCard } from "./HardwareCard";
-import { IIntlLang } from "@/Interface";
-import { FC } from "react";
-import { useTranslation } from "@/app/i18n/client";
 
-interface IProps {
+interface IHardwareDiv {
   title: string;
   lng: string;
 }
 
-export const HardwareDiv: FC<IProps> = ({ lng, title }) => {
+export const HardwareDiv: FC<IHardwareDiv> = ({ lng, title }) => {
   const { t } = useTranslation(lng, "hardware");
+
   return (
     <div className="my-16">
       <ComponentHeader title={<span>{t(title, { ns: "hardware" })}</span>} />
