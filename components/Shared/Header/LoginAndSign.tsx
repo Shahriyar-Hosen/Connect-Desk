@@ -6,36 +6,46 @@ import { profile } from "@/public/assets/icon";
 import Image from "next/image";
 import { FC } from "react";
 
-export const LoginAndSign: FC<IIntlTranslator> = ({ t }) => (
-  <div className="hidden md:flex w-fit gap-2">
-    <LinkButton link="/login" variant="secondary" size="sm">
-      <div className="flex gap-2">
-        <Image src={profile} alt="" />
-        <div className="h-[20px] w-[2px] bg-primary" />
-        {t("header.login")}
-      </div>
-    </LinkButton>
+export const LoginAndSign: FC<IIntlTranslator & { mobile?: boolean }> = ({
+  t,
+  mobile,
+}) => {
+  if (mobile) {
+    return (
+      <div className="flex gap-2 md:hidden">
+        <LinkButton link="/login" variant="secondary" size="sm">
+          <div className="flex gap-2">
+            <Image src={profile} alt="" />
+            <div className="h-[20px] w-[2px] bg-primary" />
+            {t("header.login")}
+          </div>
+        </LinkButton>
 
-    <LinkButton link="/register" size="sm" variant="primary">
-      {t("header.signUp")}
-    </LinkButton>
-  </div>
-);
-
-export const MobileLoginAndSignUpButton: FC<IIntlTranslator> = ({ t }) => (
-  <div className="flex gap-2 md:hidden">
-    <LinkButton link="/" variant="secondary" size="sm">
-      <div className="flex gap-2">
-        <Image src={profile} alt="" />
-        <div className="h-[20px] w-[2px] bg-primary"></div>
-        {t("header.login")}
+        <LinkButton
+          link="/register"
+          size="sm"
+          variant="primary"
+          className="px-5 py-2"
+        >
+          {t("header.signUp")}
+        </LinkButton>
       </div>
-    </LinkButton>
+    );
+  }
 
-    <LinkButton link="/" size="sm" variant="primary">
-      <div className="flex px-3">
-        <div>{t("header.signUp")}</div>
-      </div>
-    </LinkButton>
-  </div>
-);
+  return (
+    <div className="hidden md:flex w-fit gap-2">
+      <LinkButton link="/login" variant="secondary" size="sm">
+        <div className="flex gap-2">
+          <Image src={profile} alt="" />
+          <div className="h-[20px] w-[2px] bg-primary" />
+          {t("header.login")}
+        </div>
+      </LinkButton>
+
+      <LinkButton link="/register" size="sm" variant="primary">
+        {t("header.signUp")}
+      </LinkButton>
+    </div>
+  );
+};

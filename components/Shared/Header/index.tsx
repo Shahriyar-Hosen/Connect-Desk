@@ -4,12 +4,7 @@ import { IClassName, IIntlLang, IIntlTranslator } from "@/Interface";
 import { Container, Logo } from "@/components";
 import { FC } from "react";
 import { twMerge } from "tailwind-merge";
-import {
-  LoginAndSign,
-  MenuItems,
-  MobileLoginAndSignUpButton,
-  MobileMenuItems,
-} from ".";
+import { LoginAndSign, MenuItems, MobileMenuItems } from ".";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export const Header: FC<IClassName & IIntlTranslator & IIntlLang> = ({
@@ -52,7 +47,7 @@ export const Header: FC<IClassName & IIntlTranslator & IIntlLang> = ({
             className="menu menu-compact dropdown-content mt-3 p-2 shadow-md bg-white absolute z-[100] rounded-md w-52"
           >
             <MobileMenuItems t={t} />
-            <MobileLoginAndSignUpButton t={t} />
+            <LoginAndSign t={t} mobile />
           </ul>
         </div>
       </div>
