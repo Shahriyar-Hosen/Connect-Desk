@@ -3,22 +3,16 @@
 import { IDashboardSidebarItem } from "@/Interface";
 import { dashboardSidebarItem } from "@/public/Data";
 import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
+import { FC, useState } from "react";
 import { Logo } from "..";
 
-export const Sidebar = () => {
-  // const { sideBarOpen, setSideBarOpen } = useContext(GlobalContext);
+export const Sidebar: FC = () => {
   const [sideBarOpen, setSideBarOpen] = useState(true);
-  // const {status} = useSession()
 
   const pathName = usePathname();
   const router = useRouter();
 
-  const handlenavigate = (getMenuItem: IDashboardSidebarItem) => {
-    // if (status === "unauthenticated") {
-    //   router.push("/unauth-page");
-    //   return;
-    // }
+  const handleNavigate = (getMenuItem: IDashboardSidebarItem) => {
     router.push(getMenuItem.path);
   };
 
@@ -38,7 +32,7 @@ export const Sidebar = () => {
               {dashboardSidebarItem.map((menuItem) => (
                 <li key={menuItem.id}>
                   <label
-                    onClick={() => handlenavigate(menuItem)}
+                    onClick={() => handleNavigate(menuItem)}
                     className={`group relative cursor-pointer flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-accent hover:bg-opacity-30 
                              ${
                                (pathName.split("/").length <= 2

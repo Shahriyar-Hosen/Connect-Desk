@@ -1,12 +1,40 @@
-import { NextRequest, NextResponse } from "next/server";
 import acceptLanguage from "accept-language";
-import { fallbackLng, languages, cookieName } from "./app/i18n/settings";
+import { NextRequest, NextResponse } from "next/server";
+import { cookieName, fallbackLng, languages } from "./app/i18n/settings";
+// Without a defined matcher, this one line applies next-auth
+// to the entire project
+export { default } from "next-auth/middleware";
+
+// Applies next-auth only to matching routes - can be regex
+// Ref: https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
+export const config = {
+  matcher: [
+    "/dashboard",
+    "/dashboard/category",
+    "/dashboard/contact-us",
+    "/dashboard/faq",
+    "/dashboard/founder-message",
+    "/dashboard/packages",
+    "/dashboard/products",
+    "/dashboard/sub-category",
+    "/dashboard/video-tutorial",
+    "/dashboard/category/add-new",
+    "/dashboard/contact-us/add-new",
+    "/dashboard/faq/add-new",
+    "/dashboard/founder-message/add-new",
+    "/dashboard/packages/add-new",
+    "/dashboard/products/add-new",
+    "/dashboard/sub-category/add-new",
+    "/dashboard/video-tutorial/add-new",
+    "/((?!api|_next/image|assets|favicon.ico|sw.js).*)",
+  ],
+};
 
 acceptLanguage.languages(languages);
 
-export const config = {
-  matcher: ["/((?!api|_next/image|assets|favicon.ico|sw.js).*)"],
-};
+// export const config = {
+//   matcher: ["/((?!api|_next/image|assets|favicon.ico|sw.js).*)"],
+// };
 
 export function middleware(req: NextRequest) {
   let lng;

@@ -1,5 +1,6 @@
 import { IChildren } from "@/Interface";
 import { Navbar, Sidebar } from "@/components/Dashboard";
+import { AuthProvider } from "@/components/Shared";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,16 +9,18 @@ export const metadata: Metadata = {
 };
 
 const DashboardLayout = ({ children }: IChildren) => (
-  <div className="flex h-screen overflow-hidden">
-    <Sidebar />
+  <AuthProvider>
+    <div className="flex h-screen overflow-hidden">
+      <Sidebar />
 
-    <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
-      <Navbar />
-      <main>
-        <div className="max-w-[1440px] p-4 md:p-6 2xl:p-10">{children}</div>
-      </main>
+      <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
+        <Navbar />
+        <main>
+          <div className="max-w-[1440px] p-4 md:p-6 2xl:p-10">{children}</div>
+        </main>
+      </div>
     </div>
-  </div>
+  </AuthProvider>
 );
 
 export default DashboardLayout;
