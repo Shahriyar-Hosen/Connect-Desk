@@ -15,4 +15,5 @@ export * from "./ListItem";
 export * from "./Logo";
 export * from "./MainContainer";
 export * from "./Packages";
+export * from "./Pagination";
 export * from "./Video";
