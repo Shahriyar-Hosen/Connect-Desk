@@ -12,8 +12,8 @@ export const HardwareCard: FC<IHardwareData & IIntlTranslator> = ({
   name,
   t,
 }) => (
-  <div className="lg:flex gap-4 border rounded-md shadow-md">
-    <div className="w-full flex justify-center ">
+  <div className="lg:flex gap-4 border-[6px] hover:border-[#C0C0C066]  rounded-md shadow-md  hover:bg-primary hover:text-white transition-all delay-100 cursor-pointer">
+    <div className="w-full flex justify-center">
       <Image className="lg:w-full" src={image} alt={category} />
     </div>
     <div className="p-4">
