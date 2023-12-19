@@ -1,15 +1,19 @@
 "use client";
 
-import { ISingleFAQ } from "@/Interface";
+import { IIntlTranslator, ISingleFAQ } from "@/Interface";
 import { FC } from "react";
 import Collapsible from "react-collapsible";
 import { FaqTittle } from "./FaqTittle";
 
-export const SingleFAQ: FC<ISingleFAQ> = ({ answer, question }) => (
+export const SingleFAQ: FC<ISingleFAQ & IIntlTranslator> = ({
+  answer,
+  question,
+  t,
+}) => (
   <Collapsible
-    trigger={<FaqTittle q={question} />}
-    triggerWhenOpen={<FaqTittle q={question} open />}
+    trigger={<FaqTittle q={t(question)} />}
+    triggerWhenOpen={<FaqTittle q={t(question)} open />}
   >
-    <p className="text-sm lg:text-base pb-5">{answer}</p>
+    <p className="text-sm lg:text-base pb-5">{t(answer)}</p>
   </Collapsible>
 );

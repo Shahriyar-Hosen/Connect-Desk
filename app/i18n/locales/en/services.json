@@ -1,0 +1,77 @@
+{
+  "POSSoftware": {
+    "heroMainText": "Perfect POS Software For <spanTagPrimary> Retail </spanTagPrimary> <spanTagSecondary>Business</spanTagSecondary>",
+    "heroPara": "Use POS billing software to oversee all aspects of your retail business. With <strong>ConnectDesk</strong> POS Software, you can effortlessly manage your retail business' sales, inventory, purchases, customers finances, and more. Create and print expert invoices, take advantage by connect mobile apps to boost your earnings.",
+    "viewDemo": "View Demo",
+    "proposal": "Proposal",
+    "POSSoftware": " POS Software",
+    "featuresAtAGlanceTitle": "<CDLogo/> POS Software",
+    "featuresAtAGlanceSubtitle": "Features At A Glance",
+    "GrowRetailFaster": {
+      "title": "Grow Your Retail Faster With Smart POS Software",
+      "subTitle": "From <cd>",
+      "para": "ConnectDesk POS Software Helps Stay On Top Of Your Retail Business Finances Without Any Prior Business Knowledge"
+    },
+    "termCondition": {
+      "title": "Term & Condition",
+      "para": "<strong>ConnectDesk</strong> Accounting Software Helps Stay On Top Of Your Business Finances Without Accounting Knowledge",
+      "afterSendingPayment": "After Sending Payment Please Confirm By Email/SMS/Phone Call",
+      "setupAndTraining": "50% Due payment For Ready Software Setup And Training With Same Day",
+      "workOrderConfirmation": "50% Advance Payment For Work Order Confirmation.",
+      "paymentByBank": "If Sending Payment By Bank Please Send Account Number For Confirmation",
+      "mobileBanking": "If Sending Payment By Mobile Banking Please Send Transaction ID With Account",
+      "yearlyServiceCharge": "Yearly Service Charge 2000 Taka (This Charge Added After 1 Year Installation Day)",
+      "onlineSupportTime": "Online Support Time Sunday-Thursday (10 Am to 6 Pm) Free By ( TeamViewer/Anydesk)."
+    },
+    "afterSalesSupport": {
+      "title": "After Sales Support From",
+      "subTitle": "<cd/>",
+      "para": "<strong>ConnectDesk</strong> Accounting Software Helps Stay On Top Of Your Business Finances Without Accounting Knowledge",
+      "maintenance": "Maintenance",
+      "maintenanceService": "We Provide Maintenance Service After Deliver",
+      "monthlyBackup": "Monthly Database And Software Backup",
+      "securityTest": "Software Security Test",
+      "bugSolution": "Ready Software Any Kind Of Bug Solution",
+      "performance": "Software Performance Test",
+      "unlimitedSupport": "Unlimited Support Over Phone, Email or Live Chat, Team Viewer",
+      "onlineTraining": "Video / Online Training : Free",
+      "excludeMaintenance": "Note : After Deliver New Features /  Module Development is not include Maintenance"
+    }
+  },
+  "heroMainText": "Software That We Are Serving Will Aid in <primarySpanTag> Business </primarySpanTag> <secondarySpanTag>Management</secondarySpanTag>",
+  "heroParagraph": "ConnectDesk App is a simple, Easy-to-use accounting Inventory app for small and medium businesses. Its simple user interface allows you to send invoices, bills & quotations, Track Expenses & receipts, manage inventory, view daily transaction books, view & send various financial reports and much more.",
+  "SeeAllServices": "See All Services",
+  "AllServicesOfCD": "All Services Of <ConnectDeskLogo/>",
+  "servicesData": {
+    "AccountingSoftware": "Accounting Software",
+    "AccountingSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "InventorySoftware": "Inventory Software",
+    "InventorySoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "POSSoftware": "POS Software",
+    "POSSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "ERPSoftware": "ERP Software",
+    "ERPSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "ECommerce": "E-Commerce",
+    "ECommerceDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece.",
+    "HRPayrollSoftware": "HR Payroll Software",
+    "HRPayrollSoftwareDes": "Contrary to popular belief, Lore Ipsum is not simply random text. It has roots in a piece."
+  },
+  "LearnMore": "Learn More",
+  "posInventoryServicesData": {
+    "QuickBillingInvoice": "Quick Billing Invoice",
+    "ProductStockReport": "Product Stock Report",
+    "DailyPaidandDueSalesReport": "Daily Paid and Due Sales Report",
+    "ProductPurchaseReportDateWise": "Product Purchase Report Date Wise",
+    "ExpenseListReport": "Expense  List Report",
+    "ProductReturnbyCustomer": "Product Return by Customer",
+    "DailySalesProfitLossReport": "Daily Sales Profit Loss Report",
+    "DailyReportsViaMobileSMS": "Daily Reports Via Mobile SMS",
+    "BankTransactionListReport": "Bank Transaction List & Report",
+    "CustomerandSupplierLedger": "Customer and Supplier Ledger",
+    "ReportPrinting": "Report Printing",
+    "AutoBarcodeGenerator": "Auto Barcode Generator",
+    "DailyAutoManualBackup": "Daily Auto & Manual Backup",
+    "BarcodeScannerforEasyTrannsaction": "Barcode Scanner for Easy Trannsaction",
+    "TrainingforUserManual": "Training for User Manual"
+  }
+}

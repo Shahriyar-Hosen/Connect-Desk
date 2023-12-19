@@ -1,0 +1,24 @@
+{
+  "pageTitle": "About <spanTag>Us</spanTag>",
+  "pageName": "About Us",
+  "whoWeAre": {
+    "title": "About Our <spanTag>Company</spanTag>",
+    "subText": "{{cd}} is a software development company. The company works with business solutions for SME traders.",
+    "whoWeAre": " Who We Are",
+    "aboutPara": "{{cd}} is a fast growing software manufacturing company in Bangladesh providing software and solutions to SMEs, NGO’s, government agencies, and private companies. Our team is highly experienced in developing Web Applications and business software solutions like POS systems, inventory management, accounting, ERP, E-commerce, custom solutions, etc. We build software to grow our clients’ businesses."
+  },
+  "counter": {
+    "clientSatisfaction": "Client Satisfaction",
+    "expertSupportTeam": "Expert Support Team",
+    "salesCount": "Sales Count",
+    "clientWorldwide": "Client Worldwide"
+  },
+  "missionVision": {
+    "ourMission": "Our Mission",
+    "ourMissionDes": "Our Mission is to achieve the reputation of quality, high standards and a reliable solution provider in the ICT industry.",
+    "ourVision": "Our Vision",
+    "ourVisionDes": "Our vision is to achieve 100% customer satisfaction by delivering quality products and services at an affordable cost.",
+    "value": "Value",
+    "valueDes": "We give 100% value to our customer satisfaction by delivering quality products and services at an affordable cost."
+  }
+}

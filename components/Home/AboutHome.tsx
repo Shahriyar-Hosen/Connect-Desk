@@ -1,29 +1,31 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 import { mackbook } from "@/public/assets/images";
 import Image from "next/image";
 import { FC } from "react";
+import { Trans } from "react-i18next";
 import {
-  Button,
   CommonText,
   ComponentHeader,
   ConnectDesk,
   Container,
+  LinkButton,
   MainContainer,
 } from "..";
 
-export const AboutHome: FC = () => (
+export const AboutHome: FC<IIntlTranslator & IIntlLang> = ({ t, lng }) => (
   <MainContainer>
     <Container>
       <ComponentHeader
         position="center"
         title={
           <span>
-            About <ConnectDesk text="xl" />
+            {t("aboutHome.about")} <ConnectDesk lng={lng} text="xl" />
           </span>
         }
-        subTitle="Software"
+        subTitle={t("aboutHome.software")}
       />
 
       <div className="w-full md:w-[95%] xl:w-full mx-auto flex flex-col lg:flex-row justify-center items-center gap-[5%] mt-6 lg:mt-0">
@@ -37,17 +39,23 @@ export const AboutHome: FC = () => (
 
         <div className="w-[90%] lg:max-w-[500px] flex flex-col justify-start items-start gap-4 mt-6 xl:mt-0">
           <CommonText>
-            Using the ConnectDesk, you can manage your company's sales and
-            marketing modules. ConnectDesk software automates tasks including
-            client sales, manage inventory, and distribution activities.
+            <Trans
+              i18nKey="aboutHome.firstPara"
+              components={{ strong: <strong /> }}
+              t={t}
+            />
           </CommonText>
           <CommonText>
-            ConnectDesk software not only assists you in managing your business
-            but also keeps track of your inventory and personnel. It also
-            features an extensive account management system.
+            <Trans
+              i18nKey="aboutHome.secondPara"
+              components={{ strong: <strong /> }}
+              t={t}
+            />
           </CommonText>
           <div className="xl:mt-6">
-            <Button variant="primary">Learn More</Button>
+            <LinkButton link="/about-us" variant="primary">
+              {t("aboutHome.buttonLevel")}
+            </LinkButton>
           </div>
         </div>
       </div>

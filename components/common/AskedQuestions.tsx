@@ -1,15 +1,19 @@
 "use client";
 
-import { IFAQ } from "@/Interface";
+import { IFAQ, IIntlTranslator } from "@/Interface";
 import { FC } from "react";
 import { ComponentHeader, Container, MainContainer } from ".";
 import { FAQs } from "..";
 
-export const AskedQuestions: FC<IFAQ> = ({ data, limit }) => (
+export const AskedQuestions: FC<IFAQ & IIntlTranslator> = ({
+  data,
+  limit,
+  t,
+}) => (
   <MainContainer>
     <Container>
-      <ComponentHeader title="Frequently Asked Questions" />
-      <FAQs data={data} limit={limit} />
+      <ComponentHeader title={t("askedQuestions.title")} />
+      <FAQs data={data} limit={limit} t={t} />
     </Container>
   </MainContainer>
 );

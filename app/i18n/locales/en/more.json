@@ -1,0 +1,20 @@
+{
+  "faq": {
+    "pageName": "Q&A",
+    "mainTitle": "Frequently Asked",
+    "questions": "Questions"
+  },
+  "messageFromFounder": {
+    "pageName": "Message From Founder",
+    "mainTitle": "Message From <spanTag>Founder</spanTag>",
+    "messageFromFounder": "Message From Founder",
+    "messageParaOne": "I am delighted to welcome you to <strongTag>{{cd}}</strongTag>,and I appreciate your interest in our company. At <strongTag>{{cd}}</strongTag>, our mission is to provide innovative solutions that exceed our customers’ expectations while delivering outstanding customer service.",
+    "messageParaTwo": "We take pride in our comprehensive range of services,including software development, web design, e-commerce solutions, digital marketing, and more. Our team of skilled and experienced professionals is committed to delivering high-quality products and services that are tailored to meet your specific needs.",
+    "messageParaThree": "Thank you for considering <strongTag>{{cd}}</strongTag> for your technology needs. Please don’t hesitate to contact us if you have any questions or if you would like to discuss how we can assist you."
+  },
+  "termsAndCondition": {
+    "pageName": "Terms And Conditions",
+    "mainTitle": "Terms And <spanTag>Conditions</spanTag>",
+    "conditionsForUsingSoftware": ""
+  }
+}

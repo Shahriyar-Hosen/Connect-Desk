@@ -5,8 +5,9 @@ import { FC, useCallback, useRef, useState } from "react";
 import { useClickOutSide } from "@/hooks";
 import { navItems } from "@/public/Data";
 import { DropdownMenu, MenuItem } from ".";
+import { IIntlTranslator } from "@/Interface";
 
-export const MobileMenuItems: FC = () => {
+export const MobileMenuItems: FC<IIntlTranslator> = ({ t }) => {
   const [open, setOpen] = useState("");
   const [openMenu, setOpenMenu] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -32,10 +33,11 @@ export const MobileMenuItems: FC = () => {
           handleDropdownHover={() => {}}
           isMobile
           open=""
+          t={t}
         >
           {open === label && option && (
             <div className="dropdown dropdown-bottom lg:hidden" ref={menuRef}>
-              <DropdownMenu option={option} setOpen={setOpen} />
+              <DropdownMenu t={t} option={option} setOpen={setOpen} />
             </div>
           )}
         </MenuItem>

@@ -14,6 +14,10 @@ export interface IClassName {
 export interface IChildren {
   children: ReactNode;
 }
+export interface IChildrenWithIntl {
+  children: ReactNode;
+  params: { lng: string };
+}
 
 export interface IChildrenWithClass extends IChildren {
   children: ReactNode;
@@ -59,6 +63,11 @@ export interface IVideo extends IClassName {
 
 export interface ILinkedList {
   link: string;
+  label: string;
+}
+
+export interface ILabelIcon {
+  icon: StaticImageData;
   label: string;
 }
 
@@ -150,6 +159,8 @@ export interface IHeroLeft {
   button1?: string;
   button2?: string;
   service?: boolean;
+  pos?: boolean;
+  lng?: string;
 }
 
 export interface IHeroRight {
@@ -171,4 +182,20 @@ export interface IPageHeader {
   pageName: string;
   mainTitle: JSX.Element | string;
   subTitle?: JSX.Element | string;
+}
+
+export interface IIntlParams {
+  params: { lng: string };
+}
+export interface IIntlTranslator {
+  t: TFunction<string | string[], string>;
+}
+
+export interface IIntlLang {
+  lng: string;
+}
+
+export interface IIntlLangWithTranslator {
+  lng?: string;
+  t?: TFunction<string | string[], string>;
 }

@@ -1,0 +1,22 @@
+{
+  "pageName": "যোগাযোগ করুন",
+  "mainTitle": "আমাদের সাথে যোগাযোগ করুন",
+  "subTitle": "বিনা দ্বিধায়",
+  "contactData": {
+    "officeAddress": "অফিসের ঠিকানা",
+    "callUs": "আমাদের কল করুন",
+    "E-mail": "ই-মেইল",
+    "location": "অবস্থান",
+    "sales": "বিক্রয়",
+    "supportOne": "সমর্থন 1",
+    "supportTwo": "সমর্থন 2",
+    "IPPhone": "আইপি ফোন"
+  },
+  "contactForm": {
+    "yourName": "আপনার নাম",
+    "yourAddress": "ইমেইল ঠিকানা",
+    "writeSubject": "বিষয় লিখুন",
+    "writeMessage": "বার্তা লিখুন",
+    "submit": "জমা দিন"
+  }
+}

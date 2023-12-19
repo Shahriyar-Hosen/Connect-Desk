@@ -8,7 +8,7 @@ const Dashboard = () => (
       <span className="text-primary">Welcome</span>
     </p>
     <p className="text-2xl lg:text-4xl font-bold text-center">to</p>
-    <ConnectDesk text="xl" />
+    <ConnectDesk lng="en" text="xl" />
     <p className="text-2xl lg:text-4xl font-bold text-center">
       Admin <span className="text-secondary">Dashboard</span>
     </p>

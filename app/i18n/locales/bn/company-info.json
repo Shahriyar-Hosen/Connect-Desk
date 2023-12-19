@@ -1,0 +1,7 @@
+{
+  "pageName": "প্রতিষ্ঠানের তথ্য",
+  "mainTitle": "কোম্পানি <spanTag>তথ্য</spanTag>",
+  "tradeLicenceNumber": "ট্রেড লাইসেন্স নম্বর : {{number}}",
+  "VATRegistrationNumber": "ভ্যাট নিবন্ধন নম্বর : {{number}}",
+  "ETIN": "ই-টিআইএন : {{number}}"
+}

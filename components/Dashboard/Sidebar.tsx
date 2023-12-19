@@ -29,7 +29,7 @@ export const Sidebar = () => {
     `}
     >
       <div className="flex items-center justify-between gap-2 px-6 pt-2 lg:pt-3">
-        <Logo />
+        <Logo lng="en" />
       </div>
       <div className="flex flex-col overflow-y-auto duration-300 ease-linear">
         <nav className="mt-5 lg:mt-9 ">

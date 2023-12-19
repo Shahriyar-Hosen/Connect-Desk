@@ -1,0 +1,61 @@
+{
+  "pageHeader": {
+    "pageName": "Feature",
+    "mainTitle": "Take A Look At Our Awesome",
+    "subTitle": "Features"
+  },
+  "featureHeader": {
+    "checkFeatureOf": "Check Out All The Important Features Of",
+    "software": "Software"
+  },
+  "allFeatures": {
+    "featureOne": {
+      "getStartedVery": "Get Started Very",
+      "easy": "Easy",
+      "signup": "sign up",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureTwo": {
+      "exploreOur": "Explore Our",
+      "awesome": "Awesome",
+      "dashboard": "Dashboard",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureThree": {
+      "manageYour": "Manage Your",
+      "sales": "Sales",
+      "easily": "Easily",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureFour": {
+      "createInvoices": "Create Invoices",
+      "very": "Very",
+      "easily": "Easily",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureFive": {
+      "createSales&Purchase": "Create Sales & Purchase",
+      "quotation": "Quotation",
+      "easily": "Easily",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureSix": {
+      "perfectPOSSoftwareFor": "Perfect POS Software For",
+      "retail": "Retail",
+      "business": "Business",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureSeven": {
+      "fullyOrganizedVehicle": "Fully Organized Vehicle",
+      "management": "Management",
+      "system": "System",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    },
+    "featureEight": {
+      "manageYour": "Manage Your",
+      "products": "Products",
+      "easily": "Easily",
+      "para": "Look at the dashboard to gain an understanding of the daily/monthly/yearly business sales, Best Sales Products graph, and Total Income. With a single click, you can access any option."
+    }
+  }
+}

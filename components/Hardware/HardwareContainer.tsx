@@ -3,12 +3,13 @@
 import { FC } from "react";
 import { MainContainer } from "..";
 import { HardwareDiv } from "./HardwareDiv";
+import { IIntlLang, IIntlTranslator } from "@/Interface";
 
-export const HardwareContainer: FC = () => (
+export const HardwareContainer: FC<IIntlLang> = ({ lng }) => (
   <MainContainer isRemoveMargin isRemovePadding>
-    <HardwareDiv title="POS Printer" />
-    <HardwareDiv title="Laser Printer" />
-    <HardwareDiv title="Barcode Printer" />
-    <HardwareDiv title="Barcode Scanner" />
+    <HardwareDiv title="POSPrinter" lng={lng} />
+    <HardwareDiv title="LaserPrinter" lng={lng} />
+    <HardwareDiv title="BarcodePrinter" lng={lng} />
+    <HardwareDiv title="BarcodeScanner" lng={lng} />
   </MainContainer>
 );

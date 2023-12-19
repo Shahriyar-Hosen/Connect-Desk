@@ -1,20 +1,21 @@
 "use client";
 
+import { FC } from "react";
 import { AppDownloadImg, CommonText, CreateAccount, HowToInstall } from "..";
+import { IIntlTranslator } from "@/Interface";
 
-export const AppInstallContent = () => (
+export const AppInstallContent: FC<IIntlTranslator> = ({ t }) => (
   <div className="flex flex-col justify-center items-start">
     <h1 className="text-2xl md:text-4xl font-semibold mb-4 md:mb-6 mt-4 md:mt-0">
-      Download App
+      {t("DownloadApp", { ns: "app-install" })}
     </h1>
 
     <CommonText className="max-w-[320px]">
-      Now getting our services easily with our mobile app. Download the app and
-      handle your business in your hand
+      {t("AboutApp", { ns: "app-install" })}
     </CommonText>
 
     <AppDownloadImg className="mt-7 md:mt-10" />
-    <HowToInstall />
-    <CreateAccount />
+    <HowToInstall t={t} />
+    <CreateAccount t={t} />
   </div>
 );

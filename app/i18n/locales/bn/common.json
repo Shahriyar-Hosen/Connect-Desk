@@ -1,0 +1,167 @@
+{
+  "header": {
+    "navItems": {
+      "home": "হোম",
+      "features": "ফিচারস",
+      "packages": "প্যাকেজ",
+      "services": "সার্ভিস",
+      "blogs": "ব্লগ",
+      "support": "সাপোর্ট",
+      "more": "অন্যান্য",
+      "servicesOptions": {
+        "inventorySoftware": "ইনভেন্টরি সফটওয়্যার",
+        "POSInventorySoftware": "POS ইনভেন্টরি সফটওয়্যার",
+        "accountingSoftware": "অ্যাকাউন্টিং সফটওয়্যার",
+        "ERPSoftware": "ERP সফটওয়্যার",
+        "billingSoftware": "বিলিং সফটওয়্যার",
+        "Hr&PayrollSoftware": "Hr & Payroll Software",
+        "E-CommerceSoftware": "ই-কমার্স সফটওয়্যার"
+      },
+      "supportOptions": {
+        "softwareSetup": "সফটওয়্যার সেটআপ",
+        "appInstall": "অ্যাপ ইনস্টল করুন",
+        "videoTutorial": "ভিডিও টিউটোরিয়াল",
+        "userGuide": "ব্যবহারকারীর নির্দেশিকা",
+        "hardware": "হার্ডওয়্যার",
+        "clientList": "ক্লায়েন্ট লিস্ট"
+      },
+      "moreOptions": {
+        "aboutUs": "আমাদের সম্পর্কে",
+        "messageFromFounder": "প্রতিষ্ঠাতার বার্তা",
+        "termsAndCondition": "শর্তাবলী",
+        "refundAndReturnPolicy": "রিফান্ড এবং রিটার্ন নীতি",
+        "privacyPolicy": "গোপনীয়তা নীতি",
+        "companyInfo": "প্রতিষ্ঠানের তথ্য",
+        "Q&A": "প্রশ্নোত্তর",
+        "portfolio": "পোর্টফোলিও"
+      }
+    },
+    "login": "লগইন",
+    "signUp": "সাইন আপ"
+  },
+  "footer": {
+    "copyright": {
+      "title": "কপিরাইট",
+      "company": "কানেক্টডেস্ক",
+      "allRightsReserved": "সমস্ত অধিকার সংরক্ষিত",
+      "year": {
+        "2023": "২০২৩",
+        "2024": "২০২৪",
+        "2025": "২০২৫",
+        "2026": "২০২৬",
+        "2027": "২০২৭",
+        "2028": "২০২৮",
+        "2029": "২০২৯",
+        "2030": "২০৩০"
+      }
+    },
+    "contactText": "কানেক্টডেস্ক একটি সফটওয়্যার ডেভেলপমেন্ট কোম্পানি। <br> কোম্পানিটি এসএমই ব্যবসায়ীদের জন্য ব্যবসায়িক সমাধান নিয়ে কাজ করে।",
+    "contactInfo": "যোগাযোগের তথ্য",
+    "contactOptions": {
+      "sales": {
+        "title": "সেলস্",
+        "number": "+৮৮০১৭১৩৩৯২৫৩৭",
+        "time": "১০ এ.এম. - ০৯ পি.এম."
+      },
+      "supportOne": {
+        "title": "সাপোর্ট ১",
+        "number": "+৮৮০১৭১৩৩৯২৫৩৭",
+        "time": "১০ এ.এম. - ০৯ পি.এম."
+      },
+      "supportTwo": {
+        "title": "সাপোর্ট ২",
+        "number": "+৮৮০১৭১৩৩৯২৫৩৭",
+        "time": "১০ এ.এম. - ০৯ পি.এম."
+      },
+      "IPPhone": {
+        "title": "আই.পি ফোন",
+        "number": "+৮৮০১৭১৩৩৯২৫৩৭",
+        "time": "১০ এ.এম. - ০৯ পি.এম."
+      },
+      "location": "মহাদেবপুর, নওগাঁ, রাজশাহী, বাংলাদেশ"
+    },
+    "infoData": {
+      "company": "প্রতিষ্ঠান",
+      "aboutUs": "আমাদের সম্পর্কে",
+      "blog": "ব্লগ",
+      "contactUs": "যোগাযোগ করুন",
+      "pricing": "মূল্য নির্ধারণ",
+      "FAQ": "প্রশ্নোত্তর",
+      "support": "সাপোর্ট",
+      "terms&Conditions": "শর্তাবলী",
+      "privacyPolicy": "গোপনীয়তা নীতি",
+      "refund&ReturnPolicy": "রিফান্ড এবং রিটার্ন নীতি",
+      "appInstall": "অ্যাপ ইনস্টল করুন"
+    },
+    "download": {
+      "downloadApp": "অ্যাপ ডাউনলোড করুন",
+      "socialMediaLinks": "সোশ্যাল মিডিয়া লিংক"
+    }
+  },
+  "packages": {
+    "title": "<secondarySpanTag>সঠিক পরিকল্পনা</secondarySpanTag> চয়ন করুন",
+    "business": "আপনার <primarySpanTag>ব্যবসার</primarySpanTag>",
+    "features": "বৈশিষ্ট্যসমূহ",
+    "purchasePackage": "প্যাকেজ ক্রয় করুন",
+    "packagesData": {
+      "businessPackage": {
+        "title": "বিজনেস প্যাকেজ",
+        "duration": "বিজনেস প্রতি / ১২ মাস",
+        "price": "৭,৫০০",
+        "features": {
+          "online": "অনলাইন সফটওয়্যার এবং মোবাইল অ্যাপস",
+          "product": "পণ্য, বিক্রয়, ক্রয়, ব্যয়, উদ্ধৃতি",
+          "onlineOrder": "অনলাইন অর্ডার",
+          "serviceSale": "সেবা বিক্রয়",
+          "staffSalary": "কর্মচারীদের বেতন",
+          "voucher": "ভাউচার, ব্যবহারকারী, সেটিংস",
+          "setting": "সেটিং, 50 রিপোর্ট",
+          "user": "ব্যবহারকারীর ম্যানুয়াল, ভিডিও, টিউটোরিয়াল",
+          "businessReports": "100টি ব্যবসায়িক প্রতিবেদন দৈনিক ইমেল এসএমএস রিপোর্ট",
+          "onlineStore": "অনলাইন দোকান",
+          "dataSecurity": "ডেটা সুরক্ষা এবং সহায়তা মেনু পেশাদার সহায়তা"
+        }
+      },
+      "corporatePackage": {
+        "title": "কর্পোরেট প্যাকেজ",
+        "duration": "বিজনেস প্রতি / ১২ মাস",
+        "price": "১৯,৯৯৯",
+        "features": {
+          "accountManagement": "হিসাব ব্যবস্থাপনা",
+          "inventoryManagement": "ইনভেন্টরি ম্যানেজমেন্ট",
+          "office": "অফিস এইচআর এবং বেতন",
+          "attendance": "উপস্থিতি",
+          "CRM": "সিআরএম",
+          "employeeManagement": "কর্মচারী ব্যবস্থাপনা",
+          "setting": "সেটিং, 100টি রিপোর্ট",
+          "dailyReports": "ইমেল এবং বার্তা দ্বারা দৈনিক রিপোর্ট",
+          "businessReports": "100টি ব্যবসায়িক প্রতিবেদন দৈনিক ইমেল এসএমএস রিপোর্ট",
+          "corporateSupport": "24/7 কর্পোরেট সমর্থন অনলাইন",
+          "dataSecurity": "ডেটা সুরক্ষা এবং অটো ব্যাকআপ প্রতিদিন"
+        }
+      }
+    }
+  },
+  "askedQuestions": {
+    "title": "প্রায়শই জিজ্ঞাসা করা প্রশ্নগুলো",
+    "charge": "এই সফ্টওয়্যারের জন্য মাসিক/বার্ষিক চার্জ কত?",
+    "eligibilityDuration": "কত দিনের জন্য বিনামূল্যে ট্রায়াল যোগ্য?",
+    "totalAccounts": "একই মোবাইল নম্বর বা ইমেইল দিয়ে কয়টি অ্যাকাউন্ট তৈরি করা যায়?",
+    "renewPackage": "বিনামূল্যে ট্রায়ালের পরে আমি কিভাবে আমার প্যাকেজ পুনর্নবীকরণ করতে পারি?",
+    "paymentMethods": "পেমেন্ট পদ্ধতি কি কি?",
+    "supportTiming": "সাপোর্ট নেওয়ার সময়?",
+    "productEntry": "গ্রাহকের পণ্য সাপোর্ট থেকে এন্ট্রি করা যাবে?",
+    "getSupport": "কিভাবে সাপোর্ট পাবো?",
+    "installSoftware": "আমার কি কোন সফটওয়্যার ইন্সটল করতে হবে?",
+    "uploadData": "কিভাবে মোবাইল অ্যাপ এবং ক্লাউড সফটওয়্যারে ডেটা আপলোড করবেন?"
+  },
+  "customerSupport": {
+    "title": "<ConnectDesk/> সাথে আপনার বন্ধুত্বপূর্ণ গ্রাহক",
+    "subTitle": "<primary>সহায়তা পাবেন</primary>"
+  },
+  "comingSoon": "শীঘ্রই আসছে",
+  "backToHome": "হোম এ ফিরে যাও",
+  "connect": "কানেক্ট",
+  "desk": "ডেস্ক",
+  "slogan": "বিজনেস ম্যানেজমেন্ট সফটওয়্যার"
+}

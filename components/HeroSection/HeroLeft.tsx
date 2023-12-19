@@ -13,13 +13,21 @@ export const HeroLeft: FC<IHeroLeft> = ({
   button1,
   button2,
   service,
+  pos,
+  lng,
 }) => (
   <div className="md:mt-[5%] sm:w-[90%] md:w-[70%] lg:w-[70%] xl:w-fit md:ml-10 lg:ml-[60px] mx-auto flex flex-col justify-center items-center md:justify-start md:items-start">
     <div className="relative">
       <h1
         className={`text-[20px] md:text-[24px] lg:text-[32px] font-semibold ${
           service
-            ? "md:max-w-[331px] lg:max-w-[441px]"
+            ? lng === "bn"
+              ? "md:max-w-[370px] lg:max-w-[493px]"
+              : "md:max-w-[331px] lg:max-w-[441px]"
+            : pos
+            ? lng === "bn"
+              ? "md:max-w-[370px] lg:max-w-[425px]"
+              : "md:max-w-[331px] lg:max-w-[441px]"
             : "md:max-w-[300px] lg:max-w-[414px]"
         } text-center md:text-start`}
       >

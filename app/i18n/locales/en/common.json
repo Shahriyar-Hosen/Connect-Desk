@@ -1,0 +1,167 @@
+{
+  "header": {
+    "navItems": {
+      "home": "Home",
+      "features": "Features",
+      "packages": "Packages",
+      "services": "Services",
+      "blogs": "Blogs",
+      "support": "Support",
+      "more": "More",
+      "servicesOptions": {
+        "inventorySoftware": "Inventory Software",
+        "POSInventorySoftware": "POS Inventory Software",
+        "accountingSoftware": "Accounting Software",
+        "ERPSoftware": "ERP Software",
+        "billingSoftware": "Billing Software",
+        "Hr&PayrollSoftware": "Hr & Payroll Software",
+        "E-CommerceSoftware": "E-Commerce Software"
+      },
+      "supportOptions": {
+        "softwareSetup": "Software Setup",
+        "appInstall": "App Install",
+        "videoTutorial": "Video Tutorial",
+        "userGuide": "User Guide",
+        "hardware": "Hardware",
+        "clientList": "Client List"
+      },
+      "moreOptions": {
+        "aboutUs": "About Us",
+        "messageFromFounder": "Message From Founder",
+        "termsAndCondition": "Terms and Condition",
+        "refundAndReturnPolicy": "Refund and Return Policy",
+        "privacyPolicy": "Privacy Policy",
+        "companyInfo": "Company Info",
+        "Q&A": "Q&A",
+        "portfolio": "Portfolio"
+      }
+    },
+    "login": "Login",
+    "signUp": "Sign Up"
+  },
+  "footer": {
+    "copyright": {
+      "title": "Copyright",
+      "company": "ConnectDesk",
+      "allRightsReserved": "All rights reserved",
+      "year": {
+        "2023": "2023",
+        "2024": "2024",
+        "2025": "2025",
+        "2026": "2026",
+        "2027": "2027",
+        "2028": "2028",
+        "2029": "2029",
+        "2030": "2030"
+      }
+    },
+    "contactText": "ConnectDesk is a software development company. The <br> company works with business solutions for SME traders.",
+    "contactInfo": "Contact Info",
+    "contactOptions": {
+      "sales": {
+        "title": "Sales",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "supportOne": {
+        "title": "Support 1",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "supportTwo": {
+        "title": "Support 2",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "IPPhone": {
+        "title": "IP Phone",
+        "number": "+8801234567892",
+        "time": "10AM - 9PM"
+      },
+      "location": "Mahadevpur, Naogaon, Rajshahi, Bangladesh"
+    },
+    "infoData": {
+      "company": "Company",
+      "aboutUs": "About us",
+      "blog": "Blog",
+      "contactUs": "Contact us",
+      "pricing": "Pricing",
+      "FAQ": "FAQ",
+      "support": "Support",
+      "terms&Conditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy policy",
+      "refund&ReturnPolicy": "Refund & Return Policy",
+      "appInstall": "App Install"
+    },
+    "download": {
+      "downloadApp": "Download App",
+      "socialMediaLinks": "Social Media Links"
+    }
+  },
+  "packages": {
+    "title": "  Pricing To <primarySpanTag>Suite</primarySpanTag> All Size",
+    "business": "of <secondarySpanTag>Business</spanTag",
+    "features": "Features",
+    "purchasePackage": "Purchase Package",
+    "packagesData": {
+      "businessPackage": {
+        "title": "Business Package",
+        "duration": "Per business / 12 months",
+        "price": "7,500",
+        "features": {
+          "online": "Online Software and Mobile Apps",
+          "product": "Product, Sales, Purchase, Expenses, Quotations",
+          "onlineOrder": "Online Order",
+          "serviceSale": "Service Sale",
+          "staffSalary": "Staff Salary",
+          "voucher": "Voucher, User, Settings",
+          "setting": "Setting, 50+ Reports",
+          "user": "User Manual, Video, Tutorial",
+          "businessReports": "100+ Business Reports + Daily Email + SMS Reports",
+          "onlineStore": "Online Store",
+          "dataSecurity": "Data Security and Help Menu Professional Support"
+        }
+      },
+      "corporatePackage": {
+        "title": "Corporate Package",
+        "duration": "Per business / 12 months",
+        "price": "19,999",
+        "features": {
+          "accountManagement": "Account Management",
+          "inventoryManagement": "Inventory Management",
+          "office": "Office HR and Payroll",
+          "attendance": "Attendance",
+          "CRM": "CRM",
+          "employeeManagement": "Employee Management",
+          "setting": "Setting, 100+ Reports",
+          "dailyReports": "Daily Reports by Email and Message",
+          "businessReports": "100+ Business Reports + Daily Email + SMS Reports",
+          "corporateSupport": "24/7 Corporate Support Online",
+          "dataSecurity": "Data Security and Auto Backup Daily"
+        }
+      }
+    }
+  },
+  "askedQuestions": {
+    "title": "Frequently Asked Questions",
+    "charge": "What is the monthly/yearly charge for this software?",
+    "eligibilityDuration": "Free trial eligible for how many days?",
+    "totalAccounts": "How many account can be created with same mobile number or email?",
+    "renewPackage": "How can I renew my package after free trial?",
+    "paymentMethods": "What are the payment methods?",
+    "supportTiming": "Time of taking support?",
+    "productEntry": "Customer’s product can be entry from support?",
+    "getSupport": "How to get support?",
+    "installSoftware": "Do I need to install any software?",
+    "uploadData": "How to upload data in mobile app and cloud software?"
+  },
+  "customerSupport": {
+    "title": "With <ConnectDesk/> Your Will Get",
+    "subTitle": "Friendly Customer Support"
+  },
+  "comingSoon": "Coming Soon",
+  "backToHome": "Back to home",
+  "connect": "Connect",
+  "desk": "Desk",
+  "slogan": "Business Management Software"
+}

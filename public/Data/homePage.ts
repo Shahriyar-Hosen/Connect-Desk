@@ -15,139 +15,152 @@ import {
 
 export const solutions: {
   title: string;
+  des: string;
 }[] = [
   {
-    title: "Track all types of Income & Expense",
+    title: "perfectSolution.solutions.trackIncomeExpense",
+    des: "perfectSolution.solutions.trackIncomeExpense",
   },
   {
-    title: "Inventory Tracking",
+    title: "perfectSolution.solutions.inventoryTracking",
+    des: "perfectSolution.solutions.inventoryTracking",
   },
   {
-    title: "Real Time Financial Report",
+    title: "perfectSolution.solutions.realTimeFinancialReport",
+    des: "perfectSolution.solutions.realTimeFinancialReport",
   },
   {
-    title: "Dynamic Dashboard",
+    title: "perfectSolution.solutions.dynamicDashboard",
+    des: "perfectSolution.solutions.dynamicDashboard",
   },
   {
-    title: "99.99% Data Security & Backup",
+    title: "perfectSolution.solutions.dataSecurityBackup",
+    des: "perfectSolution.solutions.dataSecurityBackup",
   },
   {
-    title: "Works on Mobile & Desktop",
+    title: "perfectSolution.solutions.worksMobileDesktop",
+    des: "perfectSolution.solutions.worksMobileDesktop",
   },
   {
-    title: "24/7 Corporate Support",
+    title: "perfectSolution.solutions.corporateSupport",
+    des: "perfectSolution.solutions.corporateSupport",
   },
   {
-    title: "Synchronized Online & Apps",
+    title: "perfectSolution.solutions.synchronizedOnlineApps",
+    des: "perfectSolution.solutions.synchronizedOnlineApps",
   },
   {
-    title: "Simplified Module Design",
+    title: "perfectSolution.solutions.simplifiedModuleDesign",
+    des: "perfectSolution.solutions.simplifiedModuleDesign",
   },
   {
-    title: "Affordable Price",
+    title: "perfectSolution.solutions.affordablePrice",
+    des: "perfectSolution.solutions.affordablePrice",
   },
   {
-    title: "Access From Anywhere",
+    title: "perfectSolution.solutions.accessFromAnywhere",
+    des: "perfectSolution.solutions.accessFromAnywhere",
   },
   {
-    title: "User-Friendly Interface",
+    title: "perfectSolution.solutions.userFriendlyInterface",
+    des: "perfectSolution.solutions.userFriendlyInterface",
   },
 ];
 
 export const featuresData: IFeatures[] = [
   {
     icon: easySale,
-    title: "Easy Sale & Invoice Create",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.easySale",
+    des: "importantFeatures.features.easySaleDes",
   },
   {
     icon: stock,
-    title: "Stock Management",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.stock",
+    des: "importantFeatures.features.stockDes",
   },
   {
     icon: accounting,
-    title: "Easy Accounting",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.accounting",
+    des: "importantFeatures.features.accountingDes",
   },
   {
     icon: POSSoftware,
-    title: "Perfect POS Software",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.POSSoftware",
+    des: "importantFeatures.features.POSSoftwareDes",
   },
   {
     icon: report,
-    title: "Overall Business Reports",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.report",
+    des: "importantFeatures.features.reportDes",
   },
   {
     icon: sell,
-    title: "Sell & Purchase Quotation",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.sell",
+    des: "importantFeatures.features.sellDes",
   },
   {
     icon: purchase,
-    title: "Purchase Order",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.purchase",
+    des: "importantFeatures.features.purchaseDes",
   },
   {
     icon: flexible,
-    title: "Flexible Planning",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.flexible",
+    des: "importantFeatures.features.flexibleDes",
   },
   {
     icon: support,
-    title: "Corporate Support",
-    des: "ConnectDesk software not only assists you in managing your business but also helps you to grow your parallelly.",
+    title: "importantFeatures.features.support",
+    des: "importantFeatures.features.supportDes",
   },
 ];
 
 export const packagesData: IPackages[] = [
   {
-    title: "Business Package",
-    duration: "Per business / 12 months",
-    price: "7,500",
+    title: "packages.packagesData.businessPackage.title",
+    duration: "packages.packagesData.businessPackage.duration",
+    price: "packages.packagesData.businessPackage.price",
     features: [
-      "Online Software and Mobile Apps",
-      "Product, Sales, Purchase, Expenses, Quotations",
-      "Online Order",
-      "Service Sale",
-      "Staff Salary",
-      "Voucher, User, Settings",
-      "Setting, 50+ Reports",
-      "User Manual, Video, Tutorial",
-      "100+ Business Reports + Daily Email + SMS Reports",
-      "Online Store",
-      "Data Security and Help Menu Professional Support",
+      "packages.packagesData.businessPackage.features.online",
+      "packages.packagesData.businessPackage.features.product",
+      "packages.packagesData.businessPackage.features.onlineOrder",
+      "packages.packagesData.businessPackage.features.serviceSale",
+      "packages.packagesData.businessPackage.features.staffSalary",
+      "packages.packagesData.businessPackage.features.voucher",
+      "packages.packagesData.businessPackage.features.setting",
+      "packages.packagesData.businessPackage.features.user",
+      "packages.packagesData.businessPackage.features.businessReports",
+      "packages.packagesData.businessPackage.features.onlineStore",
+      "packages.packagesData.businessPackage.features.dataSecurity",
     ],
   },
   {
-    title: "Corporate Package",
-    duration: "Per business / 12 months",
-    price: "19,999",
+    title: "packages.packagesData.corporatePackage.title",
+    duration: "packages.packagesData.corporatePackage.duration",
+    price: "packages.packagesData.corporatePackage.price",
     features: [
-      "Account Management",
-      "Inventory Management",
-      "Office HR and Payroll",
-      "Attendance",
-      "CRM",
-      "Employee Management",
-      "Setting, 100+ Reports",
-      "Daily Reports by Email and Message",
-      "100+ Business Reports + Daily Email + SMS Reports",
-      "24/7 Corporate Support Online",
-      "Data Security and Auto Backup Daily",
+      "packages.packagesData.corporatePackage.features.accountManagement",
+      "packages.packagesData.corporatePackage.features.inventoryManagement",
+      "packages.packagesData.corporatePackage.features.office",
+      "packages.packagesData.corporatePackage.features.attendance",
+      "packages.packagesData.corporatePackage.features.CRM",
+      "packages.packagesData.corporatePackage.features.employeeManagement",
+      "packages.packagesData.corporatePackage.features.setting",
+      "packages.packagesData.corporatePackage.features.dailyReports",
+      "packages.packagesData.corporatePackage.features.businessReports",
+      "packages.packagesData.corporatePackage.features.corporateSupport",
+      "packages.packagesData.corporatePackage.features.dataSecurity",
     ],
   },
 ];
 
 export const corporateSupport: ICorporateSupport[] = [
   {
-    title: "24/7 Free Phone Support",
+    title: "support.phoneSupport",
     img: phoneSupport,
   },
   {
-    title: "24/7 Free Email Support",
+    title: "support.emailSupport",
     img: emailSupport,
   },
 ];

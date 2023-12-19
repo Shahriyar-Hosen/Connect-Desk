@@ -1,6 +1,6 @@
 "use client";
 
-import { IMenuItem } from "@/Interface";
+import { IIntlTranslator, IMenuItem } from "@/Interface";
 import { downArrow } from "@/public/assets/icon";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,7 +8,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FC } from "react";
 
-export const MenuItem: FC<IMenuItem> = ({
+export const MenuItem: FC<IMenuItem & IIntlTranslator> = ({
   label,
   link,
   children,
@@ -18,6 +18,7 @@ export const MenuItem: FC<IMenuItem> = ({
   handleDropdownLeave,
   isMobile,
   open,
+  t,
 }) => {
   const pathname = usePathname();
   const isActive = pathname.startsWith(link);
@@ -38,7 +39,8 @@ export const MenuItem: FC<IMenuItem> = ({
           href={`${!isMobile ? link : ""}`}
           className="lg:py-1 lg:px-2.5 xl:py-2 xl:px-4 flex gap-2"
         >
-          {label} {option && <Image src={downArrow} alt={label} />}
+          {t(label)}
+          {option && <Image src={downArrow} alt={label} />}
         </Link>
         {children}
       </li>

@@ -1,0 +1,15 @@
+{
+  "pageName": "ভিডিও টিউটোরিয়াল",
+  "mainTitle": "ভিডিও <spanTag>টিউটোরিয়াল</spanTag>",
+  "introPara": "সফটওয়ারের ভিডিও টিউটোরিয়াল দেখে নিন",
+  "videoTutorialData": {
+    "AddProduct": "পণ্য যোগ করুন",
+    "Purchase": "ক্রয় করুন",
+    "DebitCreditVoucher": "ডেবিট + ক্রেডিট ভাউচার",
+    "Reports": "রিপোর্ট",
+    "SaleInvoice": "বিক্রয় চালান",
+    "Salary": "বেতন",
+    "Settings": "সেটিংস",
+    "UserCreate": "ব্যবহারকারী তৈরি করুন"
+  }
+}

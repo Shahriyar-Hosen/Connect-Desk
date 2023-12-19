@@ -1,0 +1,17 @@
+{
+  "pageName": "Hardware",
+  "mainTitle": "Hardware",
+  "POSPrinter": "POS Printer",
+  "LaserPrinter": "Laser Printer",
+  "BarcodePrinter": "Barcode Printer",
+  "BarcodeScanner": "Barcode Scanner",
+  "hardwareData": {
+    "ThermalPOSPrinter": "Xprinter XP-E200M Thermal POS Printer",
+    "ThermalPOSPrinterSpecs": {
+      "specOne": "200mm per second print speed for both graphics & text",
+      "specTwo": "Drop-in paper loading & auto cutter.",
+      "specThree": "Reprinting Task Supported.",
+      "specFour": "58mm & 80mm printing mode switch."
+    }
+  }
+}
