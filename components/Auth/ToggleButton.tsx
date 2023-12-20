@@ -11,7 +11,7 @@ const toggleButton: ["Business Login", "Client Login"] = [
 ];
 
 export const ToggleButton: FC<IToggleButton> = ({ setUserType, userType }) => (
-  <div className="flex w-full max-w-[350px] mx-auto mb-5">
+  <div className="flex w-full max-w-[350px] mx-auto mb-3">
     {toggleButton.map((i) => (
       <Button
         key={i}

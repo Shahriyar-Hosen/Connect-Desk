@@ -11,7 +11,7 @@ export const InputField: FC<InputFieldProps> = ({
   handleOnChange,
   otp,
 }) => (
-  <div className={`${width === "auto" ? "w-auto" : "w-full"} my-1`}>
+  <div className={`${width === "auto" ? "w-auto" : "w-full"} my-1.5`}>
     <p className="text-xs font-medium text-neutral mb-0.5">{label}</p>
     <input
       className={`border border-primary border-opacity-20 rounded-md p-2 text-sm focus:outline-primary ${

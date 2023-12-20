@@ -24,7 +24,7 @@ export const AuthMainRightSide: FC<IAuthMainRightSide> = ({
   btnLink,
   otp,
 }) => (
-  <section className="w-[90%] md:w-full max-h-screen mx-auto lg:pr-5">
+  <section className="w-[90%] md:w-full mx-auto lg:pr-5">
     <div className={`w-full ${maxWidth} mx-auto`}>
       <AuthTopSection
         label={authTopLabel}
