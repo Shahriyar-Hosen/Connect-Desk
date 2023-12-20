@@ -12,18 +12,18 @@ export const AuthTopSection: FC<IAuthTopSection> = ({
   labelType = "title",
   otp,
 }) => (
-  <div className="flex flex-col justify-center items-center">
+  <div className="flex flex-col justify-center items-center pt-5">
     <Logo lng="en" />
 
-    <div className="my-[25px] md:my-[30px] text-center">
+    <div className="my-2 md:my-3 text-center">
       {otp && (
-        <p className="text-base lg:text-xl font-semibold mb-5">
+        <p className="text-xs md:text-sm font-semibold mb-5">
           Please Enter the One-Time Password to verify your account
         </p>
       )}
 
       {labelType === "title" ? (
-        <h3 className="text-neutral text-base md:text-xl font-semibold">
+        <h3 className="text-neutral text-xs md:text-sm font-semibold">
           {label}
         </h3>
       ) : (

@@ -13,7 +13,7 @@ export const AgreeSection: FC<IAgreeSection> = ({
   label2,
   labelLink2 = "/",
 }) => (
-  <div className="flex justify-between items-center my-3 mt">
+  <div className="flex justify-between items-center my-0.5">
     <div className="flex justify-center items-center gap-2 text-base font-medium">
       <Image src={rectangle} alt="" />
       <CommonText>{label1}</CommonText>
