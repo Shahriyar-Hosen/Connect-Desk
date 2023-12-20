@@ -44,10 +44,8 @@ export const AuthMainRightSide: FC<IAuthMainRightSide> = ({
         />
       )}
 
-      <br />
-
       <Link href={btnLink || ""}>
-        <Button variant="primary" width="full" size="lg">
+        <Button variant="primary" width="full" size="md" className="mt-4">
           {btnText}
         </Button>
       </Link>

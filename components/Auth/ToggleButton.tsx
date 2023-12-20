@@ -11,12 +11,12 @@ const toggleButton: ["Business Login", "Client Login"] = [
 ];
 
 export const ToggleButton: FC<IToggleButton> = ({ setUserType, userType }) => (
-  <div className="flex w-full max-w-[486px] mx-auto mb-[45px]">
+  <div className="flex w-full max-w-[350px] mx-auto mb-3">
     {toggleButton.map((i) => (
       <Button
         key={i}
-        text="18"
-        size="lg"
+        text="14"
+        size="sm"
         width="full"
         onClick={() => setUserType(i)}
         variant={userType === i ? "primary" : "secondary"}
