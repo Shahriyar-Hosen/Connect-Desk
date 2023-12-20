@@ -15,7 +15,7 @@ export const AuthLeftSide: FC<LeftSiteProps> = ({
   <div className="w-full flex flex-col justify-center items-center text-center bg-gradient-to-t from-white via-base-100 to-white md:px-20 lg:px-0">
     <div className="md:w-[80%]">
       <Image
-        className="w-[80%] sm:w-full lg:max-w-fit max-w-[328px] md:max-w-[428px] mx-auto"
+        className="w-[80%] sm:w-full lg:max-w-[60%] max-w-[328px] mx-auto"
         src={image}
         alt="dfd"
       />

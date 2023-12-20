@@ -24,7 +24,7 @@ export const LoginRightSide: FC = () => {
       agreeSectionLabel2="Forget Password?"
       agreeSectionLabelLink2="/forget-password"
     >
-      <div className="flex flex-col justify-center items-center gap-6">
+      <div className="flex flex-col justify-center items-center">
         <InputField
           handleOnChange={handleOnChange}
           label="Email or Mobile No"
