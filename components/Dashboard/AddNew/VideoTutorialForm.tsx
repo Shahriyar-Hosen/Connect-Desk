@@ -7,6 +7,7 @@ import { Input } from "../FormsElement";
 
 const validationSchema = Yup.object().shape({
   title: Yup.string().required("Title is required"),
+  titleBn: Yup.string().required("টাইটেল দিতে হবে"),
   videoLink: Yup.string()
     .required("Video Link is required")
     .matches(
@@ -17,12 +18,14 @@ const validationSchema = Yup.object().shape({
 
 interface IVideoTutorialForm {
   title: string;
+  titleBn: string;
   videoLink: string;
 }
 
 export const VideoTutorialForm = () => {
   const initialValues: IVideoTutorialForm = {
     title: "",
+    titleBn: "",
     videoLink: "",
   };
 
@@ -45,6 +48,8 @@ export const VideoTutorialForm = () => {
           <div>
             <label className="text-base font-semibold">Title</label>
             <Input type="text" name="title" placeholder="Video Title" />
+            <label className="text-base font-semibold">টাইটেল</label>
+            <Input type="text" name="titleBn" placeholder="ভিডিও টাইটেল" />
           </div>
           <div>
             <label className="text-base font-semibold">Video Link</label>

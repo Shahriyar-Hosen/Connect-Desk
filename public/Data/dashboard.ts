@@ -37,13 +37,18 @@ export const dashboardSidebarItem: IDashboardSidebarItem[] = [
     path: "/dashboard/faq",
   },
   {
-    id: "founder-message",
-    label: "Founder Message",
-    path: "/dashboard/founder-message",
+    id: "blog",
+    label: "Blog",
+    path: "/dashboard/blog",
   },
-  {
-    id: "contact-us",
-    label: "Contact Us",
-    path: "/dashboard/contact-us",
-  },
+  // {
+  //   id: "founder-message",
+  //   label: "Founder Message",
+  //   path: "/dashboard/founder-message",
+  // },
+  // {
+  //   id: "contact-us",
+  //   label: "Contact Us",
+  //   path: "/dashboard/contact-us",
+  // },
 ];
