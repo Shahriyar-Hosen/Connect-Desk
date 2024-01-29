@@ -14,28 +14,41 @@ const validationSchema = Yup.object().shape({
   subcategoryId: Yup.string()
     .required("Subcategory Id is required")
     .matches(/^[0-9]/, "Subcategory Id must be a numeric value"),
+  titleBn: Yup.string().required("টাইটেল দিতে হবেd"),
+  featuresBn: Yup.string().required("ফিচার দিতে হবে"),
 });
 
 interface IProductsForm {
   title: string;
   features: string;
-  image: string;
   subcategoryId: string;
+  titleBn: string;
+  featuresBn: string;
+  image: string;
 }
 
 export const ProductsForm = () => {
   const initialValues: IProductsForm = {
     title: "",
     features: "",
-    image: "",
     subcategoryId: "",
+    titleBn: "",
+    featuresBn: "",
+    image: "",
   };
 
   const handleSubmit = (
     values: IProductsForm,
     { resetForm }: FormikHelpers<IProductsForm>
   ) => {
-    console.log(values);
+    const { titleBn, featuresBn, image, subcategoryId, ...others } =
+      values || {};
+
+    const en = { ...others, image, subcategoryId };
+    const bn = { titleBn, featuresBn, image, subcategoryId };
+
+    console.log("🚀 ~ ProductsForm ~ bn:", { en, bn });
+
     resetForm();
   };
 
@@ -50,14 +63,14 @@ export const ProductsForm = () => {
           <div>
             <label className="text-base font-semibold">Sub Title</label>
             <Input type="text" name="title" placeholder="Title" />
+            <label className="text-base font-semibold">সাবটাইটেল</label>
+            <Input type="text" name="titleBn" placeholder="সাবটাইটেল" />
           </div>
           <div>
             <label className="text-base font-semibold">Features</label>
             <Input type="text" name="features" placeholder="Features" />
-          </div>
-          <div>
-            <label className="text-base font-semibold">Image</label>
-            <Input type="text" name="image" placeholder="image url" />
+            <label className="text-base font-semibold">বৈশিষ্ট্য</label>
+            <Input type="text" name="featuresBn" placeholder="বৈশিষ্ট্য" />
           </div>
           <div>
             <label className="text-base font-semibold">Subcategory Id</label>
@@ -66,6 +79,10 @@ export const ProductsForm = () => {
               name="subcategoryId"
               placeholder="Subcategory Id"
             />
+          </div>
+          <div>
+            <label className="text-base font-semibold">Image</label>
+            <Input type="text" name="image" placeholder="image url" />
           </div>
 
           <Button

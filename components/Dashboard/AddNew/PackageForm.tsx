@@ -2,6 +2,7 @@
 
 import { Button } from "@/components";
 import { Form, Formik, FormikHelpers } from "formik";
+import { FC } from "react";
 import * as Yup from "yup";
 import { Input } from "../FormsElement";
 
@@ -11,26 +12,53 @@ const validationSchema = Yup.object().shape({
   cost: Yup.string()
     .required("Cost is required")
     .matches(/^[0-9]/, "Cost must be a numeric value"),
+  nameBn: Yup.string().required("প্যাকেজের নাম দিতেই হবে"),
+  featuresBn: Yup.string().required("বৈশিষ্ট্য দিতেই হবে"),
+  costBn: Yup.string().required("খরচ দিতেই হবে"),
 });
 
 interface IPackageForm {
   name: string;
   features: string;
   cost: string;
+  nameBn: string;
+  featuresBn: string;
+  costBn: string;
 }
 
-export const PackagesForm = () => {
-  const initialValues: IPackageForm = {
-    name: "",
-    features: "",
-    cost: "",
-  };
+interface IPackageData {
+  name: string;
+  features: string;
+  cost: string;
+}
 
+const initialValues: IPackageForm = {
+  name: "",
+  features: "",
+  cost: "",
+  nameBn: "",
+  featuresBn: "",
+  costBn: "",
+};
+
+export const PackagesForm: FC = () => {
   const handleSubmit = (
     values: IPackageForm,
     { resetForm }: FormikHelpers<IPackageForm>
   ) => {
-    console.log(values);
+    const enData = {
+      name: values.name,
+      features: values.features,
+      cost: values.cost,
+    };
+    const bnData = {
+      name: values.nameBn,
+      features: values.featuresBn,
+      cost: values.costBn,
+    };
+
+    console.log({ enData, bnData });
+
     resetForm();
   };
 
@@ -45,14 +73,20 @@ export const PackagesForm = () => {
           <div>
             <label className="text-base font-semibold">Package Name</label>
             <Input type="text" name="name" placeholder="Package Name" />
+            <label className="text-base font-semibold">প্যাকেজের নাম</label>
+            <Input type="text" name="nameBn" placeholder="প্যাকেজের নাম" />
           </div>
           <div>
             <label className="text-base font-semibold">Features</label>
             <Input type="text" name="features" placeholder="Features" />
+            <label className="text-base font-semibold">বৈশিষ্ট্য</label>
+            <Input type="text" name="featuresBn" placeholder="বৈশিষ্ট্য" />
           </div>
           <div>
             <label className="text-base font-semibold">Cost</label>
             <Input type="text" name="cost" placeholder="Cost" />
+            <label className="text-base font-semibold">খরচ</label>
+            <Input type="text" name="costBn" placeholder="খরচ" />
           </div>
 
           <Button
