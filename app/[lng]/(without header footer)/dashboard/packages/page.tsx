@@ -12,7 +12,7 @@ const Packages: FC = () => {
       redirect("/api/auth/signin?callbackUrl=/dashboard");
     },
   });
-  console.log("🚀 ~ file: page.tsx:15 ~ session:", session);
+
   return (
     <main>
       <Header title="Packages" link="/dashboard/packages/add-new" />

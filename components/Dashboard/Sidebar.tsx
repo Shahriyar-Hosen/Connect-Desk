@@ -36,8 +36,8 @@ export const Sidebar: FC = () => {
                     className={`group relative cursor-pointer flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-accent hover:bg-opacity-30 
                              ${
                                (pathName.split("/").length <= 2
-                                 ? pathName.split("/")[1] === menuItem.id
-                                 : pathName.split("/")[2] === menuItem.id) &&
+                                 ? pathName.split("/")[2] === menuItem.id
+                                 : pathName.split("/")[3] === menuItem.id) &&
                                "bg-accent bg-opacity-30"
                              }
                             `}
