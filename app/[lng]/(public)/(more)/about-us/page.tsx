@@ -18,14 +18,12 @@ const AboutUs: FC<IIntlParams> = ({ params: { lng } }) => {
     <main>
       <PageHeader
         mainTitle={
-          <>
-            <Trans
-              i18nKey="pageTitle"
-              components={{ spanTag: <span className="text-primary" /> }}
-              t={t}
-              ns={"about-us"}
-            />
-          </>
+          <Trans
+            i18nKey="pageTitle"
+            components={{ spanTag: <span className="text-primary" /> }}
+            t={t}
+            ns={"about-us"}
+          />
         }
         pageName={t("pageName", { ns: "about-us" })}
       />
