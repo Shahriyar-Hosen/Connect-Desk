@@ -21,14 +21,12 @@ const VideoTutorial: FC<IIntlParams> = ({ params: { lng } }) => {
       <PageHeader
         pageName={t("pageName", { ns: "video-tutorial" })}
         mainTitle={
-          <>
-            <Trans
-              i18nKey="mainTitle"
-              components={{ spanTag: <span className="text-primary" /> }}
-              t={t}
-              ns={"video-tutorial"}
-            />
-          </>
+          <Trans
+          i18nKey="mainTitle"
+          components={{ spanTag: <span className="text-primary" /> }}
+          t={t}
+          ns={"video-tutorial"}
+        />
         }
       />
 
