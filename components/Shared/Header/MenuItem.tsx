@@ -25,7 +25,7 @@ export const MenuItem: FC<IMenuItem & IIntlTranslator> = ({
 
   return (
     <div>
-      <li
+      <button
         className={`text-black`}
         onClick={() => {
           if (isMobile) {
@@ -43,7 +43,7 @@ export const MenuItem: FC<IMenuItem & IIntlTranslator> = ({
           {option && <Image src={downArrow} alt={label} />}
         </Link>
         {children}
-      </li>
+      </button>
       {(open === label || link === pathname) && (
         <div
           className={`w-full h-[2px] bg-primary transition-all duration-300 ${
