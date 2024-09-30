@@ -31,7 +31,7 @@ export const Sidebar: FC = () => {
             <ul className="mb-6 flex flex-col gap-1.5">
               {dashboardSidebarItem.map((menuItem) => (
                 <li key={menuItem.id}>
-                  <label
+                  <button
                     onClick={() => handleNavigate(menuItem)}
                     className={`group relative cursor-pointer flex items-center gap-2.5 rounded-sm py-2 px-4 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-accent hover:bg-opacity-30 
                              ${
@@ -43,7 +43,7 @@ export const Sidebar: FC = () => {
                             `}
                   >
                     {menuItem.label}
-                  </label>
+                  </button>
                 </li>
               ))}
             </ul>
