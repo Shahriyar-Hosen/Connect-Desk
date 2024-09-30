@@ -17,14 +17,12 @@ const MessageFromFounder: FC<IIntlParams> = ({ params: { lng } }) => {
       <PageHeader
         pageName={t("messageFromFounder.pageName")}
         mainTitle={
-          <>
-            <Trans
+          <Trans
               i18nKey="messageFromFounder.mainTitle"
               components={{ spanTag: <span className="text-primary" /> }}
               t={t}
               ns={"more"}
-            />
-          </>
+          />
         }
       />
 
