@@ -15,14 +15,12 @@ const ClientList: FC<IIntlParams> = ({ params: { lng } }) => {
       <PageHeader
         pageName={t("pageName", { ns: "client-list" })}
         mainTitle={
-          <>
-            <Trans
-              i18nKey="mainTitle"
-              components={{ spanTag: <span className="text-primary" /> }}
-              t={t}
-              ns={"client-list"}
-            />
-          </>
+          <Trans
+          i18nKey="mainTitle"
+          components={{ spanTag: <span className="text-primary" /> }}
+          t={t}
+          ns={"client-list"}
+        />
         }
       />
 
